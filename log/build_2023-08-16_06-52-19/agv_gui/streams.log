@@ -1,0 +1,31 @@
+[0.092s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6
+[0.377s] [ 14%] Automatic MOC and UIC for target agv_gui
+[0.423s] AutoMoc warning
+[0.423s] ---------------
+[0.424s] "SRC:/src/mtr_node.cpp"
+[0.424s] includes the moc file "mtr_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.425s] 
+[0.471s] [ 14%] Built target agv_gui_autogen
+[0.679s] [100%] Built target agv_gui
+[0.739s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6
+[0.993s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amr_1/agv_gui/build/agv_gui
+[1.041s] -- Install configuration: "Debug"
+[1.042s] -- Up-to-date: /home/amr_1/agv_gui/install/agv_gui/lib/agv_gui/agv_gui
+[1.044s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/launch
+[1.045s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/launch/gui.launch.py
+[1.046s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui
+[1.047s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui
+[1.049s] -- Up-to-date: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh
+[1.049s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv
+[1.050s] -- Up-to-date: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh
+[1.051s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv
+[1.052s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash
+[1.053s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh
+[1.054s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh
+[1.055s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv
+[1.056s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/package.dsv
+[1.057s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui
+[1.058s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake
+[1.059s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake
+[1.060s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/package.xml
+[1.073s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amr_1/agv_gui/build/agv_gui

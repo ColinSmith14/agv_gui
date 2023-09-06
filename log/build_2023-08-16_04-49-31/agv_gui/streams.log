@@ -1,0 +1,58 @@
+[0.096s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amr_1/agv_gui/src/agv_gui -DCMAKE_INSTALL_PREFIX=/home/amr_1/agv_gui/install/agv_gui
+[0.538s] -- The C compiler identification is GNU 9.4.0
+[0.948s] -- The CXX compiler identification is GNU 9.4.0
+[0.987s] -- Check for working C compiler: /usr/bin/cc
+[1.423s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.433s] -- Detecting C compiler ABI info
+[1.861s] -- Detecting C compiler ABI info - done
+[1.947s] -- Detecting C compile features
+[1.949s] -- Detecting C compile features - done
+[1.967s] -- Check for working CXX compiler: /usr/bin/c++
+[2.450s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.456s] -- Detecting CXX compiler ABI info
+[2.931s] -- Detecting CXX compiler ABI info - done
+[3.006s] -- Detecting CXX compile features
+[3.008s] -- Detecting CXX compile features - done
+[3.026s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.159s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.234s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.612s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.621s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amr_1/agv_gui/src/agv_gui/include>
+[4.621s] -- Configured cppcheck exclude dirs and/or files: 
+[4.627s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.628s] -- Configured cpplint exclude dirs and/or files: 
+[4.632s] -- Added test 'lint_cmake' to check CMake code style
+[4.639s] -- Added test 'uncrustify' to check C / C++ code style
+[4.640s] -- Configured uncrustify additional arguments: 
+[4.642s] -- Added test 'xmllint' to check XML markup files
+[4.657s] -- Configuring done
+[4.678s] -- Generating done
+[4.684s] -- Build files have been written to: /home/amr_1/agv_gui/build/agv_gui
+[4.703s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amr_1/agv_gui/src/agv_gui -DCMAKE_INSTALL_PREFIX=/home/amr_1/agv_gui/install/agv_gui
+[4.720s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6
+[4.922s] [35m[1mScanning dependencies of target mtr_node[0m
+[4.979s] [ 50%] [32mBuilding CXX object CMakeFiles/mtr_node.dir/src/mtr_node.cpp.o[0m
+[5.212s] [100%] [32m[1mLinking CXX executable mtr_node[0m
+[5.444s] [100%] Built target mtr_node
+[5.504s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6
+[5.701s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amr_1/agv_gui/build/agv_gui
+[5.742s] -- Install configuration: ""
+[5.743s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/lib/agv_gui/mtr_node
+[5.745s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui
+[5.747s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui
+[5.748s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh
+[5.749s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv
+[5.752s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh
+[5.752s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv
+[5.753s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash
+[5.754s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh
+[5.755s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh
+[5.757s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv
+[5.758s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/package.dsv
+[5.759s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui
+[5.760s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake
+[5.761s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake
+[5.762s] -- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/package.xml
+[5.778s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amr_1/agv_gui/build/agv_gui

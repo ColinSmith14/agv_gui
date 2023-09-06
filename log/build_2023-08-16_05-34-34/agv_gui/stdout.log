@@ -1,0 +1,7 @@
+[ 20%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[ 20%] Built target agv_gui_autogen
+[35m[1mScanning dependencies of target agv_gui[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/agv_gui_autogen/mocs_compilation.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[100%] [32m[1mLinking CXX executable agv_gui[0m

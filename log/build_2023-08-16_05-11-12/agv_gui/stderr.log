@@ -1,0 +1,18 @@
+/home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp: In member function ‘void MotorSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)’:
+/home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp:24:19: error: cannot convert ‘std_msgs::msg::String_<std::allocator<void> >::_data_type’ {aka ‘std::__cxx11::basic_string<char>’} to ‘double’ in assignment
+   24 |       temp = msg->data;
+      |              ~~~~~^~~~
+      |                   |
+      |                   std_msgs::msg::String_<std::allocator<void> >::_data_type {aka std::__cxx11::basic_string<char>}
+In file included from /home/amr_1/agv_gui/src/agv_gui/src/main_gui.cpp:13:
+/home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp: In member function ‘void MotorSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)’:
+/home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp:24:19: error: cannot convert ‘std_msgs::msg::String_<std::allocator<void> >::_data_type’ {aka ‘std::__cxx11::basic_string<char>’} to ‘double’ in assignment
+   24 |       temp = msg->data;
+      |              ~~~~~^~~~
+      |                   |
+      |                   std_msgs::msg::String_<std::allocator<void> >::_data_type {aka std::__cxx11::basic_string<char>}
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:76: CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:89: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

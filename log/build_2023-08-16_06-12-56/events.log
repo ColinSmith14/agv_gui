@@ -1,0 +1,631 @@
+[0.000000] (-) TimerEvent: {}
+[0.000631] (agv_gui) JobQueued: {'identifier': 'agv_gui', 'dependencies': OrderedDict()}
+[0.002458] (agv_gui) JobStarted: {'identifier': 'agv_gui'}
+[0.074124] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'cmake'}
+[0.076519] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '/home/amr_1/agv_gui/src/agv_gui', '-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/amr_1/agv_gui/install/agv_gui'], 'cwd': '/home/amr_1/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('SNAP_COMMON', '/var/snap/qtcreator-ros/common'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'amr_1'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/snap/qtcreator-ros/85/lib:/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu'), ('SHLVL', '30'), ('HOME', '/home/amr_1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/usr/lib/aarch64-linux-gnu/qt5'), ('SNAP_USER_DATA', '/home/amr_1/snap/qtcreator-ros/85'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2960'), ('SNAP_REVISION', '85'), ('COLCON_PREFIX_PATH', '/home/amr_1/agv_gui/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amr_1'), ('JOURNAL_STREAM', '7:47868'), ('SNAP_CONTEXT', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('SNAP_VERSION', '11.0.2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('USERNAME', 'amr_1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('SNAP_INSTANCE_NAME', 'qtcreator-ros'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/amr_1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'ac71398117de44a2a8fa7b8aa4eb72f5'), ('SESSION_MANAGER', 'local/colins-jetson:@/tmp/.ICE-unix/1938,unix/colins-jetson:/tmp/.ICE-unix/1938'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('SNAP_DATA', '/var/snap/qtcreator-ros/85'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('AMENT_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('SNAP_ARCH', 'arm64'), ('SNAP_COOKIE', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('SNAP_USER_COMMON', '/home/amr_1/snap/qtcreator-ros/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('SNAP_NAME', 'qtcreator-ros'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/amr_1/agv_gui/build/agv_gui'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('SNAP_REAL_HOME', '/home/amr_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/qtcreator-ros/85'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('LIBGL_DRIVERS_PATH', '/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu/dri')]), 'shell': False}
+[0.098542] (-) TimerEvent: {}
+[0.199760] (-) TimerEvent: {}
+[0.300709] (-) TimerEvent: {}
+[0.401636] (-) TimerEvent: {}
+[0.437490] (agv_gui) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.501866] (-) TimerEvent: {}
+[0.602788] (-) TimerEvent: {}
+[0.703778] (-) TimerEvent: {}
+[0.751692] (agv_gui) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.804018] (-) TimerEvent: {}
+[0.904959] (-) TimerEvent: {}
+[0.961277] (agv_gui) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.005172] (-) TimerEvent: {}
+[1.106086] (-) TimerEvent: {}
+[1.207062] (-) TimerEvent: {}
+[1.308009] (-) TimerEvent: {}
+[1.388429] (agv_gui) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.392226] (agv_gui) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.408167] (-) TimerEvent: {}
+[1.508982] (-) TimerEvent: {}
+[1.610030] (-) TimerEvent: {}
+[1.711009] (-) TimerEvent: {}
+[1.796026] (agv_gui) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.811136] (-) TimerEvent: {}
+[1.849774] (agv_gui) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.851081] (agv_gui) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.862430] (agv_gui) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.911366] (-) TimerEvent: {}
+[2.012227] (-) TimerEvent: {}
+[2.113168] (-) TimerEvent: {}
+[2.214242] (-) TimerEvent: {}
+[2.307013] (agv_gui) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.312626] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.314355] (-) TimerEvent: {}
+[2.415110] (-) TimerEvent: {}
+[2.516072] (-) TimerEvent: {}
+[2.617080] (-) TimerEvent: {}
+[2.718066] (-) TimerEvent: {}
+[2.774643] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.818242] (-) TimerEvent: {}
+[2.831424] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.833784] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.844577] (agv_gui) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.918454] (-) TimerEvent: {}
+[2.962293] (agv_gui) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.963418] (agv_gui) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.018662] (-) TimerEvent: {}
+[3.119855] (-) TimerEvent: {}
+[3.220757] (-) TimerEvent: {}
+[3.321694] (-) TimerEvent: {}
+[3.422535] (-) TimerEvent: {}
+[3.523336] (-) TimerEvent: {}
+[3.624173] (-) TimerEvent: {}
+[3.724975] (-) TimerEvent: {}
+[3.825908] (-) TimerEvent: {}
+[3.926831] (-) TimerEvent: {}
+[3.954112] (agv_gui) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[4.026978] (-) TimerEvent: {}
+[4.088582] (agv_gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.118395] (agv_gui) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.127108] (-) TimerEvent: {}
+[4.227835] (-) TimerEvent: {}
+[4.328722] (-) TimerEvent: {}
+[4.429715] (-) TimerEvent: {}
+[4.530669] (-) TimerEvent: {}
+[4.579945] (agv_gui) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.630839] (-) TimerEvent: {}
+[4.711937] (agv_gui) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.731046] (-) TimerEvent: {}
+[4.831892] (-) TimerEvent: {}
+[4.932841] (-) TimerEvent: {}
+[5.034009] (-) TimerEvent: {}
+[5.069388] (agv_gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.134225] (-) TimerEvent: {}
+[5.235182] (-) TimerEvent: {}
+[5.336069] (-) TimerEvent: {}
+[5.436997] (-) TimerEvent: {}
+[5.440507] (agv_gui) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.537256] (-) TimerEvent: {}
+[5.630804] (agv_gui) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.636747] (agv_gui) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.637346] (-) TimerEvent: {}
+[5.640777] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.737665] (-) TimerEvent: {}
+[5.838636] (-) TimerEvent: {}
+[5.939580] (-) TimerEvent: {}
+[6.040541] (-) TimerEvent: {}
+[6.062017] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.063412] (agv_gui) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.140798] (-) TimerEvent: {}
+[6.241808] (-) TimerEvent: {}
+[6.342757] (-) TimerEvent: {}
+[6.443785] (-) TimerEvent: {}
+[6.502641] (agv_gui) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.503984] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.543989] (-) TimerEvent: {}
+[6.644911] (-) TimerEvent: {}
+[6.745868] (-) TimerEvent: {}
+[6.846786] (-) TimerEvent: {}
+[6.866723] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.867869] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.947038] (-) TimerEvent: {}
+[7.048009] (-) TimerEvent: {}
+[7.148978] (-) TimerEvent: {}
+[7.249962] (-) TimerEvent: {}
+[7.292034] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.298474] (agv_gui) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.350154] (-) TimerEvent: {}
+[7.450956] (-) TimerEvent: {}
+[7.551674] (-) TimerEvent: {}
+[7.652344] (-) TimerEvent: {}
+[7.753012] (-) TimerEvent: {}
+[7.853649] (-) TimerEvent: {}
+[7.876394] (agv_gui) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[7.953890] (-) TimerEvent: {}
+[8.054693] (-) TimerEvent: {}
+[8.120796] (agv_gui) StdoutLine: {'line': b'-- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[8.154876] (-) TimerEvent: {}
+[8.187882] (agv_gui) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[8.200554] (agv_gui) StdoutLine: {'line': b'-- Found OGRE\n'}
+[8.201049] (agv_gui) StdoutLine: {'line': b'--   static     : OFF\n'}
+[8.201937] (agv_gui) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[8.202331] (agv_gui) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[8.202755] (agv_gui) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[8.203096] (agv_gui) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[8.203920] (agv_gui) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[8.204347] (agv_gui) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[8.204697] (agv_gui) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[8.205045] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.205382] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.205797] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.206198] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.209316] (agv_gui) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[8.255157] (-) TimerEvent: {}
+[8.296219] (agv_gui) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[8.316806] (agv_gui) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[8.355345] (-) TimerEvent: {}
+[8.456141] (-) TimerEvent: {}
+[8.557010] (-) TimerEvent: {}
+[8.658148] (-) TimerEvent: {}
+[8.759097] (-) TimerEvent: {}
+[8.849937] (agv_gui) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[8.851283] (agv_gui) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[8.859186] (-) TimerEvent: {}
+[8.959874] (-) TimerEvent: {}
+[9.060803] (-) TimerEvent: {}
+[9.161741] (-) TimerEvent: {}
+[9.262671] (-) TimerEvent: {}
+[9.310757] (agv_gui) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[9.311928] (agv_gui) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[9.362891] (-) TimerEvent: {}
+[9.463735] (-) TimerEvent: {}
+[9.564649] (-) TimerEvent: {}
+[9.665678] (-) TimerEvent: {}
+[9.714715] (agv_gui) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[9.716085] (agv_gui) StdoutLine: {'line': b'-- Looking for connect\n'}
+[9.765916] (-) TimerEvent: {}
+[9.866794] (-) TimerEvent: {}
+[9.967691] (-) TimerEvent: {}
+[10.068537] (-) TimerEvent: {}
+[10.114392] (agv_gui) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[10.115505] (agv_gui) StdoutLine: {'line': b'-- Looking for remove\n'}
+[10.168762] (-) TimerEvent: {}
+[10.269697] (-) TimerEvent: {}
+[10.370657] (-) TimerEvent: {}
+[10.471686] (-) TimerEvent: {}
+[10.512897] (agv_gui) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[10.514463] (agv_gui) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[10.571989] (-) TimerEvent: {}
+[10.672908] (-) TimerEvent: {}
+[10.773991] (-) TimerEvent: {}
+[10.874887] (-) TimerEvent: {}
+[10.932554] (agv_gui) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[10.934401] (agv_gui) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[10.975160] (-) TimerEvent: {}
+[11.076008] (-) TimerEvent: {}
+[11.176912] (-) TimerEvent: {}
+[11.277940] (-) TimerEvent: {}
+[11.334210] (agv_gui) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[11.347805] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[11.348533] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[11.369235] (agv_gui) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[11.378019] (-) TimerEvent: {}
+[11.478640] (-) TimerEvent: {}
+[11.579538] (-) TimerEvent: {}
+[11.680494] (-) TimerEvent: {}
+[11.781459] (-) TimerEvent: {}
+[11.854817] (agv_gui) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[11.881641] (-) TimerEvent: {}
+[11.982350] (-) TimerEvent: {}
+[12.083094] (-) TimerEvent: {}
+[12.183843] (-) TimerEvent: {}
+[12.284386] (-) TimerEvent: {}
+[12.384951] (-) TimerEvent: {}
+[12.429284] (agv_gui) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[12.485105] (-) TimerEvent: {}
+[12.585903] (-) TimerEvent: {}
+[12.686631] (-) TimerEvent: {}
+[12.787358] (-) TimerEvent: {}
+[12.887997] (-) TimerEvent: {}
+[12.988708] (-) TimerEvent: {}
+[13.089429] (-) TimerEvent: {}
+[13.190243] (-) TimerEvent: {}
+[13.290879] (-) TimerEvent: {}
+[13.391491] (-) TimerEvent: {}
+[13.492189] (-) TimerEvent: {}
+[13.592999] (-) TimerEvent: {}
+[13.693883] (-) TimerEvent: {}
+[13.794659] (-) TimerEvent: {}
+[13.830523] (agv_gui) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[13.848590] (agv_gui) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[13.894766] (-) TimerEvent: {}
+[13.995410] (-) TimerEvent: {}
+[14.096112] (-) TimerEvent: {}
+[14.196902] (-) TimerEvent: {}
+[14.297716] (-) TimerEvent: {}
+[14.398452] (-) TimerEvent: {}
+[14.499051] (-) TimerEvent: {}
+[14.599610] (-) TimerEvent: {}
+[14.700262] (-) TimerEvent: {}
+[14.800811] (-) TimerEvent: {}
+[14.901456] (-) TimerEvent: {}
+[15.002145] (-) TimerEvent: {}
+[15.102839] (-) TimerEvent: {}
+[15.203571] (-) TimerEvent: {}
+[15.304146] (-) TimerEvent: {}
+[15.404720] (-) TimerEvent: {}
+[15.505205] (-) TimerEvent: {}
+[15.605909] (-) TimerEvent: {}
+[15.675847] (agv_gui) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[15.706046] (-) TimerEvent: {}
+[15.745163] (agv_gui) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[15.806253] (-) TimerEvent: {}
+[15.907025] (-) TimerEvent: {}
+[16.007811] (-) TimerEvent: {}
+[16.108628] (-) TimerEvent: {}
+[16.139909] (agv_gui) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.208856] (-) TimerEvent: {}
+[16.309781] (-) TimerEvent: {}
+[16.410660] (-) TimerEvent: {}
+[16.463436] (agv_gui) StdoutLine: {'line': b'-- Generating done\n'}
+[16.477168] (agv_gui) StdoutLine: {'line': b'-- Build files have been written to: /home/amr_1/agv_gui/build/agv_gui\n'}
+[16.510898] (-) TimerEvent: {}
+[16.536148] (agv_gui) CommandEnded: {'returncode': 0}
+[16.545340] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'build'}
+[16.545719] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amr_1/agv_gui/build/agv_gui', '--', '-j6', '-l6'], 'cwd': '/home/amr_1/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('SNAP_COMMON', '/var/snap/qtcreator-ros/common'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'amr_1'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/snap/qtcreator-ros/85/lib:/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu'), ('SHLVL', '30'), ('HOME', '/home/amr_1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/usr/lib/aarch64-linux-gnu/qt5'), ('SNAP_USER_DATA', '/home/amr_1/snap/qtcreator-ros/85'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2960'), ('SNAP_REVISION', '85'), ('COLCON_PREFIX_PATH', '/home/amr_1/agv_gui/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amr_1'), ('JOURNAL_STREAM', '7:47868'), ('SNAP_CONTEXT', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('SNAP_VERSION', '11.0.2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('USERNAME', 'amr_1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('SNAP_INSTANCE_NAME', 'qtcreator-ros'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/amr_1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'ac71398117de44a2a8fa7b8aa4eb72f5'), ('SESSION_MANAGER', 'local/colins-jetson:@/tmp/.ICE-unix/1938,unix/colins-jetson:/tmp/.ICE-unix/1938'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('SNAP_DATA', '/var/snap/qtcreator-ros/85'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('AMENT_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('SNAP_ARCH', 'arm64'), ('SNAP_COOKIE', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('SNAP_USER_COMMON', '/home/amr_1/snap/qtcreator-ros/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('SNAP_NAME', 'qtcreator-ros'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/amr_1/agv_gui/build/agv_gui'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('SNAP_REAL_HOME', '/home/amr_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/qtcreator-ros/85'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('LIBGL_DRIVERS_PATH', '/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu/dri')]), 'shell': False}
+[16.611579] (-) TimerEvent: {}
+[16.713220] (-) TimerEvent: {}
+[16.805182] (agv_gui) StdoutLine: {'line': b'Scanning dependencies of target agv_gui_autogen\n'}
+[16.813349] (-) TimerEvent: {}
+[16.862815] (agv_gui) StdoutLine: {'line': b'[ 20%] Automatic MOC and UIC for target agv_gui\n'}
+[16.913683] (-) TimerEvent: {}
+[17.014498] (-) TimerEvent: {}
+[17.115360] (-) TimerEvent: {}
+[17.216194] (-) TimerEvent: {}
+[17.317037] (-) TimerEvent: {}
+[17.417944] (-) TimerEvent: {}
+[17.518746] (-) TimerEvent: {}
+[17.619836] (-) TimerEvent: {}
+[17.720761] (-) TimerEvent: {}
+[17.821747] (-) TimerEvent: {}
+[17.922653] (-) TimerEvent: {}
+[18.023689] (-) TimerEvent: {}
+[18.124604] (-) TimerEvent: {}
+[18.225491] (-) TimerEvent: {}
+[18.326383] (-) TimerEvent: {}
+[18.427260] (-) TimerEvent: {}
+[18.486821] (agv_gui) StdoutLine: {'line': b'[ 20%] Built target agv_gui_autogen\n'}
+[18.527473] (-) TimerEvent: {}
+[18.628397] (-) TimerEvent: {}
+[18.729317] (-) TimerEvent: {}
+[18.830244] (-) TimerEvent: {}
+[18.836324] (agv_gui) StdoutLine: {'line': b'Scanning dependencies of target agv_gui\n'}
+[18.905675] (agv_gui) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/agv_gui.dir/agv_gui_autogen/mocs_compilation.cpp.o\n'}
+[18.930472] (-) TimerEvent: {}
+[18.935312] (agv_gui) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o\n'}
+[18.941393] (agv_gui) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o\n'}
+[19.030757] (-) TimerEvent: {}
+[19.131689] (-) TimerEvent: {}
+[19.232609] (-) TimerEvent: {}
+[19.333622] (-) TimerEvent: {}
+[19.434558] (-) TimerEvent: {}
+[19.535548] (-) TimerEvent: {}
+[19.636565] (-) TimerEvent: {}
+[19.737580] (-) TimerEvent: {}
+[19.838555] (-) TimerEvent: {}
+[19.939540] (-) TimerEvent: {}
+[20.040570] (-) TimerEvent: {}
+[20.141644] (-) TimerEvent: {}
+[20.242663] (-) TimerEvent: {}
+[20.343673] (-) TimerEvent: {}
+[20.444760] (-) TimerEvent: {}
+[20.545792] (-) TimerEvent: {}
+[20.646872] (-) TimerEvent: {}
+[20.747860] (-) TimerEvent: {}
+[20.848862] (-) TimerEvent: {}
+[20.949908] (-) TimerEvent: {}
+[21.050879] (-) TimerEvent: {}
+[21.151844] (-) TimerEvent: {}
+[21.252827] (-) TimerEvent: {}
+[21.353757] (-) TimerEvent: {}
+[21.454701] (-) TimerEvent: {}
+[21.555722] (-) TimerEvent: {}
+[21.656785] (-) TimerEvent: {}
+[21.757806] (-) TimerEvent: {}
+[21.858813] (-) TimerEvent: {}
+[21.959855] (-) TimerEvent: {}
+[22.060888] (-) TimerEvent: {}
+[22.161975] (-) TimerEvent: {}
+[22.263010] (-) TimerEvent: {}
+[22.364046] (-) TimerEvent: {}
+[22.465023] (-) TimerEvent: {}
+[22.566182] (-) TimerEvent: {}
+[22.667118] (-) TimerEvent: {}
+[22.768155] (-) TimerEvent: {}
+[22.869158] (-) TimerEvent: {}
+[22.977762] (-) TimerEvent: {}
+[23.078765] (-) TimerEvent: {}
+[23.179797] (-) TimerEvent: {}
+[23.280735] (-) TimerEvent: {}
+[23.381801] (-) TimerEvent: {}
+[23.482803] (-) TimerEvent: {}
+[23.583862] (-) TimerEvent: {}
+[23.684900] (-) TimerEvent: {}
+[23.785999] (-) TimerEvent: {}
+[23.887037] (-) TimerEvent: {}
+[23.988064] (-) TimerEvent: {}
+[24.089104] (-) TimerEvent: {}
+[24.190203] (-) TimerEvent: {}
+[24.291224] (-) TimerEvent: {}
+[24.392249] (-) TimerEvent: {}
+[24.493248] (-) TimerEvent: {}
+[24.594382] (-) TimerEvent: {}
+[24.695412] (-) TimerEvent: {}
+[24.796419] (-) TimerEvent: {}
+[24.897449] (-) TimerEvent: {}
+[24.998520] (-) TimerEvent: {}
+[25.099488] (-) TimerEvent: {}
+[25.200441] (-) TimerEvent: {}
+[25.301436] (-) TimerEvent: {}
+[25.402528] (-) TimerEvent: {}
+[25.503502] (-) TimerEvent: {}
+[25.604473] (-) TimerEvent: {}
+[25.705438] (-) TimerEvent: {}
+[25.806405] (-) TimerEvent: {}
+[25.907369] (-) TimerEvent: {}
+[26.008324] (-) TimerEvent: {}
+[26.109596] (-) TimerEvent: {}
+[26.210542] (-) TimerEvent: {}
+[26.311524] (-) TimerEvent: {}
+[26.412810] (-) TimerEvent: {}
+[26.513869] (-) TimerEvent: {}
+[26.614806] (-) TimerEvent: {}
+[26.715754] (-) TimerEvent: {}
+[26.816724] (-) TimerEvent: {}
+[26.917717] (-) TimerEvent: {}
+[27.018722] (-) TimerEvent: {}
+[27.119740] (-) TimerEvent: {}
+[27.220815] (-) TimerEvent: {}
+[27.321908] (-) TimerEvent: {}
+[27.422899] (-) TimerEvent: {}
+[27.523918] (-) TimerEvent: {}
+[27.624954] (-) TimerEvent: {}
+[27.726020] (-) TimerEvent: {}
+[27.827040] (-) TimerEvent: {}
+[27.928097] (-) TimerEvent: {}
+[28.029166] (-) TimerEvent: {}
+[28.130394] (-) TimerEvent: {}
+[28.231335] (-) TimerEvent: {}
+[28.332301] (-) TimerEvent: {}
+[28.433322] (-) TimerEvent: {}
+[28.534538] (-) TimerEvent: {}
+[28.635557] (-) TimerEvent: {}
+[28.736573] (-) TimerEvent: {}
+[28.837623] (-) TimerEvent: {}
+[28.938695] (-) TimerEvent: {}
+[29.039635] (-) TimerEvent: {}
+[29.140711] (-) TimerEvent: {}
+[29.241766] (-) TimerEvent: {}
+[29.342866] (-) TimerEvent: {}
+[29.443894] (-) TimerEvent: {}
+[29.544881] (-) TimerEvent: {}
+[29.646004] (-) TimerEvent: {}
+[29.747041] (-) TimerEvent: {}
+[29.848089] (-) TimerEvent: {}
+[29.949130] (-) TimerEvent: {}
+[30.050308] (-) TimerEvent: {}
+[30.151351] (-) TimerEvent: {}
+[30.252437] (-) TimerEvent: {}
+[30.353417] (-) TimerEvent: {}
+[30.454493] (-) TimerEvent: {}
+[30.555512] (-) TimerEvent: {}
+[30.656523] (-) TimerEvent: {}
+[30.757644] (-) TimerEvent: {}
+[30.858668] (-) TimerEvent: {}
+[30.959660] (-) TimerEvent: {}
+[31.060689] (-) TimerEvent: {}
+[31.161766] (-) TimerEvent: {}
+[31.262778] (-) TimerEvent: {}
+[31.363826] (-) TimerEvent: {}
+[31.464810] (-) TimerEvent: {}
+[31.565916] (-) TimerEvent: {}
+[31.666953] (-) TimerEvent: {}
+[31.767964] (-) TimerEvent: {}
+[31.868994] (-) TimerEvent: {}
+[31.970034] (-) TimerEvent: {}
+[32.071028] (-) TimerEvent: {}
+[32.172062] (-) TimerEvent: {}
+[32.273052] (-) TimerEvent: {}
+[32.374169] (-) TimerEvent: {}
+[32.475194] (-) TimerEvent: {}
+[32.576222] (-) TimerEvent: {}
+[32.677216] (-) TimerEvent: {}
+[32.778251] (-) TimerEvent: {}
+[32.879282] (-) TimerEvent: {}
+[32.980270] (-) TimerEvent: {}
+[33.081270] (-) TimerEvent: {}
+[33.189606] (-) TimerEvent: {}
+[33.290562] (-) TimerEvent: {}
+[33.392084] (-) TimerEvent: {}
+[33.493053] (-) TimerEvent: {}
+[33.594142] (-) TimerEvent: {}
+[33.695113] (-) TimerEvent: {}
+[33.796074] (-) TimerEvent: {}
+[33.897050] (-) TimerEvent: {}
+[33.998092] (-) TimerEvent: {}
+[34.099114] (-) TimerEvent: {}
+[34.201244] (-) TimerEvent: {}
+[34.302357] (-) TimerEvent: {}
+[34.403374] (-) TimerEvent: {}
+[34.504361] (-) TimerEvent: {}
+[34.605446] (-) TimerEvent: {}
+[34.706444] (-) TimerEvent: {}
+[34.807471] (-) TimerEvent: {}
+[34.908484] (-) TimerEvent: {}
+[35.009676] (-) TimerEvent: {}
+[35.110665] (-) TimerEvent: {}
+[35.211673] (-) TimerEvent: {}
+[35.312609] (-) TimerEvent: {}
+[35.413646] (-) TimerEvent: {}
+[35.514596] (-) TimerEvent: {}
+[35.615503] (-) TimerEvent: {}
+[35.716398] (-) TimerEvent: {}
+[35.817260] (-) TimerEvent: {}
+[35.918016] (-) TimerEvent: {}
+[36.018653] (-) TimerEvent: {}
+[36.119352] (-) TimerEvent: {}
+[36.220125] (-) TimerEvent: {}
+[36.320772] (-) TimerEvent: {}
+[36.421403] (-) TimerEvent: {}
+[36.522247] (-) TimerEvent: {}
+[36.623154] (-) TimerEvent: {}
+[36.723994] (-) TimerEvent: {}
+[36.824679] (-) TimerEvent: {}
+[36.925344] (-) TimerEvent: {}
+[37.026191] (-) TimerEvent: {}
+[37.127093] (-) TimerEvent: {}
+[37.228005] (-) TimerEvent: {}
+[37.328942] (-) TimerEvent: {}
+[37.429850] (-) TimerEvent: {}
+[37.530558] (-) TimerEvent: {}
+[37.631477] (-) TimerEvent: {}
+[37.732452] (-) TimerEvent: {}
+[37.833371] (-) TimerEvent: {}
+[37.934237] (-) TimerEvent: {}
+[38.034965] (-) TimerEvent: {}
+[38.135781] (-) TimerEvent: {}
+[38.236595] (-) TimerEvent: {}
+[38.337321] (-) TimerEvent: {}
+[38.438122] (-) TimerEvent: {}
+[38.538856] (-) TimerEvent: {}
+[38.639716] (-) TimerEvent: {}
+[38.740501] (-) TimerEvent: {}
+[38.841159] (-) TimerEvent: {}
+[38.941865] (-) TimerEvent: {}
+[39.042538] (-) TimerEvent: {}
+[39.143307] (-) TimerEvent: {}
+[39.244133] (-) TimerEvent: {}
+[39.344994] (-) TimerEvent: {}
+[39.445963] (-) TimerEvent: {}
+[39.546906] (-) TimerEvent: {}
+[39.647819] (-) TimerEvent: {}
+[39.748636] (-) TimerEvent: {}
+[39.849613] (-) TimerEvent: {}
+[39.950532] (-) TimerEvent: {}
+[40.051375] (-) TimerEvent: {}
+[40.152394] (-) TimerEvent: {}
+[40.253434] (-) TimerEvent: {}
+[40.354522] (-) TimerEvent: {}
+[40.455556] (-) TimerEvent: {}
+[40.556685] (-) TimerEvent: {}
+[40.657755] (-) TimerEvent: {}
+[40.758750] (-) TimerEvent: {}
+[40.859653] (-) TimerEvent: {}
+[40.960678] (-) TimerEvent: {}
+[41.061773] (-) TimerEvent: {}
+[41.162739] (-) TimerEvent: {}
+[41.263756] (-) TimerEvent: {}
+[41.364820] (-) TimerEvent: {}
+[41.465749] (-) TimerEvent: {}
+[41.566673] (-) TimerEvent: {}
+[41.667756] (-) TimerEvent: {}
+[41.768695] (-) TimerEvent: {}
+[41.869618] (-) TimerEvent: {}
+[41.970514] (-) TimerEvent: {}
+[42.071396] (-) TimerEvent: {}
+[42.172321] (-) TimerEvent: {}
+[42.273245] (-) TimerEvent: {}
+[42.374486] (-) TimerEvent: {}
+[42.475506] (-) TimerEvent: {}
+[42.576483] (-) TimerEvent: {}
+[42.677370] (-) TimerEvent: {}
+[42.778260] (-) TimerEvent: {}
+[42.879036] (-) TimerEvent: {}
+[42.979836] (-) TimerEvent: {}
+[43.080772] (-) TimerEvent: {}
+[43.181755] (-) TimerEvent: {}
+[43.282751] (-) TimerEvent: {}
+[43.383631] (-) TimerEvent: {}
+[43.484491] (-) TimerEvent: {}
+[43.585470] (-) TimerEvent: {}
+[43.686490] (-) TimerEvent: {}
+[43.787396] (-) TimerEvent: {}
+[43.888326] (-) TimerEvent: {}
+[43.989123] (-) TimerEvent: {}
+[44.090028] (-) TimerEvent: {}
+[44.190921] (-) TimerEvent: {}
+[44.291800] (-) TimerEvent: {}
+[44.392707] (-) TimerEvent: {}
+[44.493674] (-) TimerEvent: {}
+[44.594723] (-) TimerEvent: {}
+[44.695723] (-) TimerEvent: {}
+[44.796645] (-) TimerEvent: {}
+[44.897702] (-) TimerEvent: {}
+[44.998746] (-) TimerEvent: {}
+[45.099730] (-) TimerEvent: {}
+[45.200678] (-) TimerEvent: {}
+[45.301670] (-) TimerEvent: {}
+[45.402672] (-) TimerEvent: {}
+[45.503582] (-) TimerEvent: {}
+[45.604523] (-) TimerEvent: {}
+[45.705361] (-) TimerEvent: {}
+[45.806460] (-) TimerEvent: {}
+[45.907653] (-) TimerEvent: {}
+[46.008560] (-) TimerEvent: {}
+[46.109406] (-) TimerEvent: {}
+[46.210374] (-) TimerEvent: {}
+[46.311302] (-) TimerEvent: {}
+[46.412387] (-) TimerEvent: {}
+[46.513449] (-) TimerEvent: {}
+[46.614384] (-) TimerEvent: {}
+[46.715310] (-) TimerEvent: {}
+[46.816599] (-) TimerEvent: {}
+[46.917639] (-) TimerEvent: {}
+[47.018814] (-) TimerEvent: {}
+[47.119722] (-) TimerEvent: {}
+[47.220912] (-) TimerEvent: {}
+[47.321908] (-) TimerEvent: {}
+[47.422903] (-) TimerEvent: {}
+[47.523836] (-) TimerEvent: {}
+[47.624924] (-) TimerEvent: {}
+[47.687668] (agv_gui) StdoutLine: {'line': b'[100%] Linking CXX executable agv_gui\n'}
+[47.725239] (-) TimerEvent: {}
+[47.826274] (-) TimerEvent: {}
+[47.927243] (-) TimerEvent: {}
+[48.028185] (-) TimerEvent: {}
+[48.129079] (-) TimerEvent: {}
+[48.230113] (-) TimerEvent: {}
+[48.331069] (-) TimerEvent: {}
+[48.432058] (-) TimerEvent: {}
+[48.533285] (-) TimerEvent: {}
+[48.634252] (-) TimerEvent: {}
+[48.735284] (-) TimerEvent: {}
+[48.836430] (-) TimerEvent: {}
+[48.937717] (-) TimerEvent: {}
+[49.038872] (-) TimerEvent: {}
+[49.140003] (-) TimerEvent: {}
+[49.241218] (-) TimerEvent: {}
+[49.342649] (-) TimerEvent: {}
+[49.443711] (-) TimerEvent: {}
+[49.544962] (-) TimerEvent: {}
+[49.646268] (-) TimerEvent: {}
+[49.747624] (-) TimerEvent: {}
+[49.849030] (-) TimerEvent: {}
+[49.950209] (-) TimerEvent: {}
+[50.051251] (-) TimerEvent: {}
+[50.152247] (-) TimerEvent: {}
+[50.253340] (-) TimerEvent: {}
+[50.354576] (-) TimerEvent: {}
+[50.455794] (-) TimerEvent: {}
+[50.557123] (-) TimerEvent: {}
+[50.658393] (-) TimerEvent: {}
+[50.759726] (-) TimerEvent: {}
+[50.861002] (-) TimerEvent: {}
+[50.962383] (-) TimerEvent: {}
+[51.063480] (-) TimerEvent: {}
+[51.164482] (-) TimerEvent: {}
+[51.265449] (-) TimerEvent: {}
+[51.366473] (-) TimerEvent: {}
+[51.467431] (-) TimerEvent: {}
+[51.568452] (-) TimerEvent: {}
+[51.669488] (-) TimerEvent: {}
+[51.770781] (-) TimerEvent: {}
+[51.871671] (-) TimerEvent: {}
+[51.972675] (-) TimerEvent: {}
+[52.002470] (agv_gui) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::changedTemp(QString const&)':\n"}
+[52.006428] (agv_gui) StderrLine: {'line': b"/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:130: multiple definition of `MotorSub::changedTemp(QString const&)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:130: first defined here\n"}
+[52.007267] (agv_gui) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':\n"}
+[52.007943] (agv_gui) StderrLine: {'line': b"/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:66: multiple definition of `MotorSub::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:66: first defined here\n"}
+[52.008727] (agv_gui) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o:(.data.rel.ro+0x8): multiple definition of `MotorSub::staticMetaObject'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:(.data.rel.ro+0x8): first defined here\n"}
+[52.009346] (agv_gui) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::metaObject() const':\n"}
+[52.010175] (agv_gui) StderrLine: {'line': b"/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:97: multiple definition of `MotorSub::metaObject() const'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:97: first defined here\n"}
+[52.010842] (agv_gui) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::qt_metacast(char const*)':\n"}
+[52.011329] (agv_gui) StderrLine: {'line': b"/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:102: multiple definition of `MotorSub::qt_metacast(char const*)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:102: first defined here\n"}
+[52.011724] (agv_gui) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::qt_metacall(QMetaObject::Call, int, void**)':\n"}
+[52.012505] (agv_gui) StderrLine: {'line': b"/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:112: multiple definition of `MotorSub::qt_metacall(QMetaObject::Call, int, void**)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:112: first defined here\n"}
+[52.012948] (agv_gui) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[52.016089] (agv_gui) StderrLine: {'line': b'make[2]: *** [CMakeFiles/agv_gui.dir/build.make:258: agv_gui] Error 1\n'}
+[52.017896] (agv_gui) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2\n'}
+[52.019109] (agv_gui) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[52.029620] (agv_gui) CommandEnded: {'returncode': 2}
+[52.073374] (-) TimerEvent: {}
+[52.175243] (-) TimerEvent: {}
+[52.281176] (-) TimerEvent: {}
+[52.301500] (agv_gui) JobEnded: {'identifier': 'agv_gui', 'rc': 2}
+[52.313274] (-) EventReactorShutdown: {}

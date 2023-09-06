@@ -1,0 +1,62 @@
+[0.100s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amr_1/agv_gui/src/agv_gui -DCMAKE_INSTALL_PREFIX=/home/amr_1/agv_gui/install/agv_gui
+[0.201s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.318s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.284s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.423s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.083s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.507s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.689s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.299s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.553s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[3.609s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.622s] -- Found OGRE
+[3.623s] --   static     : OFF
+[3.623s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.624s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.624s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.625s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.626s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[3.626s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.627s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[3.627s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.627s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.628s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.628s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.631s] -- Could not find freeimage library
+[3.813s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.813s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.823s] -- library: libassimp.so.5
+[3.941s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[6.115s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[6.130s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[8.090s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[8.156s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[8.509s] -- Configuring done
+[8.765s] -- Generating done
+[8.779s] -- Build files have been written to: /home/amr_1/agv_gui/build/agv_gui
+[8.831s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/amr_1/agv_gui/src/agv_gui -DCMAKE_INSTALL_PREFIX=/home/amr_1/agv_gui/install/agv_gui
+[8.851s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6
+[9.149s] [ 20%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[10.112s] [ 20%] Built target agv_gui_autogen
+[10.194s] [35m[1mScanning dependencies of target agv_gui[0m
+[10.524s] [ 40%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o[0m
+[10.527s] [ 60%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[40.552s] [ 80%] [32m[1mLinking CXX executable agv_gui[0m
+[44.792s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::changedTemp(QString const&)':
+[44.793s] /home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:130: multiple definition of `MotorSub::changedTemp(QString const&)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:130: first defined here
+[44.794s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+[44.795s] /home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:66: multiple definition of `MotorSub::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:66: first defined here
+[44.796s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o:(.data.rel.ro+0x8): multiple definition of `MotorSub::staticMetaObject'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:(.data.rel.ro+0x8): first defined here
+[44.796s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::metaObject() const':
+[44.797s] /home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:97: multiple definition of `MotorSub::metaObject() const'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:97: first defined here
+[44.798s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::qt_metacast(char const*)':
+[44.798s] /home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:102: multiple definition of `MotorSub::qt_metacast(char const*)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:102: first defined here
+[44.799s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MotorSub::qt_metacall(QMetaObject::Call, int, void**)':
+[44.800s] /home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:112: multiple definition of `MotorSub::qt_metacall(QMetaObject::Call, int, void**)'; CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o:/home/amr_1/agv_gui/build/agv_gui/agv_gui_autogen/include/mtr_node.moc:112: first defined here
+[44.800s] collect2: error: ld returned 1 exit status
+[44.806s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:258: agv_gui] Error 1
+[44.808s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[44.810s] make: *** [Makefile:141: all] Error 2
+[44.822s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6

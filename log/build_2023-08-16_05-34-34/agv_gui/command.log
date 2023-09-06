@@ -1,0 +1,2 @@
+Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6
+Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6

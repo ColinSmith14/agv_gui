@@ -1,0 +1,31 @@
+[0.131s] Invoking command in '/home/amr_1/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6
+[0.436s] [ 20%] Automatic MOC and UIC for target agv_gui
+[2.176s] [ 20%] Built target agv_gui_autogen
+[2.469s] Scanning dependencies of target agv_gui
+[2.569s] [ 40%] Building CXX object CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o
+[2.576s] [ 60%] Building CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o
+[11.748s] /home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp: In member function ‘void MotorSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)’:
+[11.749s] /home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp:28:24: error: cannot convert ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘const QString&’
+[11.750s]    28 |       emit changedTemp(temp);
+[11.750s]       |                        ^~~~
+[11.750s]       |                        |
+[11.751s]       |                        std::string {aka std::__cxx11::basic_string<char>}
+[11.751s] /home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp:35:35: note:   initializing argument 1 of ‘void MotorSub::changedTemp(const QString&)’
+[11.752s]    35 |   void changedTemp(const QString &data);
+[11.752s]       |                    ~~~~~~~~~~~~~~~^~~~
+[13.125s] In file included from /home/amr_1/agv_gui/src/agv_gui/src/main_gui.cpp:13:
+[13.126s] /home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp: In member function ‘void MotorSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)’:
+[13.126s] /home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp:28:24: error: cannot convert ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘const QString&’
+[13.127s]    28 |       emit changedTemp(temp);
+[13.127s]       |                        ^~~~
+[13.128s]       |                        |
+[13.128s]       |                        std::string {aka std::__cxx11::basic_string<char>}
+[13.128s] /home/amr_1/agv_gui/src/agv_gui/src/mtr_node.cpp:35:35: note:   initializing argument 1 of ‘void MotorSub::changedTemp(const QString&)’
+[13.129s]    35 |   void changedTemp(const QString &data);
+[13.129s]       |                    ~~~~~~~~~~~~~~~^~~~
+[16.915s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:76: CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o] Error 1
+[16.916s] make[2]: *** Waiting for unfinished jobs....
+[20.277s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:89: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[20.278s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[20.280s] make: *** [Makefile:141: all] Error 2
+[20.291s] Invoked command in '/home/amr_1/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amr_1/agv_gui/build/agv_gui -- -j6 -l6

@@ -1,0 +1,12 @@
+
+AutoMoc error
+-------------
+"SRC:/src/main_gui.cpp"
+contains a "Q_OBJECT" macro, but does not include "main_gui.moc"!
+Consider to
+  - add #include "main_gui.moc"
+  - enable SKIP_AUTOMOC for this file
+
+make[2]: *** [CMakeFiles/agv_gui_autogen.dir/build.make:58: CMakeFiles/agv_gui_autogen] Error 1
+make[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/agv_gui_autogen.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

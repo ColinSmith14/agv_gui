@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:37 (set_target_properties):
+  set_target_properties Can not find target to add properties to: agv_gui
+
+
+make: *** [Makefile:340: cmake_check_build_system] Error 1

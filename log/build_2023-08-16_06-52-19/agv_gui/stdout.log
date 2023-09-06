@@ -1,0 +1,27 @@
+[ 14%] Automatic MOC and UIC for target agv_gui
+AutoMoc warning
+---------------
+"SRC:/src/mtr_node.cpp"
+includes the moc file "mtr_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+[ 14%] Built target agv_gui_autogen
+[100%] Built target agv_gui
+-- Install configuration: "Debug"
+-- Up-to-date: /home/amr_1/agv_gui/install/agv_gui/lib/agv_gui/agv_gui
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/launch
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/launch/gui.launch.py
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui
+-- Up-to-date: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/package.dsv
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake
+-- Installing: /home/amr_1/agv_gui/install/agv_gui/share/agv_gui/package.xml

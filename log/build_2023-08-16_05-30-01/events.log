@@ -1,0 +1,278 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (agv_gui) JobQueued: {'identifier': 'agv_gui', 'dependencies': OrderedDict()}
+[0.002371] (agv_gui) JobStarted: {'identifier': 'agv_gui'}
+[0.070130] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'cmake'}
+[0.072485] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '/home/amr_1/agv_gui/src/agv_gui', '-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/amr_1/agv_gui/install/agv_gui'], 'cwd': '/home/amr_1/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('SNAP_COMMON', '/var/snap/qtcreator-ros/common'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'amr_1'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/snap/qtcreator-ros/85/lib:/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu'), ('SHLVL', '18'), ('HOME', '/home/amr_1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/usr/lib/aarch64-linux-gnu/qt5'), ('SNAP_USER_DATA', '/home/amr_1/snap/qtcreator-ros/85'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2960'), ('SNAP_REVISION', '85'), ('COLCON_PREFIX_PATH', '/home/amr_1/agv_gui/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amr_1'), ('JOURNAL_STREAM', '7:47868'), ('SNAP_CONTEXT', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('SNAP_VERSION', '11.0.2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('USERNAME', 'amr_1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('SNAP_INSTANCE_NAME', 'qtcreator-ros'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/amr_1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'ac71398117de44a2a8fa7b8aa4eb72f5'), ('SESSION_MANAGER', 'local/colins-jetson:@/tmp/.ICE-unix/1938,unix/colins-jetson:/tmp/.ICE-unix/1938'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('SNAP_DATA', '/var/snap/qtcreator-ros/85'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('AMENT_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('SNAP_ARCH', 'arm64'), ('SNAP_COOKIE', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('SNAP_USER_COMMON', '/home/amr_1/snap/qtcreator-ros/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('SNAP_NAME', 'qtcreator-ros'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/amr_1/agv_gui/build/agv_gui'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('SNAP_REAL_HOME', '/home/amr_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/qtcreator-ros/85'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('LIBGL_DRIVERS_PATH', '/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu/dri')]), 'shell': False}
+[0.098735] (-) TimerEvent: {}
+[0.199977] (-) TimerEvent: {}
+[0.300895] (-) TimerEvent: {}
+[0.401801] (-) TimerEvent: {}
+[0.466421] (agv_gui) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.501977] (-) TimerEvent: {}
+[0.603040] (-) TimerEvent: {}
+[0.704021] (-) TimerEvent: {}
+[0.804930] (-) TimerEvent: {}
+[0.838056] (agv_gui) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.905230] (-) TimerEvent: {}
+[1.006348] (-) TimerEvent: {}
+[1.066505] (agv_gui) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.106561] (-) TimerEvent: {}
+[1.207449] (-) TimerEvent: {}
+[1.308327] (-) TimerEvent: {}
+[1.409319] (-) TimerEvent: {}
+[1.467586] (agv_gui) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.471953] (agv_gui) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.509436] (-) TimerEvent: {}
+[1.610271] (-) TimerEvent: {}
+[1.711249] (-) TimerEvent: {}
+[1.812164] (-) TimerEvent: {}
+[1.874072] (agv_gui) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.912313] (-) TimerEvent: {}
+[1.932844] (agv_gui) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.934256] (agv_gui) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.946539] (agv_gui) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.012574] (-) TimerEvent: {}
+[2.113407] (-) TimerEvent: {}
+[2.214347] (-) TimerEvent: {}
+[2.315184] (-) TimerEvent: {}
+[2.387399] (agv_gui) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.392922] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.415495] (-) TimerEvent: {}
+[2.516227] (-) TimerEvent: {}
+[2.617184] (-) TimerEvent: {}
+[2.718061] (-) TimerEvent: {}
+[2.818880] (-) TimerEvent: {}
+[2.839124] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.895287] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.897405] (agv_gui) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.909408] (agv_gui) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.918998] (-) TimerEvent: {}
+[3.019599] (-) TimerEvent: {}
+[3.026298] (agv_gui) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.027347] (agv_gui) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.119736] (-) TimerEvent: {}
+[3.220303] (-) TimerEvent: {}
+[3.320865] (-) TimerEvent: {}
+[3.421600] (-) TimerEvent: {}
+[3.522425] (-) TimerEvent: {}
+[3.623192] (-) TimerEvent: {}
+[3.723917] (-) TimerEvent: {}
+[3.824569] (-) TimerEvent: {}
+[3.925120] (-) TimerEvent: {}
+[4.025830] (-) TimerEvent: {}
+[4.042459] (agv_gui) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[4.126078] (-) TimerEvent: {}
+[4.182665] (agv_gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.214652] (agv_gui) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.226277] (-) TimerEvent: {}
+[4.327087] (-) TimerEvent: {}
+[4.427989] (-) TimerEvent: {}
+[4.528951] (-) TimerEvent: {}
+[4.629934] (-) TimerEvent: {}
+[4.671776] (agv_gui) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.730184] (-) TimerEvent: {}
+[4.806148] (agv_gui) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.830278] (-) TimerEvent: {}
+[4.931042] (-) TimerEvent: {}
+[5.031833] (-) TimerEvent: {}
+[5.132665] (-) TimerEvent: {}
+[5.174783] (agv_gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.232938] (-) TimerEvent: {}
+[5.333870] (-) TimerEvent: {}
+[5.434582] (-) TimerEvent: {}
+[5.535325] (-) TimerEvent: {}
+[5.582925] (agv_gui) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.635442] (-) TimerEvent: {}
+[5.736093] (-) TimerEvent: {}
+[5.787774] (agv_gui) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.794400] (agv_gui) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.798531] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.836228] (-) TimerEvent: {}
+[5.936997] (-) TimerEvent: {}
+[6.037951] (-) TimerEvent: {}
+[6.138855] (-) TimerEvent: {}
+[6.221214] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.222759] (agv_gui) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.239026] (-) TimerEvent: {}
+[6.339701] (-) TimerEvent: {}
+[6.440620] (-) TimerEvent: {}
+[6.541557] (-) TimerEvent: {}
+[6.642526] (-) TimerEvent: {}
+[6.654842] (agv_gui) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.656083] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.742755] (-) TimerEvent: {}
+[6.843792] (-) TimerEvent: {}
+[6.944737] (-) TimerEvent: {}
+[7.009520] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.010891] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.044891] (-) TimerEvent: {}
+[7.145708] (-) TimerEvent: {}
+[7.246664] (-) TimerEvent: {}
+[7.347615] (-) TimerEvent: {}
+[7.421057] (agv_gui) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.427701] (agv_gui) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.447715] (-) TimerEvent: {}
+[7.548385] (-) TimerEvent: {}
+[7.648969] (-) TimerEvent: {}
+[7.749727] (-) TimerEvent: {}
+[7.850604] (-) TimerEvent: {}
+[7.951425] (-) TimerEvent: {}
+[8.038013] (agv_gui) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[8.051573] (-) TimerEvent: {}
+[8.152104] (-) TimerEvent: {}
+[8.252729] (-) TimerEvent: {}
+[8.292703] (agv_gui) StdoutLine: {'line': b'-- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[8.352871] (-) TimerEvent: {}
+[8.363135] (agv_gui) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[8.376332] (agv_gui) StdoutLine: {'line': b'-- Found OGRE\n'}
+[8.376830] (agv_gui) StdoutLine: {'line': b'--   static     : OFF\n'}
+[8.377283] (agv_gui) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[8.378140] (agv_gui) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[8.378592] (agv_gui) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[8.378972] (agv_gui) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[8.379761] (agv_gui) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[8.380157] (agv_gui) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[8.380514] (agv_gui) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[8.380863] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.381233] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.381720] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.382093] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.385231] (agv_gui) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[8.453011] (-) TimerEvent: {}
+[8.472904] (agv_gui) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[8.494475] (agv_gui) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[8.553198] (-) TimerEvent: {}
+[8.654065] (-) TimerEvent: {}
+[8.754942] (-) TimerEvent: {}
+[8.855882] (-) TimerEvent: {}
+[8.956765] (-) TimerEvent: {}
+[9.023436] (agv_gui) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[9.024988] (agv_gui) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[9.056982] (-) TimerEvent: {}
+[9.157916] (-) TimerEvent: {}
+[9.258781] (-) TimerEvent: {}
+[9.359615] (-) TimerEvent: {}
+[9.458760] (agv_gui) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[9.459932] (-) TimerEvent: {}
+[9.460348] (agv_gui) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[9.560173] (-) TimerEvent: {}
+[9.661173] (-) TimerEvent: {}
+[9.762193] (-) TimerEvent: {}
+[9.862227] (agv_gui) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[9.863359] (-) TimerEvent: {}
+[9.863769] (agv_gui) StdoutLine: {'line': b'-- Looking for connect\n'}
+[9.963646] (-) TimerEvent: {}
+[10.064580] (-) TimerEvent: {}
+[10.165574] (-) TimerEvent: {}
+[10.266497] (-) TimerEvent: {}
+[10.269267] (agv_gui) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[10.270627] (agv_gui) StdoutLine: {'line': b'-- Looking for remove\n'}
+[10.366739] (-) TimerEvent: {}
+[10.467682] (-) TimerEvent: {}
+[10.568625] (-) TimerEvent: {}
+[10.669645] (-) TimerEvent: {}
+[10.673023] (agv_gui) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[10.674683] (agv_gui) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[10.769837] (-) TimerEvent: {}
+[10.870775] (-) TimerEvent: {}
+[10.971685] (-) TimerEvent: {}
+[11.072627] (-) TimerEvent: {}
+[11.080420] (agv_gui) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[11.082286] (agv_gui) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[11.172899] (-) TimerEvent: {}
+[11.273951] (-) TimerEvent: {}
+[11.374898] (-) TimerEvent: {}
+[11.475926] (-) TimerEvent: {}
+[11.487653] (agv_gui) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[11.501655] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[11.502400] (agv_gui) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[11.522900] (agv_gui) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[11.576138] (-) TimerEvent: {}
+[11.677054] (-) TimerEvent: {}
+[11.778134] (-) TimerEvent: {}
+[11.879134] (-) TimerEvent: {}
+[11.980003] (-) TimerEvent: {}
+[12.008169] (agv_gui) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[12.080135] (-) TimerEvent: {}
+[12.180811] (-) TimerEvent: {}
+[12.281644] (-) TimerEvent: {}
+[12.382400] (-) TimerEvent: {}
+[12.483113] (-) TimerEvent: {}
+[12.583684] (-) TimerEvent: {}
+[12.619385] (agv_gui) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[12.683851] (-) TimerEvent: {}
+[12.784537] (-) TimerEvent: {}
+[12.885227] (-) TimerEvent: {}
+[12.986081] (-) TimerEvent: {}
+[13.086806] (-) TimerEvent: {}
+[13.187492] (-) TimerEvent: {}
+[13.288305] (-) TimerEvent: {}
+[13.389092] (-) TimerEvent: {}
+[13.489976] (-) TimerEvent: {}
+[13.590728] (-) TimerEvent: {}
+[13.691372] (-) TimerEvent: {}
+[13.791976] (-) TimerEvent: {}
+[13.892670] (-) TimerEvent: {}
+[13.993393] (-) TimerEvent: {}
+[14.094215] (-) TimerEvent: {}
+[14.101996] (agv_gui) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[14.120319] (agv_gui) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[14.194438] (-) TimerEvent: {}
+[14.295238] (-) TimerEvent: {}
+[14.395975] (-) TimerEvent: {}
+[14.496782] (-) TimerEvent: {}
+[14.597739] (-) TimerEvent: {}
+[14.698452] (-) TimerEvent: {}
+[14.799224] (-) TimerEvent: {}
+[14.899987] (-) TimerEvent: {}
+[15.000804] (-) TimerEvent: {}
+[15.101628] (-) TimerEvent: {}
+[15.202420] (-) TimerEvent: {}
+[15.303145] (-) TimerEvent: {}
+[15.403886] (-) TimerEvent: {}
+[15.504767] (-) TimerEvent: {}
+[15.605737] (-) TimerEvent: {}
+[15.706524] (-) TimerEvent: {}
+[15.807263] (-) TimerEvent: {}
+[15.907982] (-) TimerEvent: {}
+[16.008675] (-) TimerEvent: {}
+[16.046157] (agv_gui) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[16.108854] (-) TimerEvent: {}
+[16.118173] (agv_gui) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[16.209081] (-) TimerEvent: {}
+[16.309840] (-) TimerEvent: {}
+[16.410635] (-) TimerEvent: {}
+[16.465581] (agv_gui) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.510892] (-) TimerEvent: {}
+[16.611894] (-) TimerEvent: {}
+[16.712787] (-) TimerEvent: {}
+[16.793365] (agv_gui) StdoutLine: {'line': b'-- Generating done\n'}
+[16.807404] (agv_gui) StdoutLine: {'line': b'-- Build files have been written to: /home/amr_1/agv_gui/build/agv_gui\n'}
+[16.812927] (-) TimerEvent: {}
+[16.864410] (agv_gui) CommandEnded: {'returncode': 0}
+[16.872993] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'build'}
+[16.873224] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amr_1/agv_gui/build/agv_gui', '--', '-j6', '-l6'], 'cwd': '/home/amr_1/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('SNAP_COMMON', '/var/snap/qtcreator-ros/common'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'amr_1'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/snap/qtcreator-ros/85/lib:/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu'), ('SHLVL', '18'), ('HOME', '/home/amr_1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/usr/lib/aarch64-linux-gnu/qt5'), ('SNAP_USER_DATA', '/home/amr_1/snap/qtcreator-ros/85'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2960'), ('SNAP_REVISION', '85'), ('COLCON_PREFIX_PATH', '/home/amr_1/agv_gui/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amr_1'), ('JOURNAL_STREAM', '7:47868'), ('SNAP_CONTEXT', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('SNAP_VERSION', '11.0.2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('USERNAME', 'amr_1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('SNAP_INSTANCE_NAME', 'qtcreator-ros'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/amr_1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'ac71398117de44a2a8fa7b8aa4eb72f5'), ('SESSION_MANAGER', 'local/colins-jetson:@/tmp/.ICE-unix/1938,unix/colins-jetson:/tmp/.ICE-unix/1938'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('SNAP_DATA', '/var/snap/qtcreator-ros/85'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('AMENT_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('SNAP_ARCH', 'arm64'), ('SNAP_COOKIE', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('SNAP_USER_COMMON', '/home/amr_1/snap/qtcreator-ros/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('SNAP_NAME', 'qtcreator-ros'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/amr_1/agv_gui/build/agv_gui'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('SNAP_REAL_HOME', '/home/amr_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/qtcreator-ros/85'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('LIBGL_DRIVERS_PATH', '/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu/dri')]), 'shell': False}
+[16.913565] (-) TimerEvent: {}
+[17.015147] (-) TimerEvent: {}
+[17.116046] (-) TimerEvent: {}
+[17.120715] (agv_gui) StdoutLine: {'line': b'Scanning dependencies of target agv_gui_autogen\n'}
+[17.174875] (agv_gui) StdoutLine: {'line': b'[ 20%] Automatic MOC and UIC for target agv_gui\n'}
+[17.216328] (-) TimerEvent: {}
+[17.262904] (agv_gui) StderrLine: {'line': b'\n'}
+[17.263896] (agv_gui) StderrLine: {'line': b'AutoMoc error\n'}
+[17.264319] (agv_gui) StderrLine: {'line': b'-------------\n'}
+[17.264694] (agv_gui) StderrLine: {'line': b'"SRC:/src/main_gui.cpp"\n'}
+[17.265100] (agv_gui) StderrLine: {'line': b'contains a "Q_OBJECT" macro, but does not include "main_gui.moc"!\n'}
+[17.265466] (agv_gui) StderrLine: {'line': b'Consider to\n'}
+[17.265945] (agv_gui) StderrLine: {'line': b'  - add #include "main_gui.moc"\n'}
+[17.266285] (agv_gui) StderrLine: {'line': b'  - enable SKIP_AUTOMOC for this file\n'}
+[17.266659] (agv_gui) StderrLine: {'line': b'\n'}
+[17.268264] (agv_gui) StderrLine: {'line': b'make[2]: *** [CMakeFiles/agv_gui_autogen.dir/build.make:58: CMakeFiles/agv_gui_autogen] Error 1\n'}
+[17.269172] (agv_gui) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/agv_gui_autogen.dir/all] Error 2\n'}
+[17.270438] (agv_gui) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[17.280633] (agv_gui) CommandEnded: {'returncode': 2}
+[17.316936] (-) TimerEvent: {}
+[17.418861] (-) TimerEvent: {}
+[17.520249] (-) TimerEvent: {}
+[17.548131] (agv_gui) JobEnded: {'identifier': 'agv_gui', 'rc': 2}
+[17.559610] (-) EventReactorShutdown: {}

@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.000925] (agv_gui) JobQueued: {'identifier': 'agv_gui', 'dependencies': OrderedDict()}
+[0.003713] (agv_gui) JobStarted: {'identifier': 'agv_gui'}
+[0.072228] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'cmake'}
+[0.081178] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'build'}
+[0.081484] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amr_1/agv_gui/build/agv_gui', '--', '-j6', '-l6'], 'cwd': '/home/amr_1/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('SNAP_COMMON', '/var/snap/qtcreator-ros/common'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'amr_1'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/snap/qtcreator-ros/85/lib:/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu'), ('SHLVL', '12'), ('HOME', '/home/amr_1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/usr/lib/aarch64-linux-gnu/qt5'), ('SNAP_USER_DATA', '/home/amr_1/snap/qtcreator-ros/85'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2960'), ('SNAP_REVISION', '85'), ('COLCON_PREFIX_PATH', '/home/amr_1/agv_gui/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'amr_1'), ('JOURNAL_STREAM', '7:47868'), ('SNAP_CONTEXT', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('SNAP_VERSION', '11.0.2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('USERNAME', 'amr_1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('SNAP_INSTANCE_NAME', 'qtcreator-ros'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/amr_1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'ac71398117de44a2a8fa7b8aa4eb72f5'), ('SESSION_MANAGER', 'local/colins-jetson:@/tmp/.ICE-unix/1938,unix/colins-jetson:/tmp/.ICE-unix/1938'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/qtcreator-ros_qtcreator-ros.desktop'), ('SNAP_DATA', '/var/snap/qtcreator-ros/85'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('AMENT_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('SNAP_ARCH', 'arm64'), ('SNAP_COOKIE', 'JMUNmlkXuymAoFLhect4Slt1Dx_kDivwLxrFtPEjqXLKM0mxrcr1'), ('SNAP_USER_COMMON', '/home/amr_1/snap/qtcreator-ros/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('SNAP_NAME', 'qtcreator-ros'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/amr_1/agv_gui/build/agv_gui'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('SNAP_REAL_HOME', '/home/amr_1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('SNAP', '/snap/qtcreator-ros/85'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr_1/agv_gui/install/agv_gui:/opt/ros/foxy'), ('LIBGL_DRIVERS_PATH', '/snap/qtcreator-ros/85/usr/lib/aarch64-linux-gnu/dri')]), 'shell': False}
+[0.102323] (-) TimerEvent: {}
+[0.203587] (-) TimerEvent: {}
+[0.304658] (-) TimerEvent: {}
+[0.382420] (agv_gui) StdoutLine: {'line': b'[ 20%] Automatic MOC and UIC for target agv_gui\n'}
+[0.404843] (-) TimerEvent: {}
+[0.480017] (agv_gui) StdoutLine: {'line': b'[ 20%] Built target agv_gui_autogen\n'}
+[0.505082] (-) TimerEvent: {}
+[0.606002] (-) TimerEvent: {}
+[0.706844] (-) TimerEvent: {}
+[0.779021] (agv_gui) StdoutLine: {'line': b'Scanning dependencies of target agv_gui\n'}
+[0.807068] (-) TimerEvent: {}
+[0.876546] (agv_gui) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/agv_gui.dir/src/mtr_node.cpp.o\n'}
+[0.882420] (agv_gui) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o\n'}
+[0.907381] (-) TimerEvent: {}
+[1.008391] (-) TimerEvent: {}
+[1.109343] (-) TimerEvent: {}
+[1.210277] (-) TimerEvent: {}
+[1.311264] (-) TimerEvent: {}
+[1.412314] (-) TimerEvent: {}
+[1.513286] (-) TimerEvent: {}
+[1.614474] (-) TimerEvent: {}
+[1.715391] (-) TimerEvent: {}
+[1.816473] (-) TimerEvent: {}
+[1.917506] (-) TimerEvent: {}
+[2.018621] (-) TimerEvent: {}
+[2.119626] (-) TimerEvent: {}
+[2.220751] (-) TimerEvent: {}
+[2.321750] (-) TimerEvent: {}
+[2.422760] (-) TimerEvent: {}
+[2.523790] (-) TimerEvent: {}
+[2.624892] (-) TimerEvent: {}
+[2.725938] (-) TimerEvent: {}
+[2.826964] (-) TimerEvent: {}
+[2.928110] (-) TimerEvent: {}
+[3.029150] (-) TimerEvent: {}
+[3.130176] (-) TimerEvent: {}
+[3.231274] (-) TimerEvent: {}
+[3.332405] (-) TimerEvent: {}
+[3.433434] (-) TimerEvent: {}
+[3.534525] (-) TimerEvent: {}
+[3.635582] (-) TimerEvent: {}
+[3.736623] (-) TimerEvent: {}
+[3.837596] (-) TimerEvent: {}
+[3.938557] (-) TimerEvent: {}
+[4.039569] (-) TimerEvent: {}
+[4.140631] (-) TimerEvent: {}
+[4.241629] (-) TimerEvent: {}
+[4.342686] (-) TimerEvent: {}
+[4.443776] (-) TimerEvent: {}
+[4.544841] (-) TimerEvent: {}
+[4.645870] (-) TimerEvent: {}
+[4.746836] (-) TimerEvent: {}
+[4.847898] (-) TimerEvent: {}
+[4.948892] (-) TimerEvent: {}
+[5.049887] (-) TimerEvent: {}
+[5.150870] (-) TimerEvent: {}
+[5.251906] (-) TimerEvent: {}
+[5.352849] (-) TimerEvent: {}
+[5.453732] (-) TimerEvent: {}
+[5.554610] (-) TimerEvent: {}
+[5.655552] (-) TimerEvent: {}
+[5.756541] (-) TimerEvent: {}
+[5.857476] (-) TimerEvent: {}
+[5.958315] (-) TimerEvent: {}
+[6.059072] (-) TimerEvent: {}
+[6.160047] (-) TimerEvent: {}
+[6.261056] (-) TimerEvent: {}
+[6.361979] (-) TimerEvent: {}
+[6.462965] (-) TimerEvent: {}
+[6.563952] (-) TimerEvent: {}
+[6.664918] (-) TimerEvent: {}
+[6.766018] (-) TimerEvent: {}
+[6.867213] (-) TimerEvent: {}
+[6.969417] (-) TimerEvent: {}
+[7.070623] (-) TimerEvent: {}
+[7.171705] (-) TimerEvent: {}
+[7.272825] (-) TimerEvent: {}
+[7.373896] (-) TimerEvent: {}
+[7.475076] (-) TimerEvent: {}
+[7.576166] (-) TimerEvent: {}
+[7.677105] (-) TimerEvent: {}
+[7.778091] (-) TimerEvent: {}
+[7.879078] (-) TimerEvent: {}
+[7.980051] (-) TimerEvent: {}
+[8.080957] (-) TimerEvent: {}
+[8.181813] (-) TimerEvent: {}
+[8.282744] (-) TimerEvent: {}
+[8.384462] (-) TimerEvent: {}
+[8.485333] (-) TimerEvent: {}
+[8.586376] (-) TimerEvent: {}
+[8.687415] (-) TimerEvent: {}
+[8.788531] (-) TimerEvent: {}
+[8.889520] (-) TimerEvent: {}
+[8.990456] (-) TimerEvent: {}
+[9.091389] (-) TimerEvent: {}
+[9.192422] (-) TimerEvent: {}
+[9.293371] (-) TimerEvent: {}
+[9.394253] (-) TimerEvent: {}
+[9.495239] (-) TimerEvent: {}
+[9.596323] (-) TimerEvent: {}
+[9.697264] (-) TimerEvent: {}
+[9.798269] (-) TimerEvent: {}
+[9.899219] (-) TimerEvent: {}
+[10.000311] (-) TimerEvent: {}
+[10.101315] (-) TimerEvent: {}
+[10.202219] (-) TimerEvent: {}
+[10.303203] (-) TimerEvent: {}
+[10.404270] (-) TimerEvent: {}
+[10.505276] (-) TimerEvent: {}
+[10.606251] (-) TimerEvent: {}
+[10.707672] (-) TimerEvent: {}
+[10.808738] (-) TimerEvent: {}
+[10.910447] (-) TimerEvent: {}
+[11.011480] (-) TimerEvent: {}
+[11.112523] (-) TimerEvent: {}
+[11.213567] (-) TimerEvent: {}
+[11.314592] (-) TimerEvent: {}
+[11.415638] (-) TimerEvent: {}
+[11.516727] (-) TimerEvent: {}
+[11.617725] (-) TimerEvent: {}
+[11.718764] (-) TimerEvent: {}
+[11.819906] (-) TimerEvent: {}
+[11.920918] (-) TimerEvent: {}
+[12.021878] (-) TimerEvent: {}
+[12.122912] (-) TimerEvent: {}
+[12.224005] (-) TimerEvent: {}
+[12.325004] (-) TimerEvent: {}
+[12.425983] (-) TimerEvent: {}
+[12.527085] (-) TimerEvent: {}
+[12.602472] (agv_gui) StderrLine: {'line': b'In file included from /usr/include/aarch64-linux-gnu/qt5/QtCore/qobject.h:46,\n'}
+[12.604224] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtCore/qcoreapplication.h:46,\n'}
+[12.604862] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qapplication.h:44,\n'}
+[12.605322] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QApplication:1,\n'}
+[12.605845] (agv_gui) StderrLine: {'line': b'                 from /home/amr_1/agv_gui/src/agv_gui/src/main_gui.cpp:1:\n'}
+[12.606296] (agv_gui) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/qt5/QtCore/qobjectdefs.h: In instantiation of \xe2\x80\x98struct QtPrivate::HasQ_OBJECT_Macro<MotorSub>\xe2\x80\x99:\n'}
+[12.606761] (agv_gui) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/qt5/QtCore/qobject.h:235:9:   required from \xe2\x80\x98static QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [with Func1 = void (MotorSub::*)(const QString&); Func2 = void (MainGui::*)(const QString&); typename QtPrivate::FunctionPointer<Func>::Object = MotorSub; typename QtPrivate::FunctionPointer<Func2>::Object = MainGui]\xe2\x80\x99\n'}
+[12.607297] (agv_gui) StderrLine: {'line': b'/home/amr_1/agv_gui/src/agv_gui/src/main_gui.cpp:119:86:   required from here\n'}
+[12.607755] (agv_gui) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/qt5/QtCore/qobjectdefs.h:622:37: error: \xe2\x80\x98qt_metacall\xe2\x80\x99 is not a member of \xe2\x80\x98MotorSub\xe2\x80\x99\n'}
+[12.609266] (agv_gui) StderrLine: {'line': b'  622 |         enum { Value =  sizeof(test(&Object::qt_metacall)) == sizeof(int) };\n'}
+[12.609718] (agv_gui) StderrLine: {'line': b'      |                                     ^~~~~~~~~~~~~~~~~~~~\n'}
+[12.610202] (agv_gui) StderrLine: {'line': b'In file included from /usr/include/aarch64-linux-gnu/qt5/QtGui/qtguiglobal.h:43,\n'}
+[12.610591] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43,\n'}
+[12.611096] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qapplication.h:43,\n'}
+[12.611481] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QApplication:1,\n'}
+[12.612017] (agv_gui) StderrLine: {'line': b'                 from /home/amr_1/agv_gui/src/agv_gui/src/main_gui.cpp:1:\n'}
+[12.612493] (agv_gui) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of \xe2\x80\x98static QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [with Func1 = void (MotorSub::*)(const QString&); Func2 = void (MainGui::*)(const QString&); typename QtPrivate::FunctionPointer<Func>::Object = MotorSub; typename QtPrivate::FunctionPointer<Func2>::Object = MainGui]\xe2\x80\x99:\n'}
+[12.612978] (agv_gui) StderrLine: {'line': b'/home/amr_1/agv_gui/src/agv_gui/src/main_gui.cpp:119:86:   required from here\n'}
+[12.613419] (agv_gui) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/qt5/QtCore/qobject.h:235:9: error: static assertion failed: No Q_OBJECT in the class with the signal\n'}
+[12.613800] (agv_gui) StderrLine: {'line': b'  235 |         Q_STATIC_ASSERT_X(QtPrivate::HasQ_OBJECT_Macro<typename SignalType::Object>::Value,\n'}
+[12.614379] (agv_gui) StderrLine: {'line': b'      |         ^~~~~~~~~~~~~~~~~\n'}
+[12.614781] (agv_gui) StderrLine: {'line': b'In file included from /usr/include/aarch64-linux-gnu/qt5/QtCore/qcoreapplication.h:46,\n'}
+[12.615162] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qapplication.h:44,\n'}
+[12.615641] (agv_gui) StderrLine: {'line': b'                 from /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QApplication:1,\n'}
+[12.616222] (agv_gui) StderrLine: {'line': b'                 from /home/amr_1/agv_gui/src/agv_gui/src/main_gui.cpp:1:\n'}
+[12.616636] (agv_gui) StderrLine: {'line': b'/usr/include/aarch64-linux-gnu/qt5/QtCore/qobject.h:254:42: error: \xe2\x80\x98staticMetaObject\xe2\x80\x99 is not a member of \xe2\x80\x98QtPrivate::FunctionPointer<void (MotorSub::*)(const QString&)>::Object\xe2\x80\x99 {aka \xe2\x80\x98MotorSub\xe2\x80\x99}\n'}
+[12.617134] (agv_gui) StderrLine: {'line': b'  254 |                             type, types, &SignalType::Object::staticMetaObject);\n'}
+[12.617573] (agv_gui) StderrLine: {'line': b'      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[12.627375] (-) TimerEvent: {}
+[12.728402] (-) TimerEvent: {}
+[12.829339] (-) TimerEvent: {}
+[12.930397] (-) TimerEvent: {}
+[13.031431] (-) TimerEvent: {}
+[13.132517] (-) TimerEvent: {}
+[13.233545] (-) TimerEvent: {}
+[13.334489] (-) TimerEvent: {}
+[13.435531] (-) TimerEvent: {}
+[13.536530] (-) TimerEvent: {}
+[13.637527] (-) TimerEvent: {}
+[13.738532] (-) TimerEvent: {}
+[13.839513] (-) TimerEvent: {}
+[13.940612] (-) TimerEvent: {}
+[14.041633] (-) TimerEvent: {}
+[14.142624] (-) TimerEvent: {}
+[14.243579] (-) TimerEvent: {}
+[14.344706] (-) TimerEvent: {}
+[14.445718] (-) TimerEvent: {}
+[14.546721] (-) TimerEvent: {}
+[14.647710] (-) TimerEvent: {}
+[14.748767] (-) TimerEvent: {}
+[14.849762] (-) TimerEvent: {}
+[14.950829] (-) TimerEvent: {}
+[15.051918] (-) TimerEvent: {}
+[15.152912] (-) TimerEvent: {}
+[15.253898] (-) TimerEvent: {}
+[15.362127] (-) TimerEvent: {}
+[15.463060] (-) TimerEvent: {}
+[15.564092] (-) TimerEvent: {}
+[15.665025] (-) TimerEvent: {}
+[15.766008] (-) TimerEvent: {}
+[15.866979] (-) TimerEvent: {}
+[15.968033] (-) TimerEvent: {}
+[16.068916] (-) TimerEvent: {}
+[16.169937] (-) TimerEvent: {}
+[16.270940] (-) TimerEvent: {}
+[16.372047] (-) TimerEvent: {}
+[16.473023] (-) TimerEvent: {}
+[16.574024] (-) TimerEvent: {}
+[16.675070] (-) TimerEvent: {}
+[16.778124] (-) TimerEvent: {}
+[16.879073] (-) TimerEvent: {}
+[16.980090] (-) TimerEvent: {}
+[17.081104] (-) TimerEvent: {}
+[17.182166] (-) TimerEvent: {}
+[17.283216] (-) TimerEvent: {}
+[17.384293] (-) TimerEvent: {}
+[17.485364] (-) TimerEvent: {}
+[17.586364] (-) TimerEvent: {}
+[17.687340] (-) TimerEvent: {}
+[17.788387] (-) TimerEvent: {}
+[17.889453] (-) TimerEvent: {}
+[17.990504] (-) TimerEvent: {}
+[18.091524] (-) TimerEvent: {}
+[18.192609] (-) TimerEvent: {}
+[18.293543] (-) TimerEvent: {}
+[18.394447] (-) TimerEvent: {}
+[18.495383] (-) TimerEvent: {}
+[18.596917] (-) TimerEvent: {}
+[18.697873] (-) TimerEvent: {}
+[18.798861] (-) TimerEvent: {}
+[18.899771] (-) TimerEvent: {}
+[19.000817] (-) TimerEvent: {}
+[19.101789] (-) TimerEvent: {}
+[19.202691] (-) TimerEvent: {}
+[19.204946] (agv_gui) StderrLine: {'line': b'make[2]: *** [CMakeFiles/agv_gui.dir/build.make:89: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1\n'}
+[19.206677] (agv_gui) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2\n'}
+[19.208014] (agv_gui) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[19.218147] (agv_gui) CommandEnded: {'returncode': 2}
+[19.303385] (-) TimerEvent: {}
+[19.410851] (-) TimerEvent: {}
+[19.492422] (agv_gui) JobEnded: {'identifier': 'agv_gui', 'rc': 2}
+[19.504400] (-) EventReactorShutdown: {}
