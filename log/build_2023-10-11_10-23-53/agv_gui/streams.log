@@ -1,0 +1,38 @@
+[0.087s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.341s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.383s] AutoMoc warning
+[0.383s] ---------------
+[0.384s] "SRC:/src/battery_node_1.cpp"
+[0.384s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.384s] 
+[0.385s] AutoMoc warning
+[0.385s] ---------------
+[0.385s] "SRC:/src/battery_node_2.cpp"
+[0.386s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.388s] 
+[0.390s] AutoMoc warning
+[0.390s] ---------------
+[0.391s] "SRC:/src/battery_node_3.cpp"
+[0.392s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.392s] 
+[0.392s] AutoMoc warning
+[0.393s] ---------------
+[0.393s] "SRC:/src/battery_node_4.cpp"
+[0.394s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.394s] 
+[0.395s] AutoMoc warning
+[0.395s] ---------------
+[0.395s] "SRC:/src/charge_node.cpp"
+[0.396s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.396s] 
+[1.038s] [  5%] Built target agv_gui_autogen
+[1.125s] [35m[1mScanning dependencies of target agv_gui[0m
+[1.456s] [ 10%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[2.326s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kinclude/healthPopUp.hpp: No such file or directory
+[2.327s]    18 | #include [01;31m[K"include/healthPopUp.hpp"[m[K
+[2.327s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.327s] compilation terminated.
+[2.343s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[2.344s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[2.345s] make: *** [Makefile:141: all] Error 2
+[2.356s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4

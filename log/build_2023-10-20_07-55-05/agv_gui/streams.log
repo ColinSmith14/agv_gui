@@ -1,0 +1,44 @@
+[0.581s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.826s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.870s] AutoMoc warning
+[0.871s] ---------------
+[0.872s] "SRC:/src/battery_node_1.cpp"
+[0.872s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.872s] 
+[0.872s] AutoMoc warning
+[0.873s] ---------------
+[0.873s] "SRC:/src/battery_node_2.cpp"
+[0.873s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.874s] 
+[0.874s] AutoMoc warning
+[0.874s] ---------------
+[0.874s] "SRC:/src/battery_node_3.cpp"
+[0.875s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.875s] 
+[0.876s] AutoMoc warning
+[0.876s] ---------------
+[0.876s] "SRC:/src/battery_node_4.cpp"
+[0.876s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.877s] 
+[0.877s] AutoMoc warning
+[0.877s] ---------------
+[0.877s] "SRC:/src/charge_node.cpp"
+[0.878s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.878s] 
+[1.464s] [  5%] Built target agv_gui_autogen
+[1.554s] [35m[1mScanning dependencies of target agv_gui[0m
+[1.902s] [ 10%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[11.219s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.220s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:283:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQApplication[m[K’
+[11.220s]   283 |   int screenCount = app[01;31m[K->[m[KscreenCount();
+[11.220s]       |                        [01;31m[K^~[m[K
+[11.221s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:284:25:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQApplication[m[K’
+[11.221s]   284 |   QRect screenRect = app[01;31m[K->[m[KscreenGeometry(1); // 0-indexed, so this would get the second screen
+[11.221s]       |                         [01;31m[K^~[m[K
+[11.240s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:283:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KscreenCount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[11.241s]   283 |   int [01;35m[KscreenCount[m[K = app->screenCount();
+[11.241s]       |       [01;35m[K^~~~~~~~~~~[m[K
+[13.303s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[13.305s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[13.307s] make: *** [Makefile:141: all] Error 2
+[13.317s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4

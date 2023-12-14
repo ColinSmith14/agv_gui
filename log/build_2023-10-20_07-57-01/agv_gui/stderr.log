@@ -1,0 +1,14 @@
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:283:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QApplication[m[K’ has no member named ‘[01m[KscreenCount[m[K’; did you mean ‘[01m[KscreenAt[m[K’?
+  283 |   int screenCount = app.[01;31m[KscreenCount[m[K();
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+      |                         [32m[KscreenAt[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:284:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QApplication[m[K’ has no member named ‘[01m[KscreenGeometry[m[K’
+  284 |   QRect screenRect = app.[01;31m[KscreenGeometry[m[K(1); // 0-indexed, so this would get the second screen
+      |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:283:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KscreenCount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  283 |   int [01;35m[KscreenCount[m[K = app.screenCount();
+      |       [01;35m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

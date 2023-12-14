@@ -1,0 +1,89 @@
+CUDA is available
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:[m[K In constructor ‘[01m[KBatterySub::BatterySub()[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:8:20:[m[K [01;31m[Kerror: [m[K‘[01m[KBatterySub1[m[K’ has not been declared
+    8 |         std::bind(&[01;31m[KBatterySub1[m[K::topic_callback, this, std::placeholders::_1));
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:[m[K At global scope:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:11:6:[m[K [01;31m[Kerror: [m[K‘[01m[KBatterySub1[m[K’ has not been declared
+   11 | void [01;31m[KBatterySub1[m[K::topic_callback(const std_msgs::msg::String::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:[m[K In function ‘[01m[Kvoid topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcharge[m[K’ was not declared in this scope; did you mean ‘[01m[Kchar[m[K’?
+   13 |     [01;31m[Kcharge[m[K = msg->data.c_str();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Kchar[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/colin/agv_gui/src/agv_gui/include/battery_node.hpp:5[m[K,
+                 from [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:1[m[K:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   15 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/colin/agv_gui/src/agv_gui/include/battery_node.hpp:5[m[K,
+                 from [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:1[m[K:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   15 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   15 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:17:10:[m[K [01;31m[Kerror: [m[K‘[01m[KchangedBattery[m[K’ was not declared in this scope
+   17 |     emit [01;31m[KchangedBattery[m[K(charge);
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:188:19:[m[K [01;31m[Kerror: [m[K‘[01m[KBatterySub1[m[K’ was not declared in this scope; did you mean ‘[01m[KBatterySub[m[K’?
+  188 |   std::shared_ptr<[01;31m[KBatterySub1[m[K> battery_sub_;
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+      |                   [32m[KBatterySub[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:188:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  188 |   std::shared_ptr<BatterySub1[01;31m[K>[m[K battery_sub_;
+      |                              [01;31m[K^[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub>, QWidget*)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:33:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+   33 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:31:22:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[Kstd::shared_ptr<BatterySub>[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   31 |         battery_sub_([01;31m[Kbattery_sub_[m[K),
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1312:16:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::operator bool() const [with _Tp = BatterySub; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’ <near match>
+ 1312 |       explicit [01;36m[Koperator[m[K bool() const // never throws
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1312:16:[m[K [01;36m[Knote: [m[K  return type ‘[01m[Kbool[m[K’ of explicit conversion function cannot be converted to ‘[01m[Kint[m[K’ with a qualification conversion
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:124:80:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateBattery[m[K’ is not a member of ‘[01m[KMainGui[m[K’
+  124 |       connect(battery_sub_.get(), &BatterySub::changedBattery, this, &MainGui::[01;31m[KupdateBattery[m[K);
+      |                                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:97: CMakeFiles/agv_gui.dir/src/battery_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

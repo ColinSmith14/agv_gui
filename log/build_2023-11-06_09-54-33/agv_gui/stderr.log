@@ -1,0 +1,25 @@
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:211:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQNetworkSettingWireless[m[K’ does not name a type
+  211 |   [01;31m[KQNetworkSettingWireless[m[K* wifiConfig;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub>, QWidget*)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:83:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kwifi[m[K’ was not declared in this scope
+   83 |       [01;31m[Kwifi[m[K = Q
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:83:14:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+   83 |       wifi = [01;31m[KQ[m[K
+      |              [01;31m[K^[m[K
+      |              [32m[KQt[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:123:16:[m[K [01;31m[Kerror: [m[K‘[01m[KwifiConfig[m[K’ was not declared in this scope
+  123 |       connect(&[01;31m[KwifiConfig[m[K, &wifiConfig::signalStengthChanged, this, &MainGui::updateWifi);
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:123:29:[m[K [01;31m[Kerror: [m[K‘[01m[KwifiConfig[m[K’ is not a class, namespace, or enumeration
+  123 |       connect(&wifiConfig, &[01;31m[KwifiConfig[m[K::signalStengthChanged, this, &MainGui::updateWifi);
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::updateWifi(int)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:134:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  134 |     wifiSignal->setText[34m[K([m[KQString("Wifi: %1").arg(signalStrength)[01;31m[K;[m[K
+      |                        [34m[K~[m[K                                       [01;31m[K^[m[K
+      |                                                                [32m[K)[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

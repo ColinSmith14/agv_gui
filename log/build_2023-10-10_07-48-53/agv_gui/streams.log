@@ -1,0 +1,51 @@
+[0.104s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.443s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.487s] AutoMoc warning
+[0.488s] ---------------
+[0.489s] "SRC:/src/battery_node_1.cpp"
+[0.489s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.489s] 
+[0.490s] AutoMoc warning
+[0.490s] ---------------
+[0.490s] "SRC:/src/battery_node_2.cpp"
+[0.490s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.491s] 
+[0.491s] AutoMoc warning
+[0.491s] ---------------
+[0.492s] "SRC:/src/battery_node_3.cpp"
+[0.492s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.493s] 
+[0.494s] AutoMoc warning
+[0.495s] ---------------
+[0.495s] "SRC:/src/battery_node_4.cpp"
+[0.495s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.496s] 
+[0.496s] AutoMoc warning
+[0.496s] ---------------
+[0.497s] "SRC:/src/charge_node.cpp"
+[0.497s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.497s] 
+[0.531s] [  5%] Built target agv_gui_autogen
+[0.756s] [100%] Built target agv_gui
+[0.803s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[1.087s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/colin/agv_gui/build/agv_gui
+[1.120s] -- Install configuration: ""
+[1.123s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui
+[1.124s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch
+[1.124s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch/gui.launch.py
+[1.125s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui
+[1.126s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui
+[1.129s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh
+[1.130s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv
+[1.130s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh
+[1.130s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv
+[1.130s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash
+[1.131s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh
+[1.131s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh
+[1.132s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv
+[1.132s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.dsv
+[1.133s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui
+[1.133s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake
+[1.133s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake
+[1.133s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.xml
+[1.146s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/colin/agv_gui/build/agv_gui

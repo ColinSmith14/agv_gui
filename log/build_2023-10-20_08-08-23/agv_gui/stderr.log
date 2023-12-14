@@ -1,0 +1,14 @@
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:310:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KQList<QScreen*> screens[m[K’
+  310 |     QList<QScreen*> [01;31m[Kscreens[m[K = QApplication::screens();
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:283:21:[m[K [01;36m[Knote: [m[K‘[01m[KQList<QScreen*> screens[m[K’ previously declared here
+  283 |     QList<QScreen*> [01;36m[Kscreens[m[K = QGuiApplication::screens();
+      |                     [01;36m[K^~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:311:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmainGui[m[K’ was not declared in this scope; did you mean ‘[01m[KMainGui[m[K’?
+  311 |     [01;31m[KmainGui[m[K->setWindowState(Qt::WindowFullScreen);
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[KMainGui[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

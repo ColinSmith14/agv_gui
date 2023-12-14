@@ -1,0 +1,38 @@
+[0.090s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.316s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.357s] AutoMoc warning
+[0.358s] ---------------
+[0.358s] "SRC:/src/battery_node_1.cpp"
+[0.358s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.359s] 
+[0.359s] AutoMoc warning
+[0.359s] ---------------
+[0.359s] "SRC:/src/battery_node_2.cpp"
+[0.360s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.360s] 
+[0.360s] AutoMoc warning
+[0.361s] ---------------
+[0.361s] "SRC:/src/battery_node_3.cpp"
+[0.361s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.362s] 
+[0.362s] AutoMoc warning
+[0.362s] ---------------
+[0.362s] "SRC:/src/battery_node_4.cpp"
+[0.363s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.363s] 
+[0.363s] AutoMoc warning
+[0.363s] ---------------
+[0.364s] "SRC:/src/charge_node.cpp"
+[0.364s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.364s] 
+[0.984s] [  5%] Built target agv_gui_autogen
+[1.072s] [35m[1mScanning dependencies of target agv_gui[0m
+[1.392s] [ 10%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[9.170s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub1>, std::shared_ptr<BatterySub2>, std::shared_ptr<BatterySub3>, std::shared_ptr<BatterySub4>, QWidget*)[m[K’:
+[9.171s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:141:59:[m[K [01;31m[Kerror: [m[K‘[01m[KMainWindow[m[K’ has not been declared
+[9.171s]   141 |       connect(systemHealth, &QPushButton::clicked, this, &[01;31m[KMainWindow[m[K::showHealthPopUp);
+[9.172s]       |                                                           [01;31m[K^~~~~~~~~~[m[K
+[11.183s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[11.185s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[11.186s] make: *** [Makefile:141: all] Error 2
+[11.197s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4

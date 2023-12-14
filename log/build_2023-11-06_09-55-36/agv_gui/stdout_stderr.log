@@ -1,0 +1,26 @@
+[ 10%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+AutoMoc warning
+---------------
+"SRC:/src/battery_node.cpp"
+includes the moc file "battery_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/charge_node.cpp"
+includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc: /home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:0: Note: No relevant classes found. No output generated.
+[ 10%] Built target agv_gui_autogen
+[35m[1mScanning dependencies of target agv_gui[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:209:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQNetworkSettingWireless[m[K’ does not name a type
+  209 |   [01;31m[KQNetworkSettingWireless[m[K* wifiConfig;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::updateWifi(int)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:132:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  132 |     wifiSignal->setText[34m[K([m[KQString("Wifi: %1").arg(signalStrength)[01;31m[K;[m[K
+      |                        [34m[K~[m[K                                       [01;31m[K^[m[K
+      |                                                                [32m[K)[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.001466] (agv_gui) JobQueued: {'identifier': 'agv_gui', 'dependencies': OrderedDict()}
+[0.001722] (agv_gui) JobStarted: {'identifier': 'agv_gui'}
+[0.097394] (-) TimerEvent: {}
+[0.198666] (-) TimerEvent: {}
+[0.299916] (-) TimerEvent: {}
+[0.402066] (-) TimerEvent: {}
+[0.504916] (-) TimerEvent: {}
+[0.608353] (-) TimerEvent: {}
+[0.711292] (-) TimerEvent: {}
+[0.741771] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'cmake'}
+[0.749115] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'build'}
+[0.755174] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/agv_gui', '--', '-j6', '-l6'], 'cwd': '/home/colin/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('SSH_AGENT_PID', '2366'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'colin'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1421122056927'), ('JOURNAL_STREAM', '7:52669'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/colin-desktop:@/tmp/.ICE-unix/2427,unix/colin-desktop:/tmp/.ICE-unix/2427'), ('INVOCATION_ID', '50236732fba54b50ba0fee379130ec13'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cf0ffe6_0c3f_484d_a318_a34bd14841f1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic:/home/colin/agv_gui/install/agv_gui'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/colin/agv_gui/build/agv_gui'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/agv_gui:/opt/ros/galactic'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.811698] (-) TimerEvent: {}
+[0.913149] (-) TimerEvent: {}
+[1.014208] (-) TimerEvent: {}
+[1.061381] (agv_gui) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target agv_gui\x1b[0m\n'}
+[1.110717] (agv_gui) StdoutLine: {'line': b'AutoMoc warning\n'}
+[1.111848] (agv_gui) StdoutLine: {'line': b'---------------\n'}
+[1.112306] (agv_gui) StdoutLine: {'line': b'"SRC:/src/battery_node.cpp"\n'}
+[1.112829] (agv_gui) StdoutLine: {'line': b'includes the moc file "battery_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.\n'}
+[1.113267] (agv_gui) StdoutLine: {'line': b'\n'}
+[1.113627] (agv_gui) StdoutLine: {'line': b'AutoMoc warning\n'}
+[1.114244] (agv_gui) StdoutLine: {'line': b'---------------\n'}
+[1.114616] (-) TimerEvent: {}
+[1.115124] (agv_gui) StdoutLine: {'line': b'"SRC:/src/charge_node.cpp"\n'}
+[1.115547] (agv_gui) StdoutLine: {'line': b'includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.\n'}
+[1.115987] (agv_gui) StdoutLine: {'line': b'\n'}
+[1.214896] (-) TimerEvent: {}
+[1.316633] (-) TimerEvent: {}
+[1.417664] (-) TimerEvent: {}
+[1.518791] (-) TimerEvent: {}
+[1.619895] (-) TimerEvent: {}
+[1.720890] (-) TimerEvent: {}
+[1.821960] (-) TimerEvent: {}
+[1.881956] (agv_gui) StdoutLine: {'line': b'[ 10%] Built target agv_gui_autogen\n'}
+[1.922166] (-) TimerEvent: {}
+[1.970738] (agv_gui) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target agv_gui\x1b[0m\n'}
+[2.022358] (-) TimerEvent: {}
+[2.123308] (-) TimerEvent: {}
+[2.224389] (-) TimerEvent: {}
+[2.325459] (-) TimerEvent: {}
+[2.330189] (agv_gui) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o\x1b[0m\n'}
+[2.425701] (-) TimerEvent: {}
+[2.526688] (-) TimerEvent: {}
+[2.627765] (-) TimerEvent: {}
+[2.728942] (-) TimerEvent: {}
+[2.830162] (-) TimerEvent: {}
+[2.931369] (-) TimerEvent: {}
+[3.032442] (-) TimerEvent: {}
+[3.133428] (-) TimerEvent: {}
+[3.234456] (-) TimerEvent: {}
+[3.335465] (-) TimerEvent: {}
+[3.436570] (-) TimerEvent: {}
+[3.537549] (-) TimerEvent: {}
+[3.638543] (-) TimerEvent: {}
+[3.739520] (-) TimerEvent: {}
+[3.840565] (-) TimerEvent: {}
+[3.941600] (-) TimerEvent: {}
+[4.042643] (-) TimerEvent: {}
+[4.143768] (-) TimerEvent: {}
+[4.244882] (-) TimerEvent: {}
+[4.345840] (-) TimerEvent: {}
+[4.446889] (-) TimerEvent: {}
+[4.547916] (-) TimerEvent: {}
+[4.648924] (-) TimerEvent: {}
+[4.749902] (-) TimerEvent: {}
+[4.850912] (-) TimerEvent: {}
+[4.951953] (-) TimerEvent: {}
+[5.052940] (-) TimerEvent: {}
+[5.154010] (-) TimerEvent: {}
+[5.255009] (-) TimerEvent: {}
+[5.356061] (-) TimerEvent: {}
+[5.457066] (-) TimerEvent: {}
+[5.558082] (-) TimerEvent: {}
+[5.659071] (-) TimerEvent: {}
+[5.760131] (-) TimerEvent: {}
+[5.861151] (-) TimerEvent: {}
+[5.962142] (-) TimerEvent: {}
+[6.063066] (-) TimerEvent: {}
+[6.164160] (-) TimerEvent: {}
+[6.265080] (-) TimerEvent: {}
+[6.366121] (-) TimerEvent: {}
+[6.467101] (-) TimerEvent: {}
+[6.568169] (-) TimerEvent: {}
+[6.669139] (-) TimerEvent: {}
+[6.770088] (-) TimerEvent: {}
+[6.871125] (-) TimerEvent: {}
+[6.972164] (-) TimerEvent: {}
+[7.073224] (-) TimerEvent: {}
+[7.174247] (-) TimerEvent: {}
+[7.275252] (-) TimerEvent: {}
+[7.376299] (-) TimerEvent: {}
+[7.477295] (-) TimerEvent: {}
+[7.578242] (-) TimerEvent: {}
+[7.679323] (-) TimerEvent: {}
+[7.780450] (-) TimerEvent: {}
+[7.881488] (-) TimerEvent: {}
+[7.982735] (-) TimerEvent: {}
+[8.084048] (-) TimerEvent: {}
+[8.185037] (-) TimerEvent: {}
+[8.286041] (-) TimerEvent: {}
+[8.387038] (-) TimerEvent: {}
+[8.488121] (-) TimerEvent: {}
+[8.589137] (-) TimerEvent: {}
+[8.690189] (-) TimerEvent: {}
+[8.791220] (-) TimerEvent: {}
+[8.892280] (-) TimerEvent: {}
+[8.993277] (-) TimerEvent: {}
+[9.094316] (-) TimerEvent: {}
+[9.195343] (-) TimerEvent: {}
+[9.296428] (-) TimerEvent: {}
+[9.397478] (-) TimerEvent: {}
+[9.498487] (-) TimerEvent: {}
+[9.599468] (-) TimerEvent: {}
+[9.700484] (-) TimerEvent: {}
+[9.801503] (-) TimerEvent: {}
+[9.902484] (-) TimerEvent: {}
+[10.003464] (-) TimerEvent: {}
+[10.104530] (-) TimerEvent: {}
+[10.205550] (-) TimerEvent: {}
+[10.307470] (-) TimerEvent: {}
+[10.408517] (-) TimerEvent: {}
+[10.509592] (-) TimerEvent: {}
+[10.610632] (-) TimerEvent: {}
+[10.711734] (-) TimerEvent: {}
+[10.812758] (-) TimerEvent: {}
+[10.913776] (-) TimerEvent: {}
+[11.014829] (-) TimerEvent: {}
+[11.116004] (-) TimerEvent: {}
+[11.217009] (-) TimerEvent: {}
+[11.317985] (-) TimerEvent: {}
+[11.419066] (-) TimerEvent: {}
+[11.520198] (-) TimerEvent: {}
+[11.621235] (-) TimerEvent: {}
+[11.722512] (-) TimerEvent: {}
+[11.823819] (-) TimerEvent: {}
+[11.925580] (-) TimerEvent: {}
+[12.026820] (-) TimerEvent: {}
+[12.127815] (-) TimerEvent: {}
+[12.229069] (-) TimerEvent: {}
+[12.330292] (-) TimerEvent: {}
+[12.431517] (-) TimerEvent: {}
+[12.532834] (-) TimerEvent: {}
+[12.633846] (-) TimerEvent: {}
+[12.734842] (-) TimerEvent: {}
+[12.835846] (-) TimerEvent: {}
+[12.936905] (-) TimerEvent: {}
+[13.037945] (-) TimerEvent: {}
+[13.138948] (-) TimerEvent: {}
+[13.240027] (-) TimerEvent: {}
+[13.340988] (-) TimerEvent: {}
+[13.441955] (-) TimerEvent: {}
+[13.542965] (-) TimerEvent: {}
+[13.644026] (-) TimerEvent: {}
+[13.745031] (-) TimerEvent: {}
+[13.846011] (-) TimerEvent: {}
+[13.947004] (-) TimerEvent: {}
+[14.048086] (-) TimerEvent: {}
+[14.149100] (-) TimerEvent: {}
+[14.250123] (-) TimerEvent: {}
+[14.351138] (-) TimerEvent: {}
+[14.452184] (-) TimerEvent: {}
+[14.553196] (-) TimerEvent: {}
+[14.654237] (-) TimerEvent: {}
+[14.755300] (-) TimerEvent: {}
+[14.856338] (-) TimerEvent: {}
+[14.957360] (-) TimerEvent: {}
+[15.058404] (-) TimerEvent: {}
+[15.159409] (-) TimerEvent: {}
+[15.260487] (-) TimerEvent: {}
+[15.361540] (-) TimerEvent: {}
+[15.462581] (-) TimerEvent: {}
+[15.563641] (-) TimerEvent: {}
+[15.664642] (-) TimerEvent: {}
+[15.765711] (-) TimerEvent: {}
+[15.866735] (-) TimerEvent: {}
+[15.967724] (-) TimerEvent: {}
+[16.068696] (-) TimerEvent: {}
+[16.169673] (-) TimerEvent: {}
+[16.270690] (-) TimerEvent: {}
+[16.371788] (-) TimerEvent: {}
+[16.472859] (-) TimerEvent: {}
+[16.490203] (agv_gui) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX executable agv_gui\x1b[0m\n'}
+[16.573118] (-) TimerEvent: {}
+[16.674181] (-) TimerEvent: {}
+[16.775236] (-) TimerEvent: {}
+[16.876342] (-) TimerEvent: {}
+[16.977378] (-) TimerEvent: {}
+[17.078378] (-) TimerEvent: {}
+[17.179417] (-) TimerEvent: {}
+[17.280552] (-) TimerEvent: {}
+[17.381594] (-) TimerEvent: {}
+[17.482622] (-) TimerEvent: {}
+[17.583671] (-) TimerEvent: {}
+[17.684743] (-) TimerEvent: {}
+[17.785880] (-) TimerEvent: {}
+[17.887005] (-) TimerEvent: {}
+[17.988230] (-) TimerEvent: {}
+[18.089309] (-) TimerEvent: {}
+[18.190394] (-) TimerEvent: {}
+[18.291535] (-) TimerEvent: {}
+[18.392722] (-) TimerEvent: {}
+[18.493896] (-) TimerEvent: {}
+[18.594954] (-) TimerEvent: {}
+[18.696048] (-) TimerEvent: {}
+[18.797126] (-) TimerEvent: {}
+[18.898216] (-) TimerEvent: {}
+[18.999286] (-) TimerEvent: {}
+[19.100449] (-) TimerEvent: {}
+[19.201486] (-) TimerEvent: {}
+[19.302527] (-) TimerEvent: {}
+[19.403695] (-) TimerEvent: {}
+[19.504797] (-) TimerEvent: {}
+[19.605855] (-) TimerEvent: {}
+[19.706904] (-) TimerEvent: {}
+[19.808047] (-) TimerEvent: {}
+[19.909085] (-) TimerEvent: {}
+[20.010165] (-) TimerEvent: {}
+[20.111336] (-) TimerEvent: {}
+[20.212538] (-) TimerEvent: {}
+[20.313584] (-) TimerEvent: {}
+[20.414718] (-) TimerEvent: {}
+[20.515874] (-) TimerEvent: {}
+[20.617003] (-) TimerEvent: {}
+[20.718034] (-) TimerEvent: {}
+[20.819127] (-) TimerEvent: {}
+[20.920300] (-) TimerEvent: {}
+[21.021410] (-) TimerEvent: {}
+[21.122527] (-) TimerEvent: {}
+[21.223710] (-) TimerEvent: {}
+[21.324888] (-) TimerEvent: {}
+[21.425978] (-) TimerEvent: {}
+[21.527119] (-) TimerEvent: {}
+[21.628206] (-) TimerEvent: {}
+[21.725960] (agv_gui) StdoutLine: {'line': b'[100%] Built target agv_gui\n'}
+[21.728408] (-) TimerEvent: {}
+[21.789383] (agv_gui) CommandEnded: {'returncode': 0}
+[21.829188] (-) TimerEvent: {}
+[21.931299] (-) TimerEvent: {}
+[21.992419] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'install'}
+[22.032296] (-) TimerEvent: {}
+[22.052892] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/colin/agv_gui/build/agv_gui'], 'cwd': '/home/colin/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('SSH_AGENT_PID', '2366'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'colin'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1421122056927'), ('JOURNAL_STREAM', '7:52669'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/colin-desktop:@/tmp/.ICE-unix/2427,unix/colin-desktop:/tmp/.ICE-unix/2427'), ('INVOCATION_ID', '50236732fba54b50ba0fee379130ec13'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6cf0ffe6_0c3f_484d_a318_a34bd14841f1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic:/home/colin/agv_gui/install/agv_gui'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/colin/agv_gui/build/agv_gui'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/agv_gui:/opt/ros/galactic'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[22.103713] (agv_gui) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.105989] (agv_gui) StdoutLine: {'line': b'-- Installing: /home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui\n'}
+[22.132207] (-) TimerEvent: {}
+[22.134414] (agv_gui) StdoutLine: {'line': b'-- Set runtime path of "/home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui" to ""\n'}
+[22.135401] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch\n'}
+[22.136223] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch/gui.launch.py\n'}
+[22.136779] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui\n'}
+[22.137554] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui\n'}
+[22.138273] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh\n'}
+[22.138967] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv\n'}
+[22.139525] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh\n'}
+[22.140352] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv\n'}
+[22.140726] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash\n'}
+[22.141097] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh\n'}
+[22.141481] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh\n'}
+[22.141913] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv\n'}
+[22.142349] (agv_gui) StdoutLine: {'line': b'-- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.dsv\n'}
+[22.143044] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui\n'}
+[22.143400] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake\n'}
+[22.143809] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake\n'}
+[22.144260] (agv_gui) StdoutLine: {'line': b'-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.xml\n'}
+[22.152140] (agv_gui) CommandEnded: {'returncode': 0}
+[22.233516] (-) TimerEvent: {}
+[22.334802] (-) TimerEvent: {}
+[22.436980] (-) TimerEvent: {}
+[22.538552] (-) TimerEvent: {}
+[22.639889] (-) TimerEvent: {}
+[22.742567] (-) TimerEvent: {}
+[22.844440] (-) TimerEvent: {}
+[22.946536] (-) TimerEvent: {}
+[23.047532] (-) TimerEvent: {}
+[23.150502] (-) TimerEvent: {}
+[23.253743] (-) TimerEvent: {}
+[23.358244] (-) TimerEvent: {}
+[23.462121] (-) TimerEvent: {}
+[23.565078] (-) TimerEvent: {}
+[23.667828] (-) TimerEvent: {}
+[23.736367] (agv_gui) JobEnded: {'identifier': 'agv_gui', 'rc': 0}
+[23.741219] (-) EventReactorShutdown: {}

@@ -1,0 +1,55 @@
+[0.578s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.817s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.859s] AutoMoc warning
+[0.859s] ---------------
+[0.860s] "SRC:/src/battery_node_1.cpp"
+[0.860s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.860s] 
+[0.861s] AutoMoc warning
+[0.861s] ---------------
+[0.861s] "SRC:/src/battery_node_2.cpp"
+[0.862s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.862s] 
+[0.862s] AutoMoc warning
+[0.863s] ---------------
+[0.863s] "SRC:/src/battery_node_3.cpp"
+[0.863s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.863s] 
+[0.864s] AutoMoc warning
+[0.864s] ---------------
+[0.864s] "SRC:/src/battery_node_4.cpp"
+[0.865s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.865s] 
+[0.865s] AutoMoc warning
+[0.866s] ---------------
+[0.866s] "SRC:/src/charge_node.cpp"
+[0.866s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.867s] 
+[1.481s] [  5%] Built target agv_gui_autogen
+[1.574s] [35m[1mScanning dependencies of target agv_gui[0m
+[1.940s] [ 10%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[14.110s] [ 15%] [32m[1mLinking CXX executable agv_gui[0m
+[20.144s] [100%] Built target agv_gui
+[20.200s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[20.483s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/colin/agv_gui/build/agv_gui
+[20.515s] -- Install configuration: ""
+[20.516s] -- Installing: /home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui
+[20.545s] -- Set runtime path of "/home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui" to ""
+[20.545s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch
+[20.546s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch/gui.launch.py
+[20.546s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui
+[20.547s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui
+[20.547s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh
+[20.547s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv
+[20.548s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh
+[20.548s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv
+[20.549s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash
+[20.549s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh
+[20.550s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh
+[20.550s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv
+[20.550s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.dsv
+[20.551s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui
+[20.551s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake
+[20.552s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake
+[20.552s] -- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.xml
+[20.562s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/colin/agv_gui/build/agv_gui

@@ -1,0 +1,15 @@
+[0.113s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.420s] -- The CUDA compiler identification is unknown
+[0.433s] CMake Error at CMakeLists.txt:2 (project):
+[0.433s]   No CMAKE_CUDA_COMPILER could be found.
+[0.434s] 
+[0.434s]   Tell CMake where to find the compiler by setting either the environment
+[0.434s]   variable "CUDACXX" or the CMake cache entry CMAKE_CUDA_COMPILER to the full
+[0.435s]   path to the compiler, or to the compiler name if it is in the PATH.
+[0.435s] 
+[0.435s] 
+[0.453s] -- Configuring incomplete, errors occurred!
+[0.453s] See also "/home/colin/agv_gui/build/agv_gui/CMakeFiles/CMakeOutput.log".
+[0.453s] See also "/home/colin/agv_gui/build/agv_gui/CMakeFiles/CMakeError.log".
+[0.467s] make: *** [Makefile:610: cmake_check_build_system] Error 1
+[0.481s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4

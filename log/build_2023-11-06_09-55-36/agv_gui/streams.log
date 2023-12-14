@@ -1,0 +1,28 @@
+[0.594s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6
+[0.880s] [ 10%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.929s] AutoMoc warning
+[0.930s] ---------------
+[0.930s] "SRC:/src/battery_node.cpp"
+[0.931s] includes the moc file "battery_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.931s] 
+[0.931s] AutoMoc warning
+[0.932s] ---------------
+[0.932s] "SRC:/src/charge_node.cpp"
+[0.933s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.933s] 
+[1.747s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:0: Note: No relevant classes found. No output generated.
+[1.797s] [ 10%] Built target agv_gui_autogen
+[1.893s] [35m[1mScanning dependencies of target agv_gui[0m
+[2.252s] [ 20%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[14.259s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:209:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQNetworkSettingWireless[m[K’ does not name a type
+[14.260s]   209 |   [01;31m[KQNetworkSettingWireless[m[K* wifiConfig;
+[14.260s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.283s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::updateWifi(int)[m[K’:
+[14.283s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:132:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[14.284s]   132 |     wifiSignal->setText[34m[K([m[KQString("Wifi: %1").arg(signalStrength)[01;31m[K;[m[K
+[14.284s]       |                        [34m[K~[m[K                                       [01;31m[K^[m[K
+[14.285s]       |                                                                [32m[K)[m[K
+[16.850s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[16.851s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[16.853s] make: *** [Makefile:141: all] Error 2
+[16.866s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6

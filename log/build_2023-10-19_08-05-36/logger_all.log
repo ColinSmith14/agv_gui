@@ -1,0 +1,149 @@
+[8.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[8.166s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa9731b50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa9731b50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa96dabb0>)
+[8.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.483s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/colin/agv_gui'
+[8.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.555s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.555s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.555s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extensions ['ignore', 'ignore_ament_install']
+[8.555s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'ignore'
+[8.556s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'ignore_ament_install'
+[8.556s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extensions ['colcon_pkg']
+[8.556s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'colcon_pkg'
+[8.556s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extensions ['colcon_meta']
+[8.556s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'colcon_meta'
+[8.556s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extensions ['ros']
+[8.557s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'ros'
+[8.557s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extensions ['cmake', 'python']
+[8.557s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'cmake'
+[8.557s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'python'
+[8.557s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extensions ['python_setup_py']
+[8.558s] Level 1:colcon.colcon_core.package_identification:_identify(devel) by extension 'python_setup_py'
+[8.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.560s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[8.560s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[8.560s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[8.560s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_pkg']
+[8.560s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_pkg'
+[8.561s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_meta']
+[8.561s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_meta'
+[8.561s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[8.561s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[8.561s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[8.562s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[8.562s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[8.562s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[8.562s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[8.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extensions ['ignore', 'ignore_ament_install']
+[8.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extension 'ignore'
+[8.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extension 'ignore_ament_install'
+[8.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extensions ['colcon_pkg']
+[8.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extension 'colcon_pkg'
+[8.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extensions ['colcon_meta']
+[8.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extension 'colcon_meta'
+[8.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extensions ['ros']
+[8.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_gui) by extension 'ros'
+[8.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_gui' with type 'ros.ament_cmake' and name 'agv_gui'
+[8.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[9.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.502s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/colin/agv_gui/install
+[9.628s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 268 installed packages in /opt/ros/galactic
+[9.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[10.216s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'cmake_args' from command line to 'None'
+[10.216s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'cmake_target' from command line to 'None'
+[10.216s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.216s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[10.216s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'cmake_clean_first' from command line to 'False'
+[10.216s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'cmake_force_configure' from command line to 'False'
+[10.217s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'ament_cmake_args' from command line to 'None'
+[10.217s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[10.217s] Level 5:colcon.colcon_core.verb:set package 'agv_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.217s] DEBUG:colcon.colcon_core.verb:Building package 'agv_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/colin/agv_gui/build/agv_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/colin/agv_gui/install/agv_gui', 'merge_install': False, 'path': '/home/colin/agv_gui/src/agv_gui', 'symlink_install': False, 'test_result_base': None}
+[10.337s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[10.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[10.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/colin/agv_gui/src/agv_gui' with build type 'ament_cmake'
+[10.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/colin/agv_gui/src/agv_gui'
+[10.596s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[23.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[23.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_gui)
+[23.898s] Level 1:colcon.colcon_core.environment:checking '/home/colin/agv_gui/install/agv_gui' for CMake module files
+[23.901s] Level 1:colcon.colcon_core.environment:checking '/home/colin/agv_gui/install/agv_gui' for CMake config files
+[23.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_gui', 'cmake_prefix_path')
+[24.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/agv_gui/install/agv_gui/share/agv_gui/hook/cmake_prefix_path.ps1'
+[24.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/colin/agv_gui/install/agv_gui/share/agv_gui/hook/cmake_prefix_path.dsv'
+[24.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/colin/agv_gui/install/agv_gui/share/agv_gui/hook/cmake_prefix_path.sh'
+[24.040s] Level 1:colcon.colcon_core.environment:checking '/home/colin/agv_gui/install/agv_gui/lib'
+[24.040s] Level 1:colcon.colcon_core.environment:checking '/home/colin/agv_gui/install/agv_gui/bin'
+[24.041s] Level 1:colcon.colcon_core.environment:checking '/home/colin/agv_gui/install/agv_gui/lib/pkgconfig/agv_gui.pc'
+[24.042s] Level 1:colcon.colcon_core.environment:checking '/home/colin/agv_gui/install/agv_gui/lib/python3.8/site-packages'
+[24.043s] Level 1:colcon.colcon_core.environment:checking '/home/colin/agv_gui/install/agv_gui/bin'
+[24.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/agv_gui/install/agv_gui/share/agv_gui/package.ps1'
+[24.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/colin/agv_gui/install/agv_gui/share/agv_gui/package.dsv'
+[24.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/agv_gui/install/agv_gui/share/agv_gui/package.sh'
+[24.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/agv_gui/install/agv_gui/share/agv_gui/package.bash'
+[24.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/colin/agv_gui/install/agv_gui/share/agv_gui/package.zsh'
+[24.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/colin/agv_gui/install/agv_gui/share/colcon-core/packages/agv_gui)
+[24.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[24.200s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.364s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.431s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/agv_gui/install/local_setup.ps1'
+[24.568s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/colin/agv_gui/install/_local_setup_util_ps1.py'
+[24.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/agv_gui/install/setup.ps1'
+[24.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/agv_gui/install/local_setup.sh'
+[24.709s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/colin/agv_gui/install/_local_setup_util_sh.py'
+[24.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/agv_gui/install/setup.sh'
+[24.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/agv_gui/install/local_setup.bash'
+[24.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/agv_gui/install/setup.bash'
+[24.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/colin/agv_gui/install/local_setup.zsh'
+[24.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/colin/agv_gui/install/setup.zsh'

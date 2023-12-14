@@ -1,0 +1,5 @@
+-I/home/colin/agv_gui/src/agv_gui
+-I/home/colin/agv_gui/build/agv_gui
+-o
+/home/colin/agv_gui/build/agv_gui/include/moc_battery_node_3.cpp
+/home/colin/agv_gui/src/agv_gui/include/battery_node_3.hpp

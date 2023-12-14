@@ -1,0 +1,25 @@
+[0.578s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6
+[0.891s] [ 10%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.938s] AutoMoc warning
+[0.939s] ---------------
+[0.939s] "SRC:/src/battery_node.cpp"
+[0.940s] includes the moc file "battery_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.940s] 
+[0.941s] AutoMoc warning
+[0.941s] ---------------
+[0.942s] "SRC:/src/charge_node.cpp"
+[0.942s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.942s] 
+[1.689s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:0: Note: No relevant classes found. No output generated.
+[1.738s] [ 10%] Built target agv_gui_autogen
+[1.833s] [35m[1mScanning dependencies of target agv_gui[0m
+[2.193s] [ 20%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[14.070s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::updateWifi(int)[m[K’:
+[14.070s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:132:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[14.071s]   132 |     wifiSignal->setText[34m[K([m[KQString("Wifi: %1").arg(signalStrength)[01;31m[K;[m[K
+[14.071s]       |                        [34m[K~[m[K                                       [01;31m[K^[m[K
+[14.071s]       |                                                                [32m[K)[m[K
+[16.588s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[16.589s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[16.591s] make: *** [Makefile:141: all] Error 2
+[16.603s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6

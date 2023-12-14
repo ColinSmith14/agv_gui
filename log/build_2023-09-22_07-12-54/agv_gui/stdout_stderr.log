@@ -1,0 +1,13 @@
+-- The CUDA compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_CUDA_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CUDACXX" or the CMake cache entry CMAKE_CUDA_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/colin/agv_gui/build/agv_gui/CMakeFiles/CMakeOutput.log".
+See also "/home/colin/agv_gui/build/agv_gui/CMakeFiles/CMakeError.log".
+make: *** [Makefile:610: cmake_check_build_system] Error 1

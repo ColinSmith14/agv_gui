@@ -1,0 +1,10 @@
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub>, QWidget*)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:33:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+   33 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:124:80:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateBattery[m[K’ is not a member of ‘[01m[KMainGui[m[K’
+  124 |       connect(battery_sub_.get(), &BatterySub::changedBattery, this, &MainGui::[01;31m[KupdateBattery[m[K);
+      |                                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

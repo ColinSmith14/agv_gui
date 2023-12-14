@@ -1,0 +1,29 @@
+[  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_1.cpp"
+includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_2.cpp"
+includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_3.cpp"
+includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_4.cpp"
+includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/charge_node.cpp"
+includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+[  5%] Built target agv_gui_autogen
+[35m[1mScanning dependencies of target agv_gui[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m

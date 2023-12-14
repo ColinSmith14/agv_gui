@@ -1,0 +1,9 @@
+CUDA is available
+[01m[K/home/colin/agv_gui/src/agv_gui/src/healthPopUp.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/healhPopUp.hpp: No such file or directory
+    1 | #include [01;31m[K"include/healhPopUp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:165: CMakeFiles/agv_gui.dir/src/healthPopUp.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

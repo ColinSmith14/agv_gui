@@ -1,0 +1,17 @@
+[01m[K/home/colin/agv_gui/src/agv_gui/src/healthPopUp.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KHealthPopUp::HealthPopUp(QString, QString, QString, QString, QString, QWidget*)[m[K’
+    3 | [01;31m[KHealthPopUp[m[K::HealthPopUp(const QString lMotor,
+      | [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/colin/agv_gui/src/agv_gui/src/healthPopUp.cpp:1[m[K:
+[01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:8:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KHealthPopUp::HealthPopUp(HealthPopUp&&)[m[K’
+    8 | class [01;36m[KHealthPopUp[m[K : public QDialog {
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:8:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KHealthPopUp::HealthPopUp(const HealthPopUp&)[m[K’
+[01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:12:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KHealthPopUp::HealthPopUp(const QString&, const QString&, const QString&, const QString&, const QString&, QWidget*)[m[K’
+   12 |     [01;36m[KHealthPopUp[m[K(const QString &lMotor,
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass HealthPopUp[m[K’ defined here
+    8 | class [01;36m[KHealthPopUp[m[K : public QDialog {
+      |       [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:165: CMakeFiles/agv_gui.dir/src/healthPopUp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

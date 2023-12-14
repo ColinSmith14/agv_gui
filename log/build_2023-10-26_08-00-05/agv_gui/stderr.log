@@ -1,0 +1,8 @@
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:284:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class MainGui[m[K’ {aka ‘[01m[Kclass MainGui[m[K’} has no member named ‘[01m[KsetFixedSzie[m[K’; did you mean ‘[01m[KsetFixedSize[m[K’?
+  284 |     mainGui->[01;31m[KsetFixedSzie[m[K(1280, 400);
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+      |              [32m[KsetFixedSize[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

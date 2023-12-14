@@ -1,0 +1,41 @@
+[0.107s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.327s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.366s] AutoMoc warning
+[0.367s] ---------------
+[0.367s] "SRC:/src/battery_node_1.cpp"
+[0.367s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.368s] 
+[0.368s] AutoMoc warning
+[0.368s] ---------------
+[0.369s] "SRC:/src/battery_node_2.cpp"
+[0.369s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.370s] 
+[0.370s] AutoMoc warning
+[0.370s] ---------------
+[0.371s] "SRC:/src/battery_node_3.cpp"
+[0.371s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.371s] 
+[0.371s] AutoMoc warning
+[0.372s] ---------------
+[0.372s] "SRC:/src/battery_node_4.cpp"
+[0.373s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.373s] 
+[0.373s] AutoMoc warning
+[0.374s] ---------------
+[0.374s] "SRC:/src/charge_node.cpp"
+[0.374s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.374s] 
+[0.401s] [  5%] Built target agv_gui_autogen
+[0.606s] [ 10%] [32m[1mLinking CXX executable agv_gui[0m
+[4.921s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `MainGui::showHealthPopUp()':
+[4.922s] main_gui.cpp:(.text._ZN7MainGui15showHealthPopUpEv[_ZN7MainGui15showHealthPopUpEv]+0xa4): undefined reference to `HealthPopUp::HealthPopUp(QString const&, QString const&, QString const&, QString const&, QString const&, QWidget*)'
+[4.922s] /usr/bin/ld: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o: in function `HealthPopUp::~HealthPopUp()':
+[4.923s] main_gui.cpp:(.text._ZN11HealthPopUpD2Ev[_ZN11HealthPopUpD5Ev]+0xc): undefined reference to `vtable for HealthPopUp'
+[4.924s] /usr/bin/ld: main_gui.cpp:(.text._ZN11HealthPopUpD2Ev[_ZN11HealthPopUpD5Ev]+0x10): undefined reference to `vtable for HealthPopUp'
+[4.925s] /usr/bin/ld: main_gui.cpp:(.text._ZN11HealthPopUpD2Ev[_ZN11HealthPopUpD5Ev]+0x20): undefined reference to `vtable for HealthPopUp'
+[4.926s] /usr/bin/ld: main_gui.cpp:(.text._ZN11HealthPopUpD2Ev[_ZN11HealthPopUpD5Ev]+0x24): undefined reference to `vtable for HealthPopUp'
+[4.926s] collect2: error: ld returned 1 exit status
+[4.931s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:415: agv_gui] Error 1
+[4.933s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[4.934s] make: *** [Makefile:141: all] Error 2
+[4.945s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4

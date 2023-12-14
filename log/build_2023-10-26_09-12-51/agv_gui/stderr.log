@@ -1,0 +1,11 @@
+CUDA is available
+CMake Error at /usr/share/cmake-3.16/Modules/FindCUDA.cmake:1875 (add_executable):
+  add_executable cannot create target "agv_gui" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/colin/agv_gui/src/agv_gui".  See documentation
+  for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:69 (cuda_add_executable)
+
+
+make: *** [Makefile:610: cmake_check_build_system] Error 1

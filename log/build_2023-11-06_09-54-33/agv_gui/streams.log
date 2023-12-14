@@ -1,0 +1,42 @@
+[0.612s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6
+[0.910s] [ 10%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.962s] AutoMoc warning
+[0.963s] ---------------
+[0.963s] "SRC:/src/battery_node.cpp"
+[0.964s] includes the moc file "battery_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.964s] 
+[0.965s] AutoMoc warning
+[0.965s] ---------------
+[0.965s] "SRC:/src/charge_node.cpp"
+[0.966s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.966s] 
+[1.910s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:0: Note: No relevant classes found. No output generated.
+[1.960s] [ 10%] Built target agv_gui_autogen
+[2.056s] [35m[1mScanning dependencies of target agv_gui[0m
+[2.432s] [ 20%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[15.923s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:211:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQNetworkSettingWireless[m[K’ does not name a type
+[15.924s]   211 |   [01;31m[KQNetworkSettingWireless[m[K* wifiConfig;
+[15.924s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.946s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub>, QWidget*)[m[K’:
+[15.946s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:83:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kwifi[m[K’ was not declared in this scope
+[15.947s]    83 |       [01;31m[Kwifi[m[K = Q
+[15.947s]       |       [01;31m[K^~~~[m[K
+[15.953s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:83:14:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+[15.954s]    83 |       wifi = [01;31m[KQ[m[K
+[15.954s]       |              [01;31m[K^[m[K
+[15.955s]       |              [32m[KQt[m[K
+[15.980s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:123:16:[m[K [01;31m[Kerror: [m[K‘[01m[KwifiConfig[m[K’ was not declared in this scope
+[15.981s]   123 |       connect(&[01;31m[KwifiConfig[m[K, &wifiConfig::signalStengthChanged, this, &MainGui::updateWifi);
+[15.981s]       |                [01;31m[K^~~~~~~~~~[m[K
+[15.982s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:123:29:[m[K [01;31m[Kerror: [m[K‘[01m[KwifiConfig[m[K’ is not a class, namespace, or enumeration
+[15.982s]   123 |       connect(&wifiConfig, &[01;31m[KwifiConfig[m[K::signalStengthChanged, this, &MainGui::updateWifi);
+[15.983s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[15.986s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::updateWifi(int)[m[K’:
+[15.986s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:134:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[15.986s]   134 |     wifiSignal->setText[34m[K([m[KQString("Wifi: %1").arg(signalStrength)[01;31m[K;[m[K
+[15.987s]       |                        [34m[K~[m[K                                       [01;31m[K^[m[K
+[15.987s]       |                                                                [32m[K)[m[K
+[18.786s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[18.788s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[18.789s] make: *** [Makefile:141: all] Error 2
+[18.802s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6

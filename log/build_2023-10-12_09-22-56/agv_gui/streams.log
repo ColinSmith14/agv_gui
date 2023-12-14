@@ -1,0 +1,48 @@
+[0.085s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.307s] [  4%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[0.344s] AutoMoc warning
+[0.345s] ---------------
+[0.345s] "SRC:/src/battery_node_1.cpp"
+[0.346s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.346s] 
+[0.346s] AutoMoc warning
+[0.347s] ---------------
+[0.347s] "SRC:/src/battery_node_2.cpp"
+[0.347s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.347s] 
+[0.348s] AutoMoc warning
+[0.348s] ---------------
+[0.348s] "SRC:/src/battery_node_3.cpp"
+[0.349s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.349s] 
+[0.349s] AutoMoc warning
+[0.350s] ---------------
+[0.350s] "SRC:/src/battery_node_4.cpp"
+[0.350s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.351s] 
+[0.351s] AutoMoc warning
+[0.351s] ---------------
+[0.351s] "SRC:/src/charge_node.cpp"
+[0.352s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[0.352s] 
+[0.381s] [  4%] Built target agv_gui_autogen
+[0.466s] [35m[1mScanning dependencies of target agv_gui[0m
+[0.703s] [  9%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/healthPopUp.cpp.o[0m
+[4.112s] [01m[K/home/colin/agv_gui/src/agv_gui/src/healthPopUp.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KHealthPopUp::HealthPopUp(QString, QString, QString, QString, QString, QWidget*)[m[K’
+[4.112s]     3 | [01;31m[KHealthPopUp[m[K::HealthPopUp(const QString lMotor,
+[4.112s]       | [01;31m[K^~~~~~~~~~~[m[K
+[4.113s] In file included from [01m[K/home/colin/agv_gui/src/agv_gui/src/healthPopUp.cpp:1[m[K:
+[4.113s] [01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:8:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KHealthPopUp::HealthPopUp(HealthPopUp&&)[m[K’
+[4.114s]     8 | class [01;36m[KHealthPopUp[m[K : public QDialog {
+[4.114s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[4.114s] [01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:8:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KHealthPopUp::HealthPopUp(const HealthPopUp&)[m[K’
+[4.115s] [01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:12:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KHealthPopUp::HealthPopUp(const QString&, const QString&, const QString&, const QString&, const QString&, QWidget*)[m[K’
+[4.115s]    12 |     [01;36m[KHealthPopUp[m[K(const QString &lMotor,
+[4.115s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.115s] [01m[K/home/colin/agv_gui/src/agv_gui/include/healthPopUp.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass HealthPopUp[m[K’ defined here
+[4.116s]     8 | class [01;36m[KHealthPopUp[m[K : public QDialog {
+[4.116s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[4.483s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:165: CMakeFiles/agv_gui.dir/src/healthPopUp.cpp.o] Error 1
+[4.484s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[4.485s] make: *** [Makefile:141: all] Error 2
+[4.499s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4

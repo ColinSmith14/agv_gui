@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.001463] (agv_gui) JobQueued: {'identifier': 'agv_gui', 'dependencies': OrderedDict()}
+[0.002410] (agv_gui) JobStarted: {'identifier': 'agv_gui'}
+[0.098991] (-) TimerEvent: {}
+[0.200255] (-) TimerEvent: {}
+[0.301904] (-) TimerEvent: {}
+[0.403445] (-) TimerEvent: {}
+[0.505123] (-) TimerEvent: {}
+[0.569343] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'cmake'}
+[0.574967] (agv_gui) JobProgress: {'identifier': 'agv_gui', 'progress': 'build'}
+[0.578683] (agv_gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/agv_gui', '--', '-j4', '-l4'], 'cwd': '/home/colin/agv_gui/build/agv_gui', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('SSH_AGENT_PID', '2146'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1644'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'colin'), ('JOURNAL_STREAM', '7:50099'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/colin-desktop:@/tmp/.ICE-unix/2202,unix/colin-desktop:/tmp/.ICE-unix/2202'), ('INVOCATION_ID', '848b9e9bc5fb445298d82e454932fa47'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2de236d8_3a43_41e6_9618_792b1edd65dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic:/home/colin/agv_gui/install/agv_gui'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/colin/agv_gui/build/agv_gui'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/agv_gui:/opt/ros/galactic')]), 'shell': False}
+[0.606471] (-) TimerEvent: {}
+[0.710087] (-) TimerEvent: {}
+[0.811119] (-) TimerEvent: {}
+[0.890443] (agv_gui) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target agv_gui\x1b[0m\n'}
+[0.911339] (-) TimerEvent: {}
+[0.936183] (agv_gui) StdoutLine: {'line': b'AutoMoc warning\n'}
+[0.937240] (agv_gui) StdoutLine: {'line': b'---------------\n'}
+[0.937848] (agv_gui) StdoutLine: {'line': b'"SRC:/src/battery_node_1.cpp"\n'}
+[0.938234] (agv_gui) StdoutLine: {'line': b'includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.\n'}
+[0.938596] (agv_gui) StdoutLine: {'line': b'\n'}
+[0.938918] (agv_gui) StdoutLine: {'line': b'AutoMoc warning\n'}
+[0.939197] (agv_gui) StdoutLine: {'line': b'---------------\n'}
+[0.939474] (agv_gui) StdoutLine: {'line': b'"SRC:/src/battery_node_2.cpp"\n'}
+[0.939749] (agv_gui) StdoutLine: {'line': b'includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.\n'}
+[0.940030] (agv_gui) StdoutLine: {'line': b'\n'}
+[0.940290] (agv_gui) StdoutLine: {'line': b'AutoMoc warning\n'}
+[0.940600] (agv_gui) StdoutLine: {'line': b'---------------\n'}
+[0.941074] (agv_gui) StdoutLine: {'line': b'"SRC:/src/battery_node_3.cpp"\n'}
+[0.941625] (agv_gui) StdoutLine: {'line': b'includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.\n'}
+[0.942023] (agv_gui) StdoutLine: {'line': b'\n'}
+[0.942327] (agv_gui) StdoutLine: {'line': b'AutoMoc warning\n'}
+[0.942619] (agv_gui) StdoutLine: {'line': b'---------------\n'}
+[0.942933] (agv_gui) StdoutLine: {'line': b'"SRC:/src/battery_node_4.cpp"\n'}
+[0.943280] (agv_gui) StdoutLine: {'line': b'includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.\n'}
+[0.943567] (agv_gui) StdoutLine: {'line': b'\n'}
+[0.943836] (agv_gui) StdoutLine: {'line': b'AutoMoc warning\n'}
+[0.944118] (agv_gui) StdoutLine: {'line': b'---------------\n'}
+[0.944424] (agv_gui) StdoutLine: {'line': b'"SRC:/src/charge_node.cpp"\n'}
+[0.944705] (agv_gui) StdoutLine: {'line': b'includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.\n'}
+[0.945004] (agv_gui) StdoutLine: {'line': b'\n'}
+[1.011643] (-) TimerEvent: {}
+[1.112674] (-) TimerEvent: {}
+[1.213830] (-) TimerEvent: {}
+[1.314842] (-) TimerEvent: {}
+[1.415908] (-) TimerEvent: {}
+[1.516876] (-) TimerEvent: {}
+[1.618006] (-) TimerEvent: {}
+[1.719115] (-) TimerEvent: {}
+[1.820069] (-) TimerEvent: {}
+[1.836866] (agv_gui) StdoutLine: {'line': b'[  5%] Built target agv_gui_autogen\n'}
+[1.920376] (-) TimerEvent: {}
+[1.942704] (agv_gui) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target agv_gui\x1b[0m\n'}
+[2.020613] (-) TimerEvent: {}
+[2.121486] (-) TimerEvent: {}
+[2.222480] (-) TimerEvent: {}
+[2.316059] (agv_gui) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o\x1b[0m\n'}
+[2.322599] (-) TimerEvent: {}
+[2.423405] (-) TimerEvent: {}
+[2.524434] (-) TimerEvent: {}
+[2.625531] (-) TimerEvent: {}
+[2.727662] (-) TimerEvent: {}
+[2.828751] (-) TimerEvent: {}
+[2.929895] (-) TimerEvent: {}
+[3.030983] (-) TimerEvent: {}
+[3.132007] (-) TimerEvent: {}
+[3.233021] (-) TimerEvent: {}
+[3.334114] (-) TimerEvent: {}
+[3.435098] (-) TimerEvent: {}
+[3.536134] (-) TimerEvent: {}
+[3.637160] (-) TimerEvent: {}
+[3.738292] (-) TimerEvent: {}
+[3.839374] (-) TimerEvent: {}
+[3.940524] (-) TimerEvent: {}
+[4.041562] (-) TimerEvent: {}
+[4.142581] (-) TimerEvent: {}
+[4.243643] (-) TimerEvent: {}
+[4.344668] (-) TimerEvent: {}
+[4.445755] (-) TimerEvent: {}
+[4.546749] (-) TimerEvent: {}
+[4.647790] (-) TimerEvent: {}
+[4.748750] (-) TimerEvent: {}
+[4.849922] (-) TimerEvent: {}
+[4.950939] (-) TimerEvent: {}
+[5.051983] (-) TimerEvent: {}
+[5.152984] (-) TimerEvent: {}
+[5.254104] (-) TimerEvent: {}
+[5.355152] (-) TimerEvent: {}
+[5.456177] (-) TimerEvent: {}
+[5.557487] (-) TimerEvent: {}
+[5.658492] (-) TimerEvent: {}
+[5.759501] (-) TimerEvent: {}
+[5.860611] (-) TimerEvent: {}
+[5.961665] (-) TimerEvent: {}
+[6.062832] (-) TimerEvent: {}
+[6.163929] (-) TimerEvent: {}
+[6.264957] (-) TimerEvent: {}
+[6.366069] (-) TimerEvent: {}
+[6.467142] (-) TimerEvent: {}
+[6.568184] (-) TimerEvent: {}
+[6.669212] (-) TimerEvent: {}
+[6.770341] (-) TimerEvent: {}
+[6.871450] (-) TimerEvent: {}
+[6.972478] (-) TimerEvent: {}
+[7.073523] (-) TimerEvent: {}
+[7.174534] (-) TimerEvent: {}
+[7.275610] (-) TimerEvent: {}
+[7.376645] (-) TimerEvent: {}
+[7.477806] (-) TimerEvent: {}
+[7.578883] (-) TimerEvent: {}
+[7.679911] (-) TimerEvent: {}
+[7.780994] (-) TimerEvent: {}
+[7.882182] (-) TimerEvent: {}
+[7.983215] (-) TimerEvent: {}
+[8.084260] (-) TimerEvent: {}
+[8.185417] (-) TimerEvent: {}
+[8.287563] (-) TimerEvent: {}
+[8.388655] (-) TimerEvent: {}
+[8.489797] (-) TimerEvent: {}
+[8.590882] (-) TimerEvent: {}
+[8.691941] (-) TimerEvent: {}
+[8.793104] (-) TimerEvent: {}
+[8.894280] (-) TimerEvent: {}
+[8.995371] (-) TimerEvent: {}
+[9.096534] (-) TimerEvent: {}
+[9.197766] (-) TimerEvent: {}
+[9.298921] (-) TimerEvent: {}
+[9.400065] (-) TimerEvent: {}
+[9.501809] (-) TimerEvent: {}
+[9.602926] (-) TimerEvent: {}
+[9.704039] (-) TimerEvent: {}
+[9.805140] (-) TimerEvent: {}
+[9.906372] (-) TimerEvent: {}
+[10.007484] (-) TimerEvent: {}
+[10.108626] (-) TimerEvent: {}
+[10.209786] (-) TimerEvent: {}
+[10.310937] (-) TimerEvent: {}
+[10.412049] (-) TimerEvent: {}
+[10.513227] (-) TimerEvent: {}
+[10.614324] (-) TimerEvent: {}
+[10.715376] (-) TimerEvent: {}
+[10.816481] (-) TimerEvent: {}
+[10.917558] (-) TimerEvent: {}
+[11.018686] (-) TimerEvent: {}
+[11.119681] (-) TimerEvent: {}
+[11.220818] (-) TimerEvent: {}
+[11.321998] (-) TimerEvent: {}
+[11.423052] (-) TimerEvent: {}
+[11.524152] (-) TimerEvent: {}
+[11.625263] (-) TimerEvent: {}
+[11.726430] (-) TimerEvent: {}
+[11.827480] (-) TimerEvent: {}
+[11.928517] (-) TimerEvent: {}
+[12.029654] (-) TimerEvent: {}
+[12.130649] (-) TimerEvent: {}
+[12.231735] (-) TimerEvent: {}
+[12.332833] (-) TimerEvent: {}
+[12.434006] (-) TimerEvent: {}
+[12.535102] (-) TimerEvent: {}
+[12.636214] (-) TimerEvent: {}
+[12.737428] (-) TimerEvent: {}
+[12.838454] (-) TimerEvent: {}
+[12.842254] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.846336] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:291:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass QScreen\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.846843] (agv_gui) StderrLine: {'line': b'  291 |           mainGui->setGeometry(screens.at(1)\x1b[01;31m\x1b[K->\x1b[m\x1b[KavailableGeometry());\n'}
+[12.847193] (agv_gui) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.847575] (agv_gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qapplication.h:48\x1b[m\x1b[K,\n'}
+[12.847923] (agv_gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[12.848268] (agv_gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[12.848592] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qcursor.h:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass QScreen\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.848950] (agv_gui) StderrLine: {'line': b'   51 | class \x1b[01;36m\x1b[KQScreen\x1b[m\x1b[K;\n'}
+[12.849246] (agv_gui) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.866378] (agv_gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:325\x1b[m\x1b[K:\n'}
+[12.867082] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:56:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.867487] (agv_gui) StderrLine: {'line': b'   56 | void MainGui::qt_static_metacall\x1b[01;31m\x1b[K(\x1b[m\x1b[KQObject *_o, QMetaObject::Call _c, int _id, void **_a)\n'}
+[12.867833] (agv_gui) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.868114] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:64:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K=\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.868388] (agv_gui) StderrLine: {'line': b'   64 | QT_INIT_METAOBJECT const QMetaObject MainGui::staticMetaObject \x1b[01;31m\x1b[K=\x1b[m\x1b[K { {\n'}
+[12.868670] (agv_gui) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.868990] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:74:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.869382] (agv_gui) StderrLine: {'line': b'   74 | const QMetaObject *MainGui::metaObject\x1b[01;31m\x1b[K(\x1b[m\x1b[K) const\n'}
+[12.869704] (agv_gui) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.870015] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:79:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.870302] (agv_gui) StderrLine: {'line': b'   79 | void *MainGui::qt_metacast\x1b[01;31m\x1b[K(\x1b[m\x1b[Kconst char *_clname)\n'}
+[12.870656] (agv_gui) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.871036] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:87:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[12.871342] (agv_gui) StderrLine: {'line': b'   87 | int MainGui::qt_metacall\x1b[01;31m\x1b[K(\x1b[m\x1b[KQMetaObject::Call _c, int _id, void **_a)\n'}
+[12.871628] (agv_gui) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.873083] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:31:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kqt_meta_stringdata_MainGui\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.873710] (agv_gui) StderrLine: {'line': b'   31 | static const qt_meta_stringdata_MainGui_t \x1b[01;35m\x1b[Kqt_meta_stringdata_MainGui\x1b[m\x1b[K = {\n'}
+[12.874157] (agv_gui) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.874482] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:40:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kqt_meta_data_MainGui\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.874815] (agv_gui) StderrLine: {'line': b'   40 | static const uint \x1b[01;35m\x1b[Kqt_meta_data_MainGui\x1b[m\x1b[K[] = {\n'}
+[12.875104] (agv_gui) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.875374] (agv_gui) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qglobal.h:105\x1b[m\x1b[K,\n'}
+[12.875670] (agv_gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[12.875995] (agv_gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[12.876289] (agv_gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qapplication.h:43\x1b[m\x1b[K,\n'}
+[12.876561] (agv_gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[12.876832] (agv_gui) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[12.877096] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/agv_gui/agv_gui_autogen/include/main_gui.moc:92:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[12.877551] (agv_gui) StderrLine: {'line': b'   92 | \x1b[01;31m\x1b[KQT_WARNING_POP\x1b[m\x1b[K\n'}
+[12.877861] (agv_gui) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.878137] (agv_gui) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:269:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.878433] (agv_gui) StderrLine: {'line': b'  269 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[12.878701] (agv_gui) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[12.938713] (-) TimerEvent: {}
+[13.039934] (-) TimerEvent: {}
+[13.141058] (-) TimerEvent: {}
+[13.242312] (-) TimerEvent: {}
+[13.343461] (-) TimerEvent: {}
+[13.444557] (-) TimerEvent: {}
+[13.545983] (-) TimerEvent: {}
+[13.647193] (-) TimerEvent: {}
+[13.748501] (-) TimerEvent: {}
+[13.849836] (-) TimerEvent: {}
+[13.950929] (-) TimerEvent: {}
+[14.052082] (-) TimerEvent: {}
+[14.153209] (-) TimerEvent: {}
+[14.254398] (-) TimerEvent: {}
+[14.355509] (-) TimerEvent: {}
+[14.456723] (-) TimerEvent: {}
+[14.558029] (-) TimerEvent: {}
+[14.659136] (-) TimerEvent: {}
+[14.760201] (-) TimerEvent: {}
+[14.861344] (-) TimerEvent: {}
+[14.962317] (-) TimerEvent: {}
+[15.063443] (-) TimerEvent: {}
+[15.147622] (agv_gui) StderrLine: {'line': b'make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1\n'}
+[15.149641] (agv_gui) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2\n'}
+[15.150928] (agv_gui) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[15.161881] (agv_gui) CommandEnded: {'returncode': 2}
+[15.163838] (-) TimerEvent: {}
+[15.268134] (-) TimerEvent: {}
+[15.370156] (-) TimerEvent: {}
+[15.472221] (-) TimerEvent: {}
+[15.573947] (-) TimerEvent: {}
+[15.674709] (-) TimerEvent: {}
+[15.775522] (-) TimerEvent: {}
+[15.877619] (-) TimerEvent: {}
+[15.979265] (-) TimerEvent: {}
+[15.991397] (agv_gui) JobEnded: {'identifier': 'agv_gui', 'rc': 2}
+[16.003307] (-) EventReactorShutdown: {}

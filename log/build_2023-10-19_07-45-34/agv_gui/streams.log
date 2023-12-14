@@ -1,0 +1,76 @@
+[0.586s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.727s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.819s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.077s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.204s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.012s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.170s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.176s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.244s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.690s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[2.860s] -- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)
+[2.900s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.910s] -- Found OGRE
+[2.910s] --   static     : OFF
+[2.911s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.911s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.911s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.912s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.912s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[2.913s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.913s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[2.913s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.914s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.914s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.914s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.917s] -- Could not find freeimage library
+[3.047s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.047s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.055s] -- library: libassimp.so.5
+[3.145s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[4.693s] -- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[4.706s] -- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)
+[6.139s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[6.189s] -- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)
+[6.239s] CUDA is available
+[6.509s] -- Configuring done
+[6.701s] -- Generating done
+[6.712s] -- Build files have been written to: /home/colin/agv_gui/build/agv_gui
+[6.874s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[6.916s] AutoMoc warning
+[6.916s] ---------------
+[6.917s] "SRC:/src/battery_node_1.cpp"
+[6.917s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[6.917s] 
+[6.918s] AutoMoc warning
+[6.918s] ---------------
+[6.918s] "SRC:/src/battery_node_2.cpp"
+[6.918s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[6.919s] 
+[6.919s] AutoMoc warning
+[6.919s] ---------------
+[6.920s] "SRC:/src/battery_node_3.cpp"
+[6.920s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[6.920s] 
+[6.921s] AutoMoc warning
+[6.921s] ---------------
+[6.921s] "SRC:/src/battery_node_4.cpp"
+[6.922s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[6.922s] 
+[6.922s] AutoMoc warning
+[6.922s] ---------------
+[6.923s] "SRC:/src/charge_node.cpp"
+[6.923s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[6.923s] 
+[7.553s] [  5%] Built target agv_gui_autogen
+[7.654s] [35m[1mScanning dependencies of target agv_gui[0m
+[7.985s] make[2]: *** No rule to make target '/opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so', needed by 'agv_gui'.  Stop.
+[7.986s] make[2]: *** Waiting for unfinished jobs....
+[8.003s] [ 10%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[8.004s] [ 15%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_battery_node_3.cpp.o[0m
+[8.005s] [ 21%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_battery_node_4.cpp.o[0m
+[20.785s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[20.786s] make: *** [Makefile:141: all] Error 2
+[20.797s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4

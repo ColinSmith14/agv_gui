@@ -1,0 +1,19 @@
+CUDA is available
+[01m[K/home/colin/agv_gui/src/agv_gui/src/charge_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/charge_node.hpp: No such file or directory
+    1 | #include [01;31m[K"include/charge_node.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node_2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/battery_node_2.hpp: No such file or directory
+    1 | #include [01;31m[K"include/battery_node_2.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node_1.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/battery_node_1.hpp: No such file or directory
+    1 | #include [01;31m[K"include/battery_node_1.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:96: CMakeFiles/agv_gui.dir/src/charge_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:109: CMakeFiles/agv_gui.dir/src/battery_node_1.cpp.o] Error 1
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:122: CMakeFiles/agv_gui.dir/src/battery_node_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

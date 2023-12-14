@@ -1,0 +1,20 @@
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:288:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KMainGui[m[K’
+  288 |           mainGui[01;31m[K [m[K[32m[KMainGui[m[K;
+      |                  [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                  [32m[K;[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:288:11:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+  288 |           [01;35m[KmainGui[m[K MainGui;
+      |           [01;35m[K^~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:291:45:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QScreen[m[K’
+  291 |           mainGui->setGeometry(screens.at(1)[01;31m[K->[m[KavailableGeometry());
+      |                                             [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qapplication.h:48[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QApplication:1[m[K,
+                 from [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qcursor.h:51:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QScreen[m[K’
+   51 | class [01;36m[KQScreen[m[K;
+      |       [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

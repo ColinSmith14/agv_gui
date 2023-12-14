@@ -1,0 +1,158 @@
+[0.075s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/colin/agv_gui/src/agv_gui -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/install/agv_gui
+[0.385s] -- The C compiler identification is GNU 9.4.0
+[0.681s] -- The CXX compiler identification is GNU 9.4.0
+[0.704s] -- Check for working C compiler: /usr/bin/cc
+[1.043s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.048s] -- Detecting C compiler ABI info
+[1.376s] -- Detecting C compiler ABI info - done
+[1.445s] -- Detecting C compile features
+[1.446s] -- Detecting C compile features - done
+[1.459s] -- Check for working CXX compiler: /usr/bin/c++
+[1.831s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.838s] -- Detecting CXX compiler ABI info
+[2.213s] -- Detecting CXX compiler ABI info - done
+[2.274s] -- Detecting CXX compile features
+[2.276s] -- Detecting CXX compile features - done
+[2.285s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.376s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.376s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.151s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.286s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.648s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.756s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.068s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.420s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.584s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.593s] -- Looking for pthread.h
+[4.933s] -- Looking for pthread.h - found
+[4.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.280s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.281s] -- Looking for pthread_create in pthreads
+[5.568s] -- Looking for pthread_create in pthreads - not found
+[5.569s] -- Looking for pthread_create in pthread
+[5.901s] -- Looking for pthread_create in pthread - found
+[5.908s] -- Found Threads: TRUE  
+[6.453s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[6.687s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[6.751s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.762s] -- Found OGRE
+[6.763s] --   static     : OFF
+[6.764s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.765s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.765s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.766s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.766s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[6.767s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.767s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[6.767s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.768s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.768s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.768s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.771s] -- Could not find freeimage library
+[6.862s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[6.886s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[7.345s] -- Found X11: /usr/include   
+[7.348s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[7.717s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[7.719s] -- Looking for gethostbyname
+[8.038s] -- Looking for gethostbyname - found
+[8.040s] -- Looking for connect
+[8.361s] -- Looking for connect - found
+[8.362s] -- Looking for remove
+[8.690s] -- Looking for remove - found
+[8.694s] -- Looking for shmat
+[9.007s] -- Looking for shmat - found
+[9.009s] -- Looking for IceConnectionNumber in ICE
+[9.350s] -- Looking for IceConnectionNumber in ICE - found
+[9.366s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[9.367s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[9.391s] -- library: libassimp.so.5
+[9.828s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[10.337s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[11.533s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[11.548s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[13.035s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[13.090s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[13.369s] -- Configuring done
+[13.570s] -- Generating done
+[13.578s] -- Build files have been written to: /home/colin/agv_gui/build/agv_gui
+[13.629s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/colin/agv_gui/src/agv_gui -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/install/agv_gui
+[13.649s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[13.826s] [35m[1mScanning dependencies of target agv_gui_autogen[0m
+[13.869s] [  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[13.945s] AutoMoc warning
+[13.946s] ---------------
+[13.946s] "SRC:/src/battery_node_1.cpp"
+[13.946s] includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[13.947s] 
+[13.947s] AutoMoc warning
+[13.947s] ---------------
+[13.948s] "SRC:/src/battery_node_2.cpp"
+[13.948s] includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[13.948s] 
+[13.949s] AutoMoc warning
+[13.949s] ---------------
+[13.949s] "SRC:/src/battery_node_3.cpp"
+[13.950s] includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[13.950s] 
+[13.950s] AutoMoc warning
+[13.951s] ---------------
+[13.951s] "SRC:/src/battery_node_4.cpp"
+[13.951s] includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[13.951s] 
+[13.952s] AutoMoc warning
+[13.952s] ---------------
+[13.952s] "SRC:/src/charge_node.cpp"
+[13.953s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[13.953s] 
+[14.709s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/battery_node_1.cpp:0: Note: No relevant classes found. No output generated.
+[15.417s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/battery_node_2.cpp:0: Note: No relevant classes found. No output generated.
+[16.292s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/battery_node_3.cpp:0: Note: No relevant classes found. No output generated.
+[17.314s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/battery_node_4.cpp:0: Note: No relevant classes found. No output generated.
+[18.042s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/charge_node.cpp:0: Note: No relevant classes found. No output generated.
+[18.648s] [  5%] Built target agv_gui_autogen
+[18.696s] [ 10%] [34m[1mGenerating include/moc_charge_node.cpp[0m
+[18.706s] [ 15%] [34m[1mGenerating include/moc_battery_node_4.cpp[0m
+[18.725s] [ 21%] [34m[1mGenerating include/moc_battery_node_2.cpp[0m
+[18.753s] [ 26%] [34m[1mGenerating include/moc_battery_node_1.cpp[0m
+[18.766s] [ 31%] [34m[1mGenerating include/moc_battery_node_3.cpp[0m
+[18.819s] [35m[1mScanning dependencies of target agv_gui[0m
+[19.442s] [ 36%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/agv_gui_autogen/mocs_compilation.cpp.o[0m
+[19.464s] [ 42%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/charge_node.cpp.o[0m
+[19.491s] [ 47%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/battery_node_1.cpp.o[0m
+[19.503s] [ 52%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/battery_node_2.cpp.o[0m
+[19.700s] [ 57%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/battery_node_3.cpp.o[0m
+[49.667s] [ 63%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/battery_node_4.cpp.o[0m
+[50.517s] [ 68%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[50.546s] [ 73%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_charge_node.cpp.o[0m
+[50.744s] [ 78%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_battery_node_1.cpp.o[0m
+[73.765s] [ 84%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_battery_node_4.cpp.o[0m
+[82.584s] [ 89%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_battery_node_3.cpp.o[0m
+[82.585s] [ 94%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_battery_node_2.cpp.o[0m
+[92.206s] [100%] [32m[1mLinking CXX executable agv_gui[0m
+[97.240s] [100%] Built target agv_gui
+[97.289s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[97.549s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/colin/agv_gui/build/agv_gui
+[97.583s] -- Install configuration: ""
+[97.584s] -- Installing: /home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui
+[97.603s] -- Set runtime path of "/home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui" to ""
+[97.603s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch
+[97.604s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch/gui.launch.py
+[97.605s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui
+[97.606s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui
+[97.607s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh
+[97.608s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv
+[97.609s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh
+[97.610s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv
+[97.611s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash
+[97.611s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh
+[97.612s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh
+[97.613s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv
+[97.614s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.dsv
+[97.615s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui
+[97.616s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake
+[97.618s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake
+[97.618s] -- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.xml
+[97.632s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/colin/agv_gui/build/agv_gui

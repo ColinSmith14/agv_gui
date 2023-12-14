@@ -1,0 +1,7 @@
+CUDA is available
+CMake Error at CMakeLists.txt:50 (target_include_directories):
+  Cannot specify include directories for target "agv_gui" which is not built
+  by this project.
+
+
+make: *** [Makefile:610: cmake_check_build_system] Error 1

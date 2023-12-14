@@ -1,0 +1,47 @@
+[  5%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_1.cpp"
+includes the moc file "battery_node_1.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_2.cpp"
+includes the moc file "battery_node_2.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_3.cpp"
+includes the moc file "battery_node_3.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/battery_node_4.cpp"
+includes the moc file "battery_node_4.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+AutoMoc warning
+---------------
+"SRC:/src/charge_node.cpp"
+includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+
+[  5%] Built target agv_gui_autogen
+[100%] Built target agv_gui
+-- Install configuration: ""
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/lib/agv_gui/agv_gui
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/launch/gui.launch.py
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/package_run_dependencies/agv_gui
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/parent_prefix_path/agv_gui
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.sh
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.sh
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/environment/path.dsv
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.bash
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.sh
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.zsh
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/local_setup.dsv
+-- Installing: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.dsv
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/ament_index/resource_index/packages/agv_gui
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig.cmake
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/cmake/agv_guiConfig-version.cmake
+-- Up-to-date: /home/colin/agv_gui/install/agv_gui/share/agv_gui/package.xml

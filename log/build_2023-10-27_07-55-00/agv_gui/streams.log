@@ -1,0 +1,37 @@
+[0.760s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6
+[1.037s] [ 10%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[1.090s] AutoMoc warning
+[1.090s] ---------------
+[1.091s] "SRC:/src/battery_node.cpp"
+[1.091s] includes the moc file "battery_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[1.092s] 
+[1.092s] AutoMoc warning
+[1.093s] ---------------
+[1.093s] "SRC:/src/charge_node.cpp"
+[1.094s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[1.094s] 
+[1.868s] [ 10%] Built target agv_gui_autogen
+[1.954s] [35m[1mScanning dependencies of target agv_gui[0m
+[2.315s] [ 20%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[13.257s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:188:19:[m[K [01;31m[Kerror: [m[K‘[01m[KBatterySub1[m[K’ was not declared in this scope; did you mean ‘[01m[KBatterySub[m[K’?
+[13.257s]   188 |   std::shared_ptr<[01;31m[KBatterySub1[m[K> battery_sub_;
+[13.258s]       |                   [01;31m[K^~~~~~~~~~~[m[K
+[13.258s]       |                   [32m[KBatterySub[m[K
+[13.259s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:188:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.259s]   188 |   std::shared_ptr<BatterySub1[01;31m[K>[m[K battery_sub_;
+[13.260s]       |                              [01;31m[K^[m[K
+[13.272s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub>, QWidget*)[m[K’:
+[13.273s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:31:22:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[Kstd::shared_ptr<BatterySub>[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+[13.273s]    31 |         battery_sub_([01;31m[Kbattery_sub_[m[K)
+[13.274s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[13.274s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[13.275s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[13.275s]                  from [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:11[m[K:
+[13.275s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1312:16:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::operator bool() const [with _Tp = BatterySub; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’ <near match>
+[13.276s]  1312 |       explicit [01;36m[Koperator[m[K bool() const // never throws
+[13.276s]       |                [01;36m[K^~~~~~~~[m[K
+[13.277s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1312:16:[m[K [01;36m[Knote: [m[K  return type ‘[01m[Kbool[m[K’ of explicit conversion function cannot be converted to ‘[01m[Kint[m[K’ with a qualification conversion
+[15.615s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[15.617s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[15.618s] make: *** [Makefile:141: all] Error 2
+[15.631s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6

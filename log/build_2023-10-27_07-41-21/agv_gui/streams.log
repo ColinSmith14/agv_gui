@@ -1,0 +1,147 @@
+[0.754s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6
+[0.949s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.388s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.526s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.125s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.514s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.707s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.715s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.799s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.366s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[3.591s] -- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)
+[3.642s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.655s] -- Found OGRE
+[3.655s] --   static     : OFF
+[3.656s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.656s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.657s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.657s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.658s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[3.658s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.658s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[3.659s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.659s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.660s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.660s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.663s] -- Could not find freeimage library
+[3.841s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.842s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.855s] -- library: libassimp.so.5
+[3.968s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[5.971s] -- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[5.985s] -- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)
+[7.907s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[7.972s] -- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)
+[8.037s] CUDA is available
+[8.383s] -- Configuring done
+[8.630s] -- Generating done
+[8.643s] -- Build files have been written to: /home/colin/agv_gui/build/agv_gui
+[8.843s] [ 10%] [34m[1mAutomatic MOC and UIC for target agv_gui[0m
+[8.893s] AutoMoc warning
+[8.894s] ---------------
+[8.894s] "SRC:/src/battery_node.cpp"
+[8.895s] includes the moc file "battery_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[8.895s] 
+[8.896s] AutoMoc warning
+[8.896s] ---------------
+[8.896s] "SRC:/src/charge_node.cpp"
+[8.897s] includes the moc file "charge_node.moc", but does not contain a Q_OBJECT, Q_GADGET or Q_NAMESPACE macro.
+[8.897s] 
+[9.685s] AutoMoc: /home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:0: Note: No relevant classes found. No output generated.
+[10.525s] [ 10%] Built target agv_gui_autogen
+[10.630s] [ 20%] [34m[1mGenerating include/moc_battery_node.cpp[0m
+[10.724s] [35m[1mScanning dependencies of target agv_gui[0m
+[11.143s] [ 30%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/battery_node.cpp.o[0m
+[11.144s] [ 40%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/src/main_gui.cpp.o[0m
+[11.150s] [ 50%] [32mBuilding CXX object CMakeFiles/agv_gui.dir/include/moc_battery_node.cpp.o[0m
+[22.796s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:[m[K In constructor ‘[01m[KBatterySub::BatterySub()[m[K’:
+[22.797s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:8:20:[m[K [01;31m[Kerror: [m[K‘[01m[KBatterySub1[m[K’ has not been declared
+[22.798s]     8 |         std::bind(&[01;31m[KBatterySub1[m[K::topic_callback, this, std::placeholders::_1));
+[22.798s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[22.799s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:[m[K At global scope:
+[22.800s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:11:6:[m[K [01;31m[Kerror: [m[K‘[01m[KBatterySub1[m[K’ has not been declared
+[22.800s]    11 | void [01;31m[KBatterySub1[m[K::topic_callback(const std_msgs::msg::String::SharedPtr msg)
+[22.801s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[22.815s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:[m[K In function ‘[01m[Kvoid topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[22.817s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcharge[m[K’ was not declared in this scope; did you mean ‘[01m[Kchar[m[K’?
+[22.818s]    13 |     [01;31m[Kcharge[m[K = msg->data.c_str();
+[22.818s]       |     [01;31m[K^~~~~~[m[K
+[22.819s]       |     [32m[Kchar[m[K
+[22.819s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[22.820s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[22.820s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[22.821s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[22.821s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[22.821s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[22.822s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[22.822s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[22.823s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[22.823s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[22.824s]                  from [01m[K/home/colin/agv_gui/src/agv_gui/include/battery_node.hpp:5[m[K,
+[22.824s]                  from [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:1[m[K:
+[22.825s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[22.825s]    15 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+[22.825s]       |                 [01;31m[K^~~~[m[K
+[22.826s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[22.826s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[22.827s]    15 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+[22.827s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[22.828s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[22.828s]    15 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+[22.829s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[22.829s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[22.830s]    15 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+[22.830s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[22.831s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[22.831s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[22.832s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[22.833s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[22.833s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[22.833s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[22.834s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[22.834s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[22.835s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[22.835s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[22.835s]                  from [01m[K/home/colin/agv_gui/src/agv_gui/include/battery_node.hpp:5[m[K,
+[22.836s]                  from [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:1[m[K:
+[22.836s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[22.837s]    15 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+[22.837s]       |                 [01;31m[K^~~~[m[K
+[22.838s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:15:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[22.838s]    15 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Received charge: %s", charge.toStdString().c_str());
+[22.838s]       |                 [01;31m[K^~~~[m[K
+[22.839s] [01m[K/home/colin/agv_gui/src/agv_gui/src/battery_node.cpp:17:10:[m[K [01;31m[Kerror: [m[K‘[01m[KchangedBattery[m[K’ was not declared in this scope
+[22.839s]    17 |     emit [01;31m[KchangedBattery[m[K(charge);
+[22.840s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[24.877s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:188:19:[m[K [01;31m[Kerror: [m[K‘[01m[KBatterySub1[m[K’ was not declared in this scope; did you mean ‘[01m[KBatterySub[m[K’?
+[24.877s]   188 |   std::shared_ptr<[01;31m[KBatterySub1[m[K> battery_sub_;
+[24.878s]       |                   [01;31m[K^~~~~~~~~~~[m[K
+[24.878s]       |                   [32m[KBatterySub[m[K
+[24.879s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:188:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[24.879s]   188 |   std::shared_ptr<BatterySub1[01;31m[K>[m[K battery_sub_;
+[24.880s]       |                              [01;31m[K^[m[K
+[24.892s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub>, QWidget*)[m[K’:
+[24.892s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:33:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+[24.893s]    33 |   [01;31m[K{[m[K
+[24.893s]       |   [01;31m[K^[m[K
+[24.894s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:31:22:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[Kstd::shared_ptr<BatterySub>[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+[24.895s]    31 |         battery_sub_([01;31m[Kbattery_sub_[m[K),
+[24.896s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[24.896s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[24.897s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[24.897s]                  from [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:11[m[K:
+[24.897s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1312:16:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::operator bool() const [with _Tp = BatterySub; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’ <near match>
+[24.898s]  1312 |       explicit [01;36m[Koperator[m[K bool() const // never throws
+[24.898s]       |                [01;36m[K^~~~~~~~[m[K
+[24.899s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1312:16:[m[K [01;36m[Knote: [m[K  return type ‘[01m[Kbool[m[K’ of explicit conversion function cannot be converted to ‘[01m[Kint[m[K’ with a qualification conversion
+[24.906s] [01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:124:80:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateBattery[m[K’ is not a member of ‘[01m[KMainGui[m[K’
+[24.907s]   124 |       connect(battery_sub_.get(), &BatterySub::changedBattery, this, &MainGui::[01;31m[KupdateBattery[m[K);
+[24.907s]       |                                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[25.153s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:97: CMakeFiles/agv_gui.dir/src/battery_node.cpp.o] Error 1
+[25.153s] make[2]: *** Waiting for unfinished jobs....
+[27.415s] make[2]: *** [CMakeFiles/agv_gui.dir/build.make:110: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
+[27.417s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
+[27.418s] make: *** [Makefile:141: all] Error 2
+[27.431s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j6 -l6

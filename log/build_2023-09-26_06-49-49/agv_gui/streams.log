@@ -1,0 +1,68 @@
+[0.080s] Invoking command in '/home/colin/agv_gui/build/agv_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
+[0.276s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.375s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.162s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.298s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.183s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.337s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.824s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.031s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[3.089s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.101s] -- Found OGRE
+[3.101s] --   static     : OFF
+[3.101s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.102s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.102s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.102s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.103s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[3.103s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.104s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[3.104s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.104s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.105s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.105s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.109s] -- Could not find freeimage library
+[3.248s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.249s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.262s] -- library: libassimp.so.5
+[3.363s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[4.961s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[4.974s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[6.456s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[6.517s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[6.598s] -- Found CUDA: /usr/local/cuda (found version "12.2") 
+[6.602s] CUDA is available
+[6.874s] -- Configuring done
+[6.982s] CMake Error at CMakeLists.txt:58 (add_executable):
+[6.982s]   Target "agv_gui" links to target "CUDA::cudart" but the target was not
+[6.983s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[6.983s]   an ALIAS target is missing?
+[6.983s] 
+[6.984s] 
+[6.984s] CMake Error at CMakeLists.txt:58 (add_executable):
+[6.984s]   Target "agv_gui" links to target "CUDA::cublas" but the target was not
+[6.985s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[6.985s]   an ALIAS target is missing?
+[6.985s] 
+[6.986s] 
+[6.986s] CMake Error at CMakeLists.txt:58 (add_executable):
+[6.986s]   Target "agv_gui" links to target "CUDA::curand" but the target was not
+[6.986s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[6.987s]   an ALIAS target is missing?
+[6.987s] 
+[6.987s] 
+[6.995s] CMake Error at CMakeLists.txt:100 (target_compile_options):
+[6.995s]   Error evaluating generator expression:
+[6.996s] 
+[6.996s]     $<$<COMPILE_LANGUAGE:CXX>-std=c++11>
+[6.996s] 
+[6.997s]   Expression did not evaluate to a known generator expression
+[6.997s] 
+[6.997s] 
+[7.105s] -- Generating done
+[7.112s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[7.154s] make: *** [Makefile:610: cmake_check_build_system] Error 1
+[7.164s] Invoked command in '/home/colin/agv_gui/build/agv_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/colin/agv_gui/build/agv_gui -- -j4 -l4
