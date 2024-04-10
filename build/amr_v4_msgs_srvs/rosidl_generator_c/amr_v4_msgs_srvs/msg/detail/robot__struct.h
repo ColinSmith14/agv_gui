@@ -22,7 +22,7 @@ extern "C"
 // Member 'robot_active_status'
 #include "rosidl_runtime_c/string.h"
 
-/// Struct defined in msg/Robot in the package amr_v4_msgs_srvs.
+// Struct defined in msg/Robot in the package amr_v4_msgs_srvs.
 typedef struct amr_v4_msgs_srvs__msg__Robot
 {
   rosidl_runtime_c__String robot_localization_status;

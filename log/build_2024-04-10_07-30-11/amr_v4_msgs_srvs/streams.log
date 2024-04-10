@@ -1,0 +1,4 @@
+[0.039s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2
+[0.062s] No such file or directory
+[0.062s] CMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -j2 -l2 && 
+[0.065s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2

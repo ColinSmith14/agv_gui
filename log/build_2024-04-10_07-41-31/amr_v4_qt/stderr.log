@@ -1,0 +1,14 @@
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, QWidget*)[m[K’:
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/main_gui.cpp:57:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainScreen[m[K’ has no member named ‘[01m[KhelloScreenButton[m[K’; did you mean ‘[01m[KhealthScreenButton[m[K’?
+   57 |     connect(mainScreen->ui.[01;31m[KhelloScreenButton[m[K, &QPushButton::clicked, this, &MainGui::onTabClicked);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[KhealthScreenButton[m[K
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::switchToTabScreen(QObject*)[m[K’:
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/main_gui.cpp:98:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainScreen[m[K’ has no member named ‘[01m[KhelloscreenButton[m[K’; did you mean ‘[01m[KhealthScreenButton[m[K’?
+   98 |     else if(senderObj == mainScreen->ui.[01;31m[KhelloscreenButton[m[K) {
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[KhealthScreenButton[m[K
+make[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:153: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/amr_v4_qt.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,43 @@
+[  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[  2%] Built target amr_v4_qt_autogen
+[  4%] [34m[1mGenerating include/moc_ui_main_screen.cpp[0m
+/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_main_screen.h:0: Note: No relevant classes found. No output generated.
+[35m[1mScanning dependencies of target amr_v4_qt[0m
+[  6%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_screen.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/fisher_screen.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/battery_node.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/motor_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/health_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/running_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/robot_node.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/scrolling_label.cpp.o[0m
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:[m[K In member function ‘[01m[Kvirtual void ScrollingLabel::paintEvent(QPaintEvent*)[m[K’:
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:18:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   18 | void ScrollingLabel::paintEvent([01;35m[KQPaintEvent *event[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[ 29%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_motors.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_motor_screen.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_health_screen.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_running_mode_screen.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_main_screen.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_fisher_screen.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_battery_node.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_motor_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_health.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_health_node.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_running_mode.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_running_node.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_robot_node.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_scrolling_label.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable amr_v4_qt[0m
+/usr/bin/ld: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o: in function `MainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, QWidget*)':
+main_gui.cpp:(.text+0x26b): undefined reference to `HelloWorldScreen::HelloWorldScreen(QWidget*)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:733: amr_v4_qt] Error 1
+make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/amr_v4_qt.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

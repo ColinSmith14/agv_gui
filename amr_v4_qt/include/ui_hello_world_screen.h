@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'hello_world_screen.ui'
 **
-** Created by: Qt User Interface Compiler version 5.15.3
+** Created by: Qt User Interface Compiler version 5.12.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -44,7 +44,7 @@ public:
         helloLabel->setSizePolicy(sizePolicy);
         helloLabel->setMinimumSize(QSize(60, 0));
         helloLabel->setLayoutDirection(Qt::LeftToRight);
-        helloLabel->setFrameShape(QFrame::NoFrame);
+        helloLabel->setFrameShape(QFrame::Box);
         helloLabel->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(helloLabel);
@@ -57,8 +57,8 @@ public:
 
     void retranslateUi(QWidget *HelloWorldScreen)
     {
-        HelloWorldScreen->setWindowTitle(QCoreApplication::translate("HelloWorldScreen", "Form", nullptr));
-        helloLabel->setText(QCoreApplication::translate("HelloWorldScreen", "Hello World!", nullptr));
+        HelloWorldScreen->setWindowTitle(QApplication::translate("HelloWorldScreen", "Form", nullptr));
+        helloLabel->setText(QApplication::translate("HelloWorldScreen", "Hello World!", nullptr));
     } // retranslateUi
 
 };

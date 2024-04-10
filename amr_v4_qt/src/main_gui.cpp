@@ -26,6 +26,7 @@ MainGui::MainGui(std::shared_ptr<BatterySub> battery_sub,
     motorScreen = new MotorScreen();
     healthScreen = new HealthScreen();
     runningModeScreen = new RunningModeScreen();
+    helloWorldScreen = new HelloWorldScreen();
 
 
     auto mainLayout = new QVBoxLayout(centralWidget);
@@ -46,6 +47,7 @@ MainGui::MainGui(std::shared_ptr<BatterySub> battery_sub,
     mainScreen->ui.mainContent->addWidget(motorScreen);
     mainScreen->ui.mainContent->addWidget(healthScreen);
     mainScreen->ui.mainContent->addWidget(runningModeScreen);
+    mainScreen->ui.mainContent->addWidget(helloWorldScreen);
     
     
     // this section connects the tabs(push buttons) to their main screens
@@ -53,6 +55,7 @@ MainGui::MainGui(std::shared_ptr<BatterySub> battery_sub,
     connect(mainScreen->ui.motorScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
     connect(mainScreen->ui.healthScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
     connect(mainScreen->ui.runningScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
+    connect(mainScreen->ui.helloScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
 
     // connecting estop
     connect(mainScreen->ui.estopButton, &QPushButton::clicked, this, &MainGui::updateEstop);
@@ -93,7 +96,9 @@ void MainGui::switchToTabScreen(QObject* senderObj) {
     else if(senderObj == mainScreen->ui.runningScreenButton) {
         mainScreen->ui.mainContent->setCurrentWidget(runningModeScreen);
     }
-
+    else if(senderObj == mainScreen->ui.helloScreenButton) {
+        mainScreen->ui.mainContent->setCurrentWidget(helloWorldScreen);
+    }
 }
 
 

@@ -17,7 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in srv/Testserv in the package amr_v4_msgs_srvs.
+// Struct defined in srv/Testserv in the package amr_v4_msgs_srvs.
 typedef struct amr_v4_msgs_srvs__srv__Testserv_Request
 {
   bool pin_mode;
@@ -36,7 +36,7 @@ typedef struct amr_v4_msgs_srvs__srv__Testserv_Request__Sequence
 
 // Constants defined in the message
 
-/// Struct defined in srv/Testserv in the package amr_v4_msgs_srvs.
+// Struct defined in srv/Testserv in the package amr_v4_msgs_srvs.
 typedef struct amr_v4_msgs_srvs__srv__Testserv_Response
 {
   uint8_t structure_needs_at_least_one_member;

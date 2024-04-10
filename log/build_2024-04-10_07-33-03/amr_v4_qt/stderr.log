@@ -1,0 +1,8 @@
+/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_motor_screen.h:0: Note: No relevant classes found. No output generated.
+/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_health_screen.h:0: Note: No relevant classes found. No output generated.
+/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_running_mode_screen.h:0: Note: No relevant classes found. No output generated.
+/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_main_screen.h:0: Note: No relevant classes found. No output generated.
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:[m[K In member function ‘[01m[Kvirtual void ScrollingLabel::paintEvent(QPaintEvent*)[m[K’:
+[01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:18:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   18 | void ScrollingLabel::paintEvent([01;35m[KQPaintEvent *event[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~^~~~~[m[K

@@ -23,7 +23,6 @@ size_t get_serialized_size_amr_v4_msgs_srvs__msg__Pin(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_amr_v4_msgs_srvs
 size_t max_serialized_size_amr_v4_msgs_srvs__msg__Pin(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_amr_v4_msgs_srvs

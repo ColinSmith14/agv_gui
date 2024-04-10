@@ -5,36 +5,18 @@
 #ifndef AMR_V4_MSGS_SRVS__SRV__DETAIL__TESTSERV__TRAITS_HPP_
 #define AMR_V4_MSGS_SRVS__SRV__DETAIL__TESTSERV__TRAITS_HPP_
 
+#include "amr_v4_msgs_srvs/srv/detail/testserv__struct.hpp"
 #include <stdint.h>
-
+#include <rosidl_runtime_cpp/traits.hpp>
 #include <sstream>
 #include <string>
 #include <type_traits>
 
-#include "amr_v4_msgs_srvs/srv/detail/testserv__struct.hpp"
-#include "rosidl_runtime_cpp/traits.hpp"
-
-namespace amr_v4_msgs_srvs
+namespace rosidl_generator_traits
 {
 
-namespace srv
-{
-
-inline void to_flow_style_yaml(
-  const Testserv_Request & msg,
-  std::ostream & out)
-{
-  out << "{";
-  // member: pin_mode
-  {
-    out << "pin_mode: ";
-    rosidl_generator_traits::value_to_yaml(msg.pin_mode, out);
-  }
-  out << "}";
-}  // NOLINT(readability/fn_size)
-
-inline void to_block_style_yaml(
-  const Testserv_Request & msg,
+inline void to_yaml(
+  const amr_v4_msgs_srvs::srv::Testserv_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
   // member: pin_mode
@@ -43,41 +25,16 @@ inline void to_block_style_yaml(
       out << std::string(indentation, ' ');
     }
     out << "pin_mode: ";
-    rosidl_generator_traits::value_to_yaml(msg.pin_mode, out);
+    value_to_yaml(msg.pin_mode, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
 
-inline std::string to_yaml(const Testserv_Request & msg, bool use_flow_style = false)
-{
-  std::ostringstream out;
-  if (use_flow_style) {
-    to_flow_style_yaml(msg, out);
-  } else {
-    to_block_style_yaml(msg, out);
-  }
-  return out.str();
-}
-
-}  // namespace srv
-
-}  // namespace amr_v4_msgs_srvs
-
-namespace rosidl_generator_traits
-{
-
-[[deprecated("use amr_v4_msgs_srvs::srv::to_block_style_yaml() instead")]]
-inline void to_yaml(
-  const amr_v4_msgs_srvs::srv::Testserv_Request & msg,
-  std::ostream & out, size_t indentation = 0)
-{
-  amr_v4_msgs_srvs::srv::to_block_style_yaml(msg, out, indentation);
-}
-
-[[deprecated("use amr_v4_msgs_srvs::srv::to_yaml() instead")]]
 inline std::string to_yaml(const amr_v4_msgs_srvs::srv::Testserv_Request & msg)
 {
-  return amr_v4_msgs_srvs::srv::to_yaml(msg);
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
 }
 
 template<>
@@ -106,22 +63,11 @@ struct is_message<amr_v4_msgs_srvs::srv::Testserv_Request>
 
 }  // namespace rosidl_generator_traits
 
-namespace amr_v4_msgs_srvs
+namespace rosidl_generator_traits
 {
 
-namespace srv
-{
-
-inline void to_flow_style_yaml(
-  const Testserv_Response & msg,
-  std::ostream & out)
-{
-  (void)msg;
-  out << "null";
-}  // NOLINT(readability/fn_size)
-
-inline void to_block_style_yaml(
-  const Testserv_Response & msg,
+inline void to_yaml(
+  const amr_v4_msgs_srvs::srv::Testserv_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
   (void)msg;
@@ -129,36 +75,11 @@ inline void to_block_style_yaml(
   out << "null\n";
 }  // NOLINT(readability/fn_size)
 
-inline std::string to_yaml(const Testserv_Response & msg, bool use_flow_style = false)
-{
-  std::ostringstream out;
-  if (use_flow_style) {
-    to_flow_style_yaml(msg, out);
-  } else {
-    to_block_style_yaml(msg, out);
-  }
-  return out.str();
-}
-
-}  // namespace srv
-
-}  // namespace amr_v4_msgs_srvs
-
-namespace rosidl_generator_traits
-{
-
-[[deprecated("use amr_v4_msgs_srvs::srv::to_block_style_yaml() instead")]]
-inline void to_yaml(
-  const amr_v4_msgs_srvs::srv::Testserv_Response & msg,
-  std::ostream & out, size_t indentation = 0)
-{
-  amr_v4_msgs_srvs::srv::to_block_style_yaml(msg, out, indentation);
-}
-
-[[deprecated("use amr_v4_msgs_srvs::srv::to_yaml() instead")]]
 inline std::string to_yaml(const amr_v4_msgs_srvs::srv::Testserv_Response & msg)
 {
-  return amr_v4_msgs_srvs::srv::to_yaml(msg);
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
 }
 
 template<>

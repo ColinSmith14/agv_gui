@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -110,7 +108,7 @@ class Testserv_Request(metaclass=Metaclass_Testserv_Request):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def pin_mode(self):
         """Message field 'pin_mode'."""
         return self._pin_mode

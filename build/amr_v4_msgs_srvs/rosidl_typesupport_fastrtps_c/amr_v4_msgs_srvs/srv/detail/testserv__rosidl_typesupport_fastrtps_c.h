@@ -23,7 +23,6 @@ size_t get_serialized_size_amr_v4_msgs_srvs__srv__Testserv_Request(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_amr_v4_msgs_srvs
 size_t max_serialized_size_amr_v4_msgs_srvs__srv__Testserv_Request(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_amr_v4_msgs_srvs
@@ -56,7 +55,6 @@ size_t get_serialized_size_amr_v4_msgs_srvs__srv__Testserv_Response(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_amr_v4_msgs_srvs
 size_t max_serialized_size_amr_v4_msgs_srvs__srv__Testserv_Response(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_amr_v4_msgs_srvs

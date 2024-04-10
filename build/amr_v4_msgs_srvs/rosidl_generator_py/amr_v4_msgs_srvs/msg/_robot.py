@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -122,7 +120,7 @@ class Robot(metaclass=Metaclass_Robot):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def robot_localization_status(self):
         """Message field 'robot_localization_status'."""
         return self._robot_localization_status
@@ -135,7 +133,7 @@ class Robot(metaclass=Metaclass_Robot):
                 "The 'robot_localization_status' field must be of type 'str'"
         self._robot_localization_status = value
 
-    @builtins.property
+    @property
     def localized(self):
         """Message field 'localized'."""
         return self._localized
@@ -148,7 +146,7 @@ class Robot(metaclass=Metaclass_Robot):
                 "The 'localized' field must be of type 'bool'"
         self._localized = value
 
-    @builtins.property
+    @property
     def robot_active_status(self):
         """Message field 'robot_active_status'."""
         return self._robot_active_status

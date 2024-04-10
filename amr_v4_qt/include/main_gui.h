@@ -14,6 +14,7 @@
 #include "motor_node.h"
 #include "health_node.h"
 #include "running_node.h"
+#include "hello_world.h"
 #include "robot_node.h"
 #include "motors.h"
 #include "health.h"
@@ -67,6 +68,7 @@ private:
     MotorScreen* motorScreen;
     HealthScreen* healthScreen;
     RunningModeScreen* runningModeScreen;
+    HelloWorldScreen* helloWorldScreen;
     FisherScreen* fisherScreen;
     QStackedWidget* mainContent;
     QWidget* centralWidget;

@@ -8,8 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "rcutils/allocator.h"
-
 bool
 amr_v4_msgs_srvs__srv__Testserv_Request__init(amr_v4_msgs_srvs__srv__Testserv_Request * msg)
 {
@@ -58,15 +56,14 @@ amr_v4_msgs_srvs__srv__Testserv_Request__copy(
 amr_v4_msgs_srvs__srv__Testserv_Request *
 amr_v4_msgs_srvs__srv__Testserv_Request__create()
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  amr_v4_msgs_srvs__srv__Testserv_Request * msg = (amr_v4_msgs_srvs__srv__Testserv_Request *)allocator.allocate(sizeof(amr_v4_msgs_srvs__srv__Testserv_Request), allocator.state);
+  amr_v4_msgs_srvs__srv__Testserv_Request * msg = (amr_v4_msgs_srvs__srv__Testserv_Request *)malloc(sizeof(amr_v4_msgs_srvs__srv__Testserv_Request));
   if (!msg) {
     return NULL;
   }
   memset(msg, 0, sizeof(amr_v4_msgs_srvs__srv__Testserv_Request));
   bool success = amr_v4_msgs_srvs__srv__Testserv_Request__init(msg);
   if (!success) {
-    allocator.deallocate(msg, allocator.state);
+    free(msg);
     return NULL;
   }
   return msg;
@@ -75,11 +72,10 @@ amr_v4_msgs_srvs__srv__Testserv_Request__create()
 void
 amr_v4_msgs_srvs__srv__Testserv_Request__destroy(amr_v4_msgs_srvs__srv__Testserv_Request * msg)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (msg) {
     amr_v4_msgs_srvs__srv__Testserv_Request__fini(msg);
   }
-  allocator.deallocate(msg, allocator.state);
+  free(msg);
 }
 
 
@@ -89,11 +85,9 @@ amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__init(amr_v4_msgs_srvs__srv__T
   if (!array) {
     return false;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   amr_v4_msgs_srvs__srv__Testserv_Request * data = NULL;
-
   if (size) {
-    data = (amr_v4_msgs_srvs__srv__Testserv_Request *)allocator.zero_allocate(size, sizeof(amr_v4_msgs_srvs__srv__Testserv_Request), allocator.state);
+    data = (amr_v4_msgs_srvs__srv__Testserv_Request *)calloc(size, sizeof(amr_v4_msgs_srvs__srv__Testserv_Request));
     if (!data) {
       return false;
     }
@@ -110,7 +104,7 @@ amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__init(amr_v4_msgs_srvs__srv__T
       for (; i > 0; --i) {
         amr_v4_msgs_srvs__srv__Testserv_Request__fini(&data[i - 1]);
       }
-      allocator.deallocate(data, allocator.state);
+      free(data);
       return false;
     }
   }
@@ -126,8 +120,6 @@ amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__fini(amr_v4_msgs_srvs__srv__T
   if (!array) {
     return;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-
   if (array->data) {
     // ensure that data and capacity values are consistent
     assert(array->capacity > 0);
@@ -135,7 +127,7 @@ amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__fini(amr_v4_msgs_srvs__srv__T
     for (size_t i = 0; i < array->capacity; ++i) {
       amr_v4_msgs_srvs__srv__Testserv_Request__fini(&array->data[i]);
     }
-    allocator.deallocate(array->data, allocator.state);
+    free(array->data);
     array->data = NULL;
     array->size = 0;
     array->capacity = 0;
@@ -149,14 +141,13 @@ amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__fini(amr_v4_msgs_srvs__srv__T
 amr_v4_msgs_srvs__srv__Testserv_Request__Sequence *
 amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__create(size_t size)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  amr_v4_msgs_srvs__srv__Testserv_Request__Sequence * array = (amr_v4_msgs_srvs__srv__Testserv_Request__Sequence *)allocator.allocate(sizeof(amr_v4_msgs_srvs__srv__Testserv_Request__Sequence), allocator.state);
+  amr_v4_msgs_srvs__srv__Testserv_Request__Sequence * array = (amr_v4_msgs_srvs__srv__Testserv_Request__Sequence *)malloc(sizeof(amr_v4_msgs_srvs__srv__Testserv_Request__Sequence));
   if (!array) {
     return NULL;
   }
   bool success = amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__init(array, size);
   if (!success) {
-    allocator.deallocate(array, allocator.state);
+    free(array);
     return NULL;
   }
   return array;
@@ -165,11 +156,10 @@ amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__create(size_t size)
 void
 amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__destroy(amr_v4_msgs_srvs__srv__Testserv_Request__Sequence * array)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (array) {
     amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__fini(array);
   }
-  allocator.deallocate(array, allocator.state);
+  free(array);
 }
 
 bool
@@ -200,27 +190,22 @@ amr_v4_msgs_srvs__srv__Testserv_Request__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(amr_v4_msgs_srvs__srv__Testserv_Request);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     amr_v4_msgs_srvs__srv__Testserv_Request * data =
-      (amr_v4_msgs_srvs__srv__Testserv_Request *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (amr_v4_msgs_srvs__srv__Testserv_Request *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!amr_v4_msgs_srvs__srv__Testserv_Request__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!amr_v4_msgs_srvs__srv__Testserv_Request__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          amr_v4_msgs_srvs__srv__Testserv_Request__fini(&output->data[i]);
+          amr_v4_msgs_srvs__srv__Testserv_Request__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -283,15 +268,14 @@ amr_v4_msgs_srvs__srv__Testserv_Response__copy(
 amr_v4_msgs_srvs__srv__Testserv_Response *
 amr_v4_msgs_srvs__srv__Testserv_Response__create()
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  amr_v4_msgs_srvs__srv__Testserv_Response * msg = (amr_v4_msgs_srvs__srv__Testserv_Response *)allocator.allocate(sizeof(amr_v4_msgs_srvs__srv__Testserv_Response), allocator.state);
+  amr_v4_msgs_srvs__srv__Testserv_Response * msg = (amr_v4_msgs_srvs__srv__Testserv_Response *)malloc(sizeof(amr_v4_msgs_srvs__srv__Testserv_Response));
   if (!msg) {
     return NULL;
   }
   memset(msg, 0, sizeof(amr_v4_msgs_srvs__srv__Testserv_Response));
   bool success = amr_v4_msgs_srvs__srv__Testserv_Response__init(msg);
   if (!success) {
-    allocator.deallocate(msg, allocator.state);
+    free(msg);
     return NULL;
   }
   return msg;
@@ -300,11 +284,10 @@ amr_v4_msgs_srvs__srv__Testserv_Response__create()
 void
 amr_v4_msgs_srvs__srv__Testserv_Response__destroy(amr_v4_msgs_srvs__srv__Testserv_Response * msg)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (msg) {
     amr_v4_msgs_srvs__srv__Testserv_Response__fini(msg);
   }
-  allocator.deallocate(msg, allocator.state);
+  free(msg);
 }
 
 
@@ -314,11 +297,9 @@ amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__init(amr_v4_msgs_srvs__srv__
   if (!array) {
     return false;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   amr_v4_msgs_srvs__srv__Testserv_Response * data = NULL;
-
   if (size) {
-    data = (amr_v4_msgs_srvs__srv__Testserv_Response *)allocator.zero_allocate(size, sizeof(amr_v4_msgs_srvs__srv__Testserv_Response), allocator.state);
+    data = (amr_v4_msgs_srvs__srv__Testserv_Response *)calloc(size, sizeof(amr_v4_msgs_srvs__srv__Testserv_Response));
     if (!data) {
       return false;
     }
@@ -335,7 +316,7 @@ amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__init(amr_v4_msgs_srvs__srv__
       for (; i > 0; --i) {
         amr_v4_msgs_srvs__srv__Testserv_Response__fini(&data[i - 1]);
       }
-      allocator.deallocate(data, allocator.state);
+      free(data);
       return false;
     }
   }
@@ -351,8 +332,6 @@ amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__fini(amr_v4_msgs_srvs__srv__
   if (!array) {
     return;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-
   if (array->data) {
     // ensure that data and capacity values are consistent
     assert(array->capacity > 0);
@@ -360,7 +339,7 @@ amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__fini(amr_v4_msgs_srvs__srv__
     for (size_t i = 0; i < array->capacity; ++i) {
       amr_v4_msgs_srvs__srv__Testserv_Response__fini(&array->data[i]);
     }
-    allocator.deallocate(array->data, allocator.state);
+    free(array->data);
     array->data = NULL;
     array->size = 0;
     array->capacity = 0;
@@ -374,14 +353,13 @@ amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__fini(amr_v4_msgs_srvs__srv__
 amr_v4_msgs_srvs__srv__Testserv_Response__Sequence *
 amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__create(size_t size)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  amr_v4_msgs_srvs__srv__Testserv_Response__Sequence * array = (amr_v4_msgs_srvs__srv__Testserv_Response__Sequence *)allocator.allocate(sizeof(amr_v4_msgs_srvs__srv__Testserv_Response__Sequence), allocator.state);
+  amr_v4_msgs_srvs__srv__Testserv_Response__Sequence * array = (amr_v4_msgs_srvs__srv__Testserv_Response__Sequence *)malloc(sizeof(amr_v4_msgs_srvs__srv__Testserv_Response__Sequence));
   if (!array) {
     return NULL;
   }
   bool success = amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__init(array, size);
   if (!success) {
-    allocator.deallocate(array, allocator.state);
+    free(array);
     return NULL;
   }
   return array;
@@ -390,11 +368,10 @@ amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__create(size_t size)
 void
 amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__destroy(amr_v4_msgs_srvs__srv__Testserv_Response__Sequence * array)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (array) {
     amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__fini(array);
   }
-  allocator.deallocate(array, allocator.state);
+  free(array);
 }
 
 bool
@@ -425,27 +402,22 @@ amr_v4_msgs_srvs__srv__Testserv_Response__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(amr_v4_msgs_srvs__srv__Testserv_Response);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     amr_v4_msgs_srvs__srv__Testserv_Response * data =
-      (amr_v4_msgs_srvs__srv__Testserv_Response *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (amr_v4_msgs_srvs__srv__Testserv_Response *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!amr_v4_msgs_srvs__srv__Testserv_Response__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!amr_v4_msgs_srvs__srv__Testserv_Response__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          amr_v4_msgs_srvs__srv__Testserv_Response__fini(&output->data[i]);
+          amr_v4_msgs_srvs__srv__Testserv_Response__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;

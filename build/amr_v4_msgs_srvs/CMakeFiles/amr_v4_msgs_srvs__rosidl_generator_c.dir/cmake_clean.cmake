@@ -1,12 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/motor__functions.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/motor__functions.c.o.d"
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/pin__functions.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/pin__functions.c.o.d"
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/robot__functions.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/robot__functions.c.o.d"
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/srv/detail/testserv__functions.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/srv/detail/testserv__functions.c.o.d"
   "libamr_v4_msgs_srvs__rosidl_generator_c.pdb"
   "libamr_v4_msgs_srvs__rosidl_generator_c.so"
   "rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/motor__functions.c"

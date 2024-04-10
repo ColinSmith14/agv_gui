@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -110,7 +108,7 @@ class Pin(metaclass=Metaclass_Pin):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def pin_command(self):
         """Message field 'pin_command'."""
         return self._pin_command

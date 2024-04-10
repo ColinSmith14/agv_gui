@@ -5,10 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -160,7 +156,7 @@ class Motor(metaclass=Metaclass_Motor):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def output_current_right(self):
         """Message field 'output_current_right'."""
         return self._output_current_right
@@ -173,7 +169,7 @@ class Motor(metaclass=Metaclass_Motor):
                 "The 'output_current_right' field must be of type 'str'"
         self._output_current_right = value
 
-    @builtins.property
+    @property
     def error_right(self):
         """Message field 'error_right'."""
         return self._error_right
@@ -186,7 +182,7 @@ class Motor(metaclass=Metaclass_Motor):
                 "The 'error_right' field must be of type 'str'"
         self._error_right = value
 
-    @builtins.property
+    @property
     def output_current_left(self):
         """Message field 'output_current_left'."""
         return self._output_current_left
@@ -199,7 +195,7 @@ class Motor(metaclass=Metaclass_Motor):
                 "The 'output_current_left' field must be of type 'str'"
         self._output_current_left = value
 
-    @builtins.property
+    @property
     def error_left(self):
         """Message field 'error_left'."""
         return self._error_left
@@ -212,7 +208,7 @@ class Motor(metaclass=Metaclass_Motor):
                 "The 'error_left' field must be of type 'str'"
         self._error_left = value
 
-    @builtins.property
+    @property
     def output_current_pin(self):
         """Message field 'output_current_pin'."""
         return self._output_current_pin
@@ -225,7 +221,7 @@ class Motor(metaclass=Metaclass_Motor):
                 "The 'output_current_pin' field must be of type 'str'"
         self._output_current_pin = value
 
-    @builtins.property
+    @property
     def error_pin(self):
         """Message field 'error_pin'."""
         return self._error_pin
@@ -238,7 +234,7 @@ class Motor(metaclass=Metaclass_Motor):
                 "The 'error_pin' field must be of type 'str'"
         self._error_pin = value
 
-    @builtins.property
+    @property
     def target_pos_high(self):
         """Message field 'target_pos_high'."""
         return self._target_pos_high
@@ -249,11 +245,9 @@ class Motor(metaclass=Metaclass_Motor):
             assert \
                 isinstance(value, float), \
                 "The 'target_pos_high' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'target_pos_high' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._target_pos_high = value
 
-    @builtins.property
+    @property
     def target_pos_low(self):
         """Message field 'target_pos_low'."""
         return self._target_pos_low
@@ -264,11 +258,9 @@ class Motor(metaclass=Metaclass_Motor):
             assert \
                 isinstance(value, float), \
                 "The 'target_pos_low' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'target_pos_low' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._target_pos_low = value
 
-    @builtins.property
+    @property
     def current_pos(self):
         """Message field 'current_pos'."""
         return self._current_pos
@@ -279,6 +271,4 @@ class Motor(metaclass=Metaclass_Motor):
             assert \
                 isinstance(value, float), \
                 "The 'current_pos' field must be of type 'float'"
-            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'current_pos' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._current_pos = value

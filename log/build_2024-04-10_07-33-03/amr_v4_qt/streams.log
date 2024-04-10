@@ -1,0 +1,167 @@
+[0.050s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake /home/kidd/projects/agv_gui/amr_v4_qt -DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_qt
+[0.219s] -- The C compiler identification is GNU 9.4.0
+[0.337s] -- The CXX compiler identification is GNU 9.4.0
+[0.350s] -- Check for working C compiler: /usr/bin/cc
+[0.462s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.462s] -- Detecting C compiler ABI info
+[0.697s] -- Detecting C compiler ABI info - done
+[0.738s] -- Detecting C compile features
+[0.743s] -- Detecting C compile features - done
+[0.752s] -- Check for working CXX compiler: /usr/bin/c++
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.021s] -- Detecting CXX compiler ABI info
+[1.272s] -- Detecting CXX compiler ABI info - done
+[1.294s] -- Detecting CXX compile features
+[1.295s] -- Detecting CXX compile features - done
+[1.304s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.383s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.383s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.622s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.713s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.905s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.961s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.103s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.287s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.404s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.417s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.458s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.460s] -- Looking for pthread.h
+[2.587s] -- Looking for pthread.h - found
+[2.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.768s] -- Looking for pthread_create in pthreads
+[2.936s] -- Looking for pthread_create in pthreads - not found
+[2.936s] -- Looking for pthread_create in pthread
+[3.135s] -- Looking for pthread_create in pthread - found
+[3.137s] -- Found Threads: TRUE  
+[3.430s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[3.607s] -- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)
+[3.666s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.674s] -- Found OGRE
+[3.675s] --   static     : OFF
+[3.675s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.675s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.675s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.675s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.675s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[3.675s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.675s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[3.675s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.675s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.676s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.676s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.678s] -- Could not find freeimage library
+[3.718s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.730s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.922s] -- Found X11: /usr/include   
+[3.924s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.111s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.112s] -- Looking for gethostbyname
+[4.274s] -- Looking for gethostbyname - found
+[4.274s] -- Looking for connect
+[4.414s] -- Looking for connect - found
+[4.415s] -- Looking for remove
+[4.567s] -- Looking for remove - found
+[4.567s] -- Looking for shmat
+[4.724s] -- Looking for shmat - found
+[4.724s] -- Looking for IceConnectionNumber in ICE
+[4.859s] -- Looking for IceConnectionNumber in ICE - found
+[4.862s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[4.863s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.876s] -- library: libassimp.so.5
+[5.118s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.544s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.375s] -- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[6.386s] -- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)
+[7.512s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[7.561s] -- Found amr_v4_msgs_srvs: 0.0.0 (/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake)
+[7.649s] -- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)
+[7.845s] -- Configuring done
+[8.019s] -- Generating done
+[8.026s] -- Build files have been written to: /home/kidd/projects/agv_gui/build/amr_v4_qt
+[8.075s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake /home/kidd/projects/agv_gui/amr_v4_qt -DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_qt
+[8.085s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[8.187s] [35m[1mScanning dependencies of target amr_v4_qt_autogen[0m
+[8.207s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[8.274s] [  2%] Built target amr_v4_qt_autogen
+[8.292s] [  4%] [34m[1mGenerating include/moc_scrolling_label.cpp[0m
+[8.306s] [  6%] [34m[1mGenerating include/moc_main_gui.cpp[0m
+[8.327s] [  8%] [34m[1mGenerating include/moc_motors.cpp[0m
+[8.352s] [ 10%] [34m[1mGenerating include/moc_ui_motor_screen.cpp[0m
+[8.359s] /home/kidd/projects/agv_gui/amr_v4_qt/include/ui_motor_screen.h:0: Note: No relevant classes found. No output generated.
+[8.379s] [ 12%] [34m[1mGenerating include/moc_ui_health_screen.cpp[0m
+[8.393s] /home/kidd/projects/agv_gui/amr_v4_qt/include/ui_health_screen.h:0: Note: No relevant classes found. No output generated.
+[8.409s] [ 14%] [34m[1mGenerating include/moc_ui_running_mode_screen.cpp[0m
+[8.414s] /home/kidd/projects/agv_gui/amr_v4_qt/include/ui_running_mode_screen.h:0: Note: No relevant classes found. No output generated.
+[8.444s] [ 16%] [34m[1mGenerating include/moc_ui_main_screen.cpp[0m
+[8.450s] /home/kidd/projects/agv_gui/amr_v4_qt/include/ui_main_screen.h:0: Note: No relevant classes found. No output generated.
+[8.479s] [ 18%] [34m[1mGenerating include/moc_main_screen.cpp[0m
+[8.503s] [ 20%] [34m[1mGenerating include/moc_fisher_screen.cpp[0m
+[8.523s] [ 22%] [34m[1mGenerating include/moc_battery_node.cpp[0m
+[8.543s] [ 25%] [34m[1mGenerating include/moc_motor_node.cpp[0m
+[8.563s] [ 27%] [34m[1mGenerating include/moc_health.cpp[0m
+[8.584s] [ 29%] [34m[1mGenerating include/moc_health_node.cpp[0m
+[8.608s] [ 31%] [34m[1mGenerating include/moc_running_mode.cpp[0m
+[8.630s] [ 33%] [34m[1mGenerating include/moc_running_node.cpp[0m
+[8.651s] [ 35%] [34m[1mGenerating include/moc_robot_node.cpp[0m
+[8.675s] [35m[1mScanning dependencies of target amr_v4_qt[0m
+[9.063s] [ 37%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/amr_v4_qt_autogen/mocs_compilation.cpp.o[0m
+[9.096s] [ 39%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[18.475s] [ 41%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[25.877s] [ 43%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_screen.cpp.o[0m
+[28.418s] [ 45%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/motors.cpp.o[0m
+[31.077s] [ 47%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/health.cpp.o[0m
+[33.531s] [ 50%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.o[0m
+[35.900s] [ 52%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/fisher_screen.cpp.o[0m
+[38.185s] [ 54%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/battery_node.cpp.o[0m
+[53.500s] [ 56%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/motor_node.cpp.o[0m
+[69.200s] [ 58%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/health_node.cpp.o[0m
+[82.868s] [ 60%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/running_node.cpp.o[0m
+[97.537s] [ 62%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/robot_node.cpp.o[0m
+[111.095s] [ 64%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/scrolling_label.cpp.o[0m
+[112.813s] [01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:[m[K In member function ‘[01m[Kvirtual void ScrollingLabel::paintEvent(QPaintEvent*)[m[K’:
+[112.814s] [01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:18:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[112.814s]    18 | void ScrollingLabel::paintEvent([01;35m[KQPaintEvent *event[m[K) {
+[112.814s]       |                                 [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[113.107s] [ 66%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[119.676s] [ 68%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_motors.cpp.o[0m
+[121.971s] [ 70%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_motor_screen.cpp.o[0m
+[122.012s] [ 72%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_health_screen.cpp.o[0m
+[122.047s] [ 75%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_running_mode_screen.cpp.o[0m
+[122.085s] [ 77%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_main_screen.cpp.o[0m
+[122.128s] [ 79%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.o[0m
+[124.599s] [ 81%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_fisher_screen.cpp.o[0m
+[126.542s] [ 83%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_battery_node.cpp.o[0m
+[132.141s] [ 85%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_motor_node.cpp.o[0m
+[137.183s] [ 87%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_health.cpp.o[0m
+[139.306s] [ 89%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_health_node.cpp.o[0m
+[145.110s] [ 91%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_running_mode.cpp.o[0m
+[147.840s] [ 93%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_running_node.cpp.o[0m
+[152.336s] [ 95%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_robot_node.cpp.o[0m
+[157.367s] [ 97%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_scrolling_label.cpp.o[0m
+[159.163s] [100%] [32m[1mLinking CXX executable amr_v4_qt[0m
+[163.688s] [100%] Built target amr_v4_qt
+[163.706s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[163.788s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_qt
+[163.798s] -- Install configuration: ""
+[163.805s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt
+[163.808s] -- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt" to ""
+[163.808s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch
+[163.808s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch/gui.launch.py
+[163.812s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/package_run_dependencies/amr_v4_qt
+[163.812s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/parent_prefix_path/amr_v4_qt
+[163.812s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.sh
+[163.812s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.dsv
+[163.812s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.sh
+[163.812s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.dsv
+[163.812s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.bash
+[163.812s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.sh
+[163.813s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.zsh
+[163.813s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.dsv
+[163.814s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv
+[163.814s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/packages/amr_v4_qt
+[163.814s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig.cmake
+[163.814s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig-version.cmake
+[163.814s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.xml
+[163.818s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_qt

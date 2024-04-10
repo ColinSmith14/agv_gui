@@ -1,0 +1,2323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000577] (amr_v4_msgs_srvs) JobQueued: {'identifier': 'amr_v4_msgs_srvs', 'dependencies': OrderedDict()}
+[0.000659] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict([('amr_v4_msgs_srvs', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs')])}
+[0.001033] (amr_v4_msgs_srvs) JobStarted: {'identifier': 'amr_v4_msgs_srvs'}
+[0.017066] (amr_v4_msgs_srvs) JobProgress: {'identifier': 'amr_v4_msgs_srvs', 'progress': 'cmake'}
+[0.017509] (amr_v4_msgs_srvs) Command: {'cmd': ['/usr/bin/cmake', '/home/kidd/projects/agv_gui/amr_v4_msgs_srvs', '-DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs'], 'cwd': '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kidd'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kidd'), ('OLDPWD', '/home/kidd/projects/agv_gui/amr_v4_qt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kidd/projects/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kidd'), ('JOURNAL_STREAM', '8:51091'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kidd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1468,unix/ubuntu:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '28a14b1e79ae4b98aa3b6ccde82e0f83'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d82d80c4_09ba_4da3_8b6d_4e862205467b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic')]), 'shell': False}
+[0.099003] (-) TimerEvent: {}
+[0.199535] (-) TimerEvent: {}
+[0.269808] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.301847] (-) TimerEvent: {}
+[0.402744] (-) TimerEvent: {}
+[0.503686] (-) TimerEvent: {}
+[0.567917] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.581506] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.604156] (-) TimerEvent: {}
+[0.705501] (-) TimerEvent: {}
+[0.713013] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.715947] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.806223] (-) TimerEvent: {}
+[0.845239] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.870830] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.872135] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.880167] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.906885] (-) TimerEvent: {}
+[1.009255] (-) TimerEvent: {}
+[1.116452] (-) TimerEvent: {}
+[1.160343] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.162207] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.216436] (-) TimerEvent: {}
+[1.319807] (-) TimerEvent: {}
+[1.420163] (-) TimerEvent: {}
+[1.442024] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.485799] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.489485] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.516733] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.520338] (-) TimerEvent: {}
+[1.612758] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.613738] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.620511] (-) TimerEvent: {}
+[1.721089] (-) TimerEvent: {}
+[1.812931] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.818705] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.821181] (-) TimerEvent: {}
+[1.833195] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.922059] (-) TimerEvent: {}
+[2.021475] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.022282] (-) TimerEvent: {}
+[2.052251] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[2.122882] (-) TimerEvent: {}
+[2.203041] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.223179] (-) TimerEvent: {}
+[2.271549] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[2.323957] (-) TimerEvent: {}
+[2.425455] (-) TimerEvent: {}
+[2.450364] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[2.463454] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.507213] (amr_v4_msgs_srvs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.512995] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.525591] (-) TimerEvent: {}
+[2.614275] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.614686] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.626961] (-) TimerEvent: {}
+[2.728778] (-) TimerEvent: {}
+[2.745601] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.745931] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.828952] (-) TimerEvent: {}
+[2.880149] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.880496] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.929136] (-) TimerEvent: {}
+[3.007241] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.008766] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.029362] (-) TimerEvent: {}
+[3.130005] (-) TimerEvent: {}
+[3.230432] (-) TimerEvent: {}
+[3.299984] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.330828] (-) TimerEvent: {}
+[3.431320] (-) TimerEvent: {}
+[3.513976] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[3.531497] (-) TimerEvent: {}
+[3.632530] (-) TimerEvent: {}
+[3.661603] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.684760] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.714973] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.717536] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[3.732860] (-) TimerEvent: {}
+[3.761721] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.762478] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.762807] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.762963] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.792833] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.833249] (-) TimerEvent: {}
+[3.849903] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[3.914923] (amr_v4_msgs_srvs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.929753] (amr_v4_msgs_srvs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.933458] (-) TimerEvent: {}
+[3.934194] (amr_v4_msgs_srvs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.948872] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.033397] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.033665] (-) TimerEvent: {}
+[4.040124] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Build files have been written to: /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs\n'}
+[4.057022] (amr_v4_msgs_srvs) CommandEnded: {'returncode': 0}
+[4.062997] (amr_v4_msgs_srvs) JobProgress: {'identifier': 'amr_v4_msgs_srvs', 'progress': 'build'}
+[4.063314] (amr_v4_msgs_srvs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs', '--', '-j2', '-l2'], 'cwd': '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kidd'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kidd'), ('OLDPWD', '/home/kidd/projects/agv_gui/amr_v4_qt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kidd/projects/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kidd'), ('JOURNAL_STREAM', '8:51091'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kidd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1468,unix/ubuntu:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '28a14b1e79ae4b98aa3b6ccde82e0f83'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d82d80c4_09ba_4da3_8b6d_4e862205467b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic')]), 'shell': False}
+[4.134185] (-) TimerEvent: {}
+[4.150886] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.165567] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__cpp\x1b[0m\n'}
+[4.209252] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.234323] (-) TimerEvent: {}
+[4.334861] (-) TimerEvent: {}
+[4.435541] (-) TimerEvent: {}
+[4.543699] (-) TimerEvent: {}
+[4.647775] (-) TimerEvent: {}
+[4.748395] (-) TimerEvent: {}
+[4.848890] (-) TimerEvent: {}
+[4.949283] (-) TimerEvent: {}
+[5.049759] (-) TimerEvent: {}
+[5.150339] (-) TimerEvent: {}
+[5.251152] (-) TimerEvent: {}
+[5.351613] (-) TimerEvent: {}
+[5.445251] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[  3%] Built target amr_v4_msgs_srvs__cpp\n'}
+[5.452092] (-) TimerEvent: {}
+[5.463954] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.552408] (-) TimerEvent: {}
+[5.653174] (-) TimerEvent: {}
+[5.654761] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_generator_c\x1b[0m\n'}
+[5.698886] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/motor__functions.c.o\x1b[0m\n'}
+[5.755838] (-) TimerEvent: {}
+[5.799463] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/robot__functions.c.o\x1b[0m\n'}
+[5.855984] (-) TimerEvent: {}
+[5.902535] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/pin__functions.c.o\x1b[0m\n'}
+[5.956490] (-) TimerEvent: {}
+[5.996076] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/srv/detail/testserv__functions.c.o\x1b[0m\n'}
+[6.056610] (-) TimerEvent: {}
+[6.113744] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libamr_v4_msgs_srvs__rosidl_generator_c.so\x1b[0m\n'}
+[6.156857] (-) TimerEvent: {}
+[6.185470] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 14%] Built target amr_v4_msgs_srvs__rosidl_generator_c\n'}
+[6.202722] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.221832] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.257044] (-) TimerEvent: {}
+[6.305401] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/msg/detail/motor__type_support.cpp.o\x1b[0m\n'}
+[6.357235] (-) TimerEvent: {}
+[6.457962] (-) TimerEvent: {}
+[6.558511] (-) TimerEvent: {}
+[6.659272] (-) TimerEvent: {}
+[6.760375] (-) TimerEvent: {}
+[6.861156] (-) TimerEvent: {}
+[6.961862] (-) TimerEvent: {}
+[7.062556] (-) TimerEvent: {}
+[7.080255] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/msg/detail/robot__type_support.cpp.o\x1b[0m\n'}
+[7.095935] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.142810] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/msg/detail/dds_fastrtps/motor__type_support.cpp.o\x1b[0m\n'}
+[7.163526] (-) TimerEvent: {}
+[7.264232] (-) TimerEvent: {}
+[7.365017] (-) TimerEvent: {}
+[7.466821] (-) TimerEvent: {}
+[7.567567] (-) TimerEvent: {}
+[7.668387] (-) TimerEvent: {}
+[7.729713] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/msg/detail/pin__type_support.cpp.o\x1b[0m\n'}
+[7.768854] (-) TimerEvent: {}
+[7.869552] (-) TimerEvent: {}
+[7.970237] (-) TimerEvent: {}
+[8.078522] (-) TimerEvent: {}
+[8.104276] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/msg/detail/dds_fastrtps/robot__type_support.cpp.o\x1b[0m\n'}
+[8.178908] (-) TimerEvent: {}
+[8.268305] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/srv/detail/testserv__type_support.cpp.o\x1b[0m\n'}
+[8.279039] (-) TimerEvent: {}
+[8.379796] (-) TimerEvent: {}
+[8.480450] (-) TimerEvent: {}
+[8.582426] (-) TimerEvent: {}
+[8.682901] (-) TimerEvent: {}
+[8.783683] (-) TimerEvent: {}
+[8.844727] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.883906] (-) TimerEvent: {}
+[8.964489] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 29%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp\n'}
+[8.981846] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.984085] (-) TimerEvent: {}
+[8.986443] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/msg/detail/dds_fastrtps/pin__type_support.cpp.o\x1b[0m\n'}
+[9.084431] (-) TimerEvent: {}
+[9.188239] (-) TimerEvent: {}
+[9.288958] (-) TimerEvent: {}
+[9.389578] (-) TimerEvent: {}
+[9.495788] (-) TimerEvent: {}
+[9.597479] (-) TimerEvent: {}
+[9.663220] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.697663] (-) TimerEvent: {}
+[9.707276] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/msg/motor__type_support.cpp.o\x1b[0m\n'}
+[9.797926] (-) TimerEvent: {}
+[9.898545] (-) TimerEvent: {}
+[9.999167] (-) TimerEvent: {}
+[10.069943] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/srv/detail/dds_fastrtps/testserv__type_support.cpp.o\x1b[0m\n'}
+[10.099526] (-) TimerEvent: {}
+[10.204750] (-) TimerEvent: {}
+[10.305662] (-) TimerEvent: {}
+[10.406324] (-) TimerEvent: {}
+[10.507000] (-) TimerEvent: {}
+[10.528105] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/msg/robot__type_support.cpp.o\x1b[0m\n'}
+[10.607136] (-) TimerEvent: {}
+[10.707591] (-) TimerEvent: {}
+[10.808324] (-) TimerEvent: {}
+[10.914408] (-) TimerEvent: {}
+[10.936257] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.014656] (-) TimerEvent: {}
+[11.036290] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/msg/pin__type_support.cpp.o\x1b[0m\n'}
+[11.114780] (-) TimerEvent: {}
+[11.115413] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 41%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp\n'}
+[11.134866] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.215012] (-) TimerEvent: {}
+[11.316383] (-) TimerEvent: {}
+[11.416879] (-) TimerEvent: {}
+[11.517649] (-) TimerEvent: {}
+[11.618461] (-) TimerEvent: {}
+[11.620454] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/srv/testserv__type_support.cpp.o\x1b[0m\n'}
+[11.718419] (-) TimerEvent: {}
+[11.819408] (-) TimerEvent: {}
+[11.920171] (-) TimerEvent: {}
+[11.927630] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.011741] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/motor__type_support.c.o\x1b[0m\n'}
+[12.020644] (-) TimerEvent: {}
+[12.079707] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/robot__type_support.c.o\x1b[0m\n'}
+[12.120845] (-) TimerEvent: {}
+[12.143977] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/pin__type_support.c.o\x1b[0m\n'}
+[12.209792] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.220785] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c.o\x1b[0m\n'}
+[12.221294] (-) TimerEvent: {}
+[12.280077] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.310946] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 56%] Built target amr_v4_msgs_srvs__rosidl_typesupport_cpp\n'}
+[12.321584] (-) TimerEvent: {}
+[12.329923] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.350853] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 58%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c\n'}
+[12.379967] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.421753] (-) TimerEvent: {}
+[12.522388] (-) TimerEvent: {}
+[12.623488] (-) TimerEvent: {}
+[12.724309] (-) TimerEvent: {}
+[12.824935] (-) TimerEvent: {}
+[12.925673] (-) TimerEvent: {}
+[13.026344] (-) TimerEvent: {}
+[13.126909] (-) TimerEvent: {}
+[13.158315] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_c\x1b[0m\n'}
+[13.227840] (-) TimerEvent: {}
+[13.233736] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/msg/motor__type_support.cpp.o\x1b[0m\n'}
+[13.328006] (-) TimerEvent: {}
+[13.355828] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/msg/robot__type_support.cpp.o\x1b[0m\n'}
+[13.428202] (-) TimerEvent: {}
+[13.452074] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/msg/pin__type_support.cpp.o\x1b[0m\n'}
+[13.514461] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/srv/testserv__type_support.cpp.o\x1b[0m\n'}
+[13.528348] (-) TimerEvent: {}
+[13.607797] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.628528] (-) TimerEvent: {}
+[13.697875] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.721703] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 69%] Built target amr_v4_msgs_srvs__rosidl_typesupport_c\n'}
+[13.728729] (-) TimerEvent: {}
+[13.750248] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/msg/detail/robot__type_support_c.cpp.o\x1b[0m\n'}
+[13.792752] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/msg/detail/motor__type_support_c.cpp.o\x1b[0m\n'}
+[13.828938] (-) TimerEvent: {}
+[13.929630] (-) TimerEvent: {}
+[14.030308] (-) TimerEvent: {}
+[14.131015] (-) TimerEvent: {}
+[14.231785] (-) TimerEvent: {}
+[14.332401] (-) TimerEvent: {}
+[14.433073] (-) TimerEvent: {}
+[14.476463] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/msg/detail/pin__type_support_c.cpp.o\x1b[0m\n'}
+[14.533266] (-) TimerEvent: {}
+[14.555604] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/srv/detail/testserv__type_support_c.cpp.o\x1b[0m\n'}
+[14.633429] (-) TimerEvent: {}
+[14.734148] (-) TimerEvent: {}
+[14.834842] (-) TimerEvent: {}
+[14.935519] (-) TimerEvent: {}
+[15.036219] (-) TimerEvent: {}
+[15.136893] (-) TimerEvent: {}
+[15.237925] (-) TimerEvent: {}
+[15.256873] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.339320] (-) TimerEvent: {}
+[15.385324] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 78%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c\n'}
+[15.401731] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs\x1b[0m\n'}
+[15.425629] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 78%] Built target amr_v4_msgs_srvs\n'}
+[15.439364] (-) TimerEvent: {}
+[15.440869] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__py\x1b[0m\n'}
+[15.455355] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.539670] (-) TimerEvent: {}
+[15.640341] (-) TimerEvent: {}
+[15.747739] (-) TimerEvent: {}
+[15.848345] (-) TimerEvent: {}
+[15.948999] (-) TimerEvent: {}
+[16.049459] (-) TimerEvent: {}
+[16.150185] (-) TimerEvent: {}
+[16.250618] (-) TimerEvent: {}
+[16.351069] (-) TimerEvent: {}
+[16.451703] (-) TimerEvent: {}
+[16.552153] (-) TimerEvent: {}
+[16.652824] (-) TimerEvent: {}
+[16.750701] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 80%] Built target amr_v4_msgs_srvs__py\n'}
+[16.753303] (-) TimerEvent: {}
+[16.785809] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__python\x1b[0m\n'}
+[16.853543] (-) TimerEvent: {}
+[16.895209] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__python.dir/rosidl_generator_py/amr_v4_msgs_srvs/msg/_motor_s.c.o\x1b[0m\n'}
+[16.897122] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__python.dir/rosidl_generator_py/amr_v4_msgs_srvs/msg/_robot_s.c.o\x1b[0m\n'}
+[16.953717] (-) TimerEvent: {}
+[17.055905] (-) TimerEvent: {}
+[17.159839] (-) TimerEvent: {}
+[17.222699] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__python.dir/rosidl_generator_py/amr_v4_msgs_srvs/msg/_pin_s.c.o\x1b[0m\n'}
+[17.263097] (-) TimerEvent: {}
+[17.263591] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__python.dir/rosidl_generator_py/amr_v4_msgs_srvs/srv/_testserv_s.c.o\x1b[0m\n'}
+[17.363443] (-) TimerEvent: {}
+[17.464150] (-) TimerEvent: {}
+[17.527195] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/amr_v4_msgs_srvs/libamr_v4_msgs_srvs__python.so\x1b[0m\n'}
+[17.567758] (-) TimerEvent: {}
+[17.600301] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 89%] Built target amr_v4_msgs_srvs__python\n'}
+[17.646707] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[17.647999] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[17.671933] (-) TimerEvent: {}
+[17.732587] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.735936] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.772152] (-) TimerEvent: {}
+[17.873372] (-) TimerEvent: {}
+[17.893397] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.971142] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 94%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c__pyext\n'}
+[17.979752] (-) TimerEvent: {}
+[18.003812] (amr_v4_msgs_srvs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_msgs_srvs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.047863] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.079872] (-) TimerEvent: {}
+[18.180889] (-) TimerEvent: {}
+[18.223681] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.281093] (-) TimerEvent: {}
+[18.387814] (-) TimerEvent: {}
+[18.413447] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.492496] (-) TimerEvent: {}
+[18.500264] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[100%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.550851] (amr_v4_msgs_srvs) StdoutLine: {'line': b'[100%] Built target amr_v4_msgs_srvs__rosidl_typesupport_c__pyext\n'}
+[18.574728] (amr_v4_msgs_srvs) CommandEnded: {'returncode': 0}
+[18.592617] (-) TimerEvent: {}
+[18.693275] (-) TimerEvent: {}
+[18.794092] (-) TimerEvent: {}
+[18.807353] (amr_v4_msgs_srvs) JobProgress: {'identifier': 'amr_v4_msgs_srvs', 'progress': 'install'}
+[18.843319] (amr_v4_msgs_srvs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs'], 'cwd': '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kidd'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kidd'), ('OLDPWD', '/home/kidd/projects/agv_gui/amr_v4_qt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kidd/projects/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kidd'), ('JOURNAL_STREAM', '8:51091'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kidd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1468,unix/ubuntu:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '28a14b1e79ae4b98aa3b6ccde82e0f83'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d82d80c4_09ba_4da3_8b6d_4e862205467b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic')]), 'shell': False}
+[18.879298] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.879753] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/amr_v4_msgs_srvs\n'}
+[18.880086] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs\n'}
+[18.880456] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg\n'}
+[18.880601] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.883646] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/pin.h\n'}
+[18.883839] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/motor.h\n'}
+[18.883959] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail\n'}
+[18.884073] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__struct.h\n'}
+[18.884250] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__functions.c\n'}
+[18.884475] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__type_support.h\n'}
+[18.884856] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__functions.c\n'}
+[18.885197] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__functions.c\n'}
+[18.885801] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__struct.h\n'}
+[18.886001] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__type_support.h\n'}
+[18.886951] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__functions.h\n'}
+[18.887142] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__struct.h\n'}
+[18.887374] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__type_support.h\n'}
+[18.893095] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__functions.h\n'}
+[18.893383] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__functions.h\n'}
+[18.893639] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/robot.h\n'}
+[18.893850] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv\n'}
+[18.894073] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/testserv.h\n'}
+[18.894256] (-) TimerEvent: {}
+[18.894499] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail\n'}
+[18.894710] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__struct.h\n'}
+[18.895688] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__functions.h\n'}
+[18.895827] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__functions.c\n'}
+[18.895919] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__type_support.h\n'}
+[18.896065] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/library_path.sh\n'}
+[18.896179] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/library_path.dsv\n'}
+[18.899664] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_c.so\n'}
+[18.899810] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_c.so" to ""\n'}
+[18.899922] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs\n'}
+[18.900111] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg\n'}
+[18.900245] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail\n'}
+[18.900440] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_fastrtps_c.h\n'}
+[18.900685] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_fastrtps_c.h\n'}
+[18.900898] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_fastrtps_c.h\n'}
+[18.901150] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.907214] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv\n'}
+[18.907540] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail\n'}
+[18.907810] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_fastrtps_c.h\n'}
+[18.908066] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.so\n'}
+[18.908741] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.908836] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs\n'}
+[18.908954] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg\n'}
+[18.909139] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.909229] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail\n'}
+[18.909312] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.909413] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/dds_fastrtps\n'}
+[18.909507] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.909591] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.909703] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv\n'}
+[18.909944] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail\n'}
+[18.910152] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/dds_fastrtps\n'}
+[18.910393] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.910609] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.911976] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.912141] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs\n'}
+[18.912253] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg\n'}
+[18.914169] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.914307] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail\n'}
+[18.914442] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_introspection_c.h\n'}
+[18.914577] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__type_support.c\n'}
+[18.914727] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_introspection_c.h\n'}
+[18.914861] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_introspection_c.h\n'}
+[18.914987] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__type_support.c\n'}
+[18.915077] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__type_support.c\n'}
+[18.915169] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv\n'}
+[18.915254] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail\n'}
+[18.915400] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_introspection_c.h\n'}
+[18.915497] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c\n'}
+[18.915645] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so\n'}
+[18.915833] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.915951] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_c.so\n'}
+[18.916050] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_c.so" to ""\n'}
+[18.916165] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs\n'}
+[18.919915] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg\n'}
+[18.921219] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/motor.hpp\n'}
+[18.921565] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail\n'}
+[18.922914] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__struct.hpp\n'}
+[18.923133] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__builder.hpp\n'}
+[18.923397] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__builder.hpp\n'}
+[18.923677] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__struct.hpp\n'}
+[18.924518] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__traits.hpp\n'}
+[18.924800] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__struct.hpp\n'}
+[18.925087] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__traits.hpp\n'}
+[18.925345] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__traits.hpp\n'}
+[18.929387] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__builder.hpp\n'}
+[18.929576] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/robot.hpp\n'}
+[18.929717] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/pin.hpp\n'}
+[18.929851] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv\n'}
+[18.929974] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail\n'}
+[18.930094] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__traits.hpp\n'}
+[18.930237] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__builder.hpp\n'}
+[18.930374] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__struct.hpp\n'}
+[18.930484] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/testserv.hpp\n'}
+[18.930634] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs\n'}
+[18.935741] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg\n'}
+[18.935932] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail\n'}
+[18.937880] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__type_support.cpp\n'}
+[18.938065] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.938232] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/motor__type_support.cpp\n'}
+[18.938344] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.938448] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.938660] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/msg/detail/pin__type_support.cpp\n'}
+[18.938784] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv\n'}
+[18.938895] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail\n'}
+[18.939032] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__type_support.cpp\n'}
+[18.939163] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.939269] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.so\n'}
+[18.939418] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.939528] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_cpp.so\n'}
+[18.939709] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_cpp.so" to ""\n'}
+[18.939866] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/pythonpath.sh\n'}
+[18.939984] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/pythonpath.dsv\n'}
+[18.940098] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/__init__.py\n'}
+[18.994597] (-) TimerEvent: {}
+[19.019432] (amr_v4_msgs_srvs) StdoutLine: {'line': b"Compiling '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/__init__.py'...\n"}
+[19.030763] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg\n'}
+[19.031211] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg/_motor.py\n'}
+[19.031523] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg/_robot_s.c\n'}
+[19.031839] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg/__init__.py\n'}
+[19.033412] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg/_motor_s.c\n'}
+[19.033709] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg/_robot.py\n'}
+[19.034011] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg/_pin.py\n'}
+[19.034370] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/msg/_pin_s.c\n'}
+[19.034828] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/srv\n'}
+[19.035007] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/srv/_testserv.py\n'}
+[19.035608] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/srv/__init__.py\n'}
+[19.035859] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/srv/_testserv_s.c\n'}
+[19.036199] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.039335] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[19.039847] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.040711] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[19.041167] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[19.043100] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[19.045016] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__python.so\n'}
+[19.045660] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__python.so" to ""\n'}
+[19.045955] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Motor.idl\n'}
+[19.046222] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Robot.idl\n'}
+[19.046573] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Pin.idl\n'}
+[19.047844] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv.idl\n'}
+[19.048288] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Motor.msg\n'}
+[19.048657] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Robot.msg\n'}
+[19.049015] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Pin.msg\n'}
+[19.049226] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv.srv\n'}
+[19.049600] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv_Request.msg\n'}
+[19.051964] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv_Response.msg\n'}
+[19.052703] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/amr_v4_msgs_srvs\n'}
+[19.053050] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/amr_v4_msgs_srvs\n'}
+[19.053486] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/ament_prefix_path.sh\n'}
+[19.054167] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/ament_prefix_path.dsv\n'}
+[19.054333] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/path.sh\n'}
+[19.054645] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/path.dsv\n'}
+[19.054893] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.bash\n'}
+[19.055029] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.sh\n'}
+[19.057303] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.zsh\n'}
+[19.057635] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.dsv\n'}
+[19.057962] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.dsv\n'}
+[19.058360] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/packages/amr_v4_msgs_srvs\n'}
+[19.059104] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_generator_cExport.cmake\n'}
+[19.059438] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.060133] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Old export file "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[19.060416] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.060741] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.061315] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Old export file "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[19.061608] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport.cmake\n'}
+[19.064414] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.067900] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_generator_cppExport.cmake\n'}
+[19.068130] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Old export file "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[19.068400] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.068647] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.068843] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Old export file "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[19.068967] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport.cmake\n'}
+[19.069074] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.069238] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake-extras.cmake\n'}
+[19.069352] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.069463] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.072140] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.072782] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.074933] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.075339] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.075775] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvsConfig.cmake\n'}
+[19.076085] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvsConfig-version.cmake\n'}
+[19.079644] (amr_v4_msgs_srvs) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.xml\n'}
+[19.082926] (amr_v4_msgs_srvs) CommandEnded: {'returncode': 0}
+[19.099960] (-) TimerEvent: {}
+[19.200521] (-) TimerEvent: {}
+[19.301146] (-) TimerEvent: {}
+[19.402256] (-) TimerEvent: {}
+[19.450564] (amr_v4_msgs_srvs) JobEnded: {'identifier': 'amr_v4_msgs_srvs', 'rc': 0}
+[19.452223] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[19.496518] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[19.499978] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '/home/kidd/projects/agv_gui/amr_v4_qt', '-DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_qt'], 'cwd': '/home/kidd/projects/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kidd'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kidd'), ('OLDPWD', '/home/kidd/projects/agv_gui/amr_v4_qt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kidd/projects/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kidd'), ('JOURNAL_STREAM', '8:51091'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kidd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1468,unix/ubuntu:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '28a14b1e79ae4b98aa3b6ccde82e0f83'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d82d80c4_09ba_4da3_8b6d_4e862205467b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kidd/projects/agv_gui/build/amr_v4_qt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic')]), 'shell': False}
+[19.504051] (-) TimerEvent: {}
+[19.611775] (-) TimerEvent: {}
+[19.670614] (amr_v4_qt) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[19.711893] (-) TimerEvent: {}
+[19.788536] (amr_v4_qt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[19.802022] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[19.812050] (-) TimerEvent: {}
+[19.913403] (-) TimerEvent: {}
+[19.913705] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[19.913844] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[20.013623] (-) TimerEvent: {}
+[20.114212] (-) TimerEvent: {}
+[20.148668] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.189529] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.194102] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.204244] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[20.215969] (-) TimerEvent: {}
+[20.322124] (-) TimerEvent: {}
+[20.424927] (-) TimerEvent: {}
+[20.472176] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[20.472744] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.531922] (-) TimerEvent: {}
+[20.632595] (-) TimerEvent: {}
+[20.723278] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.735839] (-) TimerEvent: {}
+[20.746034] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.746964] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.755642] (amr_v4_qt) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[20.834616] (amr_v4_qt) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[20.835162] (amr_v4_qt) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[20.835909] (-) TimerEvent: {}
+[20.936450] (-) TimerEvent: {}
+[21.036895] (-) TimerEvent: {}
+[21.073236] (amr_v4_qt) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[21.137083] (-) TimerEvent: {}
+[21.149658] (amr_v4_qt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.165233] (amr_v4_qt) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[21.237514] (-) TimerEvent: {}
+[21.338403] (-) TimerEvent: {}
+[21.357245] (amr_v4_qt) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[21.413495] (amr_v4_qt) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[21.438593] (-) TimerEvent: {}
+[21.539192] (-) TimerEvent: {}
+[21.554991] (amr_v4_qt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.640196] (-) TimerEvent: {}
+[21.739126] (amr_v4_qt) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[21.740231] (-) TimerEvent: {}
+[21.841249] (-) TimerEvent: {}
+[21.854913] (amr_v4_qt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[21.869157] (amr_v4_qt) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[21.910541] (amr_v4_qt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[21.911902] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[21.941405] (-) TimerEvent: {}
+[22.038752] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[22.039510] (amr_v4_qt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[22.042042] (-) TimerEvent: {}
+[22.143380] (-) TimerEvent: {}
+[22.219082] (amr_v4_qt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[22.220207] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[22.243618] (-) TimerEvent: {}
+[22.344287] (-) TimerEvent: {}
+[22.387952] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[22.388279] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[22.444444] (-) TimerEvent: {}
+[22.547872] (-) TimerEvent: {}
+[22.587438] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[22.589432] (amr_v4_qt) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[22.648049] (-) TimerEvent: {}
+[22.748599] (-) TimerEvent: {}
+[22.848998] (-) TimerEvent: {}
+[22.882116] (amr_v4_qt) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)\n'}
+[22.949137] (-) TimerEvent: {}
+[23.049606] (-) TimerEvent: {}
+[23.058929] (amr_v4_qt) StdoutLine: {'line': b'-- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)\n'}
+[23.117725] (amr_v4_qt) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[23.126554] (amr_v4_qt) StdoutLine: {'line': b'-- Found OGRE\n'}
+[23.126775] (amr_v4_qt) StdoutLine: {'line': b'--   static     : OFF\n'}
+[23.126844] (amr_v4_qt) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[23.126931] (amr_v4_qt) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[23.127091] (amr_v4_qt) StdoutLine: {'line': b'--   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[23.127162] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[23.127225] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib\n'}
+[23.127315] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[23.127410] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[23.127518] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[23.127585] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[23.128221] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[23.128348] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[23.130492] (amr_v4_qt) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[23.149811] (-) TimerEvent: {}
+[23.170476] (amr_v4_qt) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[23.182178] (amr_v4_qt) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[23.249983] (-) TimerEvent: {}
+[23.350387] (-) TimerEvent: {}
+[23.374058] (amr_v4_qt) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[23.376200] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[23.450830] (-) TimerEvent: {}
+[23.554541] (-) TimerEvent: {}
+[23.563483] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[23.563734] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[23.654695] (-) TimerEvent: {}
+[23.726364] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[23.726608] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for connect\n'}
+[23.754882] (-) TimerEvent: {}
+[23.858103] (-) TimerEvent: {}
+[23.866276] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[23.866705] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for remove\n'}
+[23.958280] (-) TimerEvent: {}
+[24.018613] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[24.019546] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[24.058459] (-) TimerEvent: {}
+[24.164607] (-) TimerEvent: {}
+[24.176060] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[24.176304] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[24.264842] (-) TimerEvent: {}
+[24.311425] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[24.314509] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[24.314684] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[24.328466] (amr_v4_qt) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[24.364977] (-) TimerEvent: {}
+[24.470012] (-) TimerEvent: {}
+[24.570135] (amr_v4_qt) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[24.570744] (-) TimerEvent: {}
+[24.679734] (-) TimerEvent: {}
+[24.780160] (-) TimerEvent: {}
+[24.880873] (-) TimerEvent: {}
+[24.981556] (-) TimerEvent: {}
+[24.995171] (amr_v4_qt) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[25.081731] (-) TimerEvent: {}
+[25.182421] (-) TimerEvent: {}
+[25.284364] (-) TimerEvent: {}
+[25.387217] (-) TimerEvent: {}
+[25.492869] (-) TimerEvent: {}
+[25.593290] (-) TimerEvent: {}
+[25.694192] (-) TimerEvent: {}
+[25.794889] (-) TimerEvent: {}
+[25.826112] (amr_v4_qt) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[25.837183] (amr_v4_qt) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)\n'}
+[25.895102] (-) TimerEvent: {}
+[25.995860] (-) TimerEvent: {}
+[26.096538] (-) TimerEvent: {}
+[26.197199] (-) TimerEvent: {}
+[26.297791] (-) TimerEvent: {}
+[26.398465] (-) TimerEvent: {}
+[26.499172] (-) TimerEvent: {}
+[26.599727] (-) TimerEvent: {}
+[26.700261] (-) TimerEvent: {}
+[26.800891] (-) TimerEvent: {}
+[26.903107] (-) TimerEvent: {}
+[26.964396] (amr_v4_qt) StdoutLine: {'line': b'-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)\n'}
+[27.003267] (-) TimerEvent: {}
+[27.013314] (amr_v4_qt) StdoutLine: {'line': b'-- Found amr_v4_msgs_srvs: 0.0.0 (/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake)\n'}
+[27.100575] (amr_v4_qt) StdoutLine: {'line': b'-- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)\n'}
+[27.103414] (-) TimerEvent: {}
+[27.204026] (-) TimerEvent: {}
+[27.296699] (amr_v4_qt) StdoutLine: {'line': b'-- Configuring done\n'}
+[27.304275] (-) TimerEvent: {}
+[27.404720] (-) TimerEvent: {}
+[27.470579] (amr_v4_qt) StdoutLine: {'line': b'-- Generating done\n'}
+[27.477695] (amr_v4_qt) StdoutLine: {'line': b'-- Build files have been written to: /home/kidd/projects/agv_gui/build/amr_v4_qt\n'}
+[27.505057] (-) TimerEvent: {}
+[27.526392] (amr_v4_qt) CommandEnded: {'returncode': 0}
+[27.536746] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'build'}
+[27.536890] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kidd/projects/agv_gui/build/amr_v4_qt', '--', '-j2', '-l2'], 'cwd': '/home/kidd/projects/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kidd'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kidd'), ('OLDPWD', '/home/kidd/projects/agv_gui/amr_v4_qt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kidd/projects/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kidd'), ('JOURNAL_STREAM', '8:51091'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kidd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1468,unix/ubuntu:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '28a14b1e79ae4b98aa3b6ccde82e0f83'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d82d80c4_09ba_4da3_8b6d_4e862205467b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kidd/projects/agv_gui/build/amr_v4_qt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic')]), 'shell': False}
+[27.605378] (-) TimerEvent: {}
+[27.638783] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_qt_autogen\x1b[0m\n'}
+[27.659522] (amr_v4_qt) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target amr_v4_qt\x1b[0m\n'}
+[27.708408] (-) TimerEvent: {}
+[27.726575] (amr_v4_qt) StdoutLine: {'line': b'[  2%] Built target amr_v4_qt_autogen\n'}
+[27.744385] (amr_v4_qt) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating include/moc_scrolling_label.cpp\x1b[0m\n'}
+[27.757406] (amr_v4_qt) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating include/moc_main_gui.cpp\x1b[0m\n'}
+[27.779544] (amr_v4_qt) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating include/moc_motors.cpp\x1b[0m\n'}
+[27.803750] (amr_v4_qt) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating include/moc_ui_motor_screen.cpp\x1b[0m\n'}
+[27.810569] (amr_v4_qt) StderrLine: {'line': b'/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_motor_screen.h:0: Note: No relevant classes found. No output generated.\n'}
+[27.810936] (-) TimerEvent: {}
+[27.831523] (amr_v4_qt) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating include/moc_ui_health_screen.cpp\x1b[0m\n'}
+[27.845138] (amr_v4_qt) StderrLine: {'line': b'/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_health_screen.h:0: Note: No relevant classes found. No output generated.\n'}
+[27.860934] (amr_v4_qt) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating include/moc_ui_running_mode_screen.cpp\x1b[0m\n'}
+[27.865860] (amr_v4_qt) StderrLine: {'line': b'/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_running_mode_screen.h:0: Note: No relevant classes found. No output generated.\n'}
+[27.895688] (amr_v4_qt) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating include/moc_ui_main_screen.cpp\x1b[0m\n'}
+[27.902208] (amr_v4_qt) StderrLine: {'line': b'/home/kidd/projects/agv_gui/amr_v4_qt/include/ui_main_screen.h:0: Note: No relevant classes found. No output generated.\n'}
+[27.911271] (-) TimerEvent: {}
+[27.931529] (amr_v4_qt) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating include/moc_main_screen.cpp\x1b[0m\n'}
+[27.954972] (amr_v4_qt) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating include/moc_fisher_screen.cpp\x1b[0m\n'}
+[27.974701] (amr_v4_qt) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating include/moc_battery_node.cpp\x1b[0m\n'}
+[27.995130] (amr_v4_qt) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating include/moc_motor_node.cpp\x1b[0m\n'}
+[28.011634] (-) TimerEvent: {}
+[28.015390] (amr_v4_qt) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating include/moc_health.cpp\x1b[0m\n'}
+[28.035671] (amr_v4_qt) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating include/moc_health_node.cpp\x1b[0m\n'}
+[28.060118] (amr_v4_qt) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating include/moc_running_mode.cpp\x1b[0m\n'}
+[28.081790] (amr_v4_qt) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating include/moc_running_node.cpp\x1b[0m\n'}
+[28.103239] (amr_v4_qt) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating include/moc_robot_node.cpp\x1b[0m\n'}
+[28.111868] (-) TimerEvent: {}
+[28.127120] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_v4_qt\x1b[0m\n'}
+[28.212046] (-) TimerEvent: {}
+[28.312533] (-) TimerEvent: {}
+[28.413148] (-) TimerEvent: {}
+[28.515004] (-) TimerEvent: {}
+[28.515325] (amr_v4_qt) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/amr_v4_qt_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[28.547797] (amr_v4_qt) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o\x1b[0m\n'}
+[28.615289] (-) TimerEvent: {}
+[28.715965] (-) TimerEvent: {}
+[28.816424] (-) TimerEvent: {}
+[28.916935] (-) TimerEvent: {}
+[29.017344] (-) TimerEvent: {}
+[29.117803] (-) TimerEvent: {}
+[29.218372] (-) TimerEvent: {}
+[29.318825] (-) TimerEvent: {}
+[29.419606] (-) TimerEvent: {}
+[29.520560] (-) TimerEvent: {}
+[29.621291] (-) TimerEvent: {}
+[29.721778] (-) TimerEvent: {}
+[29.822157] (-) TimerEvent: {}
+[29.922760] (-) TimerEvent: {}
+[30.023413] (-) TimerEvent: {}
+[30.123758] (-) TimerEvent: {}
+[30.224168] (-) TimerEvent: {}
+[30.324870] (-) TimerEvent: {}
+[30.425272] (-) TimerEvent: {}
+[30.525867] (-) TimerEvent: {}
+[30.626512] (-) TimerEvent: {}
+[30.726984] (-) TimerEvent: {}
+[30.827679] (-) TimerEvent: {}
+[30.928470] (-) TimerEvent: {}
+[31.028934] (-) TimerEvent: {}
+[31.129508] (-) TimerEvent: {}
+[31.230188] (-) TimerEvent: {}
+[31.330692] (-) TimerEvent: {}
+[31.431172] (-) TimerEvent: {}
+[31.532515] (-) TimerEvent: {}
+[31.632949] (-) TimerEvent: {}
+[31.733389] (-) TimerEvent: {}
+[31.833839] (-) TimerEvent: {}
+[31.934346] (-) TimerEvent: {}
+[32.034905] (-) TimerEvent: {}
+[32.135647] (-) TimerEvent: {}
+[32.236583] (-) TimerEvent: {}
+[32.337262] (-) TimerEvent: {}
+[32.443925] (-) TimerEvent: {}
+[32.544597] (-) TimerEvent: {}
+[32.645203] (-) TimerEvent: {}
+[32.745720] (-) TimerEvent: {}
+[32.846161] (-) TimerEvent: {}
+[32.947865] (-) TimerEvent: {}
+[33.048234] (-) TimerEvent: {}
+[33.151709] (-) TimerEvent: {}
+[33.252268] (-) TimerEvent: {}
+[33.352894] (-) TimerEvent: {}
+[33.453535] (-) TimerEvent: {}
+[33.553936] (-) TimerEvent: {}
+[33.654330] (-) TimerEvent: {}
+[33.755240] (-) TimerEvent: {}
+[33.859776] (-) TimerEvent: {}
+[33.960649] (-) TimerEvent: {}
+[34.065756] (-) TimerEvent: {}
+[34.166872] (-) TimerEvent: {}
+[34.269690] (-) TimerEvent: {}
+[34.370996] (-) TimerEvent: {}
+[34.471585] (-) TimerEvent: {}
+[34.572165] (-) TimerEvent: {}
+[34.672812] (-) TimerEvent: {}
+[34.773949] (-) TimerEvent: {}
+[34.879794] (-) TimerEvent: {}
+[34.980369] (-) TimerEvent: {}
+[35.083254] (-) TimerEvent: {}
+[35.187041] (-) TimerEvent: {}
+[35.292804] (-) TimerEvent: {}
+[35.395741] (-) TimerEvent: {}
+[35.513343] (-) TimerEvent: {}
+[35.616315] (-) TimerEvent: {}
+[35.720068] (-) TimerEvent: {}
+[35.824287] (-) TimerEvent: {}
+[35.925154] (-) TimerEvent: {}
+[36.026703] (-) TimerEvent: {}
+[36.132307] (-) TimerEvent: {}
+[36.232811] (-) TimerEvent: {}
+[36.333269] (-) TimerEvent: {}
+[36.433666] (-) TimerEvent: {}
+[36.534337] (-) TimerEvent: {}
+[36.642205] (-) TimerEvent: {}
+[36.744610] (-) TimerEvent: {}
+[36.846649] (-) TimerEvent: {}
+[36.950667] (-) TimerEvent: {}
+[37.051373] (-) TimerEvent: {}
+[37.152501] (-) TimerEvent: {}
+[37.253522] (-) TimerEvent: {}
+[37.354352] (-) TimerEvent: {}
+[37.455657] (-) TimerEvent: {}
+[37.557601] (-) TimerEvent: {}
+[37.663850] (-) TimerEvent: {}
+[37.772560] (-) TimerEvent: {}
+[37.874024] (-) TimerEvent: {}
+[37.926042] (amr_v4_qt) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o\x1b[0m\n'}
+[37.974245] (-) TimerEvent: {}
+[38.079943] (-) TimerEvent: {}
+[38.183397] (-) TimerEvent: {}
+[38.284183] (-) TimerEvent: {}
+[38.384730] (-) TimerEvent: {}
+[38.485352] (-) TimerEvent: {}
+[38.585796] (-) TimerEvent: {}
+[38.687497] (-) TimerEvent: {}
+[38.788317] (-) TimerEvent: {}
+[38.889565] (-) TimerEvent: {}
+[38.990525] (-) TimerEvent: {}
+[39.091072] (-) TimerEvent: {}
+[39.191887] (-) TimerEvent: {}
+[39.296040] (-) TimerEvent: {}
+[39.396749] (-) TimerEvent: {}
+[39.497438] (-) TimerEvent: {}
+[39.598011] (-) TimerEvent: {}
+[39.698522] (-) TimerEvent: {}
+[39.798951] (-) TimerEvent: {}
+[39.899513] (-) TimerEvent: {}
+[40.000338] (-) TimerEvent: {}
+[40.100883] (-) TimerEvent: {}
+[40.201602] (-) TimerEvent: {}
+[40.302034] (-) TimerEvent: {}
+[40.402659] (-) TimerEvent: {}
+[40.503454] (-) TimerEvent: {}
+[40.604075] (-) TimerEvent: {}
+[40.704646] (-) TimerEvent: {}
+[40.805148] (-) TimerEvent: {}
+[40.906698] (-) TimerEvent: {}
+[41.007657] (-) TimerEvent: {}
+[41.108280] (-) TimerEvent: {}
+[41.208961] (-) TimerEvent: {}
+[41.309593] (-) TimerEvent: {}
+[41.410795] (-) TimerEvent: {}
+[41.511679] (-) TimerEvent: {}
+[41.612131] (-) TimerEvent: {}
+[41.712606] (-) TimerEvent: {}
+[41.813233] (-) TimerEvent: {}
+[41.913743] (-) TimerEvent: {}
+[42.014162] (-) TimerEvent: {}
+[42.114535] (-) TimerEvent: {}
+[42.215050] (-) TimerEvent: {}
+[42.315777] (-) TimerEvent: {}
+[42.416157] (-) TimerEvent: {}
+[42.516619] (-) TimerEvent: {}
+[42.617011] (-) TimerEvent: {}
+[42.717596] (-) TimerEvent: {}
+[42.817979] (-) TimerEvent: {}
+[42.918428] (-) TimerEvent: {}
+[43.018904] (-) TimerEvent: {}
+[43.119612] (-) TimerEvent: {}
+[43.220281] (-) TimerEvent: {}
+[43.321480] (-) TimerEvent: {}
+[43.423306] (-) TimerEvent: {}
+[43.523853] (-) TimerEvent: {}
+[43.624726] (-) TimerEvent: {}
+[43.725389] (-) TimerEvent: {}
+[43.825848] (-) TimerEvent: {}
+[43.926401] (-) TimerEvent: {}
+[44.026897] (-) TimerEvent: {}
+[44.127681] (-) TimerEvent: {}
+[44.228316] (-) TimerEvent: {}
+[44.329021] (-) TimerEvent: {}
+[44.429704] (-) TimerEvent: {}
+[44.530371] (-) TimerEvent: {}
+[44.631081] (-) TimerEvent: {}
+[44.731628] (-) TimerEvent: {}
+[44.832175] (-) TimerEvent: {}
+[44.932689] (-) TimerEvent: {}
+[45.033263] (-) TimerEvent: {}
+[45.133758] (-) TimerEvent: {}
+[45.234249] (-) TimerEvent: {}
+[45.329292] (amr_v4_qt) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_screen.cpp.o\x1b[0m\n'}
+[45.334372] (-) TimerEvent: {}
+[45.434925] (-) TimerEvent: {}
+[45.537094] (-) TimerEvent: {}
+[45.637719] (-) TimerEvent: {}
+[45.739112] (-) TimerEvent: {}
+[45.839675] (-) TimerEvent: {}
+[45.940367] (-) TimerEvent: {}
+[46.041109] (-) TimerEvent: {}
+[46.141693] (-) TimerEvent: {}
+[46.242485] (-) TimerEvent: {}
+[46.343347] (-) TimerEvent: {}
+[46.444163] (-) TimerEvent: {}
+[46.544874] (-) TimerEvent: {}
+[46.646312] (-) TimerEvent: {}
+[46.747510] (-) TimerEvent: {}
+[46.848596] (-) TimerEvent: {}
+[46.949216] (-) TimerEvent: {}
+[47.050092] (-) TimerEvent: {}
+[47.150787] (-) TimerEvent: {}
+[47.251456] (-) TimerEvent: {}
+[47.352295] (-) TimerEvent: {}
+[47.453115] (-) TimerEvent: {}
+[47.554453] (-) TimerEvent: {}
+[47.656033] (-) TimerEvent: {}
+[47.757059] (-) TimerEvent: {}
+[47.858050] (-) TimerEvent: {}
+[47.869650] (amr_v4_qt) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/motors.cpp.o\x1b[0m\n'}
+[47.958225] (-) TimerEvent: {}
+[48.058920] (-) TimerEvent: {}
+[48.159869] (-) TimerEvent: {}
+[48.260825] (-) TimerEvent: {}
+[48.361492] (-) TimerEvent: {}
+[48.462128] (-) TimerEvent: {}
+[48.562838] (-) TimerEvent: {}
+[48.663789] (-) TimerEvent: {}
+[48.764732] (-) TimerEvent: {}
+[48.865454] (-) TimerEvent: {}
+[48.966166] (-) TimerEvent: {}
+[49.066942] (-) TimerEvent: {}
+[49.167672] (-) TimerEvent: {}
+[49.268379] (-) TimerEvent: {}
+[49.369154] (-) TimerEvent: {}
+[49.470113] (-) TimerEvent: {}
+[49.571078] (-) TimerEvent: {}
+[49.671792] (-) TimerEvent: {}
+[49.772633] (-) TimerEvent: {}
+[49.874851] (-) TimerEvent: {}
+[49.975644] (-) TimerEvent: {}
+[50.076739] (-) TimerEvent: {}
+[50.177571] (-) TimerEvent: {}
+[50.278455] (-) TimerEvent: {}
+[50.379232] (-) TimerEvent: {}
+[50.479764] (-) TimerEvent: {}
+[50.528701] (amr_v4_qt) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/health.cpp.o\x1b[0m\n'}
+[50.580439] (-) TimerEvent: {}
+[50.681384] (-) TimerEvent: {}
+[50.781839] (-) TimerEvent: {}
+[50.882479] (-) TimerEvent: {}
+[50.982922] (-) TimerEvent: {}
+[51.083542] (-) TimerEvent: {}
+[51.184255] (-) TimerEvent: {}
+[51.284749] (-) TimerEvent: {}
+[51.385352] (-) TimerEvent: {}
+[51.485859] (-) TimerEvent: {}
+[51.586528] (-) TimerEvent: {}
+[51.687136] (-) TimerEvent: {}
+[51.787895] (-) TimerEvent: {}
+[51.888587] (-) TimerEvent: {}
+[51.989259] (-) TimerEvent: {}
+[52.089947] (-) TimerEvent: {}
+[52.190425] (-) TimerEvent: {}
+[52.291225] (-) TimerEvent: {}
+[52.391784] (-) TimerEvent: {}
+[52.492111] (-) TimerEvent: {}
+[52.592651] (-) TimerEvent: {}
+[52.693437] (-) TimerEvent: {}
+[52.794604] (-) TimerEvent: {}
+[52.896192] (-) TimerEvent: {}
+[52.982932] (amr_v4_qt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.o\x1b[0m\n'}
+[52.996770] (-) TimerEvent: {}
+[53.097739] (-) TimerEvent: {}
+[53.198371] (-) TimerEvent: {}
+[53.298802] (-) TimerEvent: {}
+[53.399219] (-) TimerEvent: {}
+[53.499739] (-) TimerEvent: {}
+[53.600251] (-) TimerEvent: {}
+[53.700773] (-) TimerEvent: {}
+[53.801292] (-) TimerEvent: {}
+[53.901833] (-) TimerEvent: {}
+[54.002352] (-) TimerEvent: {}
+[54.103204] (-) TimerEvent: {}
+[54.204925] (-) TimerEvent: {}
+[54.305482] (-) TimerEvent: {}
+[54.406249] (-) TimerEvent: {}
+[54.507110] (-) TimerEvent: {}
+[54.608977] (-) TimerEvent: {}
+[54.709694] (-) TimerEvent: {}
+[54.810365] (-) TimerEvent: {}
+[54.912199] (-) TimerEvent: {}
+[55.012641] (-) TimerEvent: {}
+[55.113089] (-) TimerEvent: {}
+[55.213576] (-) TimerEvent: {}
+[55.314244] (-) TimerEvent: {}
+[55.352276] (amr_v4_qt) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/fisher_screen.cpp.o\x1b[0m\n'}
+[55.414392] (-) TimerEvent: {}
+[55.514854] (-) TimerEvent: {}
+[55.615556] (-) TimerEvent: {}
+[55.717225] (-) TimerEvent: {}
+[55.817877] (-) TimerEvent: {}
+[55.918359] (-) TimerEvent: {}
+[56.018864] (-) TimerEvent: {}
+[56.121287] (-) TimerEvent: {}
+[56.221807] (-) TimerEvent: {}
+[56.322903] (-) TimerEvent: {}
+[56.423527] (-) TimerEvent: {}
+[56.524204] (-) TimerEvent: {}
+[56.624917] (-) TimerEvent: {}
+[56.725626] (-) TimerEvent: {}
+[56.826213] (-) TimerEvent: {}
+[56.926942] (-) TimerEvent: {}
+[57.027393] (-) TimerEvent: {}
+[57.127872] (-) TimerEvent: {}
+[57.228368] (-) TimerEvent: {}
+[57.328805] (-) TimerEvent: {}
+[57.429365] (-) TimerEvent: {}
+[57.529752] (-) TimerEvent: {}
+[57.630270] (-) TimerEvent: {}
+[57.637260] (amr_v4_qt) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/battery_node.cpp.o\x1b[0m\n'}
+[57.730494] (-) TimerEvent: {}
+[57.831279] (-) TimerEvent: {}
+[57.932218] (-) TimerEvent: {}
+[58.032781] (-) TimerEvent: {}
+[58.133414] (-) TimerEvent: {}
+[58.233936] (-) TimerEvent: {}
+[58.334643] (-) TimerEvent: {}
+[58.435394] (-) TimerEvent: {}
+[58.535968] (-) TimerEvent: {}
+[58.636671] (-) TimerEvent: {}
+[58.742534] (-) TimerEvent: {}
+[58.844265] (-) TimerEvent: {}
+[58.946160] (-) TimerEvent: {}
+[59.046905] (-) TimerEvent: {}
+[59.147577] (-) TimerEvent: {}
+[59.248346] (-) TimerEvent: {}
+[59.349218] (-) TimerEvent: {}
+[59.450140] (-) TimerEvent: {}
+[59.550846] (-) TimerEvent: {}
+[59.651916] (-) TimerEvent: {}
+[59.755205] (-) TimerEvent: {}
+[59.856245] (-) TimerEvent: {}
+[59.956904] (-) TimerEvent: {}
+[60.057718] (-) TimerEvent: {}
+[60.158549] (-) TimerEvent: {}
+[60.259835] (-) TimerEvent: {}
+[60.360638] (-) TimerEvent: {}
+[60.461666] (-) TimerEvent: {}
+[60.562673] (-) TimerEvent: {}
+[60.663362] (-) TimerEvent: {}
+[60.764035] (-) TimerEvent: {}
+[60.864724] (-) TimerEvent: {}
+[60.965718] (-) TimerEvent: {}
+[61.066406] (-) TimerEvent: {}
+[61.167255] (-) TimerEvent: {}
+[61.267984] (-) TimerEvent: {}
+[61.369688] (-) TimerEvent: {}
+[61.470670] (-) TimerEvent: {}
+[61.572121] (-) TimerEvent: {}
+[61.673936] (-) TimerEvent: {}
+[61.774732] (-) TimerEvent: {}
+[61.875742] (-) TimerEvent: {}
+[61.976788] (-) TimerEvent: {}
+[62.077621] (-) TimerEvent: {}
+[62.178689] (-) TimerEvent: {}
+[62.279673] (-) TimerEvent: {}
+[62.380505] (-) TimerEvent: {}
+[62.481214] (-) TimerEvent: {}
+[62.581893] (-) TimerEvent: {}
+[62.682584] (-) TimerEvent: {}
+[62.783492] (-) TimerEvent: {}
+[62.884385] (-) TimerEvent: {}
+[62.987626] (-) TimerEvent: {}
+[63.088321] (-) TimerEvent: {}
+[63.189002] (-) TimerEvent: {}
+[63.289679] (-) TimerEvent: {}
+[63.390381] (-) TimerEvent: {}
+[63.491078] (-) TimerEvent: {}
+[63.592017] (-) TimerEvent: {}
+[63.692935] (-) TimerEvent: {}
+[63.793664] (-) TimerEvent: {}
+[63.894747] (-) TimerEvent: {}
+[63.996643] (-) TimerEvent: {}
+[64.097692] (-) TimerEvent: {}
+[64.198612] (-) TimerEvent: {}
+[64.299344] (-) TimerEvent: {}
+[64.400098] (-) TimerEvent: {}
+[64.500895] (-) TimerEvent: {}
+[64.602082] (-) TimerEvent: {}
+[64.703118] (-) TimerEvent: {}
+[64.804029] (-) TimerEvent: {}
+[64.904991] (-) TimerEvent: {}
+[65.005838] (-) TimerEvent: {}
+[65.106558] (-) TimerEvent: {}
+[65.207364] (-) TimerEvent: {}
+[65.308542] (-) TimerEvent: {}
+[65.413600] (-) TimerEvent: {}
+[65.514707] (-) TimerEvent: {}
+[65.615469] (-) TimerEvent: {}
+[65.716398] (-) TimerEvent: {}
+[65.817360] (-) TimerEvent: {}
+[65.919921] (-) TimerEvent: {}
+[66.020676] (-) TimerEvent: {}
+[66.121378] (-) TimerEvent: {}
+[66.222073] (-) TimerEvent: {}
+[66.322749] (-) TimerEvent: {}
+[66.423621] (-) TimerEvent: {}
+[66.524638] (-) TimerEvent: {}
+[66.625639] (-) TimerEvent: {}
+[66.726527] (-) TimerEvent: {}
+[66.827720] (-) TimerEvent: {}
+[66.928359] (-) TimerEvent: {}
+[67.029189] (-) TimerEvent: {}
+[67.129865] (-) TimerEvent: {}
+[67.230681] (-) TimerEvent: {}
+[67.331551] (-) TimerEvent: {}
+[67.432179] (-) TimerEvent: {}
+[67.532997] (-) TimerEvent: {}
+[67.633794] (-) TimerEvent: {}
+[67.736818] (-) TimerEvent: {}
+[67.840479] (-) TimerEvent: {}
+[67.942685] (-) TimerEvent: {}
+[68.044187] (-) TimerEvent: {}
+[68.146793] (-) TimerEvent: {}
+[68.247344] (-) TimerEvent: {}
+[68.348780] (-) TimerEvent: {}
+[68.449894] (-) TimerEvent: {}
+[68.553800] (-) TimerEvent: {}
+[68.655333] (-) TimerEvent: {}
+[68.756860] (-) TimerEvent: {}
+[68.857369] (-) TimerEvent: {}
+[68.958217] (-) TimerEvent: {}
+[69.059460] (-) TimerEvent: {}
+[69.159971] (-) TimerEvent: {}
+[69.260386] (-) TimerEvent: {}
+[69.360812] (-) TimerEvent: {}
+[69.461338] (-) TimerEvent: {}
+[69.561762] (-) TimerEvent: {}
+[69.662283] (-) TimerEvent: {}
+[69.762769] (-) TimerEvent: {}
+[69.863214] (-) TimerEvent: {}
+[69.963949] (-) TimerEvent: {}
+[70.064522] (-) TimerEvent: {}
+[70.164915] (-) TimerEvent: {}
+[70.265368] (-) TimerEvent: {}
+[70.365799] (-) TimerEvent: {}
+[70.466360] (-) TimerEvent: {}
+[70.566716] (-) TimerEvent: {}
+[70.667234] (-) TimerEvent: {}
+[70.768264] (-) TimerEvent: {}
+[70.868931] (-) TimerEvent: {}
+[70.969476] (-) TimerEvent: {}
+[71.071047] (-) TimerEvent: {}
+[71.172091] (-) TimerEvent: {}
+[71.272554] (-) TimerEvent: {}
+[71.373481] (-) TimerEvent: {}
+[71.474210] (-) TimerEvent: {}
+[71.574636] (-) TimerEvent: {}
+[71.675120] (-) TimerEvent: {}
+[71.775777] (-) TimerEvent: {}
+[71.876196] (-) TimerEvent: {}
+[71.976723] (-) TimerEvent: {}
+[72.077379] (-) TimerEvent: {}
+[72.178023] (-) TimerEvent: {}
+[72.278464] (-) TimerEvent: {}
+[72.378952] (-) TimerEvent: {}
+[72.479702] (-) TimerEvent: {}
+[72.580260] (-) TimerEvent: {}
+[72.680794] (-) TimerEvent: {}
+[72.781466] (-) TimerEvent: {}
+[72.884681] (-) TimerEvent: {}
+[72.951619] (amr_v4_qt) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/motor_node.cpp.o\x1b[0m\n'}
+[72.985259] (-) TimerEvent: {}
+[73.086759] (-) TimerEvent: {}
+[73.188988] (-) TimerEvent: {}
+[73.289617] (-) TimerEvent: {}
+[73.390342] (-) TimerEvent: {}
+[73.490893] (-) TimerEvent: {}
+[73.591270] (-) TimerEvent: {}
+[73.691853] (-) TimerEvent: {}
+[73.792491] (-) TimerEvent: {}
+[73.893074] (-) TimerEvent: {}
+[73.993707] (-) TimerEvent: {}
+[74.094672] (-) TimerEvent: {}
+[74.196290] (-) TimerEvent: {}
+[74.296973] (-) TimerEvent: {}
+[74.397663] (-) TimerEvent: {}
+[74.498204] (-) TimerEvent: {}
+[74.598830] (-) TimerEvent: {}
+[74.699256] (-) TimerEvent: {}
+[74.800514] (-) TimerEvent: {}
+[74.901944] (-) TimerEvent: {}
+[75.002646] (-) TimerEvent: {}
+[75.103136] (-) TimerEvent: {}
+[75.203513] (-) TimerEvent: {}
+[75.311294] (-) TimerEvent: {}
+[75.412836] (-) TimerEvent: {}
+[75.514724] (-) TimerEvent: {}
+[75.617139] (-) TimerEvent: {}
+[75.718518] (-) TimerEvent: {}
+[75.819253] (-) TimerEvent: {}
+[75.919947] (-) TimerEvent: {}
+[76.020614] (-) TimerEvent: {}
+[76.121448] (-) TimerEvent: {}
+[76.222507] (-) TimerEvent: {}
+[76.323481] (-) TimerEvent: {}
+[76.424948] (-) TimerEvent: {}
+[76.525489] (-) TimerEvent: {}
+[76.626038] (-) TimerEvent: {}
+[76.726790] (-) TimerEvent: {}
+[76.828244] (-) TimerEvent: {}
+[76.928933] (-) TimerEvent: {}
+[77.029837] (-) TimerEvent: {}
+[77.130618] (-) TimerEvent: {}
+[77.231406] (-) TimerEvent: {}
+[77.332527] (-) TimerEvent: {}
+[77.433693] (-) TimerEvent: {}
+[77.534699] (-) TimerEvent: {}
+[77.635592] (-) TimerEvent: {}
+[77.736701] (-) TimerEvent: {}
+[77.837424] (-) TimerEvent: {}
+[77.938249] (-) TimerEvent: {}
+[78.039489] (-) TimerEvent: {}
+[78.141068] (-) TimerEvent: {}
+[78.241689] (-) TimerEvent: {}
+[78.342374] (-) TimerEvent: {}
+[78.443271] (-) TimerEvent: {}
+[78.545271] (-) TimerEvent: {}
+[78.646737] (-) TimerEvent: {}
+[78.747610] (-) TimerEvent: {}
+[78.848900] (-) TimerEvent: {}
+[78.950964] (-) TimerEvent: {}
+[79.051740] (-) TimerEvent: {}
+[79.152652] (-) TimerEvent: {}
+[79.253300] (-) TimerEvent: {}
+[79.354073] (-) TimerEvent: {}
+[79.454924] (-) TimerEvent: {}
+[79.555640] (-) TimerEvent: {}
+[79.658241] (-) TimerEvent: {}
+[79.758890] (-) TimerEvent: {}
+[79.859670] (-) TimerEvent: {}
+[79.960555] (-) TimerEvent: {}
+[80.061340] (-) TimerEvent: {}
+[80.162222] (-) TimerEvent: {}
+[80.263412] (-) TimerEvent: {}
+[80.364202] (-) TimerEvent: {}
+[80.464844] (-) TimerEvent: {}
+[80.565498] (-) TimerEvent: {}
+[80.666042] (-) TimerEvent: {}
+[80.790153] (-) TimerEvent: {}
+[80.892079] (-) TimerEvent: {}
+[80.992477] (-) TimerEvent: {}
+[81.093632] (-) TimerEvent: {}
+[81.196823] (-) TimerEvent: {}
+[81.299045] (-) TimerEvent: {}
+[81.401168] (-) TimerEvent: {}
+[81.501798] (-) TimerEvent: {}
+[81.602886] (-) TimerEvent: {}
+[81.707753] (-) TimerEvent: {}
+[81.808491] (-) TimerEvent: {}
+[81.909131] (-) TimerEvent: {}
+[82.010944] (-) TimerEvent: {}
+[82.112470] (-) TimerEvent: {}
+[82.213878] (-) TimerEvent: {}
+[82.314353] (-) TimerEvent: {}
+[82.414838] (-) TimerEvent: {}
+[82.515562] (-) TimerEvent: {}
+[82.616237] (-) TimerEvent: {}
+[82.717038] (-) TimerEvent: {}
+[82.817575] (-) TimerEvent: {}
+[82.918015] (-) TimerEvent: {}
+[83.018442] (-) TimerEvent: {}
+[83.119011] (-) TimerEvent: {}
+[83.219565] (-) TimerEvent: {}
+[83.320224] (-) TimerEvent: {}
+[83.420893] (-) TimerEvent: {}
+[83.521481] (-) TimerEvent: {}
+[83.621953] (-) TimerEvent: {}
+[83.722786] (-) TimerEvent: {}
+[83.823388] (-) TimerEvent: {}
+[83.924352] (-) TimerEvent: {}
+[84.024870] (-) TimerEvent: {}
+[84.125774] (-) TimerEvent: {}
+[84.226299] (-) TimerEvent: {}
+[84.327000] (-) TimerEvent: {}
+[84.427701] (-) TimerEvent: {}
+[84.528214] (-) TimerEvent: {}
+[84.628715] (-) TimerEvent: {}
+[84.729390] (-) TimerEvent: {}
+[84.829761] (-) TimerEvent: {}
+[84.930234] (-) TimerEvent: {}
+[85.030767] (-) TimerEvent: {}
+[85.131482] (-) TimerEvent: {}
+[85.232360] (-) TimerEvent: {}
+[85.333317] (-) TimerEvent: {}
+[85.435137] (-) TimerEvent: {}
+[85.535597] (-) TimerEvent: {}
+[85.636028] (-) TimerEvent: {}
+[85.736492] (-) TimerEvent: {}
+[85.837208] (-) TimerEvent: {}
+[85.937773] (-) TimerEvent: {}
+[86.038514] (-) TimerEvent: {}
+[86.139380] (-) TimerEvent: {}
+[86.240421] (-) TimerEvent: {}
+[86.343371] (-) TimerEvent: {}
+[86.444089] (-) TimerEvent: {}
+[86.544900] (-) TimerEvent: {}
+[86.645598] (-) TimerEvent: {}
+[86.746308] (-) TimerEvent: {}
+[86.847051] (-) TimerEvent: {}
+[86.948902] (-) TimerEvent: {}
+[87.049672] (-) TimerEvent: {}
+[87.150310] (-) TimerEvent: {}
+[87.256038] (-) TimerEvent: {}
+[87.357043] (-) TimerEvent: {}
+[87.458825] (-) TimerEvent: {}
+[87.560097] (-) TimerEvent: {}
+[87.661277] (-) TimerEvent: {}
+[87.763773] (-) TimerEvent: {}
+[87.866698] (-) TimerEvent: {}
+[87.976844] (-) TimerEvent: {}
+[88.077924] (-) TimerEvent: {}
+[88.178594] (-) TimerEvent: {}
+[88.280047] (-) TimerEvent: {}
+[88.381607] (-) TimerEvent: {}
+[88.483581] (-) TimerEvent: {}
+[88.584151] (-) TimerEvent: {}
+[88.651856] (amr_v4_qt) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/health_node.cpp.o\x1b[0m\n'}
+[88.684348] (-) TimerEvent: {}
+[88.784829] (-) TimerEvent: {}
+[88.885392] (-) TimerEvent: {}
+[88.986167] (-) TimerEvent: {}
+[89.086546] (-) TimerEvent: {}
+[89.186964] (-) TimerEvent: {}
+[89.287643] (-) TimerEvent: {}
+[89.388098] (-) TimerEvent: {}
+[89.488557] (-) TimerEvent: {}
+[89.588980] (-) TimerEvent: {}
+[89.689427] (-) TimerEvent: {}
+[89.790075] (-) TimerEvent: {}
+[89.890494] (-) TimerEvent: {}
+[89.990969] (-) TimerEvent: {}
+[90.091480] (-) TimerEvent: {}
+[90.191982] (-) TimerEvent: {}
+[90.292547] (-) TimerEvent: {}
+[90.393230] (-) TimerEvent: {}
+[90.493668] (-) TimerEvent: {}
+[90.594125] (-) TimerEvent: {}
+[90.694752] (-) TimerEvent: {}
+[90.795201] (-) TimerEvent: {}
+[90.895723] (-) TimerEvent: {}
+[90.996386] (-) TimerEvent: {}
+[91.097234] (-) TimerEvent: {}
+[91.198929] (-) TimerEvent: {}
+[91.299372] (-) TimerEvent: {}
+[91.399876] (-) TimerEvent: {}
+[91.500272] (-) TimerEvent: {}
+[91.600970] (-) TimerEvent: {}
+[91.701339] (-) TimerEvent: {}
+[91.801676] (-) TimerEvent: {}
+[91.902080] (-) TimerEvent: {}
+[92.002648] (-) TimerEvent: {}
+[92.103038] (-) TimerEvent: {}
+[92.203626] (-) TimerEvent: {}
+[92.304113] (-) TimerEvent: {}
+[92.404531] (-) TimerEvent: {}
+[92.505008] (-) TimerEvent: {}
+[92.605412] (-) TimerEvent: {}
+[92.706325] (-) TimerEvent: {}
+[92.813029] (-) TimerEvent: {}
+[92.915117] (-) TimerEvent: {}
+[93.016129] (-) TimerEvent: {}
+[93.116633] (-) TimerEvent: {}
+[93.217007] (-) TimerEvent: {}
+[93.317669] (-) TimerEvent: {}
+[93.417970] (-) TimerEvent: {}
+[93.518529] (-) TimerEvent: {}
+[93.619086] (-) TimerEvent: {}
+[93.719681] (-) TimerEvent: {}
+[93.820103] (-) TimerEvent: {}
+[93.920565] (-) TimerEvent: {}
+[94.021013] (-) TimerEvent: {}
+[94.121491] (-) TimerEvent: {}
+[94.222099] (-) TimerEvent: {}
+[94.322763] (-) TimerEvent: {}
+[94.423256] (-) TimerEvent: {}
+[94.523790] (-) TimerEvent: {}
+[94.624335] (-) TimerEvent: {}
+[94.725008] (-) TimerEvent: {}
+[94.826309] (-) TimerEvent: {}
+[94.927727] (-) TimerEvent: {}
+[95.028233] (-) TimerEvent: {}
+[95.128686] (-) TimerEvent: {}
+[95.229029] (-) TimerEvent: {}
+[95.329417] (-) TimerEvent: {}
+[95.429900] (-) TimerEvent: {}
+[95.530654] (-) TimerEvent: {}
+[95.631061] (-) TimerEvent: {}
+[95.731575] (-) TimerEvent: {}
+[95.831911] (-) TimerEvent: {}
+[95.932578] (-) TimerEvent: {}
+[96.033347] (-) TimerEvent: {}
+[96.134064] (-) TimerEvent: {}
+[96.235794] (-) TimerEvent: {}
+[96.337293] (-) TimerEvent: {}
+[96.437819] (-) TimerEvent: {}
+[96.538227] (-) TimerEvent: {}
+[96.638884] (-) TimerEvent: {}
+[96.739273] (-) TimerEvent: {}
+[96.839850] (-) TimerEvent: {}
+[96.940476] (-) TimerEvent: {}
+[97.041095] (-) TimerEvent: {}
+[97.141827] (-) TimerEvent: {}
+[97.244277] (-) TimerEvent: {}
+[97.345700] (-) TimerEvent: {}
+[97.446655] (-) TimerEvent: {}
+[97.548314] (-) TimerEvent: {}
+[97.648779] (-) TimerEvent: {}
+[97.749306] (-) TimerEvent: {}
+[97.849991] (-) TimerEvent: {}
+[97.950437] (-) TimerEvent: {}
+[98.051040] (-) TimerEvent: {}
+[98.151489] (-) TimerEvent: {}
+[98.251954] (-) TimerEvent: {}
+[98.352554] (-) TimerEvent: {}
+[98.453052] (-) TimerEvent: {}
+[98.553479] (-) TimerEvent: {}
+[98.654037] (-) TimerEvent: {}
+[98.754451] (-) TimerEvent: {}
+[98.855041] (-) TimerEvent: {}
+[98.955713] (-) TimerEvent: {}
+[99.056769] (-) TimerEvent: {}
+[99.158651] (-) TimerEvent: {}
+[99.259171] (-) TimerEvent: {}
+[99.360092] (-) TimerEvent: {}
+[99.463380] (-) TimerEvent: {}
+[99.567922] (-) TimerEvent: {}
+[99.668751] (-) TimerEvent: {}
+[99.769383] (-) TimerEvent: {}
+[99.869862] (-) TimerEvent: {}
+[99.970874] (-) TimerEvent: {}
+[100.071279] (-) TimerEvent: {}
+[100.171959] (-) TimerEvent: {}
+[100.272399] (-) TimerEvent: {}
+[100.373071] (-) TimerEvent: {}
+[100.473503] (-) TimerEvent: {}
+[100.574207] (-) TimerEvent: {}
+[100.675839] (-) TimerEvent: {}
+[100.776220] (-) TimerEvent: {}
+[100.877392] (-) TimerEvent: {}
+[100.978981] (-) TimerEvent: {}
+[101.079450] (-) TimerEvent: {}
+[101.179828] (-) TimerEvent: {}
+[101.280363] (-) TimerEvent: {}
+[101.380702] (-) TimerEvent: {}
+[101.481236] (-) TimerEvent: {}
+[101.581940] (-) TimerEvent: {}
+[101.682543] (-) TimerEvent: {}
+[101.782942] (-) TimerEvent: {}
+[101.883307] (-) TimerEvent: {}
+[101.983834] (-) TimerEvent: {}
+[102.084413] (-) TimerEvent: {}
+[102.184920] (-) TimerEvent: {}
+[102.285389] (-) TimerEvent: {}
+[102.318967] (amr_v4_qt) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/running_node.cpp.o\x1b[0m\n'}
+[102.388169] (-) TimerEvent: {}
+[102.489204] (-) TimerEvent: {}
+[102.589830] (-) TimerEvent: {}
+[102.690882] (-) TimerEvent: {}
+[102.791601] (-) TimerEvent: {}
+[102.892518] (-) TimerEvent: {}
+[102.993213] (-) TimerEvent: {}
+[103.094062] (-) TimerEvent: {}
+[103.195671] (-) TimerEvent: {}
+[103.298920] (-) TimerEvent: {}
+[103.399770] (-) TimerEvent: {}
+[103.500610] (-) TimerEvent: {}
+[103.601287] (-) TimerEvent: {}
+[103.702070] (-) TimerEvent: {}
+[103.802823] (-) TimerEvent: {}
+[103.903792] (-) TimerEvent: {}
+[104.004504] (-) TimerEvent: {}
+[104.105269] (-) TimerEvent: {}
+[104.207404] (-) TimerEvent: {}
+[104.309215] (-) TimerEvent: {}
+[104.410747] (-) TimerEvent: {}
+[104.511950] (-) TimerEvent: {}
+[104.612685] (-) TimerEvent: {}
+[104.713518] (-) TimerEvent: {}
+[104.814374] (-) TimerEvent: {}
+[104.915845] (-) TimerEvent: {}
+[105.017361] (-) TimerEvent: {}
+[105.118098] (-) TimerEvent: {}
+[105.219765] (-) TimerEvent: {}
+[105.323176] (-) TimerEvent: {}
+[105.424242] (-) TimerEvent: {}
+[105.524895] (-) TimerEvent: {}
+[105.626296] (-) TimerEvent: {}
+[105.728197] (-) TimerEvent: {}
+[105.830074] (-) TimerEvent: {}
+[105.931035] (-) TimerEvent: {}
+[106.031583] (-) TimerEvent: {}
+[106.132255] (-) TimerEvent: {}
+[106.233023] (-) TimerEvent: {}
+[106.333719] (-) TimerEvent: {}
+[106.434269] (-) TimerEvent: {}
+[106.535041] (-) TimerEvent: {}
+[106.635836] (-) TimerEvent: {}
+[106.737859] (-) TimerEvent: {}
+[106.838740] (-) TimerEvent: {}
+[106.939750] (-) TimerEvent: {}
+[107.040566] (-) TimerEvent: {}
+[107.141417] (-) TimerEvent: {}
+[107.243111] (-) TimerEvent: {}
+[107.343911] (-) TimerEvent: {}
+[107.446084] (-) TimerEvent: {}
+[107.547504] (-) TimerEvent: {}
+[107.648313] (-) TimerEvent: {}
+[107.749112] (-) TimerEvent: {}
+[107.849719] (-) TimerEvent: {}
+[107.950509] (-) TimerEvent: {}
+[108.051417] (-) TimerEvent: {}
+[108.152056] (-) TimerEvent: {}
+[108.252787] (-) TimerEvent: {}
+[108.353781] (-) TimerEvent: {}
+[108.454551] (-) TimerEvent: {}
+[108.555357] (-) TimerEvent: {}
+[108.656060] (-) TimerEvent: {}
+[108.757020] (-) TimerEvent: {}
+[108.858040] (-) TimerEvent: {}
+[108.959036] (-) TimerEvent: {}
+[109.059868] (-) TimerEvent: {}
+[109.161281] (-) TimerEvent: {}
+[109.263193] (-) TimerEvent: {}
+[109.364135] (-) TimerEvent: {}
+[109.464909] (-) TimerEvent: {}
+[109.565760] (-) TimerEvent: {}
+[109.666491] (-) TimerEvent: {}
+[109.769557] (-) TimerEvent: {}
+[109.871076] (-) TimerEvent: {}
+[109.971978] (-) TimerEvent: {}
+[110.073372] (-) TimerEvent: {}
+[110.174017] (-) TimerEvent: {}
+[110.275304] (-) TimerEvent: {}
+[110.378038] (-) TimerEvent: {}
+[110.479042] (-) TimerEvent: {}
+[110.580053] (-) TimerEvent: {}
+[110.680742] (-) TimerEvent: {}
+[110.781417] (-) TimerEvent: {}
+[110.882120] (-) TimerEvent: {}
+[110.982798] (-) TimerEvent: {}
+[111.083525] (-) TimerEvent: {}
+[111.184400] (-) TimerEvent: {}
+[111.285134] (-) TimerEvent: {}
+[111.385774] (-) TimerEvent: {}
+[111.486779] (-) TimerEvent: {}
+[111.591276] (-) TimerEvent: {}
+[111.692090] (-) TimerEvent: {}
+[111.792793] (-) TimerEvent: {}
+[111.893460] (-) TimerEvent: {}
+[111.995712] (-) TimerEvent: {}
+[112.096256] (-) TimerEvent: {}
+[112.197020] (-) TimerEvent: {}
+[112.297706] (-) TimerEvent: {}
+[112.398212] (-) TimerEvent: {}
+[112.498854] (-) TimerEvent: {}
+[112.599739] (-) TimerEvent: {}
+[112.700235] (-) TimerEvent: {}
+[112.801283] (-) TimerEvent: {}
+[112.904083] (-) TimerEvent: {}
+[113.004770] (-) TimerEvent: {}
+[113.108278] (-) TimerEvent: {}
+[113.209308] (-) TimerEvent: {}
+[113.310073] (-) TimerEvent: {}
+[113.411405] (-) TimerEvent: {}
+[113.513263] (-) TimerEvent: {}
+[113.614185] (-) TimerEvent: {}
+[113.714794] (-) TimerEvent: {}
+[113.815815] (-) TimerEvent: {}
+[113.917597] (-) TimerEvent: {}
+[114.018323] (-) TimerEvent: {}
+[114.119021] (-) TimerEvent: {}
+[114.219703] (-) TimerEvent: {}
+[114.320397] (-) TimerEvent: {}
+[114.421263] (-) TimerEvent: {}
+[114.522115] (-) TimerEvent: {}
+[114.622850] (-) TimerEvent: {}
+[114.723418] (-) TimerEvent: {}
+[114.824282] (-) TimerEvent: {}
+[114.926234] (-) TimerEvent: {}
+[115.027680] (-) TimerEvent: {}
+[115.128511] (-) TimerEvent: {}
+[115.229329] (-) TimerEvent: {}
+[115.330519] (-) TimerEvent: {}
+[115.431604] (-) TimerEvent: {}
+[115.532346] (-) TimerEvent: {}
+[115.633417] (-) TimerEvent: {}
+[115.734359] (-) TimerEvent: {}
+[115.834877] (-) TimerEvent: {}
+[115.935446] (-) TimerEvent: {}
+[116.035841] (-) TimerEvent: {}
+[116.136264] (-) TimerEvent: {}
+[116.236819] (-) TimerEvent: {}
+[116.337366] (-) TimerEvent: {}
+[116.437819] (-) TimerEvent: {}
+[116.538393] (-) TimerEvent: {}
+[116.638944] (-) TimerEvent: {}
+[116.739410] (-) TimerEvent: {}
+[116.840057] (-) TimerEvent: {}
+[116.940606] (-) TimerEvent: {}
+[116.989038] (amr_v4_qt) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/robot_node.cpp.o\x1b[0m\n'}
+[117.041611] (-) TimerEvent: {}
+[117.144133] (-) TimerEvent: {}
+[117.245081] (-) TimerEvent: {}
+[117.346318] (-) TimerEvent: {}
+[117.447439] (-) TimerEvent: {}
+[117.548103] (-) TimerEvent: {}
+[117.648980] (-) TimerEvent: {}
+[117.749699] (-) TimerEvent: {}
+[117.850449] (-) TimerEvent: {}
+[117.951140] (-) TimerEvent: {}
+[118.051863] (-) TimerEvent: {}
+[118.152977] (-) TimerEvent: {}
+[118.253532] (-) TimerEvent: {}
+[118.354516] (-) TimerEvent: {}
+[118.455313] (-) TimerEvent: {}
+[118.556055] (-) TimerEvent: {}
+[118.656968] (-) TimerEvent: {}
+[118.757620] (-) TimerEvent: {}
+[118.858276] (-) TimerEvent: {}
+[118.958960] (-) TimerEvent: {}
+[119.059741] (-) TimerEvent: {}
+[119.161187] (-) TimerEvent: {}
+[119.262074] (-) TimerEvent: {}
+[119.362938] (-) TimerEvent: {}
+[119.463718] (-) TimerEvent: {}
+[119.564365] (-) TimerEvent: {}
+[119.665336] (-) TimerEvent: {}
+[119.766083] (-) TimerEvent: {}
+[119.866850] (-) TimerEvent: {}
+[119.967564] (-) TimerEvent: {}
+[120.068297] (-) TimerEvent: {}
+[120.169282] (-) TimerEvent: {}
+[120.269964] (-) TimerEvent: {}
+[120.370666] (-) TimerEvent: {}
+[120.471481] (-) TimerEvent: {}
+[120.572452] (-) TimerEvent: {}
+[120.673298] (-) TimerEvent: {}
+[120.774044] (-) TimerEvent: {}
+[120.874847] (-) TimerEvent: {}
+[120.977609] (-) TimerEvent: {}
+[121.078197] (-) TimerEvent: {}
+[121.179005] (-) TimerEvent: {}
+[121.279522] (-) TimerEvent: {}
+[121.380034] (-) TimerEvent: {}
+[121.480521] (-) TimerEvent: {}
+[121.581067] (-) TimerEvent: {}
+[121.681707] (-) TimerEvent: {}
+[121.782204] (-) TimerEvent: {}
+[121.882825] (-) TimerEvent: {}
+[121.983285] (-) TimerEvent: {}
+[122.084019] (-) TimerEvent: {}
+[122.184666] (-) TimerEvent: {}
+[122.285405] (-) TimerEvent: {}
+[122.386336] (-) TimerEvent: {}
+[122.487310] (-) TimerEvent: {}
+[122.588279] (-) TimerEvent: {}
+[122.688920] (-) TimerEvent: {}
+[122.789527] (-) TimerEvent: {}
+[122.890156] (-) TimerEvent: {}
+[122.991229] (-) TimerEvent: {}
+[123.094149] (-) TimerEvent: {}
+[123.196554] (-) TimerEvent: {}
+[123.297177] (-) TimerEvent: {}
+[123.397863] (-) TimerEvent: {}
+[123.498753] (-) TimerEvent: {}
+[123.599291] (-) TimerEvent: {}
+[123.701319] (-) TimerEvent: {}
+[123.801985] (-) TimerEvent: {}
+[123.904155] (-) TimerEvent: {}
+[124.005845] (-) TimerEvent: {}
+[124.106726] (-) TimerEvent: {}
+[124.207353] (-) TimerEvent: {}
+[124.309045] (-) TimerEvent: {}
+[124.410016] (-) TimerEvent: {}
+[124.510888] (-) TimerEvent: {}
+[124.611635] (-) TimerEvent: {}
+[124.712436] (-) TimerEvent: {}
+[124.816024] (-) TimerEvent: {}
+[124.916685] (-) TimerEvent: {}
+[125.017638] (-) TimerEvent: {}
+[125.118496] (-) TimerEvent: {}
+[125.219216] (-) TimerEvent: {}
+[125.319915] (-) TimerEvent: {}
+[125.421605] (-) TimerEvent: {}
+[125.522300] (-) TimerEvent: {}
+[125.623262] (-) TimerEvent: {}
+[125.724462] (-) TimerEvent: {}
+[125.825506] (-) TimerEvent: {}
+[125.926904] (-) TimerEvent: {}
+[126.027760] (-) TimerEvent: {}
+[126.128418] (-) TimerEvent: {}
+[126.229546] (-) TimerEvent: {}
+[126.330285] (-) TimerEvent: {}
+[126.430940] (-) TimerEvent: {}
+[126.531692] (-) TimerEvent: {}
+[126.632470] (-) TimerEvent: {}
+[126.733398] (-) TimerEvent: {}
+[126.834307] (-) TimerEvent: {}
+[126.936039] (-) TimerEvent: {}
+[127.039001] (-) TimerEvent: {}
+[127.142496] (-) TimerEvent: {}
+[127.245271] (-) TimerEvent: {}
+[127.347970] (-) TimerEvent: {}
+[127.448741] (-) TimerEvent: {}
+[127.549448] (-) TimerEvent: {}
+[127.650182] (-) TimerEvent: {}
+[127.751067] (-) TimerEvent: {}
+[127.851756] (-) TimerEvent: {}
+[127.952440] (-) TimerEvent: {}
+[128.053654] (-) TimerEvent: {}
+[128.154498] (-) TimerEvent: {}
+[128.255533] (-) TimerEvent: {}
+[128.356259] (-) TimerEvent: {}
+[128.457620] (-) TimerEvent: {}
+[128.558444] (-) TimerEvent: {}
+[128.660592] (-) TimerEvent: {}
+[128.761414] (-) TimerEvent: {}
+[128.862269] (-) TimerEvent: {}
+[128.962951] (-) TimerEvent: {}
+[129.063734] (-) TimerEvent: {}
+[129.164789] (-) TimerEvent: {}
+[129.265466] (-) TimerEvent: {}
+[129.369251] (-) TimerEvent: {}
+[129.469938] (-) TimerEvent: {}
+[129.571219] (-) TimerEvent: {}
+[129.672178] (-) TimerEvent: {}
+[129.773120] (-) TimerEvent: {}
+[129.874086] (-) TimerEvent: {}
+[129.975207] (-) TimerEvent: {}
+[130.077572] (-) TimerEvent: {}
+[130.184728] (-) TimerEvent: {}
+[130.285393] (-) TimerEvent: {}
+[130.385825] (-) TimerEvent: {}
+[130.486264] (-) TimerEvent: {}
+[130.546695] (amr_v4_qt) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/scrolling_label.cpp.o\x1b[0m\n'}
+[130.586424] (-) TimerEvent: {}
+[130.687009] (-) TimerEvent: {}
+[130.787384] (-) TimerEvent: {}
+[130.887972] (-) TimerEvent: {}
+[130.988624] (-) TimerEvent: {}
+[131.089120] (-) TimerEvent: {}
+[131.189684] (-) TimerEvent: {}
+[131.290629] (-) TimerEvent: {}
+[131.392106] (-) TimerEvent: {}
+[131.492926] (-) TimerEvent: {}
+[131.594375] (-) TimerEvent: {}
+[131.694994] (-) TimerEvent: {}
+[131.795405] (-) TimerEvent: {}
+[131.895895] (-) TimerEvent: {}
+[131.996344] (-) TimerEvent: {}
+[132.096800] (-) TimerEvent: {}
+[132.197355] (-) TimerEvent: {}
+[132.265044] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void ScrollingLabel::paintEvent(QPaintEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[132.265766] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kidd/projects/agv_gui/amr_v4_qt/src/scrolling_label.cpp:18:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kevent\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[132.265951] (amr_v4_qt) StderrLine: {'line': b'   18 | void ScrollingLabel::paintEvent(\x1b[01;35m\x1b[KQPaintEvent *event\x1b[m\x1b[K) {\n'}
+[132.266081] (amr_v4_qt) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[132.298224] (-) TimerEvent: {}
+[132.398769] (-) TimerEvent: {}
+[132.499543] (-) TimerEvent: {}
+[132.559083] (amr_v4_qt) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o\x1b[0m\n'}
+[132.602299] (-) TimerEvent: {}
+[132.702916] (-) TimerEvent: {}
+[132.803618] (-) TimerEvent: {}
+[132.904341] (-) TimerEvent: {}
+[133.004974] (-) TimerEvent: {}
+[133.105625] (-) TimerEvent: {}
+[133.206134] (-) TimerEvent: {}
+[133.306721] (-) TimerEvent: {}
+[133.407262] (-) TimerEvent: {}
+[133.507877] (-) TimerEvent: {}
+[133.608999] (-) TimerEvent: {}
+[133.711234] (-) TimerEvent: {}
+[133.812200] (-) TimerEvent: {}
+[133.912749] (-) TimerEvent: {}
+[134.013325] (-) TimerEvent: {}
+[134.113831] (-) TimerEvent: {}
+[134.214262] (-) TimerEvent: {}
+[134.314773] (-) TimerEvent: {}
+[134.415323] (-) TimerEvent: {}
+[134.515895] (-) TimerEvent: {}
+[134.616514] (-) TimerEvent: {}
+[134.717113] (-) TimerEvent: {}
+[134.817638] (-) TimerEvent: {}
+[134.918382] (-) TimerEvent: {}
+[135.019056] (-) TimerEvent: {}
+[135.119707] (-) TimerEvent: {}
+[135.220518] (-) TimerEvent: {}
+[135.321261] (-) TimerEvent: {}
+[135.422018] (-) TimerEvent: {}
+[135.522683] (-) TimerEvent: {}
+[135.623320] (-) TimerEvent: {}
+[135.724065] (-) TimerEvent: {}
+[135.825018] (-) TimerEvent: {}
+[135.927362] (-) TimerEvent: {}
+[136.028182] (-) TimerEvent: {}
+[136.130043] (-) TimerEvent: {}
+[136.232996] (-) TimerEvent: {}
+[136.334619] (-) TimerEvent: {}
+[136.436336] (-) TimerEvent: {}
+[136.537646] (-) TimerEvent: {}
+[136.638495] (-) TimerEvent: {}
+[136.739411] (-) TimerEvent: {}
+[136.841521] (-) TimerEvent: {}
+[136.942717] (-) TimerEvent: {}
+[137.044402] (-) TimerEvent: {}
+[137.152156] (-) TimerEvent: {}
+[137.254244] (-) TimerEvent: {}
+[137.354975] (-) TimerEvent: {}
+[137.456113] (-) TimerEvent: {}
+[137.557231] (-) TimerEvent: {}
+[137.657735] (-) TimerEvent: {}
+[137.758586] (-) TimerEvent: {}
+[137.859373] (-) TimerEvent: {}
+[137.960712] (-) TimerEvent: {}
+[138.062535] (-) TimerEvent: {}
+[138.163408] (-) TimerEvent: {}
+[138.264116] (-) TimerEvent: {}
+[138.364780] (-) TimerEvent: {}
+[138.465476] (-) TimerEvent: {}
+[138.566236] (-) TimerEvent: {}
+[138.667059] (-) TimerEvent: {}
+[138.767739] (-) TimerEvent: {}
+[138.868708] (-) TimerEvent: {}
+[138.969567] (-) TimerEvent: {}
+[139.070372] (-) TimerEvent: {}
+[139.128164] (amr_v4_qt) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_motors.cpp.o\x1b[0m\n'}
+[139.170742] (-) TimerEvent: {}
+[139.271443] (-) TimerEvent: {}
+[139.372463] (-) TimerEvent: {}
+[139.473350] (-) TimerEvent: {}
+[139.576465] (-) TimerEvent: {}
+[139.678745] (-) TimerEvent: {}
+[139.779737] (-) TimerEvent: {}
+[139.880429] (-) TimerEvent: {}
+[139.981296] (-) TimerEvent: {}
+[140.081925] (-) TimerEvent: {}
+[140.182656] (-) TimerEvent: {}
+[140.283334] (-) TimerEvent: {}
+[140.383974] (-) TimerEvent: {}
+[140.484663] (-) TimerEvent: {}
+[140.585511] (-) TimerEvent: {}
+[140.686361] (-) TimerEvent: {}
+[140.786932] (-) TimerEvent: {}
+[140.887483] (-) TimerEvent: {}
+[140.988535] (-) TimerEvent: {}
+[141.089710] (-) TimerEvent: {}
+[141.191517] (-) TimerEvent: {}
+[141.292261] (-) TimerEvent: {}
+[141.394191] (-) TimerEvent: {}
+[141.420301] (amr_v4_qt) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_motor_screen.cpp.o\x1b[0m\n'}
+[141.463688] (amr_v4_qt) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_health_screen.cpp.o\x1b[0m\n'}
+[141.494568] (-) TimerEvent: {}
+[141.498512] (amr_v4_qt) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_running_mode_screen.cpp.o\x1b[0m\n'}
+[141.536947] (amr_v4_qt) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_main_screen.cpp.o\x1b[0m\n'}
+[141.579468] (amr_v4_qt) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.o\x1b[0m\n'}
+[141.594749] (-) TimerEvent: {}
+[141.695584] (-) TimerEvent: {}
+[141.796351] (-) TimerEvent: {}
+[141.897061] (-) TimerEvent: {}
+[141.998036] (-) TimerEvent: {}
+[142.098882] (-) TimerEvent: {}
+[142.199606] (-) TimerEvent: {}
+[142.300429] (-) TimerEvent: {}
+[142.401228] (-) TimerEvent: {}
+[142.502472] (-) TimerEvent: {}
+[142.603352] (-) TimerEvent: {}
+[142.704335] (-) TimerEvent: {}
+[142.805000] (-) TimerEvent: {}
+[142.906494] (-) TimerEvent: {}
+[143.012096] (-) TimerEvent: {}
+[143.112733] (-) TimerEvent: {}
+[143.213411] (-) TimerEvent: {}
+[143.314023] (-) TimerEvent: {}
+[143.414610] (-) TimerEvent: {}
+[143.515181] (-) TimerEvent: {}
+[143.615780] (-) TimerEvent: {}
+[143.716468] (-) TimerEvent: {}
+[143.817647] (-) TimerEvent: {}
+[143.920011] (-) TimerEvent: {}
+[144.020920] (-) TimerEvent: {}
+[144.051078] (amr_v4_qt) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_fisher_screen.cpp.o\x1b[0m\n'}
+[144.121306] (-) TimerEvent: {}
+[144.222620] (-) TimerEvent: {}
+[144.323288] (-) TimerEvent: {}
+[144.423900] (-) TimerEvent: {}
+[144.524396] (-) TimerEvent: {}
+[144.625389] (-) TimerEvent: {}
+[144.726627] (-) TimerEvent: {}
+[144.828127] (-) TimerEvent: {}
+[144.929196] (-) TimerEvent: {}
+[145.030364] (-) TimerEvent: {}
+[145.131310] (-) TimerEvent: {}
+[145.231858] (-) TimerEvent: {}
+[145.332498] (-) TimerEvent: {}
+[145.432974] (-) TimerEvent: {}
+[145.533579] (-) TimerEvent: {}
+[145.634178] (-) TimerEvent: {}
+[145.734943] (-) TimerEvent: {}
+[145.835588] (-) TimerEvent: {}
+[145.936244] (-) TimerEvent: {}
+[145.994386] (amr_v4_qt) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_battery_node.cpp.o\x1b[0m\n'}
+[146.036461] (-) TimerEvent: {}
+[146.137163] (-) TimerEvent: {}
+[146.237829] (-) TimerEvent: {}
+[146.338873] (-) TimerEvent: {}
+[146.441161] (-) TimerEvent: {}
+[146.541743] (-) TimerEvent: {}
+[146.642400] (-) TimerEvent: {}
+[146.742898] (-) TimerEvent: {}
+[146.843700] (-) TimerEvent: {}
+[146.944165] (-) TimerEvent: {}
+[147.044806] (-) TimerEvent: {}
+[147.145696] (-) TimerEvent: {}
+[147.246458] (-) TimerEvent: {}
+[147.347097] (-) TimerEvent: {}
+[147.447810] (-) TimerEvent: {}
+[147.548595] (-) TimerEvent: {}
+[147.649414] (-) TimerEvent: {}
+[147.750127] (-) TimerEvent: {}
+[147.853543] (-) TimerEvent: {}
+[147.955022] (-) TimerEvent: {}
+[148.056451] (-) TimerEvent: {}
+[148.158673] (-) TimerEvent: {}
+[148.259456] (-) TimerEvent: {}
+[148.360150] (-) TimerEvent: {}
+[148.460860] (-) TimerEvent: {}
+[148.561455] (-) TimerEvent: {}
+[148.662200] (-) TimerEvent: {}
+[148.762981] (-) TimerEvent: {}
+[148.863664] (-) TimerEvent: {}
+[148.964473] (-) TimerEvent: {}
+[149.068161] (-) TimerEvent: {}
+[149.170154] (-) TimerEvent: {}
+[149.270897] (-) TimerEvent: {}
+[149.371597] (-) TimerEvent: {}
+[149.472747] (-) TimerEvent: {}
+[149.575088] (-) TimerEvent: {}
+[149.677062] (-) TimerEvent: {}
+[149.778099] (-) TimerEvent: {}
+[149.878787] (-) TimerEvent: {}
+[149.979413] (-) TimerEvent: {}
+[150.080330] (-) TimerEvent: {}
+[150.181075] (-) TimerEvent: {}
+[150.282061] (-) TimerEvent: {}
+[150.383484] (-) TimerEvent: {}
+[150.486695] (-) TimerEvent: {}
+[150.588174] (-) TimerEvent: {}
+[150.690097] (-) TimerEvent: {}
+[150.790857] (-) TimerEvent: {}
+[150.891501] (-) TimerEvent: {}
+[150.992512] (-) TimerEvent: {}
+[151.093326] (-) TimerEvent: {}
+[151.194257] (-) TimerEvent: {}
+[151.295239] (-) TimerEvent: {}
+[151.396230] (-) TimerEvent: {}
+[151.498885] (-) TimerEvent: {}
+[151.592907] (amr_v4_qt) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_motor_node.cpp.o\x1b[0m\n'}
+[151.599130] (-) TimerEvent: {}
+[151.700013] (-) TimerEvent: {}
+[151.800827] (-) TimerEvent: {}
+[151.901677] (-) TimerEvent: {}
+[152.002868] (-) TimerEvent: {}
+[152.103566] (-) TimerEvent: {}
+[152.204421] (-) TimerEvent: {}
+[152.305436] (-) TimerEvent: {}
+[152.406486] (-) TimerEvent: {}
+[152.507223] (-) TimerEvent: {}
+[152.607986] (-) TimerEvent: {}
+[152.708641] (-) TimerEvent: {}
+[152.809350] (-) TimerEvent: {}
+[152.910039] (-) TimerEvent: {}
+[153.011011] (-) TimerEvent: {}
+[153.111863] (-) TimerEvent: {}
+[153.212827] (-) TimerEvent: {}
+[153.313755] (-) TimerEvent: {}
+[153.414613] (-) TimerEvent: {}
+[153.515339] (-) TimerEvent: {}
+[153.616256] (-) TimerEvent: {}
+[153.716929] (-) TimerEvent: {}
+[153.817741] (-) TimerEvent: {}
+[153.918706] (-) TimerEvent: {}
+[154.019627] (-) TimerEvent: {}
+[154.120272] (-) TimerEvent: {}
+[154.221035] (-) TimerEvent: {}
+[154.321681] (-) TimerEvent: {}
+[154.422368] (-) TimerEvent: {}
+[154.523105] (-) TimerEvent: {}
+[154.623788] (-) TimerEvent: {}
+[154.724593] (-) TimerEvent: {}
+[154.826410] (-) TimerEvent: {}
+[154.927773] (-) TimerEvent: {}
+[155.028433] (-) TimerEvent: {}
+[155.129153] (-) TimerEvent: {}
+[155.229842] (-) TimerEvent: {}
+[155.330427] (-) TimerEvent: {}
+[155.431268] (-) TimerEvent: {}
+[155.532716] (-) TimerEvent: {}
+[155.633529] (-) TimerEvent: {}
+[155.734219] (-) TimerEvent: {}
+[155.834855] (-) TimerEvent: {}
+[155.935525] (-) TimerEvent: {}
+[156.036357] (-) TimerEvent: {}
+[156.139999] (-) TimerEvent: {}
+[156.240682] (-) TimerEvent: {}
+[156.341398] (-) TimerEvent: {}
+[156.442048] (-) TimerEvent: {}
+[156.542775] (-) TimerEvent: {}
+[156.635015] (amr_v4_qt) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_health.cpp.o\x1b[0m\n'}
+[156.642970] (-) TimerEvent: {}
+[156.743612] (-) TimerEvent: {}
+[156.844352] (-) TimerEvent: {}
+[156.944910] (-) TimerEvent: {}
+[157.045457] (-) TimerEvent: {}
+[157.146439] (-) TimerEvent: {}
+[157.247129] (-) TimerEvent: {}
+[157.347816] (-) TimerEvent: {}
+[157.450166] (-) TimerEvent: {}
+[157.552791] (-) TimerEvent: {}
+[157.653640] (-) TimerEvent: {}
+[157.754344] (-) TimerEvent: {}
+[157.855173] (-) TimerEvent: {}
+[157.956429] (-) TimerEvent: {}
+[158.057303] (-) TimerEvent: {}
+[158.158217] (-) TimerEvent: {}
+[158.258911] (-) TimerEvent: {}
+[158.359561] (-) TimerEvent: {}
+[158.460285] (-) TimerEvent: {}
+[158.560909] (-) TimerEvent: {}
+[158.661468] (-) TimerEvent: {}
+[158.758117] (amr_v4_qt) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_health_node.cpp.o\x1b[0m\n'}
+[158.761837] (-) TimerEvent: {}
+[158.862408] (-) TimerEvent: {}
+[158.963165] (-) TimerEvent: {}
+[159.063971] (-) TimerEvent: {}
+[159.164975] (-) TimerEvent: {}
+[159.265837] (-) TimerEvent: {}
+[159.366482] (-) TimerEvent: {}
+[159.467212] (-) TimerEvent: {}
+[159.569882] (-) TimerEvent: {}
+[159.670572] (-) TimerEvent: {}
+[159.771263] (-) TimerEvent: {}
+[159.871988] (-) TimerEvent: {}
+[159.972647] (-) TimerEvent: {}
+[160.073393] (-) TimerEvent: {}
+[160.174532] (-) TimerEvent: {}
+[160.277179] (-) TimerEvent: {}
+[160.380358] (-) TimerEvent: {}
+[160.481018] (-) TimerEvent: {}
+[160.582804] (-) TimerEvent: {}
+[160.683977] (-) TimerEvent: {}
+[160.785541] (-) TimerEvent: {}
+[160.886561] (-) TimerEvent: {}
+[160.992043] (-) TimerEvent: {}
+[161.093096] (-) TimerEvent: {}
+[161.193785] (-) TimerEvent: {}
+[161.294775] (-) TimerEvent: {}
+[161.395605] (-) TimerEvent: {}
+[161.497171] (-) TimerEvent: {}
+[161.597768] (-) TimerEvent: {}
+[161.698577] (-) TimerEvent: {}
+[161.799408] (-) TimerEvent: {}
+[161.900109] (-) TimerEvent: {}
+[162.000989] (-) TimerEvent: {}
+[162.101917] (-) TimerEvent: {}
+[162.202964] (-) TimerEvent: {}
+[162.304101] (-) TimerEvent: {}
+[162.406311] (-) TimerEvent: {}
+[162.507125] (-) TimerEvent: {}
+[162.607888] (-) TimerEvent: {}
+[162.708567] (-) TimerEvent: {}
+[162.809201] (-) TimerEvent: {}
+[162.909946] (-) TimerEvent: {}
+[163.010645] (-) TimerEvent: {}
+[163.111354] (-) TimerEvent: {}
+[163.212339] (-) TimerEvent: {}
+[163.318620] (-) TimerEvent: {}
+[163.419863] (-) TimerEvent: {}
+[163.527068] (-) TimerEvent: {}
+[163.628452] (-) TimerEvent: {}
+[163.729209] (-) TimerEvent: {}
+[163.829888] (-) TimerEvent: {}
+[163.930651] (-) TimerEvent: {}
+[164.032670] (-) TimerEvent: {}
+[164.133911] (-) TimerEvent: {}
+[164.234766] (-) TimerEvent: {}
+[164.335869] (-) TimerEvent: {}
+[164.438029] (-) TimerEvent: {}
+[164.538859] (-) TimerEvent: {}
+[164.561959] (amr_v4_qt) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_running_mode.cpp.o\x1b[0m\n'}
+[164.639026] (-) TimerEvent: {}
+[164.739767] (-) TimerEvent: {}
+[164.840524] (-) TimerEvent: {}
+[164.941243] (-) TimerEvent: {}
+[165.041999] (-) TimerEvent: {}
+[165.142751] (-) TimerEvent: {}
+[165.244483] (-) TimerEvent: {}
+[165.345303] (-) TimerEvent: {}
+[165.445988] (-) TimerEvent: {}
+[165.547071] (-) TimerEvent: {}
+[165.647879] (-) TimerEvent: {}
+[165.748882] (-) TimerEvent: {}
+[165.849748] (-) TimerEvent: {}
+[165.951436] (-) TimerEvent: {}
+[166.052813] (-) TimerEvent: {}
+[166.153811] (-) TimerEvent: {}
+[166.257042] (-) TimerEvent: {}
+[166.359892] (-) TimerEvent: {}
+[166.464133] (-) TimerEvent: {}
+[166.565136] (-) TimerEvent: {}
+[166.666854] (-) TimerEvent: {}
+[166.767890] (-) TimerEvent: {}
+[166.870322] (-) TimerEvent: {}
+[166.971098] (-) TimerEvent: {}
+[167.072594] (-) TimerEvent: {}
+[167.174435] (-) TimerEvent: {}
+[167.275808] (-) TimerEvent: {}
+[167.291905] (amr_v4_qt) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_running_node.cpp.o\x1b[0m\n'}
+[167.376643] (-) TimerEvent: {}
+[167.477501] (-) TimerEvent: {}
+[167.578999] (-) TimerEvent: {}
+[167.680522] (-) TimerEvent: {}
+[167.781767] (-) TimerEvent: {}
+[167.882388] (-) TimerEvent: {}
+[167.983103] (-) TimerEvent: {}
+[168.083825] (-) TimerEvent: {}
+[168.184570] (-) TimerEvent: {}
+[168.286882] (-) TimerEvent: {}
+[168.387634] (-) TimerEvent: {}
+[168.488302] (-) TimerEvent: {}
+[168.588988] (-) TimerEvent: {}
+[168.689686] (-) TimerEvent: {}
+[168.790468] (-) TimerEvent: {}
+[168.891234] (-) TimerEvent: {}
+[168.991933] (-) TimerEvent: {}
+[169.092622] (-) TimerEvent: {}
+[169.193236] (-) TimerEvent: {}
+[169.294033] (-) TimerEvent: {}
+[169.394693] (-) TimerEvent: {}
+[169.495260] (-) TimerEvent: {}
+[169.596071] (-) TimerEvent: {}
+[169.697499] (-) TimerEvent: {}
+[169.798470] (-) TimerEvent: {}
+[169.899140] (-) TimerEvent: {}
+[170.004096] (-) TimerEvent: {}
+[170.105151] (-) TimerEvent: {}
+[170.206400] (-) TimerEvent: {}
+[170.307139] (-) TimerEvent: {}
+[170.407672] (-) TimerEvent: {}
+[170.508206] (-) TimerEvent: {}
+[170.608891] (-) TimerEvent: {}
+[170.709409] (-) TimerEvent: {}
+[170.810141] (-) TimerEvent: {}
+[170.910792] (-) TimerEvent: {}
+[171.012256] (-) TimerEvent: {}
+[171.113741] (-) TimerEvent: {}
+[171.215791] (-) TimerEvent: {}
+[171.318646] (-) TimerEvent: {}
+[171.419411] (-) TimerEvent: {}
+[171.519998] (-) TimerEvent: {}
+[171.620639] (-) TimerEvent: {}
+[171.721171] (-) TimerEvent: {}
+[171.787681] (amr_v4_qt) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_robot_node.cpp.o\x1b[0m\n'}
+[171.821458] (-) TimerEvent: {}
+[171.922041] (-) TimerEvent: {}
+[172.022763] (-) TimerEvent: {}
+[172.123774] (-) TimerEvent: {}
+[172.224878] (-) TimerEvent: {}
+[172.326579] (-) TimerEvent: {}
+[172.427250] (-) TimerEvent: {}
+[172.528203] (-) TimerEvent: {}
+[172.630134] (-) TimerEvent: {}
+[172.730739] (-) TimerEvent: {}
+[172.831315] (-) TimerEvent: {}
+[172.931785] (-) TimerEvent: {}
+[173.032326] (-) TimerEvent: {}
+[173.133088] (-) TimerEvent: {}
+[173.233722] (-) TimerEvent: {}
+[173.334454] (-) TimerEvent: {}
+[173.435122] (-) TimerEvent: {}
+[173.536110] (-) TimerEvent: {}
+[173.636763] (-) TimerEvent: {}
+[173.737334] (-) TimerEvent: {}
+[173.837903] (-) TimerEvent: {}
+[173.938516] (-) TimerEvent: {}
+[174.039266] (-) TimerEvent: {}
+[174.140032] (-) TimerEvent: {}
+[174.241481] (-) TimerEvent: {}
+[174.342316] (-) TimerEvent: {}
+[174.443561] (-) TimerEvent: {}
+[174.544809] (-) TimerEvent: {}
+[174.645837] (-) TimerEvent: {}
+[174.746911] (-) TimerEvent: {}
+[174.848223] (-) TimerEvent: {}
+[174.954575] (-) TimerEvent: {}
+[175.055140] (-) TimerEvent: {}
+[175.156306] (-) TimerEvent: {}
+[175.257519] (-) TimerEvent: {}
+[175.363275] (-) TimerEvent: {}
+[175.471829] (-) TimerEvent: {}
+[175.572412] (-) TimerEvent: {}
+[175.673030] (-) TimerEvent: {}
+[175.774707] (-) TimerEvent: {}
+[175.876260] (-) TimerEvent: {}
+[175.976985] (-) TimerEvent: {}
+[176.077836] (-) TimerEvent: {}
+[176.184348] (-) TimerEvent: {}
+[176.286257] (-) TimerEvent: {}
+[176.386818] (-) TimerEvent: {}
+[176.487714] (-) TimerEvent: {}
+[176.588237] (-) TimerEvent: {}
+[176.688862] (-) TimerEvent: {}
+[176.790810] (-) TimerEvent: {}
+[176.818941] (amr_v4_qt) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_scrolling_label.cpp.o\x1b[0m\n'}
+[176.891237] (-) TimerEvent: {}
+[176.991967] (-) TimerEvent: {}
+[177.092954] (-) TimerEvent: {}
+[177.193921] (-) TimerEvent: {}
+[177.294732] (-) TimerEvent: {}
+[177.395538] (-) TimerEvent: {}
+[177.496456] (-) TimerEvent: {}
+[177.597612] (-) TimerEvent: {}
+[177.698278] (-) TimerEvent: {}
+[177.799105] (-) TimerEvent: {}
+[177.899682] (-) TimerEvent: {}
+[178.000338] (-) TimerEvent: {}
+[178.101552] (-) TimerEvent: {}
+[178.202681] (-) TimerEvent: {}
+[178.303416] (-) TimerEvent: {}
+[178.404119] (-) TimerEvent: {}
+[178.504987] (-) TimerEvent: {}
+[178.605751] (-) TimerEvent: {}
+[178.614692] (amr_v4_qt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable amr_v4_qt\x1b[0m\n'}
+[178.706001] (-) TimerEvent: {}
+[178.806538] (-) TimerEvent: {}
+[178.907246] (-) TimerEvent: {}
+[179.008768] (-) TimerEvent: {}
+[179.109978] (-) TimerEvent: {}
+[179.210521] (-) TimerEvent: {}
+[179.311133] (-) TimerEvent: {}
+[179.411877] (-) TimerEvent: {}
+[179.512657] (-) TimerEvent: {}
+[179.613260] (-) TimerEvent: {}
+[179.714096] (-) TimerEvent: {}
+[179.816192] (-) TimerEvent: {}
+[179.916682] (-) TimerEvent: {}
+[180.017207] (-) TimerEvent: {}
+[180.117917] (-) TimerEvent: {}
+[180.218766] (-) TimerEvent: {}
+[180.319674] (-) TimerEvent: {}
+[180.420379] (-) TimerEvent: {}
+[180.520956] (-) TimerEvent: {}
+[180.621648] (-) TimerEvent: {}
+[180.722109] (-) TimerEvent: {}
+[180.822648] (-) TimerEvent: {}
+[180.923165] (-) TimerEvent: {}
+[181.023933] (-) TimerEvent: {}
+[181.124500] (-) TimerEvent: {}
+[181.225028] (-) TimerEvent: {}
+[181.325701] (-) TimerEvent: {}
+[181.426489] (-) TimerEvent: {}
+[181.527143] (-) TimerEvent: {}
+[181.627750] (-) TimerEvent: {}
+[181.728335] (-) TimerEvent: {}
+[181.828990] (-) TimerEvent: {}
+[181.929631] (-) TimerEvent: {}
+[182.030409] (-) TimerEvent: {}
+[182.131051] (-) TimerEvent: {}
+[182.231723] (-) TimerEvent: {}
+[182.332455] (-) TimerEvent: {}
+[182.433145] (-) TimerEvent: {}
+[182.533786] (-) TimerEvent: {}
+[182.634322] (-) TimerEvent: {}
+[182.734744] (-) TimerEvent: {}
+[182.835378] (-) TimerEvent: {}
+[182.935859] (-) TimerEvent: {}
+[183.036641] (-) TimerEvent: {}
+[183.137184] (-) TimerEvent: {}
+[183.140560] (amr_v4_qt) StdoutLine: {'line': b'[100%] Built target amr_v4_qt\n'}
+[183.156883] (amr_v4_qt) CommandEnded: {'returncode': 0}
+[183.236939] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'install'}
+[183.238978] (-) TimerEvent: {}
+[183.239552] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kidd/projects/agv_gui/build/amr_v4_qt'], 'cwd': '/home/kidd/projects/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kidd'), ('SSH_AGENT_PID', '1433'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/kidd'), ('OLDPWD', '/home/kidd/projects/agv_gui/amr_v4_qt'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kidd/projects/agv_gui/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'kidd'), ('JOURNAL_STREAM', '8:51091'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kidd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1468,unix/ubuntu:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '28a14b1e79ae4b98aa3b6ccde82e0f83'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d82d80c4_09ba_4da3_8b6d_4e862205467b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_qt:/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kidd/projects/agv_gui/build/amr_v4_qt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic')]), 'shell': False}
+[183.249591] (amr_v4_qt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[183.250787] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt\n'}
+[183.259805] (amr_v4_qt) StdoutLine: {'line': b'-- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt" to ""\n'}
+[183.260011] (amr_v4_qt) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch\n'}
+[183.260199] (amr_v4_qt) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch/gui.launch.py\n'}
+[183.260404] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/package_run_dependencies/amr_v4_qt\n'}
+[183.263940] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/parent_prefix_path/amr_v4_qt\n'}
+[183.264073] (amr_v4_qt) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.sh\n'}
+[183.264169] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.dsv\n'}
+[183.264288] (amr_v4_qt) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.sh\n'}
+[183.264380] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.dsv\n'}
+[183.264506] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.bash\n'}
+[183.264624] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.sh\n'}
+[183.264729] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.zsh\n'}
+[183.264818] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.dsv\n'}
+[183.264908] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv\n'}
+[183.266051] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/packages/amr_v4_qt\n'}
+[183.266161] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig.cmake\n'}
+[183.266290] (amr_v4_qt) StdoutLine: {'line': b'-- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig-version.cmake\n'}
+[183.266639] (amr_v4_qt) StdoutLine: {'line': b'-- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.xml\n'}
+[183.270104] (amr_v4_qt) CommandEnded: {'returncode': 0}
+[183.339217] (-) TimerEvent: {}
+[183.380541] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 0}
+[183.381774] (-) EventReactorShutdown: {}

@@ -44,6 +44,7 @@ add_executable(${PROJECT_NAME}
     src/motors.cpp
     src/health.cpp
     src/running_mode.cpp
+    src/hello_world.cpp
     src/fisher_screen.cpp
     src/battery_node.cpp
     src/motor_node.cpp
@@ -60,6 +61,7 @@ set(MOC_HEADERS
   include/ui_motor_screen.h
   include/ui_health_screen.h
   include/ui_running_mode_screen.h
+  include/ui_hello_world_screen.h
   include/ui_main_screen.h
   include/main_screen.h
   include/fisher_screen.h
@@ -69,6 +71,7 @@ set(MOC_HEADERS
   include/health_node.h
   include/running_mode.h
   include/running_node.h
+  include/hello_world.h
   include/robot_node.h
   include/scrolling_label.h
 )

@@ -41,7 +41,7 @@
        <enum>Qt::LeftToRight</enum>
       </property>
       <property name="frameShape">
-       <enum>QFrame::NoFrame</enum>
+       <enum>QFrame::Box</enum>
       </property>
       <property name="text">
        <string>Hello World!</string>

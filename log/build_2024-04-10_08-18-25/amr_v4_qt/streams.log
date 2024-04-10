@@ -1,0 +1,37 @@
+[0.030s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[0.101s] [  1%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.123s] [  1%] Built target amr_v4_qt_autogen
+[0.151s] [  3%] [34m[1mGenerating include/moc_ui_hello_world_screen.cpp[0m
+[0.157s] /home/kidd/projects/agv_gui/amr_v4_qt/include/ui_hello_world_screen.h:0: Note: No relevant classes found. No output generated.
+[0.169s] [35m[1mScanning dependencies of target amr_v4_qt[0m
+[0.300s] [  5%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[0.301s] [  7%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[5.524s] [  9%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/hello_world.cpp.o[0m
+[6.416s] [ 11%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[7.637s] [ 13%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_hello_world_screen.cpp.o[0m
+[7.740s] [ 15%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_hello_world.cpp.o[0m
+[11.509s] [ 16%] [32m[1mLinking CXX executable amr_v4_qt[0m
+[15.867s] [100%] Built target amr_v4_qt
+[15.882s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[15.990s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_qt
+[16.008s] -- Install configuration: ""
+[16.009s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt
+[16.016s] -- Set runtime path of "/home/kidd/projects/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt" to ""
+[16.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch
+[16.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch/gui.launch.py
+[16.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/package_run_dependencies/amr_v4_qt
+[16.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/parent_prefix_path/amr_v4_qt
+[16.018s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.sh
+[16.018s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.dsv
+[16.019s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.sh
+[16.019s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.dsv
+[16.019s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.bash
+[16.020s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.sh
+[16.020s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.zsh
+[16.020s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.dsv
+[16.021s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv
+[16.033s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/packages/amr_v4_qt
+[16.033s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig.cmake
+[16.033s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig-version.cmake
+[16.033s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.xml
+[16.037s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_qt

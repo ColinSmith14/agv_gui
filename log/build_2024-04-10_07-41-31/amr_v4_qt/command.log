@@ -1,0 +1,2 @@
+Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2

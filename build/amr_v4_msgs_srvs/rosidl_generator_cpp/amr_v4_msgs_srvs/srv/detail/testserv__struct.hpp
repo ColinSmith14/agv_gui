@@ -5,14 +5,13 @@
 #ifndef AMR_V4_MSGS_SRVS__SRV__DETAIL__TESTSERV__STRUCT_HPP_
 #define AMR_V4_MSGS_SRVS__SRV__DETAIL__TESTSERV__STRUCT_HPP_
 
+#include <rosidl_runtime_cpp/bounded_vector.hpp>
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
-
-#include "rosidl_runtime_cpp/bounded_vector.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 #ifndef _WIN32

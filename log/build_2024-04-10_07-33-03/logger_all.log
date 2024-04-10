@@ -1,0 +1,211 @@
+[0.251s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e5c666a30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e5c666a30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e5c666f40>)
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.446s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kidd/projects/agv_gui'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_msgs_srvs) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'amr_v4_msgs_srvs' with type 'ros.ament_cmake' and name 'amr_v4_msgs_srvs'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(amr_v4_qt) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package 'amr_v4_qt' with type 'ros.ament_cmake' and name 'amr_v4_qt'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kidd/projects/agv_gui/install
+[0.493s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 268 installed packages in /opt/ros/galactic
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_msgs_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.620s] DEBUG:colcon.colcon_core.verb:Building package 'amr_v4_msgs_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs', 'merge_install': False, 'path': '/home/kidd/projects/agv_gui/amr_v4_msgs_srvs', 'symlink_install': False, 'test_result_base': None}
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'cmake_args' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'cmake_target' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'cmake_clean_first' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'cmake_force_configure' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'ament_cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'amr_v4_qt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.623s] DEBUG:colcon.colcon_core.verb:Building package 'amr_v4_qt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kidd/projects/agv_gui/build/amr_v4_qt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kidd/projects/agv_gui/install/amr_v4_qt', 'merge_install': False, 'path': '/home/kidd/projects/agv_gui/amr_v4_qt', 'symlink_install': False, 'test_result_base': None}
+[0.623s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kidd/projects/agv_gui/amr_v4_msgs_srvs' with build type 'ament_cmake'
+[0.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kidd/projects/agv_gui/amr_v4_msgs_srvs'
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/kidd/projects/agv_gui/amr_v4_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs
+[4.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/kidd/projects/agv_gui/amr_v4_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs
+[4.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2
+[19.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2
+[19.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs
+[19.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_v4_msgs_srvs)
+[19.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs
+[19.715s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs' for CMake module files
+[19.716s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs' for CMake config files
+[19.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_msgs_srvs', 'cmake_prefix_path')
+[19.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/cmake_prefix_path.ps1'
+[19.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/cmake_prefix_path.dsv'
+[19.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/cmake_prefix_path.sh'
+[19.734s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib'
+[19.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_msgs_srvs', 'ld_library_path_lib')
+[19.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/ld_library_path_lib.ps1'
+[19.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/ld_library_path_lib.dsv'
+[19.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/ld_library_path_lib.sh'
+[19.737s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/bin'
+[19.737s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/pkgconfig/amr_v4_msgs_srvs.pc'
+[19.737s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages'
+[19.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_msgs_srvs', 'pythonpath')
+[19.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/pythonpath.ps1'
+[19.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/pythonpath.dsv'
+[19.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/pythonpath.sh'
+[19.740s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/bin'
+[19.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.ps1'
+[19.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.dsv'
+[19.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.sh'
+[19.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.bash'
+[19.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.zsh'
+[19.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/colcon-core/packages/amr_v4_msgs_srvs)
+[20.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_v4_msgs_srvs)
+[20.035s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs' for CMake module files
+[20.037s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs' for CMake config files
+[20.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_msgs_srvs', 'cmake_prefix_path')
+[20.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/cmake_prefix_path.ps1'
+[20.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/cmake_prefix_path.dsv'
+[20.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/cmake_prefix_path.sh'
+[20.048s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib'
+[20.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_msgs_srvs', 'ld_library_path_lib')
+[20.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/ld_library_path_lib.ps1'
+[20.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/ld_library_path_lib.dsv'
+[20.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/ld_library_path_lib.sh'
+[20.062s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/bin'
+[20.062s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/pkgconfig/amr_v4_msgs_srvs.pc'
+[20.062s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages'
+[20.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_msgs_srvs', 'pythonpath')
+[20.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/pythonpath.ps1'
+[20.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/pythonpath.dsv'
+[20.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/hook/pythonpath.sh'
+[20.071s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/bin'
+[20.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.ps1'
+[20.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.dsv'
+[20.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.sh'
+[20.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.bash'
+[20.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.zsh'
+[20.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/colcon-core/packages/amr_v4_msgs_srvs)
+[20.077s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kidd/projects/agv_gui/amr_v4_qt' with build type 'ament_cmake'
+[20.077s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kidd/projects/agv_gui/amr_v4_qt'
+[20.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake /home/kidd/projects/agv_gui/amr_v4_qt -DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_qt
+[28.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake /home/kidd/projects/agv_gui/amr_v4_qt -DCMAKE_INSTALL_PREFIX=/home/kidd/projects/agv_gui/install/amr_v4_qt
+[28.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[183.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[183.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_qt
+[183.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_v4_qt)
+[183.896s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt' for CMake module files
+[183.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_qt
+[183.897s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt' for CMake config files
+[183.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_qt', 'cmake_prefix_path')
+[183.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/hook/cmake_prefix_path.ps1'
+[183.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/hook/cmake_prefix_path.dsv'
+[183.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/hook/cmake_prefix_path.sh'
+[183.903s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/lib'
+[183.903s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/bin'
+[183.903s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/lib/pkgconfig/amr_v4_qt.pc'
+[183.904s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/lib/python3.8/site-packages'
+[183.904s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/bin'
+[183.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.ps1'
+[183.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv'
+[183.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.sh'
+[183.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.bash'
+[183.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.zsh'
+[183.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kidd/projects/agv_gui/install/amr_v4_qt/share/colcon-core/packages/amr_v4_qt)
+[183.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_v4_qt)
+[183.995s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt' for CMake module files
+[183.996s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt' for CMake config files
+[183.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_v4_qt', 'cmake_prefix_path')
+[183.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/hook/cmake_prefix_path.ps1'
+[183.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/hook/cmake_prefix_path.dsv'
+[183.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/hook/cmake_prefix_path.sh'
+[184.000s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/lib'
+[184.000s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/bin'
+[184.000s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/lib/pkgconfig/amr_v4_qt.pc'
+[184.001s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/lib/python3.8/site-packages'
+[184.001s] Level 1:colcon.colcon_core.environment:checking '/home/kidd/projects/agv_gui/install/amr_v4_qt/bin'
+[184.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.ps1'
+[184.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv'
+[184.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.sh'
+[184.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.bash'
+[184.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/kidd/projects/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.zsh'
+[184.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kidd/projects/agv_gui/install/amr_v4_qt/share/colcon-core/packages/amr_v4_qt)
+[184.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[184.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[184.007s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[184.007s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[184.018s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[184.018s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[184.018s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[184.052s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[184.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kidd/projects/agv_gui/install/local_setup.ps1'
+[184.055s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kidd/projects/agv_gui/install/_local_setup_util_ps1.py'
+[184.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kidd/projects/agv_gui/install/setup.ps1'
+[184.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kidd/projects/agv_gui/install/local_setup.sh'
+[184.065s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kidd/projects/agv_gui/install/_local_setup_util_sh.py'
+[184.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kidd/projects/agv_gui/install/setup.sh'
+[184.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kidd/projects/agv_gui/install/local_setup.bash'
+[184.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kidd/projects/agv_gui/install/setup.bash'
+[184.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kidd/projects/agv_gui/install/local_setup.zsh'
+[184.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kidd/projects/agv_gui/install/setup.zsh'

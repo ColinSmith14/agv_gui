@@ -17,7 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in msg/Pin in the package amr_v4_msgs_srvs.
+// Struct defined in msg/Pin in the package amr_v4_msgs_srvs.
 typedef struct amr_v4_msgs_srvs__msg__Pin
 {
   int8_t pin_command;

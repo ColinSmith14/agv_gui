@@ -30,6 +30,7 @@ public:
     QPushButton *motorScreenButton;
     QPushButton *healthScreenButton;
     QPushButton *runningScreenButton;
+    QPushButton *helloScreenButton;
     QStackedWidget *mainContent;
     QWidget *page;
     QWidget *page_2;
@@ -50,7 +51,7 @@ public:
     {
         if (MainScreen->objectName().isEmpty())
             MainScreen->setObjectName(QString::fromUtf8("MainScreen"));
-        MainScreen->resize(800, 480);
+        MainScreen->resize(800, 479);
         MainScreen->setMinimumSize(QSize(200, 0));
         verticalLayoutWidget = new QWidget(MainScreen);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
@@ -98,6 +99,14 @@ public:
         runningScreenButton->setMinimumSize(QSize(160, 60));
 
         buttonsLayout->addWidget(runningScreenButton);
+
+        helloScreenButton = new QPushButton(verticalLayoutWidget);
+        helloScreenButton->setObjectName(QString::fromUtf8("helloScreenButton"));
+        sizePolicy.setHeightForWidth(helloScreenButton->sizePolicy().hasHeightForWidth());
+        helloScreenButton->setSizePolicy(sizePolicy);
+        helloScreenButton->setMinimumSize(QSize(160, 60));
+
+        buttonsLayout->addWidget(helloScreenButton);
 
         mainContent = new QStackedWidget(MainScreen);
         mainContent->setObjectName(QString::fromUtf8("mainContent"));
@@ -221,6 +230,7 @@ public:
         motorScreenButton->setText(QApplication::translate("MainScreen", "Motors", nullptr));
         healthScreenButton->setText(QApplication::translate("MainScreen", "Health", nullptr));
         runningScreenButton->setText(QApplication::translate("MainScreen", "Running", nullptr));
+        helloScreenButton->setText(QApplication::translate("MainScreen", "Hello World", nullptr));
         estopButton->setText(QApplication::translate("MainScreen", "ESTOP", nullptr));
         label->setText(QApplication::translate("MainScreen", "Fisher Dynamics", nullptr));
         wifiTextLabel->setText(QApplication::translate("MainScreen", "Wifi", nullptr));

@@ -26,7 +26,7 @@ extern "C"
 // Member 'error_pin'
 #include "rosidl_runtime_c/string.h"
 
-/// Struct defined in msg/Motor in the package amr_v4_msgs_srvs.
+// Struct defined in msg/Motor in the package amr_v4_msgs_srvs.
 typedef struct amr_v4_msgs_srvs__msg__Motor
 {
   rosidl_runtime_c__String output_current_right;

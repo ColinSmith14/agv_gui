@@ -5,11 +5,10 @@
 #ifndef AMR_V4_MSGS_SRVS__MSG__DETAIL__MOTOR__BUILDER_HPP_
 #define AMR_V4_MSGS_SRVS__MSG__DETAIL__MOTOR__BUILDER_HPP_
 
+#include "amr_v4_msgs_srvs/msg/detail/motor__struct.hpp"
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
-
-#include "amr_v4_msgs_srvs/msg/detail/motor__struct.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace amr_v4_msgs_srvs

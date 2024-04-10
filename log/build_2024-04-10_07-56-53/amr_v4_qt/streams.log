@@ -1,0 +1,15 @@
+[0.017s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[0.124s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.152s] [  2%] Built target amr_v4_qt_autogen
+[0.200s] [35m[1mScanning dependencies of target amr_v4_qt[0m
+[0.304s] [  4%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[3.666s] [01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, QWidget*)[m[K’:
+[3.666s] [01m[K/home/kidd/projects/agv_gui/amr_v4_qt/src/main_gui.cpp:29:24:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KQWidget*[m[K’ to ‘[01m[KHelloWorldScreen*[m[K’ [[01;31m[K-fpermissive[m[K]
+[3.666s]    29 |     helloWorldScreen = [01;31m[Knew QWidget()[m[K;
+[3.666s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[3.666s]       |                        [01;31m[K|[m[K
+[3.666s]       |                        [01;31m[KQWidget*[m[K
+[4.236s] make[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:153: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+[4.237s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[4.237s] make: *** [Makefile:141: all] Error 2
+[4.241s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2

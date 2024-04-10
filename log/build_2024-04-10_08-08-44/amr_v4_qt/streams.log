@@ -1,0 +1,11 @@
+[0.034s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2
+[0.239s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.302s] [  2%] Built target amr_v4_qt_autogen
+[0.445s] [  4%] [32m[1mLinking CXX executable amr_v4_qt[0m
+[6.440s] /usr/bin/ld: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o: in function `MainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, QWidget*)':
+[6.440s] main_gui.cpp:(.text+0x26b): undefined reference to `HelloWorldScreen::HelloWorldScreen(QWidget*)'
+[6.440s] collect2: error: ld returned 1 exit status
+[6.440s] make[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:733: amr_v4_qt] Error 1
+[6.440s] make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[6.441s] make: *** [Makefile:141: all] Error 2
+[6.452s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs:/home/kidd/projects/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_qt -- -j2 -l2

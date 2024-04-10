@@ -1,12 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/motor__type_support.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/motor__type_support.c.o.d"
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/pin__type_support.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/pin__type_support.c.o.d"
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/robot__type_support.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/robot__type_support.c.o.d"
   "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c.o"
-  "CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c.o.d"
   "libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.pdb"
   "libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_introspection_c.h"
