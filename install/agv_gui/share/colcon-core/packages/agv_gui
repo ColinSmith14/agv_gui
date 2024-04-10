@@ -1,1 +1,0 @@
-controller_manager:gripper_controllers:joint_state_controller:joy:libqt5-core:libqt5-gui:libqt5-quick:libqt5-widgets:message_runtime:moveit_ros_visualization:moveit_studio_utils_py:picknik_studio_resources:rclcpp:rclcpp_components:rviz_common:rviz_default_plugins:rviz_rendering:ur5_e_moveit_config:ur_controllers:ur_description:ur_robot_driver:ur_ros2_control_demos

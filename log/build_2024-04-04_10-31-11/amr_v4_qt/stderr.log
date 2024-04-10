@@ -1,0 +1,4 @@
+[01m[K/home/colin/agv_gui/amr_v4_qt/src/scrolling_label.cpp:[m[K In member function ‘[01m[Kvirtual void ScrollingLabel::paintEvent(QPaintEvent*)[m[K’:
+[01m[K/home/colin/agv_gui/amr_v4_qt/src/scrolling_label.cpp:22:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   22 | void ScrollingLabel::paintEvent([01;35m[KQPaintEvent *event[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~^~~~~[m[K

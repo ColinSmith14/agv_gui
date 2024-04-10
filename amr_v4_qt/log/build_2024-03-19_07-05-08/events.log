@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.002615] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict()}
+[0.003912] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[0.098760] (-) TimerEvent: {}
+[0.202604] (-) TimerEvent: {}
+[0.304637] (-) TimerEvent: {}
+[0.407565] (-) TimerEvent: {}
+[0.508917] (-) TimerEvent: {}
+[0.607978] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[0.609008] (-) TimerEvent: {}
+[0.613451] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '/home/colin/agv_gui/amr_v4_qt', '-DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/amr_v4_qt/install/amr_v4_qt'], 'cwd': '/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('SSH_AGENT_PID', '2428'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1885'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'colin'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1421122056927'), ('JOURNAL_STREAM', '7:51928'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/amr:@/tmp/.ICE-unix/2463,unix/amr:/tmp/.ICE-unix/2463'), ('INVOCATION_ID', '25f6b3cec0664570a8215e6a078861ec'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45361314_ea02_4278_950b_2faa48d300ba'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('JETSON_P_NUMBER', 'p3668-0003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.709512] (-) TimerEvent: {}
+[0.811155] (-) TimerEvent: {}
+[0.912174] (-) TimerEvent: {}
+[1.013252] (-) TimerEvent: {}
+[1.114291] (-) TimerEvent: {}
+[1.124467] (amr_v4_qt) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.214593] (-) TimerEvent: {}
+[1.315852] (-) TimerEvent: {}
+[1.417070] (-) TimerEvent: {}
+[1.518093] (-) TimerEvent: {}
+[1.535645] (amr_v4_qt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.575035] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.618384] (-) TimerEvent: {}
+[1.719724] (-) TimerEvent: {}
+[1.820736] (-) TimerEvent: {}
+[1.921875] (-) TimerEvent: {}
+[2.023190] (-) TimerEvent: {}
+[2.027397] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.039861] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.123410] (-) TimerEvent: {}
+[2.224628] (-) TimerEvent: {}
+[2.325646] (-) TimerEvent: {}
+[2.426814] (-) TimerEvent: {}
+[2.480580] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.527167] (-) TimerEvent: {}
+[2.572446] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.576390] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.596172] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.627435] (-) TimerEvent: {}
+[2.728458] (-) TimerEvent: {}
+[2.829551] (-) TimerEvent: {}
+[2.930571] (-) TimerEvent: {}
+[3.031711] (-) TimerEvent: {}
+[3.091950] (amr_v4_qt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.099882] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.132008] (-) TimerEvent: {}
+[3.233082] (-) TimerEvent: {}
+[3.334156] (-) TimerEvent: {}
+[3.435326] (-) TimerEvent: {}
+[3.536302] (-) TimerEvent: {}
+[3.584440] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.636611] (-) TimerEvent: {}
+[3.665947] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.668923] (amr_v4_qt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.686580] (amr_v4_qt) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[3.736846] (-) TimerEvent: {}
+[3.823968] (amr_v4_qt) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.826483] (amr_v4_qt) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.837081] (-) TimerEvent: {}
+[3.938125] (-) TimerEvent: {}
+[4.039290] (-) TimerEvent: {}
+[4.140395] (-) TimerEvent: {}
+[4.241523] (-) TimerEvent: {}
+[4.260877] (amr_v4_qt) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[4.341820] (-) TimerEvent: {}
+[4.439273] (amr_v4_qt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.441984] (-) TimerEvent: {}
+[4.481594] (amr_v4_qt) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[4.542330] (-) TimerEvent: {}
+[4.643601] (-) TimerEvent: {}
+[4.744778] (-) TimerEvent: {}
+[4.845889] (-) TimerEvent: {}
+[4.946975] (-) TimerEvent: {}
+[5.023566] (amr_v4_qt) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.047275] (-) TimerEvent: {}
+[5.148343] (-) TimerEvent: {}
+[5.178766] (amr_v4_qt) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[5.248602] (-) TimerEvent: {}
+[5.349874] (-) TimerEvent: {}
+[5.450925] (-) TimerEvent: {}
+[5.552179] (-) TimerEvent: {}
+[5.636244] (amr_v4_qt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.652389] (-) TimerEvent: {}
+[5.753481] (-) TimerEvent: {}
+[5.854603] (-) TimerEvent: {}
+[5.955791] (-) TimerEvent: {}
+[6.056937] (-) TimerEvent: {}
+[6.143456] (amr_v4_qt) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[6.157158] (-) TimerEvent: {}
+[6.258232] (-) TimerEvent: {}
+[6.359405] (-) TimerEvent: {}
+[6.438539] (amr_v4_qt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[6.453731] (amr_v4_qt) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[6.459615] (-) TimerEvent: {}
+[6.560537] (-) TimerEvent: {}
+[6.563468] (amr_v4_qt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[6.569912] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.660779] (-) TimerEvent: {}
+[6.761894] (-) TimerEvent: {}
+[6.863010] (-) TimerEvent: {}
+[6.964117] (-) TimerEvent: {}
+[7.027316] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.030788] (amr_v4_qt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.064360] (-) TimerEvent: {}
+[7.165423] (-) TimerEvent: {}
+[7.266728] (-) TimerEvent: {}
+[7.367838] (-) TimerEvent: {}
+[7.468985] (-) TimerEvent: {}
+[7.497474] (amr_v4_qt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.499479] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.569282] (-) TimerEvent: {}
+[7.670347] (-) TimerEvent: {}
+[7.772222] (-) TimerEvent: {}
+[7.873342] (-) TimerEvent: {}
+[7.882659] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.884116] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.973656] (-) TimerEvent: {}
+[8.074800] (-) TimerEvent: {}
+[8.176015] (-) TimerEvent: {}
+[8.278052] (-) TimerEvent: {}
+[8.315548] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.325250] (amr_v4_qt) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.378423] (-) TimerEvent: {}
+[8.480118] (-) TimerEvent: {}
+[8.581123] (-) TimerEvent: {}
+[8.682480] (-) TimerEvent: {}
+[8.783698] (-) TimerEvent: {}
+[8.884844] (-) TimerEvent: {}
+[8.985930] (-) TimerEvent: {}
+[9.086964] (-) TimerEvent: {}
+[9.088080] (amr_v4_qt) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)\n'}
+[9.187374] (-) TimerEvent: {}
+[9.288537] (-) TimerEvent: {}
+[9.380361] (amr_v4_qt) StdoutLine: {'line': b'-- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)\n'}
+[9.388737] (-) TimerEvent: {}
+[9.471830] (amr_v4_qt) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[9.489758] (amr_v4_qt) StdoutLine: {'line': b'-- Found OGRE\n'}
+[9.490623] (-) TimerEvent: {}
+[9.491918] (amr_v4_qt) StdoutLine: {'line': b'--   static     : OFF\n'}
+[9.492611] (amr_v4_qt) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[9.493137] (amr_v4_qt) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[9.494270] (amr_v4_qt) StdoutLine: {'line': b'--   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[9.494991] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[9.495589] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib\n'}
+[9.496149] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[9.496611] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[9.497133] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[9.497621] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[9.498091] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[9.498675] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[9.499575] (amr_v4_qt) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[9.590184] (amr_v4_qt) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[9.591241] (-) TimerEvent: {}
+[9.616696] (amr_v4_qt) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[9.691536] (-) TimerEvent: {}
+[9.792688] (-) TimerEvent: {}
+[9.893745] (-) TimerEvent: {}
+[9.995021] (-) TimerEvent: {}
+[10.097320] (-) TimerEvent: {}
+[10.175214] (amr_v4_qt) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[10.177402] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[10.197551] (-) TimerEvent: {}
+[10.298532] (-) TimerEvent: {}
+[10.399638] (-) TimerEvent: {}
+[10.500603] (-) TimerEvent: {}
+[10.601784] (-) TimerEvent: {}
+[10.650196] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[10.652134] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[10.702031] (-) TimerEvent: {}
+[10.803130] (-) TimerEvent: {}
+[10.904131] (-) TimerEvent: {}
+[11.005240] (-) TimerEvent: {}
+[11.074049] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[11.075289] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for connect\n'}
+[11.105474] (-) TimerEvent: {}
+[11.206468] (-) TimerEvent: {}
+[11.307606] (-) TimerEvent: {}
+[11.408643] (-) TimerEvent: {}
+[11.499195] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[11.503756] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for remove\n'}
+[11.508844] (-) TimerEvent: {}
+[11.609812] (-) TimerEvent: {}
+[11.710895] (-) TimerEvent: {}
+[11.812021] (-) TimerEvent: {}
+[11.913185] (-) TimerEvent: {}
+[11.935731] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[11.936868] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[12.013449] (-) TimerEvent: {}
+[12.114517] (-) TimerEvent: {}
+[12.216071] (-) TimerEvent: {}
+[12.317286] (-) TimerEvent: {}
+[12.349426] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[12.353018] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[12.417535] (-) TimerEvent: {}
+[12.518543] (-) TimerEvent: {}
+[12.619644] (-) TimerEvent: {}
+[12.720796] (-) TimerEvent: {}
+[12.795601] (amr_v4_qt) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[12.810605] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[12.812008] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[12.821096] (-) TimerEvent: {}
+[12.842787] (amr_v4_qt) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[12.921384] (-) TimerEvent: {}
+[13.022418] (-) TimerEvent: {}
+[13.124524] (-) TimerEvent: {}
+[13.225491] (-) TimerEvent: {}
+[13.326510] (-) TimerEvent: {}
+[13.382828] (amr_v4_qt) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[13.426843] (-) TimerEvent: {}
+[13.528049] (-) TimerEvent: {}
+[13.629120] (-) TimerEvent: {}
+[13.730334] (-) TimerEvent: {}
+[13.831508] (-) TimerEvent: {}
+[13.932504] (-) TimerEvent: {}
+[14.033630] (-) TimerEvent: {}
+[14.085601] (amr_v4_qt) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[14.133937] (-) TimerEvent: {}
+[14.235245] (-) TimerEvent: {}
+[14.336384] (-) TimerEvent: {}
+[14.437568] (-) TimerEvent: {}
+[14.538755] (-) TimerEvent: {}
+[14.639959] (-) TimerEvent: {}
+[14.741425] (-) TimerEvent: {}
+[14.843134] (-) TimerEvent: {}
+[14.944992] (-) TimerEvent: {}
+[15.046006] (-) TimerEvent: {}
+[15.147183] (-) TimerEvent: {}
+[15.248195] (-) TimerEvent: {}
+[15.349210] (-) TimerEvent: {}
+[15.450336] (-) TimerEvent: {}
+[15.551454] (-) TimerEvent: {}
+[15.652480] (-) TimerEvent: {}
+[15.721528] (amr_v4_qt) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[15.744971] (amr_v4_qt) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)\n'}
+[15.752663] (-) TimerEvent: {}
+[15.853665] (-) TimerEvent: {}
+[15.954746] (-) TimerEvent: {}
+[16.055998] (-) TimerEvent: {}
+[16.157015] (-) TimerEvent: {}
+[16.258132] (-) TimerEvent: {}
+[16.359240] (-) TimerEvent: {}
+[16.460343] (-) TimerEvent: {}
+[16.561393] (-) TimerEvent: {}
+[16.662491] (-) TimerEvent: {}
+[16.763539] (-) TimerEvent: {}
+[16.864620] (-) TimerEvent: {}
+[16.965675] (-) TimerEvent: {}
+[17.066745] (-) TimerEvent: {}
+[17.167862] (-) TimerEvent: {}
+[17.268932] (-) TimerEvent: {}
+[17.370046] (-) TimerEvent: {}
+[17.471184] (-) TimerEvent: {}
+[17.572594] (-) TimerEvent: {}
+[17.673721] (-) TimerEvent: {}
+[17.774792] (-) TimerEvent: {}
+[17.784931] (amr_v4_qt) StdoutLine: {'line': b'-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)\n'}
+[17.875196] (amr_v4_qt) StderrLine: {'line': b'CMake Error at CMakeLists.txt:17 (find_package):\n'}
+[17.876370] (-) TimerEvent: {}
+[17.876904] (amr_v4_qt) StderrLine: {'line': b'  By not providing "Findamr_v4_msgs_srvs.cmake" in CMAKE_MODULE_PATH this\n'}
+[17.877532] (amr_v4_qt) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[17.877997] (amr_v4_qt) StderrLine: {'line': b'  "amr_v4_msgs_srvs", but CMake did not find one.\n'}
+[17.878555] (amr_v4_qt) StderrLine: {'line': b'\n'}
+[17.878980] (amr_v4_qt) StderrLine: {'line': b'  Could not find a package configuration file provided by "amr_v4_msgs_srvs"\n'}
+[17.879599] (amr_v4_qt) StderrLine: {'line': b'  with any of the following names:\n'}
+[17.880043] (amr_v4_qt) StderrLine: {'line': b'\n'}
+[17.880531] (amr_v4_qt) StderrLine: {'line': b'    amr_v4_msgs_srvsConfig.cmake\n'}
+[17.881012] (amr_v4_qt) StderrLine: {'line': b'    amr_v4_msgs_srvs-config.cmake\n'}
+[17.881440] (amr_v4_qt) StderrLine: {'line': b'\n'}
+[17.881953] (amr_v4_qt) StderrLine: {'line': b'  Add the installation prefix of "amr_v4_msgs_srvs" to CMAKE_PREFIX_PATH or\n'}
+[17.882389] (amr_v4_qt) StderrLine: {'line': b'  set "amr_v4_msgs_srvs_DIR" to a directory containing one of the above\n'}
+[17.882927] (amr_v4_qt) StderrLine: {'line': b'  files.  If "amr_v4_msgs_srvs" provides a separate development package or\n'}
+[17.883644] (amr_v4_qt) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[17.884126] (amr_v4_qt) StderrLine: {'line': b'\n'}
+[17.884604] (amr_v4_qt) StderrLine: {'line': b'\n'}
+[17.904026] (amr_v4_qt) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[17.905250] (amr_v4_qt) StdoutLine: {'line': b'See also "/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt/CMakeFiles/CMakeOutput.log".\n'}
+[17.906042] (amr_v4_qt) StdoutLine: {'line': b'See also "/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt/CMakeFiles/CMakeError.log".\n'}
+[17.959043] (amr_v4_qt) CommandEnded: {'returncode': 1}
+[17.980223] (-) TimerEvent: {}
+[18.082895] (-) TimerEvent: {}
+[18.185817] (-) TimerEvent: {}
+[18.289820] (-) TimerEvent: {}
+[18.391424] (-) TimerEvent: {}
+[18.475396] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 1}
+[18.487894] (-) EventReactorShutdown: {}

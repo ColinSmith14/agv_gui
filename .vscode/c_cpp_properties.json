@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/colin/agv_gui/src/agv_gui/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/amr_v4_qt/include/**",
+                "/opt/ros/galactic/include",
+                "${workspaceFolder}/install/amr_v4_msgs_srvs/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,30 @@
+{
+  "package_name": "amr_v4_msgs_srvs",
+  "output_dir": "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_generator_py/amr_v4_msgs_srvs",
+  "template_dir": "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Motor.idl",
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Robot.idl",
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Pin.idl",
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:srv/Testserv.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Motor.idl",
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Robot.idl",
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Pin.idl",
+    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/srv/Testserv.idl"
+  ]
+}

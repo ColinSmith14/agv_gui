@@ -1,7 +1,0 @@
-[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<ChargeSub>, std::shared_ptr<BatterySub1>, std::shared_ptr<BatterySub2>, std::shared_ptr<BatterySub3>, std::shared_ptr<BatterySub4>, QWidget*)[m[K’:
-[01m[K/home/colin/agv_gui/src/agv_gui/src/main_gui.cpp:51:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MainGui[m[K’ has no member named ‘[01m[KsetPrimaryScreen[m[K’
-   51 |           this->[01;31m[KsetPrimaryScreen[m[K(screens.at(1));
-      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

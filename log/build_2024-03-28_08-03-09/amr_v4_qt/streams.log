@@ -1,0 +1,15 @@
+[0.934s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[1.217s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[1.269s] 
+[1.270s] AutoUic error
+[1.271s] -------------
+[1.271s] "SRC:/src/motors.cpp"
+[1.272s] includes the uic file "ui_motor_screen.h",
+[1.272s] but the user interface file "motor_screen.ui"
+[1.273s] could not be found in the following directories
+[1.273s]   "SRC:/src"
+[1.274s] 
+[1.276s] make[2]: *** [CMakeFiles/amr_v4_qt_autogen.dir/build.make:58: CMakeFiles/amr_v4_qt_autogen] Error 1
+[1.279s] make[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/amr_v4_qt_autogen.dir/all] Error 2
+[1.280s] make: *** [Makefile:141: all] Error 2
+[1.293s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6

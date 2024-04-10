@@ -1,0 +1,67 @@
+[0.670s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': AMENT_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic LD_LIBRARY_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/colin/agv_gui/amr_v4_qt -G CodeBlocks - Unix Makefiles -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/install/amr_v4_qt
+[0.756s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.230s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.381s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.411s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.614s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.622s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.713s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.300s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[3.528s] -- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)
+[3.582s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.598s] -- Found OGRE
+[3.602s] --   static     : OFF
+[3.603s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.604s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.605s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.606s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.607s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[3.608s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.609s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[3.610s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.610s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.611s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.612s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.612s] -- Could not find freeimage library
+[3.795s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.796s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.805s] -- library: libassimp.so.5
+[3.924s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[5.945s] -- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[5.961s] -- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)
+[7.820s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[7.864s] -- Found amr_v4_msgs_srvs: 0.0.0 (/home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake)
+[7.935s] -- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)
+[8.351s] -- Configuring done
+[8.748s] -- Generating done
+[8.765s] -- Build files have been written to: /home/colin/agv_gui/build/amr_v4_qt
+[8.824s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '0': AMENT_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic LD_LIBRARY_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/colin/agv_gui/amr_v4_qt -G CodeBlocks - Unix Makefiles -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/install/amr_v4_qt
+[8.833s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': AMENT_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic LD_LIBRARY_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[9.148s] [  2%] Automatic MOC and UIC for target amr_v4_qt
+[9.254s] [  2%] Built target amr_v4_qt_autogen
+[9.622s] [100%] Built target amr_v4_qt
+[9.705s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '0': AMENT_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic LD_LIBRARY_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[10.235s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': AMENT_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic LD_LIBRARY_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_qt
+[10.279s] -- Install configuration: ""
+[10.280s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt
+[10.282s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch
+[10.283s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch/gui.launch.py
+[10.284s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/package_run_dependencies/amr_v4_qt
+[10.284s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/parent_prefix_path/amr_v4_qt
+[10.285s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.sh
+[10.286s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.dsv
+[10.287s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.sh
+[10.289s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.dsv
+[10.289s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.bash
+[10.290s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.sh
+[10.291s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.zsh
+[10.292s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.dsv
+[10.293s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv
+[10.293s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/packages/amr_v4_qt
+[10.294s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig.cmake
+[10.294s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig-version.cmake
+[10.295s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.xml
+[10.307s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '0': AMENT_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/galactic LD_LIBRARY_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_qt

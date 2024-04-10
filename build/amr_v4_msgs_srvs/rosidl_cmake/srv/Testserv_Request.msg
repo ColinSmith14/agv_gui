@@ -1,0 +1,1 @@
+bool pin_mode

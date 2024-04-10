@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from amr_v4_msgs_srvs/msg/Robot.msg
+// generated code does not contain a copyright notice
+
+
+module amr_v4_msgs_srvs {
+  module msg {
+    struct Robot {
+      string robot_localization_status;
+
+      boolean localized;
+
+      string robot_active_status;
+    };
+  };
+};

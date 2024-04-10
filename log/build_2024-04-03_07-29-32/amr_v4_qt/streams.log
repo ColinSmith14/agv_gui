@@ -1,0 +1,46 @@
+[0.999s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[1.165s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.304s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.696s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.880s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.062s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[3.301s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.312s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.416s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.063s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[4.315s] -- Found rviz_common: 8.5.2 (/opt/ros/galactic/share/rviz_common/cmake)
+[4.382s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[4.397s] -- Found OGRE
+[4.399s] --   static     : OFF
+[4.400s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[4.402s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.402s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[4.403s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[4.403s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[4.404s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.404s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[4.405s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.405s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.406s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.406s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.409s] -- Could not find freeimage library
+[4.601s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[4.601s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.614s] -- library: libassimp.so.5
+[4.748s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[6.935s] -- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[6.953s] -- Found rviz_default_plugins: 8.5.2 (/opt/ros/galactic/share/rviz_default_plugins/cmake)
+[8.943s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[8.994s] -- Found amr_v4_msgs_srvs: 0.0.0 (/home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake)
+[9.073s] -- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)
+[9.506s] -- Configuring done
+[9.830s] -- Generating done
+[9.845s] -- Build files have been written to: /home/colin/agv_gui/build/amr_v4_qt
+[10.068s] [  1%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[10.202s] [  1%] Built target amr_v4_qt_autogen
+[10.288s] make[2]: *** No rule to make target '/home/colin/agv_gui/amr_v4_qt/include/ui_test.h', needed by 'include/moc_ui_test.cpp'.  Stop.
+[10.290s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[10.290s] make: *** [Makefile:141: all] Error 2
+[10.303s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6

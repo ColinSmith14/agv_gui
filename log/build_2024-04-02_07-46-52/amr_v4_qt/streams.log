@@ -1,0 +1,35 @@
+[0.798s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[1.093s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[1.193s] [  2%] Built target amr_v4_qt_autogen
+[1.362s] [35m[1mScanning dependencies of target amr_v4_qt[0m
+[2.137s] [  4%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[2.138s] [  6%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/scrolling_label.cpp.o[0m
+[8.442s] [01m[K/home/colin/agv_gui/amr_v4_qt/src/scrolling_label.cpp:[m[K In member function ‘[01m[Kvirtual void ScrollingLabel::paintEvent(QPaintEvent*)[m[K’:
+[8.443s] [01m[K/home/colin/agv_gui/amr_v4_qt/src/scrolling_label.cpp:17:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.445s]    17 | void ScrollingLabel::paintEvent([01;35m[KQPaintEvent *event[m[K) {
+[8.446s]       |                                 [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[19.556s] [  8%] [32m[1mLinking CXX executable amr_v4_qt[0m
+[29.005s] [100%] Built target amr_v4_qt
+[29.077s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[29.598s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_qt
+[29.638s] -- Install configuration: ""
+[29.640s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt
+[29.715s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt" to ""
+[29.716s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch
+[29.717s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch/gui.launch.py
+[29.718s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/package_run_dependencies/amr_v4_qt
+[29.718s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/parent_prefix_path/amr_v4_qt
+[29.719s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.sh
+[29.720s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.dsv
+[29.721s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.sh
+[29.722s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.dsv
+[29.723s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.bash
+[29.724s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.sh
+[29.724s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.zsh
+[29.725s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.dsv
+[29.725s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv
+[29.726s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/packages/amr_v4_qt
+[29.727s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig.cmake
+[29.727s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig-version.cmake
+[29.729s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.xml
+[29.740s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_qt

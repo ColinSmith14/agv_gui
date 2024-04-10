@@ -1,0 +1,38 @@
+[  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[  2%] Built target amr_v4_qt_autogen
+[  4%] [34m[1mGenerating include/moc_ui_main_screen.cpp[0m
+/home/colin/agv_gui/amr_v4_qt/include/ui_main_screen.h:0: Note: No relevant classes found. No output generated.
+[35m[1mScanning dependencies of target amr_v4_qt[0m
+[  6%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_screen.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/scrolling_label.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_main_screen.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.o[0m
+[01m[K/home/colin/agv_gui/amr_v4_qt/src/scrolling_label.cpp:[m[K In member function ‘[01m[Kvirtual void ScrollingLabel::paintEvent(QPaintEvent*)[m[K’:
+[01m[K/home/colin/agv_gui/amr_v4_qt/src/scrolling_label.cpp:16:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   16 | void ScrollingLabel::paintEvent([01;35m[KQPaintEvent *event[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[ 20%] [32m[1mLinking CXX executable amr_v4_qt[0m
+[100%] Built target amr_v4_qt
+-- Install configuration: ""
+-- Installing: /home/colin/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt
+-- Set runtime path of "/home/colin/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt" to ""
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch/gui.launch.py
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/package_run_dependencies/amr_v4_qt
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/parent_prefix_path/amr_v4_qt
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.sh
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.sh
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.dsv
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.bash
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.sh
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.zsh
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.dsv
+-- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/packages/amr_v4_qt
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig.cmake
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig-version.cmake
+-- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.xml

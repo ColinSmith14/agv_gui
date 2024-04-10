@@ -1,0 +1,9 @@
+{
+  "package_name": "amr_v4_msgs_srvs",
+  "non_idl_tuples": [
+    "/home/colin/agv_gui/amr_v4_msgs_srvs:msg/Motor.msg",
+    "/home/colin/agv_gui/amr_v4_msgs_srvs:msg/Robot.msg",
+    "/home/colin/agv_gui/amr_v4_msgs_srvs:msg/Pin.msg",
+    "/home/colin/agv_gui/amr_v4_msgs_srvs:srv/Testserv.srv"
+  ]
+}

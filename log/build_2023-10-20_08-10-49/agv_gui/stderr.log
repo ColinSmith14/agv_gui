@@ -1,3 +1,0 @@
-make[2]: *** [CMakeFiles/agv_gui.dir/build.make:161: CMakeFiles/agv_gui.dir/src/main_gui.cpp.o] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

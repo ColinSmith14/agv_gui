@@ -1,0 +1,26 @@
+[0.834s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[1.159s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[1.260s] [  2%] Built target amr_v4_qt_autogen
+[1.634s] [100%] Built target amr_v4_qt
+[1.705s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j6 -l6
+[2.244s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_qt
+[2.286s] -- Install configuration: ""
+[2.288s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/lib/amr_v4_qt/amr_v4_qt
+[2.291s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch
+[2.291s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/launch/gui.launch.py
+[2.293s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/package_run_dependencies/amr_v4_qt
+[2.294s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/parent_prefix_path/amr_v4_qt
+[2.294s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.sh
+[2.295s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/ament_prefix_path.dsv
+[2.296s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.sh
+[2.296s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/environment/path.dsv
+[2.297s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.bash
+[2.297s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.sh
+[2.298s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.zsh
+[2.298s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/local_setup.dsv
+[2.299s] -- Installing: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.dsv
+[2.299s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/ament_index/resource_index/packages/amr_v4_qt
+[2.300s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig.cmake
+[2.300s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/cmake/amr_v4_qtConfig-version.cmake
+[2.301s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_qt/share/amr_v4_qt/package.xml
+[2.312s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '0': CMAKE_PREFIX_PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs:/home/colin/agv_gui/install/amr_v4_qt:/opt/ros/galactic /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_qt

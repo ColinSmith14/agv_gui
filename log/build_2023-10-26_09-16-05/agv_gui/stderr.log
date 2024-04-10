@@ -1,4 +1,0 @@
-CUDA is available
-make[2]: *** No rule to make target '/battery_node_4.hpp', needed by '__/__/__/__/__/moc_battery_node_4.cpp'.  Stop.
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/agv_gui.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

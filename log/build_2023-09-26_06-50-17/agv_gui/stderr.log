@@ -1,7 +1,0 @@
-/usr/bin/ld: cannot find -lCUDA::cudart
-/usr/bin/ld: cannot find -lCUDA::cublas
-/usr/bin/ld: cannot find -lCUDA::curand
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/agv_gui.dir/build.make:413: agv_gui] Error 1
-make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

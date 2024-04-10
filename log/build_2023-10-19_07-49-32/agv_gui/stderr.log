@@ -1,3 +1,0 @@
-make[2]: *** No rule to make target '/opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so', needed by 'agv_gui'.  Stop.
-make[1]: *** [CMakeFiles/Makefile2:79: CMakeFiles/agv_gui.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

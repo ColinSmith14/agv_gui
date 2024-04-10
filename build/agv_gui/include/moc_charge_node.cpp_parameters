@@ -1,5 +1,0 @@
--I/home/colin/agv_gui/src/agv_gui
--I/home/colin/agv_gui/build/agv_gui
--o
-/home/colin/agv_gui/build/agv_gui/include/moc_charge_node.cpp
-/home/colin/agv_gui/src/agv_gui/include/charge_node.hpp
