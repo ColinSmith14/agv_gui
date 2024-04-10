@@ -1,0 +1,217 @@
+[0.023s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2
+[0.106s] [  1%] Built target amr_v4_msgs_srvs__cpp
+[0.114s] [ 12%] Built target amr_v4_msgs_srvs__rosidl_generator_c
+[0.156s] [ 21%] Built target ament_cmake_python_copy_amr_v4_msgs_srvs
+[0.158s] [ 23%] Built target amr_v4_msgs_srvs__rosidl_typesupport_cpp
+[0.191s] [ 38%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c
+[0.193s] [ 45%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c
+[0.227s] [ 56%] Built target amr_v4_msgs_srvs__rosidl_typesupport_c
+[0.243s] [ 67%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp
+[0.272s] [ 78%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp
+[0.315s] [ 78%] Built target amr_v4_msgs_srvs
+[0.358s] [ 80%] Built target amr_v4_msgs_srvs__py
+[0.408s] [ 89%] Built target amr_v4_msgs_srvs__rosidl_generator_py
+[0.504s] [ 92%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext
+[0.588s] [ 96%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c__pyext
+[0.625s] [100%] Built target amr_v4_msgs_srvs__rosidl_typesupport_c__pyext
+[0.700s] running egg_info
+[0.701s] writing amr_v4_msgs_srvs.egg-info/PKG-INFO
+[0.701s] writing dependency_links to amr_v4_msgs_srvs.egg-info/dependency_links.txt
+[0.702s] writing top-level names to amr_v4_msgs_srvs.egg-info/top_level.txt
+[0.704s] reading manifest file 'amr_v4_msgs_srvs.egg-info/SOURCES.txt'
+[0.705s] writing manifest file 'amr_v4_msgs_srvs.egg-info/SOURCES.txt'
+[0.732s] [100%] Built target ament_cmake_python_build_amr_v4_msgs_srvs_egg
+[0.757s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2
+[0.890s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs
+[0.899s] -- Install configuration: ""
+[0.899s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/amr_v4_msgs_srvs
+[0.900s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[0.900s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[0.901s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/pin.h
+[0.902s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_generator_c__visibility_control.h
+[0.904s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/robot.h
+[0.904s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/motor.h
+[0.904s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[0.905s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__struct.h
+[0.905s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__struct.h
+[0.905s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__type_support.h
+[0.905s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__functions.c
+[0.905s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__struct.h
+[0.906s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__functions.c
+[0.906s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__functions.h
+[0.906s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__type_support.h
+[0.906s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__functions.h
+[0.906s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__type_support.h
+[0.907s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__functions.c
+[0.907s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__functions.h
+[0.907s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[0.907s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/testserv.h
+[0.908s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[0.908s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__functions.c
+[0.908s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__functions.h
+[0.908s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__type_support.h
+[0.908s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__struct.h
+[0.909s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/library_path.sh
+[0.909s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/library_path.dsv
+[0.909s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_c.so
+[0.910s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[0.910s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[0.910s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.911s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[0.911s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_fastrtps_c.h
+[0.911s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_fastrtps_c.h
+[0.912s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_fastrtps_c.h
+[0.912s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[0.912s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[0.912s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_fastrtps_c.h
+[0.913s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.so
+[0.913s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[0.913s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[0.914s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.914s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[0.914s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_introspection_c.h
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__type_support.c
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__type_support.c
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_introspection_c.h
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__type_support.c
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_introspection_c.h
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[0.915s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c
+[0.916s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_introspection_c.h
+[0.916s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so
+[0.917s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_c.so
+[0.917s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[0.917s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[0.917s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/motor.hpp
+[0.918s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/robot.hpp
+[0.918s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/pin.hpp
+[0.919s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[0.919s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__struct.hpp
+[0.919s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__traits.hpp
+[0.919s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__builder.hpp
+[0.919s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__struct.hpp
+[0.920s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__traits.hpp
+[0.920s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__builder.hpp
+[0.920s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__builder.hpp
+[0.920s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__traits.hpp
+[0.921s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__struct.hpp
+[0.921s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[0.921s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/testserv.hpp
+[0.921s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[0.922s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__builder.hpp
+[0.922s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__traits.hpp
+[0.922s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__struct.hpp
+[0.923s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[0.923s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[0.923s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.923s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[0.924s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp
+[0.924s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_fastrtps_cpp.hpp
+[0.924s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/dds_fastrtps
+[0.924s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.925s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[0.925s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[0.925s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_fastrtps_cpp.hpp
+[0.925s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/dds_fastrtps
+[0.926s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
+[0.926s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[0.927s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[0.927s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[0.927s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__type_support.cpp
+[0.927s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__type_support.cpp
+[0.928s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__type_support.cpp
+[0.928s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp
+[0.929s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_introspection_cpp.hpp
+[0.931s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp
+[0.931s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[0.931s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[0.932s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_introspection_cpp.hpp
+[0.932s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__type_support.cpp
+[0.932s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.so
+[0.932s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_cpp.so
+[0.933s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/pythonpath.sh
+[0.935s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/pythonpath.dsv
+[0.936s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info
+[0.936s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.936s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.937s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.937s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/top_level.txt
+[0.937s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs
+[0.938s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg
+[0.938s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg/_robot_s.c
+[0.939s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg/_motor.py
+[0.939s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg/_pin.py
+[0.939s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg/_pin_s.c
+[0.939s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg/_motor_s.c
+[0.939s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg/__init__.py
+[0.939s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg/_robot.py
+[0.943s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.944s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.947s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/__init__.py
+[0.947s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.947s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_c.c
+[0.948s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/srv
+[0.948s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/srv/__init__.py
+[0.948s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/srv/_testserv.py
+[0.948s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/srv/_testserv_s.c
+[0.948s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[0.948s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/libamr_v4_msgs_srvs__rosidl_generator_py.so
+[0.948s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.990s] Listing '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs'...
+[0.990s] Listing '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/msg'...
+[0.990s] Listing '/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/srv'...
+[1.001s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.001s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/local/lib/python3.10/dist-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_py.so
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Motor.idl
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Robot.idl
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Pin.idl
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv.idl
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Motor.msg
+[1.002s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Robot.msg
+[1.003s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Pin.msg
+[1.003s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv.srv
+[1.003s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv_Request.msg
+[1.003s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv_Response.msg
+[1.003s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/amr_v4_msgs_srvs
+[1.003s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/amr_v4_msgs_srvs
+[1.012s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/ament_prefix_path.sh
+[1.012s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/ament_prefix_path.dsv
+[1.012s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/path.sh
+[1.013s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/path.dsv
+[1.013s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.bash
+[1.013s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.sh
+[1.013s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.zsh
+[1.013s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.dsv
+[1.014s] -- Installing: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.dsv
+[1.014s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/packages/amr_v4_msgs_srvs
+[1.014s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_cExport.cmake
+[1.014s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_cExport-noconfig.cmake
+[1.014s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_cppExport.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.015s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_pyExport.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_pyExport-noconfig.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake-extras.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.016s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[1.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvsConfig.cmake
+[1.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvsConfig-version.cmake
+[1.017s] -- Up-to-date: /home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.xml
+[1.017s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs

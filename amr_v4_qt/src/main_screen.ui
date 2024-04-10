@@ -129,6 +129,25 @@
       </property>
      </widget>
     </item>
+    <item>
+     <widget class="QPushButton" name="helloScreenButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>160</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Hello World</string>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QStackedWidget" name="mainContent">

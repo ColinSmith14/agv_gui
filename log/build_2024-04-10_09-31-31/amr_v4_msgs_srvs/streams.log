@@ -1,0 +1,6 @@
+[0.033s] Invoking command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2
+[0.051s] [0mCMake Error: The current CMakeCache.txt directory /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/CMakeCache.txt is different than the directory /home/colin/agv_gui/build/amr_v4_msgs_srvs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.073s] [0mCMake Error: The source directory "/home/colin/agv_gui/amr_v4_msgs_srvs" does not exist.
+[0.073s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.075s] make: *** [Makefile:1468: cmake_check_build_system] Error 1
+[0.079s] Invoked command in '/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs -- -j2 -l2

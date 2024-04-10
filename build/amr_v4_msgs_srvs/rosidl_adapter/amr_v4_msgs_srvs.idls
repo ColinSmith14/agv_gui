@@ -1,4 +1,4 @@
-/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Motor.idl
-/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Robot.idl
-/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Pin.idl
-/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:srv/Testserv.idl
+/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Motor.idl
+/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Robot.idl
+/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Pin.idl
+/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:srv/Testserv.idl

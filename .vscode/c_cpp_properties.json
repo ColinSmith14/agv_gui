@@ -6,10 +6,10 @@
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
-                "/home/colin/agv_gui/src/agv_gui/include/**",
+                "/home/kidd/agv_gui/src/agv_gui/include/**",
                 "/usr/include/**",
                 "${workspaceFolder}/amr_v4_qt/include/**",
-                "/opt/ros/galactic/include",
+                "/opt/ros/humble/include",
                 "${workspaceFolder}/install/amr_v4_msgs_srvs/include"
             ],
             "name": "ROS",

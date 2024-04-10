@@ -1,25 +1,25 @@
 {
   "package_name": "amr_v4_msgs_srvs",
-  "output_dir": "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs",
-  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "output_dir": "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Motor.idl",
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Robot.idl",
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Pin.idl",
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:srv/Testserv.idl"
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Motor.idl",
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Robot.idl",
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:msg/Pin.idl",
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs:srv/Testserv.idl"
   ],
   "target_dependencies": [
-    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
-    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Motor.idl",
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Robot.idl",
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Pin.idl",
-    "/home/colin/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/srv/Testserv.idl"
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Motor.idl",
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Robot.idl",
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/msg/Pin.idl",
+    "/home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/rosidl_adapter/amr_v4_msgs_srvs/srv/Testserv.idl"
   ]
 }

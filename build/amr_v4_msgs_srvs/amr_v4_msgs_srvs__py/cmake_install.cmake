@@ -1,8 +1,8 @@
-# Install script for directory: /home/colin/agv_gui/build/amr_v4_msgs_srvs/amr_v4_msgs_srvs__py
+# Install script for directory: /home/kidd/projects/agv_gui/build/amr_v4_msgs_srvs/amr_v4_msgs_srvs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/colin/agv_gui/install/amr_v4_msgs_srvs")
+  set(CMAKE_INSTALL_PREFIX "/home/kidd/projects/agv_gui/install/amr_v4_msgs_srvs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,5 +35,10 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
