@@ -72,5 +72,8 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "qpropertyanimation": "cpp"
-    }
+    },
+    "python.analysis.extraPaths": [
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
 }
