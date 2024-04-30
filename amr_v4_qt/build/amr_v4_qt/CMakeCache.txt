@@ -57,7 +57,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+CMAKE_CXX_COMPILER:STRING=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -83,7 +83,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_C_COMPILER:STRING=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -238,6 +238,9 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for CURL.
+CURL_DIR:PATH=CURL_DIR-NOTFOUND
+
 //Path to a file.
 CURL_INCLUDE_DIR:PATH=/usr/include/aarch64-linux-gnu
 
@@ -248,7 +251,7 @@ CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
 CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libcurl.so
 
 //The directory containing a CMake configuration file for Eigen3.
-Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
+Eigen3_DIR:PATH=/usr/share/eigen3/cmake
 
 //Path to a library.
 FREEIMAGE_LIBRARIES:FILEPATH=FREEIMAGE_LIBRARIES-NOTFOUND
@@ -319,6 +322,9 @@ OPENSSL_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
@@ -328,17 +334,35 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
 //Specify specific Python version to use ('major.minor' or 'major')
 PYTHON_VERSION:STRING=
 
+//Path to a program.
+Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
+
 //The directory containing a CMake configuration file for Qt5Core.
-Qt5Core_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Core
+Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 
 //The directory containing a CMake configuration file for Qt5Gui.
-Qt5Gui_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui
+Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Network.
+Qt5Network_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Network
+
+//The directory containing a CMake configuration file for Qt5QmlModels.
+Qt5QmlModels_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5QmlModels
+
+//The directory containing a CMake configuration file for Qt5Qml.
+Qt5Qml_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml
+
+//The directory containing a CMake configuration file for Qt5Quick.
+Qt5Quick_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick
+
+//The directory containing a CMake configuration file for Qt5UiTools.
+Qt5UiTools_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5UiTools
 
 //The directory containing a CMake configuration file for Qt5Widgets.
-Qt5Widgets_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Widgets
+Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
-Qt5_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5
+Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
 //Name of the computer/site where compile is being run
 SITE:STRING=amr
@@ -371,6 +395,12 @@ X11_X11_INCLUDE_PATH:PATH=/usr/include
 X11_X11_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libX11.so
 
 //Path to a file.
+X11_X11_xcb_INCLUDE_PATH:PATH=X11_X11_xcb_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_X11_xcb_LIB:FILEPATH=X11_X11_xcb_LIB-NOTFOUND
+
+//Path to a file.
 X11_XRes_INCLUDE_PATH:PATH=X11_XRes_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
@@ -393,6 +423,12 @@ X11_Xau_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_Xau_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXau.so
+
+//Path to a file.
+X11_Xaw_INCLUDE_PATH:PATH=X11_Xaw_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xaw_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXaw.so
 
 //Path to a file.
 X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
@@ -527,6 +563,45 @@ X11_Xxf86vm_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXxf86vm.so
 X11_dpms_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
+X11_xcb_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xcb_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libxcb.so
+
+//Path to a file.
+X11_xcb_icccm_INCLUDE_PATH:PATH=X11_xcb_icccm_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_icccm_LIB:FILEPATH=X11_xcb_icccm_LIB-NOTFOUND
+
+//Path to a file.
+X11_xcb_util_INCLUDE_PATH:PATH=X11_xcb_util_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_util_LIB:FILEPATH=X11_xcb_util_LIB-NOTFOUND
+
+//Path to a file.
+X11_xcb_xfixes_INCLUDE_PATH:PATH=X11_xcb_xfixes_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xcb_xfixes_LIB:FILEPATH=X11_xcb_xfixes_LIB-NOTFOUND
+
+//Path to a library.
+X11_xcb_xkb_LIB:FILEPATH=X11_xcb_xkb_LIB-NOTFOUND
+
+//Path to a file.
+X11_xkbcommon_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_xkbcommon_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
+
+//Path to a file.
+X11_xkbcommon_X11_INCLUDE_PATH:PATH=X11_xkbcommon_X11_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xkbcommon_X11_LIB:FILEPATH=X11_xkbcommon_X11_LIB-NOTFOUND
+
+//Path to a file.
 X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
@@ -545,7 +620,10 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libz.so
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/galactic/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+_Qt5UiTools_RELEASE_GL_PATH:FILEPATH=/usr/lib/x86_64-linux-gnu/libGL.so
+
+//Path to a library.
+_lib:FILEPATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a library.
 _ogre_main_static_library_abs:FILEPATH=/opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
@@ -566,133 +644,154 @@ _render_system_gl_static_library_abs:FILEPATH=_render_system_gl_static_library_a
 _render_system_gl_static_library_debug_abs:FILEPATH=_render_system_gl_static_library_debug_abs-NOTFOUND
 
 //The directory containing a CMake configuration file for action_msgs.
-action_msgs_DIR:PATH=/opt/ros/galactic/share/action_msgs/cmake
+action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=/opt/ros/galactic/share/ament_cmake/cmake
+ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
-ament_cmake_core_DIR:PATH=/opt/ros/galactic/share/ament_cmake_core/cmake
+ament_cmake_core_DIR:PATH=/opt/ros/humble/share/ament_cmake_core/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
-ament_cmake_export_definitions_DIR:PATH=/opt/ros/galactic/share/ament_cmake_export_definitions/cmake
+ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_definitions/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_dependencies.
-ament_cmake_export_dependencies_DIR:PATH=/opt/ros/galactic/share/ament_cmake_export_dependencies/cmake
+ament_cmake_export_dependencies_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_include_directories.
-ament_cmake_export_include_directories_DIR:PATH=/opt/ros/galactic/share/ament_cmake_export_include_directories/cmake
+ament_cmake_export_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_interfaces.
-ament_cmake_export_interfaces_DIR:PATH=/opt/ros/galactic/share/ament_cmake_export_interfaces/cmake
+ament_cmake_export_interfaces_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_interfaces/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_libraries.
-ament_cmake_export_libraries_DIR:PATH=/opt/ros/galactic/share/ament_cmake_export_libraries/cmake
+ament_cmake_export_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_link_flags.
-ament_cmake_export_link_flags_DIR:PATH=/opt/ros/galactic/share/ament_cmake_export_link_flags/cmake
+ament_cmake_export_link_flags_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_link_flags/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
-ament_cmake_export_targets_DIR:PATH=/opt/ros/galactic/share/ament_cmake_export_targets/cmake
+ament_cmake_export_targets_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_targets/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_gen_version_h.
+ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/share/ament_cmake_gen_version_h/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_include_directories.
-ament_cmake_include_directories_DIR:PATH=/opt/ros/galactic/share/ament_cmake_include_directories/cmake
+ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/share/ament_cmake_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
-ament_cmake_libraries_DIR:PATH=/opt/ros/galactic/share/ament_cmake_libraries/cmake
+ament_cmake_libraries_DIR:PATH=/opt/ros/humble/share/ament_cmake_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
-ament_cmake_python_DIR:PATH=/opt/ros/galactic/share/ament_cmake_python/cmake
+ament_cmake_python_DIR:PATH=/opt/ros/humble/share/ament_cmake_python/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_target_dependencies.
-ament_cmake_target_dependencies_DIR:PATH=/opt/ros/galactic/share/ament_cmake_target_dependencies/cmake
+ament_cmake_target_dependencies_DIR:PATH=/opt/ros/humble/share/ament_cmake_target_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_test.
-ament_cmake_test_DIR:PATH=/opt/ros/galactic/share/ament_cmake_test/cmake
+ament_cmake_test_DIR:PATH=/opt/ros/humble/share/ament_cmake_test/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_version.
-ament_cmake_version_DIR:PATH=/opt/ros/galactic/share/ament_cmake_version/cmake
+ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 
 //The directory containing a CMake configuration file for ament_index_cpp.
-ament_index_cpp_DIR:PATH=/opt/ros/galactic/share/ament_index_cpp/cmake
+ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
 
 //The directory containing a CMake configuration file for amr_v4_msgs_srvs.
-amr_v4_msgs_srvs_DIR:PATH=amr_v4_msgs_srvs_DIR-NOTFOUND
+amr_v4_msgs_srvs_DIR:PATH=/home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake
 
 //Value Computed by CMake
 amr_v4_qt_BINARY_DIR:STATIC=/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt
 
 //Value Computed by CMake
+amr_v4_qt_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
 amr_v4_qt_SOURCE_DIR:STATIC=/home/colin/agv_gui/amr_v4_qt
 
 //The directory containing a CMake configuration file for assimp.
-assimp_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/assimp-5.0
+assimp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/assimp-5.2
 
 //The directory containing a CMake configuration file for builtin_interfaces.
-builtin_interfaces_DIR:PATH=/opt/ros/galactic/share/builtin_interfaces/cmake
+builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
 
 //The directory containing a CMake configuration file for class_loader.
-class_loader_DIR:PATH=/opt/ros/galactic/share/class_loader/cmake
+class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake
 
 //The directory containing a CMake configuration file for composition_interfaces.
-composition_interfaces_DIR:PATH=/opt/ros/galactic/share/composition_interfaces/cmake
+composition_interfaces_DIR:PATH=/opt/ros/humble/share/composition_interfaces/cmake
 
 //The directory containing a CMake configuration file for console_bridge.
-console_bridge_DIR:PATH=/opt/ros/galactic/lib/aarch64-linux-gnu/console_bridge/cmake
+console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
+
+//The directory containing a CMake configuration file for draco.
+draco_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/draco
 
 //The directory containing a CMake configuration file for eigen3_cmake_module.
-eigen3_cmake_module_DIR:PATH=/opt/ros/galactic/share/eigen3_cmake_module/cmake
+eigen3_cmake_module_DIR:PATH=/opt/ros/humble/share/eigen3_cmake_module/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
-fastcdr_DIR:PATH=/opt/ros/galactic/lib/cmake/fastcdr
+fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
 
 //The directory containing a CMake configuration file for fastrtps.
-fastrtps_DIR:PATH=/opt/ros/galactic/share/fastrtps/cmake
+fastrtps_DIR:PATH=/opt/ros/humble/share/fastrtps/cmake
 
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
-fastrtps_cmake_module_DIR:PATH=/opt/ros/galactic/share/fastrtps_cmake_module/cmake
+fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
+
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
 
 //The directory containing a CMake configuration file for foonathan_memory.
-foonathan_memory_DIR:PATH=/opt/ros/galactic/lib/foonathan_memory/cmake
+foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
-geometry_msgs_DIR:PATH=/opt/ros/galactic/share/geometry_msgs/cmake
+geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for image_transport.
+image_transport_DIR:PATH=/opt/ros/humble/share/image_transport/cmake
 
 //The directory containing a CMake configuration file for interactive_markers.
-interactive_markers_DIR:PATH=/opt/ros/galactic/share/interactive_markers/cmake
+interactive_markers_DIR:PATH=/opt/ros/humble/share/interactive_markers/cmake
 
 //The directory containing a CMake configuration file for laser_geometry.
-laser_geometry_DIR:PATH=/opt/ros/galactic/share/laser_geometry/cmake
+laser_geometry_DIR:PATH=/opt/ros/humble/share/laser_geometry/cmake
 
 //The directory containing a CMake configuration file for libcurl_vendor.
-libcurl_vendor_DIR:PATH=/opt/ros/galactic/share/libcurl_vendor/cmake
+libcurl_vendor_DIR:PATH=/opt/ros/humble/share/libcurl_vendor/cmake
 
 //Path to a library.
 library_abs:FILEPATH=/usr/lib/aarch64-linux-gnu/libassimp.so.5
 
 //The directory containing a CMake configuration file for libstatistics_collector.
-libstatistics_collector_DIR:PATH=/opt/ros/galactic/share/libstatistics_collector/cmake
+libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
 
 //The directory containing a CMake configuration file for libyaml_vendor.
-libyaml_vendor_DIR:PATH=/opt/ros/galactic/share/libyaml_vendor/cmake
+libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
 
 //The directory containing a CMake configuration file for map_msgs.
-map_msgs_DIR:PATH=/opt/ros/galactic/share/map_msgs/cmake
+map_msgs_DIR:PATH=/opt/ros/humble/share/map_msgs/cmake
 
 //The directory containing a CMake configuration file for message_filters.
-message_filters_DIR:PATH=/opt/ros/galactic/share/message_filters/cmake
+message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for nav_msgs.
-nav_msgs_DIR:PATH=/opt/ros/galactic/share/nav_msgs/cmake
+nav_msgs_DIR:PATH=/opt/ros/humble/share/nav_msgs/cmake
 
 //Path to a library.
-onelib:FILEPATH=/opt/ros/galactic/lib/aarch64-linux-gnu/liburdfdom_world.so
+onelib:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so
 
 //Path to a library.
-onelibd:FILEPATH=/opt/ros/galactic/lib/aarch64-linux-gnu/liburdfdom_world.so
+onelibd:FILEPATH=onelibd-NOTFOUND
 
 //The directory containing a CMake configuration file for orocos_kdl.
-orocos_kdl_DIR:PATH=/opt/ros/galactic/share/orocos_kdl/cmake
+orocos_kdl_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/orocos_kdl
+
+//Path to a library.
+orocos_kdl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+
+//The directory containing a CMake configuration file for orocos_kdl_vendor.
+orocos_kdl_vendor_DIR:PATH=/opt/ros/humble/share/orocos_kdl_vendor/cmake
 
 //Path to a library.
 pkgcfg_lib_PC_CURL_curl:FILEPATH=/usr/lib/aarch64-linux-gnu/libcurl.so
@@ -710,181 +809,190 @@ pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
 pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
 //The directory containing a CMake configuration file for pluginlib.
-pluginlib_DIR:PATH=/opt/ros/galactic/share/pluginlib/cmake
+pluginlib_DIR:PATH=/opt/ros/humble/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for rcl.
-rcl_DIR:PATH=/opt/ros/galactic/share/rcl/cmake
+rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
 
 //The directory containing a CMake configuration file for rcl_action.
-rcl_action_DIR:PATH=/opt/ros/galactic/share/rcl_action/cmake
+rcl_action_DIR:PATH=/opt/ros/humble/share/rcl_action/cmake
 
 //The directory containing a CMake configuration file for rcl_interfaces.
-rcl_interfaces_DIR:PATH=/opt/ros/galactic/share/rcl_interfaces/cmake
+rcl_interfaces_DIR:PATH=/opt/ros/humble/share/rcl_interfaces/cmake
 
 //The directory containing a CMake configuration file for rcl_logging_interface.
-rcl_logging_interface_DIR:PATH=/opt/ros/galactic/share/rcl_logging_interface/cmake
+rcl_logging_interface_DIR:PATH=/opt/ros/humble/share/rcl_logging_interface/cmake
 
 //The directory containing a CMake configuration file for rcl_logging_spdlog.
-rcl_logging_spdlog_DIR:PATH=/opt/ros/galactic/share/rcl_logging_spdlog/cmake
+rcl_logging_spdlog_DIR:PATH=/opt/ros/humble/share/rcl_logging_spdlog/cmake
 
 //The directory containing a CMake configuration file for rcl_yaml_param_parser.
-rcl_yaml_param_parser_DIR:PATH=/opt/ros/galactic/share/rcl_yaml_param_parser/cmake
+rcl_yaml_param_parser_DIR:PATH=/opt/ros/humble/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
-rclcpp_DIR:PATH=/opt/ros/galactic/share/rclcpp/cmake
+rclcpp_DIR:PATH=/opt/ros/humble/share/rclcpp/cmake
 
 //The directory containing a CMake configuration file for rclcpp_action.
-rclcpp_action_DIR:PATH=/opt/ros/galactic/share/rclcpp_action/cmake
+rclcpp_action_DIR:PATH=/opt/ros/humble/share/rclcpp_action/cmake
 
 //The directory containing a CMake configuration file for rclcpp_components.
-rclcpp_components_DIR:PATH=/opt/ros/galactic/share/rclcpp_components/cmake
+rclcpp_components_DIR:PATH=/opt/ros/humble/share/rclcpp_components/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
-rcpputils_DIR:PATH=/opt/ros/galactic/share/rcpputils/cmake
+rcpputils_DIR:PATH=/opt/ros/humble/share/rcpputils/cmake
 
 //The directory containing a CMake configuration file for rcutils.
-rcutils_DIR:PATH=/opt/ros/galactic/share/rcutils/cmake
+rcutils_DIR:PATH=/opt/ros/humble/share/rcutils/cmake
 
 //The directory containing a CMake configuration file for resource_retriever.
-resource_retriever_DIR:PATH=/opt/ros/galactic/share/resource_retriever/cmake
+resource_retriever_DIR:PATH=/opt/ros/humble/share/resource_retriever/cmake
 
 //The directory containing a CMake configuration file for rmw.
-rmw_DIR:PATH=/opt/ros/galactic/share/rmw/cmake
+rmw_DIR:PATH=/opt/ros/humble/share/rmw/cmake
 
 //The directory containing a CMake configuration file for rmw_cyclonedds_cpp.
 rmw_cyclonedds_cpp_DIR:PATH=/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake
 
 //The directory containing a CMake configuration file for rmw_dds_common.
-rmw_dds_common_DIR:PATH=/opt/ros/galactic/share/rmw_dds_common/cmake
+rmw_dds_common_DIR:PATH=/opt/ros/humble/share/rmw_dds_common/cmake
+
+//The directory containing a CMake configuration file for rmw_fastrtps_cpp.
+rmw_fastrtps_cpp_DIR:PATH=/opt/ros/humble/share/rmw_fastrtps_cpp/cmake
+
+//The directory containing a CMake configuration file for rmw_fastrtps_shared_cpp.
+rmw_fastrtps_shared_cpp_DIR:PATH=/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation.
-rmw_implementation_DIR:PATH=/opt/ros/galactic/share/rmw_implementation/cmake
+rmw_implementation_DIR:PATH=/opt/ros/humble/share/rmw_implementation/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
-rmw_implementation_cmake_DIR:PATH=/opt/ros/galactic/share/rmw_implementation_cmake/cmake
+rmw_implementation_cmake_DIR:PATH=/opt/ros/humble/share/rmw_implementation_cmake/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
-rosgraph_msgs_DIR:PATH=/opt/ros/galactic/share/rosgraph_msgs/cmake
+rosgraph_msgs_DIR:PATH=/opt/ros/humble/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for rosidl_adapter.
-rosidl_adapter_DIR:PATH=/opt/ros/galactic/share/rosidl_adapter/cmake
+rosidl_adapter_DIR:PATH=/opt/ros/humble/share/rosidl_adapter/cmake
 
 //The directory containing a CMake configuration file for rosidl_cmake.
-rosidl_cmake_DIR:PATH=/opt/ros/galactic/share/rosidl_cmake/cmake
+rosidl_cmake_DIR:PATH=/opt/ros/humble/share/rosidl_cmake/cmake
 
 //The directory containing a CMake configuration file for rosidl_default_runtime.
-rosidl_default_runtime_DIR:PATH=/opt/ros/galactic/share/rosidl_default_runtime/cmake
+rosidl_default_runtime_DIR:PATH=/opt/ros/humble/share/rosidl_default_runtime/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_c.
-rosidl_generator_c_DIR:PATH=/opt/ros/galactic/share/rosidl_generator_c/cmake
+rosidl_generator_c_DIR:PATH=/opt/ros/humble/share/rosidl_generator_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_cpp.
-rosidl_generator_cpp_DIR:PATH=/opt/ros/galactic/share/rosidl_generator_cpp/cmake
+rosidl_generator_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_generator_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_runtime_c.
-rosidl_runtime_c_DIR:PATH=/opt/ros/galactic/share/rosidl_runtime_c/cmake
+rosidl_runtime_c_DIR:PATH=/opt/ros/humble/share/rosidl_runtime_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_runtime_cpp.
-rosidl_runtime_cpp_DIR:PATH=/opt/ros/galactic/share/rosidl_runtime_cpp/cmake
+rosidl_runtime_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_runtime_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_c.
-rosidl_typesupport_c_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_c/cmake
+rosidl_typesupport_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_cpp.
-rosidl_typesupport_cpp_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_cpp/cmake
+rosidl_typesupport_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_c.
-rosidl_typesupport_fastrtps_c_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/cmake
+rosidl_typesupport_fastrtps_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_cpp.
-rosidl_typesupport_fastrtps_cpp_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/cmake
+rosidl_typesupport_fastrtps_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_interface.
-rosidl_typesupport_interface_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_interface/cmake
+rosidl_typesupport_interface_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_interface/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_c.
-rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_introspection_c/cmake
+rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
-rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/galactic/share/rosidl_typesupport_introspection_cpp/cmake
+rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
 
 //The directory containing a CMake configuration file for rviz_assimp_vendor.
-rviz_assimp_vendor_DIR:PATH=/opt/ros/galactic/share/rviz_assimp_vendor/cmake
+rviz_assimp_vendor_DIR:PATH=/opt/ros/humble/share/rviz_assimp_vendor/cmake
 
 //The directory containing a CMake configuration file for rviz_common.
-rviz_common_DIR:PATH=/opt/ros/galactic/share/rviz_common/cmake
+rviz_common_DIR:PATH=/opt/ros/humble/share/rviz_common/cmake
 
 //The directory containing a CMake configuration file for rviz_default_plugins.
-rviz_default_plugins_DIR:PATH=/opt/ros/galactic/share/rviz_default_plugins/cmake
+rviz_default_plugins_DIR:PATH=/opt/ros/humble/share/rviz_default_plugins/cmake
 
 //The directory containing a CMake configuration file for rviz_ogre_vendor.
-rviz_ogre_vendor_DIR:PATH=/opt/ros/galactic/share/rviz_ogre_vendor/cmake
+rviz_ogre_vendor_DIR:PATH=/opt/ros/humble/share/rviz_ogre_vendor/cmake
 
 //The directory containing a CMake configuration file for rviz_rendering.
-rviz_rendering_DIR:PATH=/opt/ros/galactic/share/rviz_rendering/cmake
+rviz_rendering_DIR:PATH=/opt/ros/humble/share/rviz_rendering/cmake
 
 //The directory containing a CMake configuration file for sensor_msgs.
-sensor_msgs_DIR:PATH=/opt/ros/galactic/share/sensor_msgs/cmake
+sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for spdlog.
-spdlog_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/spdlog
+spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 
 //The directory containing a CMake configuration file for spdlog_vendor.
-spdlog_vendor_DIR:PATH=/opt/ros/galactic/share/spdlog_vendor/cmake
+spdlog_vendor_DIR:PATH=/opt/ros/humble/share/spdlog_vendor/cmake
 
 //The directory containing a CMake configuration file for statistics_msgs.
-statistics_msgs_DIR:PATH=/opt/ros/galactic/share/statistics_msgs/cmake
+statistics_msgs_DIR:PATH=/opt/ros/humble/share/statistics_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
-std_msgs_DIR:PATH=/opt/ros/galactic/share/std_msgs/cmake
+std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for std_srvs.
-std_srvs_DIR:PATH=/opt/ros/galactic/share/std_srvs/cmake
+std_srvs_DIR:PATH=/opt/ros/humble/share/std_srvs/cmake
 
 //The directory containing a CMake configuration file for tf2.
-tf2_DIR:PATH=/opt/ros/galactic/share/tf2/cmake
+tf2_DIR:PATH=/opt/ros/humble/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_eigen.
+tf2_eigen_DIR:PATH=/opt/ros/humble/share/tf2_eigen/cmake
 
 //The directory containing a CMake configuration file for tf2_geometry_msgs.
-tf2_geometry_msgs_DIR:PATH=/opt/ros/galactic/share/tf2_geometry_msgs/cmake
+tf2_geometry_msgs_DIR:PATH=/opt/ros/humble/share/tf2_geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
-tf2_msgs_DIR:PATH=/opt/ros/galactic/share/tf2_msgs/cmake
+tf2_msgs_DIR:PATH=/opt/ros/humble/share/tf2_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2_ros.
-tf2_ros_DIR:PATH=/opt/ros/galactic/share/tf2_ros/cmake
+tf2_ros_DIR:PATH=/opt/ros/humble/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tinyxml2_vendor.
-tinyxml2_vendor_DIR:PATH=/opt/ros/galactic/share/tinyxml2_vendor/cmake
+tinyxml2_vendor_DIR:PATH=/opt/ros/humble/share/tinyxml2_vendor/cmake
 
 //The directory containing a CMake configuration file for tracetools.
-tracetools_DIR:PATH=/opt/ros/galactic/share/tracetools/cmake
+tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
 
 //The directory containing a CMake configuration file for unique_identifier_msgs.
-unique_identifier_msgs_DIR:PATH=/opt/ros/galactic/share/unique_identifier_msgs/cmake
+unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cmake
 
 //The directory containing a CMake configuration file for urdf.
-urdf_DIR:PATH=/opt/ros/galactic/share/urdf/cmake
+urdf_DIR:PATH=/opt/ros/humble/share/urdf/cmake
 
 //The directory containing a CMake configuration file for urdf_parser_plugin.
-urdf_parser_plugin_DIR:PATH=/opt/ros/galactic/share/urdf_parser_plugin/cmake
+urdf_parser_plugin_DIR:PATH=/opt/ros/humble/share/urdf_parser_plugin/cmake
 
 //The directory containing a CMake configuration file for urdfdom.
-urdfdom_DIR:PATH=/opt/ros/galactic/lib/aarch64-linux-gnu/urdfdom/cmake
+urdfdom_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake
 
 //The directory containing a CMake configuration file for urdfdom_headers.
-urdfdom_headers_DIR:PATH=/opt/ros/galactic/lib/aarch64-linux-gnu/urdfdom_headers/cmake
+urdfdom_headers_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake
 
 //The directory containing a CMake configuration file for visualization_msgs.
-visualization_msgs_DIR:PATH=/opt/ros/galactic/share/visualization_msgs/cmake
+visualization_msgs_DIR:PATH=/opt/ros/humble/share/visualization_msgs/cmake
 
 //The directory containing a CMake configuration file for yaml-cpp.
-yaml-cpp_DIR:PATH=yaml-cpp_DIR-NOTFOUND
+yaml-cpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp
 
 //The directory containing a CMake configuration file for yaml.
-yaml_DIR:PATH=/opt/ros/galactic/cmake
+yaml_DIR:PATH=/opt/ros/humble/cmake
 
 //The directory containing a CMake configuration file for yaml_cpp_vendor.
-yaml_cpp_vendor_DIR:PATH=/opt/ros/galactic/share/yaml_cpp_vendor/cmake
+yaml_cpp_vendor_DIR:PATH=/opt/ros/humble/share/yaml_cpp_vendor/cmake
 
 
 ########################
@@ -902,9 +1010,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=16
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -1023,7 +1131,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.16
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.22
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -1054,6 +1162,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CURL_DIR
+CURL_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_INCLUDE_DIR
 CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_DEBUG
@@ -1061,13 +1171,15 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding Eigen3
-FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.3.7()]
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
 //Details about finding FastRTPS
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/galactic/include][/opt/ros/galactic/lib/libfastrtps.so;/opt/ros/galactic/lib/libfastcdr.so][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/aarch64-linux-gnu/libOpenGL.so][/usr/lib/aarch64-linux-gnu/libGLX.so][/usr/include][c ][v()]
 //Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/aarch64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/aarch64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
+//Details about finding Python3
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10(3)]
 //Details about finding Threads
@@ -1145,6 +1257,8 @@ PC_CURL_libcurl_INCLUDEDIR:INTERNAL=
 PC_CURL_libcurl_LIBDIR:INTERNAL=
 PC_CURL_libcurl_PREFIX:INTERNAL=
 PC_CURL_libcurl_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 PKG_FONTCONFIG_CFLAGS:INTERNAL=-I/usr/include/uuid;-I/usr/include/freetype2;-I/usr/include/libpng16
@@ -1202,6 +1316,10 @@ X11_SM_LIB-ADVANCED:INTERNAL=1
 X11_X11_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_X11_LIB
 X11_X11_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_X11_xcb_INCLUDE_PATH
+X11_X11_xcb_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_X11_xcb_LIB
+X11_X11_xcb_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_XRes_INCLUDE_PATH
 X11_XRes_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_XRes_LIB
@@ -1218,6 +1336,10 @@ X11_Xaccessstr_INCLUDE_PATH-ADVANCED:INTERNAL=1
 X11_Xau_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xau_LIB
 X11_Xau_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xaw_INCLUDE_PATH
+X11_Xaw_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xaw_LIB
+X11_Xaw_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xcomposite_INCLUDE_PATH
 X11_Xcomposite_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xcomposite_LIB
@@ -1306,6 +1428,32 @@ X11_Xxf86vm_INCLUDE_PATH-ADVANCED:INTERNAL=1
 X11_Xxf86vm_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_dpms_INCLUDE_PATH
 X11_dpms_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_INCLUDE_PATH
+X11_xcb_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_LIB
+X11_xcb_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_icccm_INCLUDE_PATH
+X11_xcb_icccm_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_icccm_LIB
+X11_xcb_icccm_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_util_INCLUDE_PATH
+X11_xcb_util_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_util_LIB
+X11_xcb_util_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xfixes_INCLUDE_PATH
+X11_xcb_xfixes_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xfixes_LIB
+X11_xcb_xfixes_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xcb_xkb_LIB
+X11_xcb_xkb_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_INCLUDE_PATH
+X11_xkbcommon_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_LIB
+X11_xkbcommon_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_X11_INCLUDE_PATH
+X11_xkbcommon_X11_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbcommon_X11_LIB
+X11_xkbcommon_X11_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_INCLUDE_PATH
 X11_xkbfile_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_LIB
@@ -1351,6 +1499,12 @@ _OPENSSL_openssl_INCLUDEDIR:INTERNAL=
 _OPENSSL_openssl_LIBDIR:INTERNAL=
 _OPENSSL_openssl_PREFIX:INTERNAL=
 _OPENSSL_openssl_VERSION:INTERNAL=
+_Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
+//Python3 Properties
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+//ADVANCED property for variable: _Qt5UiTools_RELEASE_GL_PATH
+_Qt5UiTools_RELEASE_GL_PATH-ADVANCED:INTERNAL=1
 __pkg_config_arguments_PC_CURL:INTERNAL=QUIET;libcurl
 __pkg_config_arguments_PKG_FONTCONFIG:INTERNAL=QUIET;fontconfig
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
@@ -1367,5 +1521,5 @@ pkgcfg_lib_PKG_FONTCONFIG_freetype-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=SSL;IPv6;UnixSockets;libz;brotli;AsynchDNS;IDN;GSS-API;PSL;SPNEGO;Kerberos;NTLM;NTLM_WB;TLS-SRP;HTTP2;HTTPS-proxy
+prefix_result:INTERNAL=AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IDN;IPv6;Kerberos;Largefile;NTLM;NTLM_WB;PSL;SPNEGO;SSL;TLS-SRP;UnixSockets;alt-svc;brotli;libz;zstd
 

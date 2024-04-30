@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>540</width>
-    <height>210</height>
+    <width>1000</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <widget class="QFrame" name="leftMotorFrame">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>10</y>
-     <width>200</width>
-     <height>90</height>
+     <x>120</x>
+     <y>100</y>
+     <width>320</width>
+     <height>160</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -36,8 +36,8 @@
      <rect>
       <x>9</x>
       <y>9</y>
-      <width>181</width>
-      <height>16</height>
+      <width>301</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -51,9 +51,9 @@
     <property name="geometry">
      <rect>
       <x>9</x>
-      <y>31</y>
-      <width>181</width>
-      <height>44</height>
+      <y>41</y>
+      <width>301</width>
+      <height>111</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -137,10 +137,10 @@
   <widget class="QFrame" name="rightMotorFrame">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>10</y>
-     <width>200</width>
-     <height>90</height>
+     <x>560</x>
+     <y>100</y>
+     <width>320</width>
+     <height>160</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -154,8 +154,8 @@
      <rect>
       <x>9</x>
       <y>9</y>
-      <width>181</width>
-      <height>16</height>
+      <width>301</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -169,9 +169,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>30</y>
-      <width>181</width>
-      <height>44</height>
+      <y>40</y>
+      <width>301</width>
+      <height>111</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -249,10 +249,10 @@
   <widget class="QFrame" name="pinFrame">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>110</y>
-     <width>200</width>
-     <height>90</height>
+     <x>340</x>
+     <y>270</y>
+     <width>320</width>
+     <height>160</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -266,8 +266,8 @@
      <rect>
       <x>9</x>
       <y>9</y>
-      <width>181</width>
-      <height>16</height>
+      <width>301</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
@@ -281,9 +281,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>30</y>
-      <width>181</width>
-      <height>44</height>
+      <y>50</y>
+      <width>301</width>
+      <height>101</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_4">

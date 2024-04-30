@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'health_screen.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.8
+** Created by: Qt User Interface Compiler version 5.15.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -40,10 +40,10 @@ public:
     {
         if (HealthScreen->objectName().isEmpty())
             HealthScreen->setObjectName(QString::fromUtf8("HealthScreen"));
-        HealthScreen->resize(540, 210);
+        HealthScreen->resize(1000, 500);
         verticalLayoutWidget = new QWidget(HealthScreen);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(9, 9, 521, 191));
+        verticalLayoutWidget->setGeometry(QRect(10, 50, 981, 391));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -194,15 +194,15 @@ public:
 
     void retranslateUi(QWidget *HealthScreen)
     {
-        HealthScreen->setWindowTitle(QApplication::translate("HealthScreen", "Form", nullptr));
-        systemLabel->setText(QApplication::translate("HealthScreen", "System", nullptr));
-        statusLabel->setText(QApplication::translate("HealthScreen", "Status", nullptr));
-        cameraLabel->setText(QApplication::translate("HealthScreen", "Camera ", nullptr));
-        cameraStatus->setText(QApplication::translate("HealthScreen", "Active", nullptr));
-        lidarLabel->setText(QApplication::translate("HealthScreen", "Lidar ", nullptr));
-        lidarStatus->setText(QApplication::translate("HealthScreen", "Active", nullptr));
-        otherLabel->setText(QApplication::translate("HealthScreen", "Other ", nullptr));
-        otherStatus->setText(QApplication::translate("HealthScreen", "Active", nullptr));
+        HealthScreen->setWindowTitle(QCoreApplication::translate("HealthScreen", "Form", nullptr));
+        systemLabel->setText(QCoreApplication::translate("HealthScreen", "System", nullptr));
+        statusLabel->setText(QCoreApplication::translate("HealthScreen", "Status", nullptr));
+        cameraLabel->setText(QCoreApplication::translate("HealthScreen", "Camera ", nullptr));
+        cameraStatus->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
+        lidarLabel->setText(QCoreApplication::translate("HealthScreen", "Lidar ", nullptr));
+        lidarStatus->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
+        otherLabel->setText(QCoreApplication::translate("HealthScreen", "Other ", nullptr));
+        otherStatus->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
     } // retranslateUi
 
 };

@@ -8,7 +8,7 @@ ScrollingLabel::ScrollingLabel(QWidget *parent) : QLabel(parent){
     auto *animation = new QPropertyAnimation(this, "geometry");
     animation->setDuration(15000); // Duration in milliseconds
     animation->setStartValue(QRect(parent->width(), y(), parent->width(), height()));
-    animation->setEndValue(QRect(0 - parent->width(), y(), parent->width(), height()));
+    animation->setEndValue(QRect((0 - parent->width()/2.5), y(), parent->width(), height()));
     animation->setLoopCount(-1); // Loop indefinitely
     animation->start();
 }

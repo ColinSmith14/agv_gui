@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'motor_screen.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.8
+** Created by: Qt User Interface Compiler version 5.15.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -57,20 +57,20 @@ public:
     {
         if (MotorScreen->objectName().isEmpty())
             MotorScreen->setObjectName(QString::fromUtf8("MotorScreen"));
-        MotorScreen->resize(540, 210);
+        MotorScreen->resize(1000, 500);
         leftMotorFrame = new QFrame(MotorScreen);
         leftMotorFrame->setObjectName(QString::fromUtf8("leftMotorFrame"));
-        leftMotorFrame->setGeometry(QRect(60, 10, 200, 90));
+        leftMotorFrame->setGeometry(QRect(120, 100, 320, 160));
         leftMotorFrame->setFrameShape(QFrame::StyledPanel);
         leftMotorFrame->setFrameShadow(QFrame::Raised);
         leftMotorFrame->setLineWidth(4);
         leftMotorLabel = new QLabel(leftMotorFrame);
         leftMotorLabel->setObjectName(QString::fromUtf8("leftMotorLabel"));
-        leftMotorLabel->setGeometry(QRect(9, 9, 181, 16));
+        leftMotorLabel->setGeometry(QRect(9, 9, 301, 31));
         leftMotorLabel->setAlignment(Qt::AlignCenter);
         verticalLayoutWidget = new QWidget(leftMotorFrame);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(9, 31, 181, 44));
+        verticalLayoutWidget->setGeometry(QRect(9, 41, 301, 111));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -118,16 +118,16 @@ public:
 
         rightMotorFrame = new QFrame(MotorScreen);
         rightMotorFrame->setObjectName(QString::fromUtf8("rightMotorFrame"));
-        rightMotorFrame->setGeometry(QRect(280, 10, 200, 90));
+        rightMotorFrame->setGeometry(QRect(560, 100, 320, 160));
         rightMotorFrame->setFrameShape(QFrame::StyledPanel);
         rightMotorFrame->setFrameShadow(QFrame::Raised);
         rightMotorLabel = new QLabel(rightMotorFrame);
         rightMotorLabel->setObjectName(QString::fromUtf8("rightMotorLabel"));
-        rightMotorLabel->setGeometry(QRect(9, 9, 181, 16));
+        rightMotorLabel->setGeometry(QRect(9, 9, 301, 31));
         rightMotorLabel->setAlignment(Qt::AlignCenter);
         verticalLayoutWidget_2 = new QWidget(rightMotorFrame);
         verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
-        verticalLayoutWidget_2->setGeometry(QRect(10, 30, 181, 44));
+        verticalLayoutWidget_2->setGeometry(QRect(10, 40, 301, 111));
         verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -171,16 +171,16 @@ public:
 
         pinFrame = new QFrame(MotorScreen);
         pinFrame->setObjectName(QString::fromUtf8("pinFrame"));
-        pinFrame->setGeometry(QRect(170, 110, 200, 90));
+        pinFrame->setGeometry(QRect(340, 270, 320, 160));
         pinFrame->setFrameShape(QFrame::StyledPanel);
         pinFrame->setFrameShadow(QFrame::Raised);
         pinLabel = new QLabel(pinFrame);
         pinLabel->setObjectName(QString::fromUtf8("pinLabel"));
-        pinLabel->setGeometry(QRect(9, 9, 181, 16));
+        pinLabel->setGeometry(QRect(9, 9, 301, 41));
         pinLabel->setAlignment(Qt::AlignCenter);
         verticalLayoutWidget_4 = new QWidget(pinFrame);
         verticalLayoutWidget_4->setObjectName(QString::fromUtf8("verticalLayoutWidget_4"));
-        verticalLayoutWidget_4->setGeometry(QRect(10, 30, 181, 44));
+        verticalLayoutWidget_4->setGeometry(QRect(10, 50, 301, 101));
         verticalLayout_4 = new QVBoxLayout(verticalLayoutWidget_4);
         verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -230,22 +230,22 @@ public:
 
     void retranslateUi(QWidget *MotorScreen)
     {
-        MotorScreen->setWindowTitle(QApplication::translate("MotorScreen", "Form", nullptr));
-        leftMotorLabel->setText(QApplication::translate("MotorScreen", "Left Motor", nullptr));
-        leftMotorCurrentLabel->setText(QApplication::translate("MotorScreen", "Current:", nullptr));
-        leftMotorCurrent->setText(QApplication::translate("MotorScreen", "0", nullptr));
-        leftMotorErrorLabel->setText(QApplication::translate("MotorScreen", "Error:", nullptr));
-        leftMotorError->setText(QApplication::translate("MotorScreen", "None", nullptr));
-        rightMotorLabel->setText(QApplication::translate("MotorScreen", "Right Motor", nullptr));
-        rightMotorCurrentLabel->setText(QApplication::translate("MotorScreen", "Current:", nullptr));
-        rightMotorCurrent->setText(QApplication::translate("MotorScreen", "0", nullptr));
-        rightMotorErrorLabel->setText(QApplication::translate("MotorScreen", "Error:", nullptr));
-        rightMotorError->setText(QApplication::translate("MotorScreen", "None", nullptr));
-        pinLabel->setText(QApplication::translate("MotorScreen", "Pin", nullptr));
-        pinMotorCurrentLabel->setText(QApplication::translate("MotorScreen", "Current:", nullptr));
-        pinMotorCurrent->setText(QApplication::translate("MotorScreen", "0", nullptr));
-        pinMotorErrorLabel->setText(QApplication::translate("MotorScreen", "Error:", nullptr));
-        pinMotorError->setText(QApplication::translate("MotorScreen", "None", nullptr));
+        MotorScreen->setWindowTitle(QCoreApplication::translate("MotorScreen", "Form", nullptr));
+        leftMotorLabel->setText(QCoreApplication::translate("MotorScreen", "Left Motor", nullptr));
+        leftMotorCurrentLabel->setText(QCoreApplication::translate("MotorScreen", "Current:", nullptr));
+        leftMotorCurrent->setText(QCoreApplication::translate("MotorScreen", "0", nullptr));
+        leftMotorErrorLabel->setText(QCoreApplication::translate("MotorScreen", "Error:", nullptr));
+        leftMotorError->setText(QCoreApplication::translate("MotorScreen", "None", nullptr));
+        rightMotorLabel->setText(QCoreApplication::translate("MotorScreen", "Right Motor", nullptr));
+        rightMotorCurrentLabel->setText(QCoreApplication::translate("MotorScreen", "Current:", nullptr));
+        rightMotorCurrent->setText(QCoreApplication::translate("MotorScreen", "0", nullptr));
+        rightMotorErrorLabel->setText(QCoreApplication::translate("MotorScreen", "Error:", nullptr));
+        rightMotorError->setText(QCoreApplication::translate("MotorScreen", "None", nullptr));
+        pinLabel->setText(QCoreApplication::translate("MotorScreen", "Pin", nullptr));
+        pinMotorCurrentLabel->setText(QCoreApplication::translate("MotorScreen", "Current:", nullptr));
+        pinMotorCurrent->setText(QCoreApplication::translate("MotorScreen", "0", nullptr));
+        pinMotorErrorLabel->setText(QCoreApplication::translate("MotorScreen", "Error:", nullptr));
+        pinMotorError->setText(QCoreApplication::translate("MotorScreen", "None", nullptr));
     } // retranslateUi
 
 };

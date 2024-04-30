@@ -30,8 +30,7 @@ int main(int argc, char *argv[]) {
       app.setStyleSheet(stylesheet);
     }
 
-  
-    mainGui->setFixedSize(800, 480);
+    mainGui->setFixedSize(1280, 800);
     mainGui->show();
 
     rclcpp::executors::MultiThreadedExecutor exec;

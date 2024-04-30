@@ -1,0 +1,5 @@
+-I/home/colin/agv_gui/amr_v4_qt
+-I/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt
+-o
+/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt/include/moc_running_mode.cpp
+/home/colin/agv_gui/amr_v4_qt/include/running_mode.h

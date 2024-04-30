@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'running_mode_screen.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.8
+** Created by: Qt User Interface Compiler version 5.15.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -34,10 +34,10 @@ public:
     {
         if (RunningModeScreen->objectName().isEmpty())
             RunningModeScreen->setObjectName(QString::fromUtf8("RunningModeScreen"));
-        RunningModeScreen->resize(540, 210);
+        RunningModeScreen->resize(1000, 600);
         verticalLayoutWidget = new QWidget(RunningModeScreen);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(10, 10, 521, 192));
+        verticalLayoutWidget->setGeometry(QRect(10, 10, 981, 581));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setSpacing(0);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
@@ -132,11 +132,11 @@ public:
 
     void retranslateUi(QWidget *RunningModeScreen)
     {
-        RunningModeScreen->setWindowTitle(QApplication::translate("RunningModeScreen", "Form", nullptr));
-        manualabel->setText(QApplication::translate("RunningModeScreen", "Manual Mode", nullptr));
-        manualActive->setText(QApplication::translate("RunningModeScreen", "Disabled", nullptr));
-        autoLabel->setText(QApplication::translate("RunningModeScreen", "Auto Mode", nullptr));
-        autoActive->setText(QApplication::translate("RunningModeScreen", "Enabled", nullptr));
+        RunningModeScreen->setWindowTitle(QCoreApplication::translate("RunningModeScreen", "Form", nullptr));
+        manualabel->setText(QCoreApplication::translate("RunningModeScreen", "Manual Mode", nullptr));
+        manualActive->setText(QCoreApplication::translate("RunningModeScreen", "Disabled", nullptr));
+        autoLabel->setText(QCoreApplication::translate("RunningModeScreen", "Auto Mode", nullptr));
+        autoActive->setText(QCoreApplication::translate("RunningModeScreen", "Enabled", nullptr));
     } // retranslateUi
 
 };

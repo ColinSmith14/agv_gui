@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'main_screen.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.8
+** Created by: Qt User Interface Compiler version 5.15.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -50,13 +50,13 @@ public:
     {
         if (MainScreen->objectName().isEmpty())
             MainScreen->setObjectName(QString::fromUtf8("MainScreen"));
-        MainScreen->resize(800, 480);
+        MainScreen->resize(1280, 800);
         MainScreen->setMinimumSize(QSize(200, 0));
         verticalLayoutWidget = new QWidget(MainScreen);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(20, 120, 201, 331));
+        verticalLayoutWidget->setGeometry(QRect(20, 180, 231, 441));
         buttonsLayout = new QVBoxLayout(verticalLayoutWidget);
-        buttonsLayout->setSpacing(10);
+        buttonsLayout->setSpacing(0);
         buttonsLayout->setObjectName(QString::fromUtf8("buttonsLayout"));
         buttonsLayout->setSizeConstraint(QLayout::SetNoConstraint);
         buttonsLayout->setContentsMargins(0, 0, 0, 0);
@@ -69,7 +69,7 @@ public:
         sizePolicy.setHeightForWidth(homeScreenButton->sizePolicy().hasHeightForWidth());
         homeScreenButton->setSizePolicy(sizePolicy);
         homeScreenButton->setMinimumSize(QSize(100, 40));
-        homeScreenButton->setMaximumSize(QSize(230, 100));
+        homeScreenButton->setMaximumSize(QSize(240, 80));
         homeScreenButton->setAutoDefault(false);
         homeScreenButton->setFlat(false);
 
@@ -80,6 +80,7 @@ public:
         sizePolicy.setHeightForWidth(motorScreenButton->sizePolicy().hasHeightForWidth());
         motorScreenButton->setSizePolicy(sizePolicy);
         motorScreenButton->setMinimumSize(QSize(160, 60));
+        motorScreenButton->setMaximumSize(QSize(240, 80));
 
         buttonsLayout->addWidget(motorScreenButton);
 
@@ -88,6 +89,7 @@ public:
         sizePolicy.setHeightForWidth(healthScreenButton->sizePolicy().hasHeightForWidth());
         healthScreenButton->setSizePolicy(sizePolicy);
         healthScreenButton->setMinimumSize(QSize(160, 60));
+        healthScreenButton->setMaximumSize(QSize(240, 80));
 
         buttonsLayout->addWidget(healthScreenButton);
 
@@ -96,12 +98,13 @@ public:
         sizePolicy.setHeightForWidth(runningScreenButton->sizePolicy().hasHeightForWidth());
         runningScreenButton->setSizePolicy(sizePolicy);
         runningScreenButton->setMinimumSize(QSize(160, 60));
+        runningScreenButton->setMaximumSize(QSize(240, 80));
 
         buttonsLayout->addWidget(runningScreenButton);
 
         mainContent = new QStackedWidget(MainScreen);
         mainContent->setObjectName(QString::fromUtf8("mainContent"));
-        mainContent->setGeometry(QRect(240, 110, 540, 251));
+        mainContent->setGeometry(QRect(279, 100, 1000, 480));
         mainContent->setFrameShape(QFrame::NoFrame);
         mainContent->setLineWidth(2);
         page = new QWidget();
@@ -112,10 +115,10 @@ public:
         mainContent->addWidget(page_2);
         estopButton = new QPushButton(MainScreen);
         estopButton->setObjectName(QString::fromUtf8("estopButton"));
-        estopButton->setGeometry(QRect(370, 380, 160, 80));
+        estopButton->setGeometry(QRect(860, 690, 160, 71));
         label = new QLabel(MainScreen);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(560, 370, 190, 80));
+        label->setGeometry(QRect(1040, 690, 190, 71));
         QSizePolicy sizePolicy1(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
@@ -125,7 +128,7 @@ public:
         label->setAlignment(Qt::AlignCenter);
         horizontalLayoutWidget = new QWidget(MainScreen);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(0, 30, 801, 61));
+        horizontalLayoutWidget->setGeometry(QRect(0, 30, 1271, 61));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setSizeConstraint(QLayout::SetNoConstraint);
@@ -195,7 +198,7 @@ public:
 
         scrollingLabel = new ScrollingLabel(MainScreen);
         scrollingLabel->setObjectName(QString::fromUtf8("scrollingLabel"));
-        scrollingLabel->setGeometry(QRect(0, 10, 800, 20));
+        scrollingLabel->setGeometry(QRect(0, 10, 1271, 20));
         QSizePolicy sizePolicy4(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy4.setHorizontalStretch(255);
         sizePolicy4.setVerticalStretch(0);
@@ -216,19 +219,19 @@ public:
 
     void retranslateUi(QWidget *MainScreen)
     {
-        MainScreen->setWindowTitle(QApplication::translate("MainScreen", "Form", nullptr));
-        homeScreenButton->setText(QApplication::translate("MainScreen", "Home", nullptr));
-        motorScreenButton->setText(QApplication::translate("MainScreen", "Motors", nullptr));
-        healthScreenButton->setText(QApplication::translate("MainScreen", "Health", nullptr));
-        runningScreenButton->setText(QApplication::translate("MainScreen", "Running", nullptr));
-        estopButton->setText(QApplication::translate("MainScreen", "ESTOP", nullptr));
-        label->setText(QApplication::translate("MainScreen", "Fisher Dynamics", nullptr));
-        wifiTextLabel->setText(QApplication::translate("MainScreen", "Wifi", nullptr));
-        wifiLabel->setText(QApplication::translate("MainScreen", "Wifi", nullptr));
-        dateTimeLabel->setText(QApplication::translate("MainScreen", "Date Time", nullptr));
-        BatteryTextLabel->setText(QApplication::translate("MainScreen", "Battery", nullptr));
-        batteryLabel->setText(QApplication::translate("MainScreen", "Battery Logo Here", nullptr));
-        scrollingLabel->setText(QApplication::translate("MainScreen", "This is a really long message", nullptr));
+        MainScreen->setWindowTitle(QCoreApplication::translate("MainScreen", "Form", nullptr));
+        homeScreenButton->setText(QCoreApplication::translate("MainScreen", "Home", nullptr));
+        motorScreenButton->setText(QCoreApplication::translate("MainScreen", "Motors", nullptr));
+        healthScreenButton->setText(QCoreApplication::translate("MainScreen", "Health", nullptr));
+        runningScreenButton->setText(QCoreApplication::translate("MainScreen", "Running", nullptr));
+        estopButton->setText(QCoreApplication::translate("MainScreen", "ESTOP", nullptr));
+        label->setText(QCoreApplication::translate("MainScreen", "Fisher Dynamics", nullptr));
+        wifiTextLabel->setText(QCoreApplication::translate("MainScreen", "Wifi", nullptr));
+        wifiLabel->setText(QCoreApplication::translate("MainScreen", "Wifi", nullptr));
+        dateTimeLabel->setText(QCoreApplication::translate("MainScreen", "Date Time", nullptr));
+        BatteryTextLabel->setText(QCoreApplication::translate("MainScreen", "Battery", nullptr));
+        batteryLabel->setText(QCoreApplication::translate("MainScreen", "Battery Logo Here", nullptr));
+        scrollingLabel->setText(QCoreApplication::translate("MainScreen", "This is a really long message", nullptr));
     } // retranslateUi
 
 };
