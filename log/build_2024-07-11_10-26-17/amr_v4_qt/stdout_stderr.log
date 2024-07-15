@@ -1,0 +1,11 @@
+[  1%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[  1%] Built target amr_v4_qt_autogen
+[  3%] [34m[1mGenerating include/moc_main_gui.cpp[0m
+[  5%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:158: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:354: CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:172: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

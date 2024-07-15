@@ -9,6 +9,7 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
 #include "rosidl_typesupport_interface/macros.h"
+#include "amr_v4_msgs_srvs/msg/detail/motor__functions.h"
 #include "amr_v4_msgs_srvs/msg/detail/motor__struct.hpp"
 #include "rosidl_typesupport_introspection_cpp/field_types.hpp"
 #include "rosidl_typesupport_introspection_cpp/identifier.hpp"
@@ -207,6 +208,9 @@ static const rosidl_message_type_support_t Motor_message_type_support_handle = {
   ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
   &Motor_message_members,
   get_message_typesupport_handle_function,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_hash,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_description,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_introspection_cpp

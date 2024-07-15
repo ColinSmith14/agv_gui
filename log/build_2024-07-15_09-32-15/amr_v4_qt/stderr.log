@@ -1,0 +1,19 @@
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:58:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::RunningModeScreen[m[K’ has no member named ‘[01m[KmodeSwitchButton[m[K’; did you mean ‘[01m[KmodeButton[m[K’?
+   58 |     connect(runningModeScreen->ui.[01;31m[KmodeSwitchButton[m[K, &QPushButton::clicked, this, &MainGui::updateMode); // Connect the mode switch button
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[KmodeButton[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K At global scope:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:234:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainGui::updateMode()[m[K’
+  234 | void [01;31m[KMainGui[m[K::updateMode()
+      |      [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1[m[K:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:46:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid MainGui::updateMode(const QString&)[m[K’
+   46 |     void [01;36m[KupdateMode[m[K(const QString &data);
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainGui[m[K’ defined here
+   21 | class [01;36m[KMainGui[m[K : public QMainWindow {
+      |       [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

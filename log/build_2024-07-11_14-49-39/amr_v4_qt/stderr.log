@@ -1,0 +1,9 @@
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kint MainGui::getWifiSignalStrength()[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:157:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QProcess::start(const QString&, QIODevice::OpenMode)[m[K’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  157 |     [01;35m[Kprocess.start("iwconfig")[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess:1[m[K,
+                 from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  168 |     void [01;36m[Kstart[m[K(const QString &command, OpenMode mode = ReadWrite);
+      |          [01;36m[K^~~~~[m[K

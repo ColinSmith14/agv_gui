@@ -1,0 +1,5 @@
+[  1%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[  1%] Built target amr_v4_qt_autogen
+[  3%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m

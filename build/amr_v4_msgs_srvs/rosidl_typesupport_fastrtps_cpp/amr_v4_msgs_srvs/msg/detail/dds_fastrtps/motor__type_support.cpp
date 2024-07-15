@@ -2,6 +2,7 @@
 // with input from amr_v4_msgs_srvs:msg/Motor.idl
 // generated code does not contain a copyright notice
 #include "amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp"
+#include "amr_v4_msgs_srvs/msg/detail/motor__functions.h"
 #include "amr_v4_msgs_srvs/msg/detail/motor__struct.hpp"
 
 #include <limits>
@@ -345,6 +346,9 @@ static rosidl_message_type_support_t _Motor__handle = {
   rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
   &_Motor__callbacks,
   get_message_typesupport_handle_function,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_hash,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_description,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_description_sources,
 };
 
 }  // namespace typesupport_fastrtps_cpp

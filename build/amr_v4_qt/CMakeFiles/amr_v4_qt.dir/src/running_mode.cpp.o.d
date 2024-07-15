@@ -1,7 +1,7 @@
 CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.o: \
- /home/colin/agv_gui/amr_v4_qt/src/running_mode.cpp \
+ /home/colin/agv_gui/src/amr_v4_qt/src/running_mode.cpp \
  /usr/include/stdc-predef.h \
- /home/colin/agv_gui/amr_v4_qt/include/running_mode.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/running_mode.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -280,7 +280,7 @@ CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /home/colin/agv_gui/amr_v4_qt/include/ui_running_mode_screen.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/ui_running_mode_screen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
@@ -301,5 +301,9 @@ CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget

@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4
+[0.098s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.139s] [  2%] Built target amr_v4_qt_autogen
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[0.278s] [  4%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[6.321s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, std::shared_ptr<EstopPublisher>, QWidget*)[m[K’:
+[6.321s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:57:87:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid EstopPublisher::topic_callback(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’
+[6.321s]    57 | een->ui.modeButton, &QPushButton::clicked, this, [01;31m[Kestop_pub->topic_callback[m[K);
+[6.321s]       |                                                  [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.322s] 
+[6.322s] In file included from [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:24[m[K,
+[6.322s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1[m[K:
+[6.322s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/estop_publisher.h:17:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.322s]    17 |     void [01;36m[Ktopic_callback[m[K(const std_msgs::msg::Bool::SharedPtr msg);
+[6.322s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.328s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kint MainGui::getWifiSignalStrength()[m[K’:
+[6.328s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:156:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QProcess::start(const QString&, QIODevice::OpenMode)[m[K’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.328s]   156 |     [01;35m[Kprocess.start("iwconfig")[m[K;
+[6.328s]       |     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[6.328s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess:1[m[K,
+[6.328s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:5[m[K:
+[6.328s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.328s]   168 |     void [01;36m[Kstart[m[K(const QString &command, OpenMode mode = ReadWrite);
+[6.328s]       |          [01;36m[K^~~~~[m[K
+[7.286s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:168: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+[7.286s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[7.286s] gmake: *** [Makefile:146: all] Error 2
+[7.288s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4

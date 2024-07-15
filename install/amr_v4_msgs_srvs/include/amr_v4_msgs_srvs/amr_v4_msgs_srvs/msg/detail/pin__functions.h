@@ -13,6 +13,12 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
+#include "rosidl_runtime_c/action_type_support_struct.h"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_runtime_c/service_type_support_struct.h"
+#include "rosidl_runtime_c/type_description/type_description__struct.h"
+#include "rosidl_runtime_c/type_description/type_source__struct.h"
+#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "amr_v4_msgs_srvs/msg/rosidl_generator_c__visibility_control.h"
 
@@ -92,6 +98,30 @@ bool
 amr_v4_msgs_srvs__msg__Pin__copy(
   const amr_v4_msgs_srvs__msg__Pin * input,
   amr_v4_msgs_srvs__msg__Pin * output);
+
+/// Retrieve pointer to the hash of the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_amr_v4_msgs_srvs
+const rosidl_type_hash_t *
+amr_v4_msgs_srvs__msg__Pin__get_type_hash(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_amr_v4_msgs_srvs
+const rosidl_runtime_c__type_description__TypeDescription *
+amr_v4_msgs_srvs__msg__Pin__get_type_description(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the single raw source text that defined this type.
+ROSIDL_GENERATOR_C_PUBLIC_amr_v4_msgs_srvs
+const rosidl_runtime_c__type_description__TypeSource *
+amr_v4_msgs_srvs__msg__Pin__get_individual_type_description_source(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the recursive raw sources that defined the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_amr_v4_msgs_srvs
+const rosidl_runtime_c__type_description__TypeSource__Sequence *
+amr_v4_msgs_srvs__msg__Pin__get_type_description_sources(
+  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/Pin messages.
 /**

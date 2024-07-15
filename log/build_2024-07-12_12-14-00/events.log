@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000418] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict()}
+[0.000469] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[0.008618] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[0.010364] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'build'}
+[0.010449] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/amr_v4_qt', '--', '-j4', '-l4'], 'cwd': '/home/colin/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROBOT_NAME', 'amr_2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/3071,unix/Ubuntu22:/tmp/.ICE-unix/3071'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6daba568_725a_418b_8e8d_f9f7c1cd5543'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QLWAR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/colin/agv_gui/build/amr_v4_qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron')]), 'shell': False}
+[0.098829] (-) TimerEvent: {}
+[0.113648] (amr_v4_qt) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target amr_v4_qt\x1b[0m\n'}
+[0.151300] (amr_v4_qt) StdoutLine: {'line': b'[  2%] Built target amr_v4_qt_autogen\n'}
+[0.187194] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target amr_v4_qt\x1b[0m\n'}
+[0.199028] (-) TimerEvent: {}
+[0.289593] (amr_v4_qt) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o\x1b[0m\n'}
+[0.294253] (amr_v4_qt) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o\x1b[0m\n'}
+[0.299234] (-) TimerEvent: {}
+[0.303650] (amr_v4_qt) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_amr_node.cpp.o\x1b[0m\n'}
+[0.399445] (-) TimerEvent: {}
+[0.509445] (-) TimerEvent: {}
+[0.615845] (-) TimerEvent: {}
+[0.716472] (-) TimerEvent: {}
+[0.816988] (-) TimerEvent: {}
+[0.917509] (-) TimerEvent: {}
+[1.018071] (-) TimerEvent: {}
+[1.118844] (-) TimerEvent: {}
+[1.219270] (-) TimerEvent: {}
+[1.322135] (-) TimerEvent: {}
+[1.422895] (-) TimerEvent: {}
+[1.528451] (-) TimerEvent: {}
+[1.629345] (-) TimerEvent: {}
+[1.730091] (-) TimerEvent: {}
+[1.830714] (-) TimerEvent: {}
+[1.931492] (-) TimerEvent: {}
+[2.033847] (-) TimerEvent: {}
+[2.135256] (-) TimerEvent: {}
+[2.235840] (-) TimerEvent: {}
+[2.336668] (-) TimerEvent: {}
+[2.437249] (-) TimerEvent: {}
+[2.537743] (-) TimerEvent: {}
+[2.638250] (-) TimerEvent: {}
+[2.739037] (-) TimerEvent: {}
+[2.839734] (-) TimerEvent: {}
+[2.940311] (-) TimerEvent: {}
+[3.041112] (-) TimerEvent: {}
+[3.141744] (-) TimerEvent: {}
+[3.242177] (-) TimerEvent: {}
+[3.342694] (-) TimerEvent: {}
+[3.443242] (-) TimerEvent: {}
+[3.543848] (-) TimerEvent: {}
+[3.644504] (-) TimerEvent: {}
+[3.745199] (-) TimerEvent: {}
+[3.845899] (-) TimerEvent: {}
+[3.947749] (-) TimerEvent: {}
+[4.048412] (-) TimerEvent: {}
+[4.149150] (-) TimerEvent: {}
+[4.249828] (-) TimerEvent: {}
+[4.350446] (-) TimerEvent: {}
+[4.451116] (-) TimerEvent: {}
+[4.551772] (-) TimerEvent: {}
+[4.652403] (-) TimerEvent: {}
+[4.753155] (-) TimerEvent: {}
+[4.853709] (-) TimerEvent: {}
+[4.954174] (-) TimerEvent: {}
+[5.056384] (-) TimerEvent: {}
+[5.157217] (-) TimerEvent: {}
+[5.259751] (-) TimerEvent: {}
+[5.360267] (-) TimerEvent: {}
+[5.460903] (-) TimerEvent: {}
+[5.561370] (-) TimerEvent: {}
+[5.661792] (-) TimerEvent: {}
+[5.762199] (-) TimerEvent: {}
+[5.862758] (-) TimerEvent: {}
+[5.963423] (-) TimerEvent: {}
+[6.064282] (-) TimerEvent: {}
+[6.165062] (-) TimerEvent: {}
+[6.265693] (-) TimerEvent: {}
+[6.366116] (-) TimerEvent: {}
+[6.471961] (-) TimerEvent: {}
+[6.572837] (-) TimerEvent: {}
+[6.673502] (-) TimerEvent: {}
+[6.774190] (-) TimerEvent: {}
+[6.874601] (-) TimerEvent: {}
+[6.975151] (-) TimerEvent: {}
+[7.075731] (-) TimerEvent: {}
+[7.093886] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAmrNode::AmrNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.094596] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:3:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.095129] (amr_v4_qt) StderrLine: {'line': b'    3 | AmrNode::AmrNode(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[7.095640] (amr_v4_qt) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.096122] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.096560] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.096989] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[7.097419] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:5\x1b[m\x1b[K,\n'}
+[7.097853] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.098278] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1579:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.098730] (amr_v4_qt) StderrLine: {'line': b' 1579 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[7.099312] (amr_v4_qt) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.100322] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1579:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[7.100864] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:102:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.101407] (amr_v4_qt) StderrLine: {'line': b'  102 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[7.103255] (amr_v4_qt) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.103885] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:102:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[7.104366] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:90:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.104837] (amr_v4_qt) StderrLine: {'line': b'   90 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[7.105274] (amr_v4_qt) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.105712] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:90:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[7.175866] (-) TimerEvent: {}
+[7.276440] (-) TimerEvent: {}
+[7.377267] (-) TimerEvent: {}
+[7.478067] (-) TimerEvent: {}
+[7.578769] (-) TimerEvent: {}
+[7.680093] (-) TimerEvent: {}
+[7.780719] (-) TimerEvent: {}
+[7.881337] (-) TimerEvent: {}
+[7.982043] (-) TimerEvent: {}
+[8.082797] (-) TimerEvent: {}
+[8.183297] (-) TimerEvent: {}
+[8.284081] (-) TimerEvent: {}
+[8.384648] (-) TimerEvent: {}
+[8.485089] (-) TimerEvent: {}
+[8.585613] (-) TimerEvent: {}
+[8.686279] (-) TimerEvent: {}
+[8.786752] (-) TimerEvent: {}
+[8.887322] (-) TimerEvent: {}
+[8.987978] (-) TimerEvent: {}
+[9.088328] (-) TimerEvent: {}
+[9.188691] (-) TimerEvent: {}
+[9.200753] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.200968] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.201051] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[9.201125] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[9.201198] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[9.201280] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[9.201390] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[9.201461] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[9.201531] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[9.201599] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:43\x1b[m\x1b[K,\n'}
+[9.201668] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[9.201737] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[9.201841] (amr_v4_qt) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = AmrNode; _Args = {const char (&)[9], rclcpp::NodeOptions&}; _Tp = AmrNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.201929] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = AmrNode; _Args = {const char (&)[9], rclcpp::NodeOptions&}; _Tp = AmrNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<AmrNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202008] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[9], rclcpp::NodeOptions&}; _Tp = AmrNode; _Alloc = std::allocator<AmrNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202086] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = AmrNode; _Alloc = std::allocator<AmrNode>; _Args = {const char (&)[9], rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202163] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AmrNode>; _Args = {const char (&)[9], rclcpp::NodeOptions&}; _Tp = AmrNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202234] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AmrNode>; _Args = {const char (&)[9], rclcpp::NodeOptions&}; _Tp = AmrNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202338] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = AmrNode; _Alloc = std::allocator<AmrNode>; _Args = {const char (&)[9], rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202421] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = AmrNode; _Args = {const char (&)[9], rclcpp::NodeOptions&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202492] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:29:46:\x1b[m\x1b[K   required from here\n'}
+[9.202561] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KAmrNode::AmrNode(const char [9], rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202630] (amr_v4_qt) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.202699] (amr_v4_qt) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.202917] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:19\x1b[m\x1b[K,\n'}
+[9.203010] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.203080] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:19:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KAmrNode::AmrNode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.203151] (amr_v4_qt) StderrLine: {'line': b'   19 |     explicit \x1b[01;36m\x1b[KAmrNode\x1b[m\x1b[K();\n'}
+[9.203220] (amr_v4_qt) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.203431] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:19:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[9.288854] (-) TimerEvent: {}
+[9.351815] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:138: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Error 1\n'}
+[9.352044] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.388985] (-) TimerEvent: {}
+[9.489281] (-) TimerEvent: {}
+[9.590000] (-) TimerEvent: {}
+[9.690838] (-) TimerEvent: {}
+[9.792040] (-) TimerEvent: {}
+[9.892411] (-) TimerEvent: {}
+[9.992925] (-) TimerEvent: {}
+[10.093658] (-) TimerEvent: {}
+[10.193956] (-) TimerEvent: {}
+[10.294397] (-) TimerEvent: {}
+[10.394942] (-) TimerEvent: {}
+[10.495646] (-) TimerEvent: {}
+[10.595886] (-) TimerEvent: {}
+[10.696114] (-) TimerEvent: {}
+[10.796856] (-) TimerEvent: {}
+[10.897128] (-) TimerEvent: {}
+[10.997397] (-) TimerEvent: {}
+[11.097655] (-) TimerEvent: {}
+[11.197917] (-) TimerEvent: {}
+[11.298561] (-) TimerEvent: {}
+[11.398877] (-) TimerEvent: {}
+[11.499559] (-) TimerEvent: {}
+[11.600323] (-) TimerEvent: {}
+[11.701004] (-) TimerEvent: {}
+[11.801332] (-) TimerEvent: {}
+[11.902035] (-) TimerEvent: {}
+[12.002765] (-) TimerEvent: {}
+[12.103682] (-) TimerEvent: {}
+[12.147103] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:250: CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o] Error 1\n'}
+[12.147982] (amr_v4_qt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2\n'}
+[12.148427] (amr_v4_qt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.149875] (amr_v4_qt) CommandEnded: {'returncode': 2}
+[12.204114] (-) TimerEvent: {}
+[12.257846] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 2}
+[12.269259] (-) EventReactorShutdown: {}

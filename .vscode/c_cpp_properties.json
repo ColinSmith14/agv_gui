@@ -6,11 +6,10 @@
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
-                "/home/colin/agv_gui/src/agv_gui/include/**",
                 "/usr/include/**",
-                "${workspaceFolder}/amr_v4_qt/include/**",
-                "/opt/ros/galactic/include",
-                "${workspaceFolder}/install/amr_v4_msgs_srvs/include"
+                "/opt/ros/iron/include/**",
+                "${workspaceFolder}/src/amr_v4_msgs_srvs/msg",
+                "${workspaceFolder}/src/amr_v4_qt/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

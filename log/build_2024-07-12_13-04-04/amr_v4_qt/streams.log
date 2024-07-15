@@ -1,0 +1,19 @@
+[0.036s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4
+[0.133s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.201s] [  2%] Built target amr_v4_qt_autogen
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[0.340s] [  5%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[0.353s] [  8%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[7.883s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)[m[K’:
+[7.883s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:59:86:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid AmrNode::mode_callback(bool)[m[K’
+[7.883s]    59 |     connect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, [01;31m[Kamr_node->mode_callback[m[K);
+[7.883s]       |                                                                            [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.883s] In file included from [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:19[m[K,
+[7.883s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1[m[K:
+[7.883s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:26:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.883s]    26 |     void [01;36m[Kmode_callback[m[K(const bool mode);
+[7.884s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[9.148s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+[9.148s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[9.149s] gmake: *** [Makefile:146: all] Error 2
+[9.151s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4

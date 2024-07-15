@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:336: CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:154: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:168: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

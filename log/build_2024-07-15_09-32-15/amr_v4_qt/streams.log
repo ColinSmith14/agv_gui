@@ -1,0 +1,26 @@
+[0.036s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4
+[0.231s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.297s] [  2%] Built target amr_v4_qt_autogen
+[0.363s] [35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[0.559s] [  5%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_amr_node.cpp.o[0m
+[0.572s] [  8%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[17.854s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)[m[K’:
+[17.854s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:58:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::RunningModeScreen[m[K’ has no member named ‘[01m[KmodeSwitchButton[m[K’; did you mean ‘[01m[KmodeButton[m[K’?
+[17.855s]    58 |     connect(runningModeScreen->ui.[01;31m[KmodeSwitchButton[m[K, &QPushButton::clicked, this, &MainGui::updateMode); // Connect the mode switch button
+[17.855s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[17.855s]       |                                   [32m[KmodeButton[m[K
+[17.893s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K At global scope:
+[17.893s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:234:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MainGui::updateMode()[m[K’
+[17.894s]   234 | void [01;31m[KMainGui[m[K::updateMode()
+[17.894s]       |      [01;31m[K^~~~~~~[m[K
+[17.895s] In file included from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1[m[K:
+[17.895s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:46:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid MainGui::updateMode(const QString&)[m[K’
+[17.895s]    46 |     void [01;36m[KupdateMode[m[K(const QString &data);
+[17.896s]       |          [01;36m[K^~~~~~~~~~[m[K
+[17.896s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MainGui[m[K’ defined here
+[17.896s]    21 | class [01;36m[KMainGui[m[K : public QMainWindow {
+[17.897s]       |       [01;36m[K^~~~~~~[m[K
+[20.770s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+[20.771s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[20.772s] gmake: *** [Makefile:146: all] Error 2
+[20.778s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4

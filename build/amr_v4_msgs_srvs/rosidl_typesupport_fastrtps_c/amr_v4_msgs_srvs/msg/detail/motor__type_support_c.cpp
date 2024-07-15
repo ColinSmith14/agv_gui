@@ -503,6 +503,9 @@ static rosidl_message_type_support_t _Motor__type_support = {
   rosidl_typesupport_fastrtps_c__identifier,
   &__callbacks_Motor,
   get_message_typesupport_handle_function,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_hash,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_description,
+  &amr_v4_msgs_srvs__msg__Motor__get_type_description_sources,
 };
 
 const rosidl_message_type_support_t *

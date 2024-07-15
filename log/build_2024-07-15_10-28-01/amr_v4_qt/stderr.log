@@ -1,0 +1,9 @@
+/home/colin/agv_gui/src/amr_v4_qt/include/ui_main_screen.h:0: Note: No relevant classes found. No output generated.
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:55:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainScreen[m[K’ has no member named ‘[01m[KestopButton[m[K’
+   55 |     connect(mainScreen->ui.[01;31m[KestopButton[m[K, &QPushButton::clicked, this, &MainGui::updateEstop);
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -116,7 +116,7 @@ CMakeFiles/amr_v4_qt.dir/include/moc_fisher_screen.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/colin/agv_gui/build/amr_v4_qt/include/../../../amr_v4_qt/include/fisher_screen.h \
+ /home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/fisher_screen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

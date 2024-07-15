@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict()}
+[0.000228] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[0.009851] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[0.010839] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'build'}
+[0.011957] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/amr_v4_qt', '--', '-j4', '-l4'], 'cwd': '/home/colin/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3092'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROBOT_NAME', 'amr_2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/3071,unix/Ubuntu22:/tmp/.ICE-unix/3071'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6daba568_725a_418b_8e8d_f9f7c1cd5543'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QLWAR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/colin/agv_gui/build/amr_v4_qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron')]), 'shell': False}
+[0.088838] (amr_v4_qt) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target amr_v4_qt\x1b[0m\n'}
+[0.099096] (-) TimerEvent: {}
+[0.119829] (amr_v4_qt) StdoutLine: {'line': b'[  2%] Built target amr_v4_qt_autogen\n'}
+[0.145735] (amr_v4_qt) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating include/moc_amr_node.cpp\x1b[0m\n'}
+[0.172321] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target amr_v4_qt\x1b[0m\n'}
+[0.199333] (-) TimerEvent: {}
+[0.249598] (amr_v4_qt) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o\x1b[0m\n'}
+[0.266046] (amr_v4_qt) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o\x1b[0m\n'}
+[0.266183] (amr_v4_qt) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o\x1b[0m\n'}
+[0.280546] (amr_v4_qt) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o\x1b[0m\n'}
+[0.299625] (-) TimerEvent: {}
+[0.401086] (-) TimerEvent: {}
+[0.501453] (-) TimerEvent: {}
+[0.609459] (-) TimerEvent: {}
+[0.710958] (-) TimerEvent: {}
+[0.815468] (-) TimerEvent: {}
+[0.920136] (-) TimerEvent: {}
+[1.021413] (-) TimerEvent: {}
+[1.122014] (-) TimerEvent: {}
+[1.222557] (-) TimerEvent: {}
+[1.322976] (-) TimerEvent: {}
+[1.423382] (-) TimerEvent: {}
+[1.523988] (-) TimerEvent: {}
+[1.624569] (-) TimerEvent: {}
+[1.724993] (-) TimerEvent: {}
+[1.825706] (-) TimerEvent: {}
+[1.926243] (-) TimerEvent: {}
+[2.026756] (-) TimerEvent: {}
+[2.127480] (-) TimerEvent: {}
+[2.228453] (-) TimerEvent: {}
+[2.328777] (-) TimerEvent: {}
+[2.429144] (-) TimerEvent: {}
+[2.529461] (-) TimerEvent: {}
+[2.629835] (-) TimerEvent: {}
+[2.730394] (-) TimerEvent: {}
+[2.831092] (-) TimerEvent: {}
+[2.931622] (-) TimerEvent: {}
+[3.032659] (-) TimerEvent: {}
+[3.133302] (-) TimerEvent: {}
+[3.233681] (-) TimerEvent: {}
+[3.336463] (-) TimerEvent: {}
+[3.437053] (-) TimerEvent: {}
+[3.537572] (-) TimerEvent: {}
+[3.638125] (-) TimerEvent: {}
+[3.738836] (-) TimerEvent: {}
+[3.839563] (-) TimerEvent: {}
+[3.940178] (-) TimerEvent: {}
+[4.041460] (-) TimerEvent: {}
+[4.142038] (-) TimerEvent: {}
+[4.242779] (-) TimerEvent: {}
+[4.343366] (-) TimerEvent: {}
+[4.443886] (-) TimerEvent: {}
+[4.544533] (-) TimerEvent: {}
+[4.645031] (-) TimerEvent: {}
+[4.745617] (-) TimerEvent: {}
+[4.846371] (-) TimerEvent: {}
+[4.947147] (-) TimerEvent: {}
+[5.047885] (-) TimerEvent: {}
+[5.148683] (-) TimerEvent: {}
+[5.249485] (-) TimerEvent: {}
+[5.350047] (-) TimerEvent: {}
+[5.450650] (-) TimerEvent: {}
+[5.551203] (-) TimerEvent: {}
+[5.651948] (-) TimerEvent: {}
+[5.753000] (-) TimerEvent: {}
+[5.853549] (-) TimerEvent: {}
+[5.888647] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:138: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Interrupt\n'}
+[5.892639] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:264: CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o] Interrupt\n'}
+[5.893979] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:250: CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o] Interrupt\n'}
+[5.895558] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Interrupt\n'}
+[5.896118] (amr_v4_qt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Interrupt\n'}
+[5.896647] (amr_v4_qt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[5.935350] (amr_v4_qt) CommandEnded: {'returncode': -2}
+[5.953901] (-) TimerEvent: {}
+[6.054522] (-) TimerEvent: {}
+[6.108556] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 'SIGINT'}
+[6.119264] (-) EventReactorShutdown: {}

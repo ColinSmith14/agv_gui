@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colin/agv_gui/amr_v4_msgs_srvs
+CMAKE_SOURCE_DIR = /home/colin/agv_gui/src/amr_v4_msgs_srvs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/colin/agv_gui/build/amr_v4_msgs_srvs
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/compiler_de
 include CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg:
-	cd /home/colin/agv_gui/build/amr_v4_msgs_srvs/ament_cmake_python/amr_v4_msgs_srvs && /usr/bin/python3 setup.py egg_info
+	cd /home/colin/agv_gui/build/amr_v4_msgs_srvs/ament_cmake_python/amr_v4_msgs_srvs && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_amr_v4_msgs_srvs_egg: CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg
 ament_cmake_python_build_amr_v4_msgs_srvs_egg: CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/depend:
-	cd /home/colin/agv_gui/build/amr_v4_msgs_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colin/agv_gui/amr_v4_msgs_srvs /home/colin/agv_gui/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs/CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/colin/agv_gui/build/amr_v4_msgs_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colin/agv_gui/src/amr_v4_msgs_srvs /home/colin/agv_gui/src/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs/CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_amr_v4_msgs_srvs_egg.dir/depend
 

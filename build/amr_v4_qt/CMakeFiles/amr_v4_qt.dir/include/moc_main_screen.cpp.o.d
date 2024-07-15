@@ -116,7 +116,7 @@ CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/colin/agv_gui/build/amr_v4_qt/include/../../../amr_v4_qt/include/main_screen.h \
+ /home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/main_screen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -277,7 +277,7 @@ CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/colin/agv_gui/amr_v4_qt/include/ui_main_screen.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/ui_main_screen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
@@ -309,7 +309,7 @@ CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstackedwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
- /home/colin/agv_gui/amr_v4_qt/include/scrolling_label.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/scrolling_label.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \

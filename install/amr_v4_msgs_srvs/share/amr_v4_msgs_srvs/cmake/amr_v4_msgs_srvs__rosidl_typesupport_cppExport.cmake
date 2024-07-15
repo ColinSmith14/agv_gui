@@ -54,7 +54,7 @@ endif()
 add_library(amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_typesupport_cpp SHARED IMPORTED)
 
 set_target_properties(amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_typesupport_cpp PROPERTIES
-  INTERFACE_LINK_LIBRARIES "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_cpp"
+  INTERFACE_LINK_LIBRARIES "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_c;amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_cpp;service_msgs::service_msgs__rosidl_typesupport_cpp;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
@@ -93,7 +93,7 @@ unset(_IMPORT_CHECK_TARGETS)
 # Make sure the targets which have been exported in some other
 # export set exist.
 unset(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets)
-foreach(_target "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_cpp" )
+foreach(_target "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_c" "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_cpp" )
   if(NOT TARGET "${_target}" )
     set(${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets "${${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE_targets} ${_target}")
   endif()

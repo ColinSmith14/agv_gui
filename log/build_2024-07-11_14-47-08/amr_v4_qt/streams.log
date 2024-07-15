@@ -1,0 +1,22 @@
+[0.014s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4
+[0.118s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.183s] [  2%] Built target amr_v4_qt_autogen
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[0.284s] [  5%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[10.763s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kint MainGui::getWifiSignalStrength()[m[K’:
+[10.764s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:157:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QProcess::start(const QString&, QIODevice::OpenMode)[m[K’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.765s]   157 |     [01;35m[Kprocess.start("iwconfig")[m[K;
+[10.766s]       |     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[10.767s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess:1[m[K,
+[10.772s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:5[m[K:
+[10.772s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.773s]   168 |     void [01;36m[Kstart[m[K(const QString &command, OpenMode mode = ReadWrite);
+[10.773s]       |          [01;36m[K^~~~~[m[K
+[13.079s] [  8%] [32m[1mLinking CXX executable amr_v4_qt[0m
+[21.468s] /usr/bin/ld: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o: in function `MainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)':
+[21.468s] main_gui.cpp:(.text+0x221): undefined reference to `RunningModeScreen::RunningModeScreen(QWidget*)'
+[21.652s] collect2: error: ld returned 1 exit status
+[21.667s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:679: amr_v4_qt] Error 1
+[21.667s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[21.667s] gmake: *** [Makefile:146: all] Error 2
+[21.684s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4

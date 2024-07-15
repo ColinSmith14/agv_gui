@@ -4,6 +4,7 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
+#include "amr_v4_msgs_srvs/msg/detail/pin__functions.h"
 #include "amr_v4_msgs_srvs/msg/detail/pin__struct.hpp"
 #include "rosidl_typesupport_cpp/identifier.hpp"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
@@ -72,6 +73,9 @@ static const rosidl_message_type_support_t Pin_message_type_support_handle = {
   ::rosidl_typesupport_cpp::typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_Pin_message_typesupport_map),
   ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
+  &amr_v4_msgs_srvs__msg__Pin__get_type_hash,
+  &amr_v4_msgs_srvs__msg__Pin__get_type_description,
+  &amr_v4_msgs_srvs__msg__Pin__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_cpp

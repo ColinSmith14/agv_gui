@@ -54,7 +54,7 @@ endif()
 add_library(amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_typesupport_c SHARED IMPORTED)
 
 set_target_properties(amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_typesupport_c PROPERTIES
-  INTERFACE_LINK_LIBRARIES "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_c"
+  INTERFACE_LINK_LIBRARIES "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_c;service_msgs::service_msgs__rosidl_typesupport_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

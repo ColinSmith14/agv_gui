@@ -1,0 +1,358 @@
+[0.011s] Invoking command in '/home/colin/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/colin/agv_gui/src/amr_v4_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/install/amr_v4_msgs_srvs
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.390s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.596s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.751s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.956s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.970s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[1.251s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.260s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.415s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.449s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.749s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[2.192s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[2.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.704s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.707s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[2.737s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.737s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.737s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.737s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.760s] -- Found PythonExtra: .so  
+[2.805s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.848s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.853s] -- Added test 'lint_cmake' to check CMake code style
+[2.856s] -- Added test 'xmllint' to check XML markup files
+[2.861s] -- Configuring done
+[2.917s] -- Generating done
+[2.921s] -- Build files have been written to: /home/colin/agv_gui/build/amr_v4_msgs_srvs
+[2.936s] Invoked command in '/home/colin/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/colin/agv_gui/src/amr_v4_msgs_srvs -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/install/amr_v4_msgs_srvs
+[2.938s] Invoking command in '/home/colin/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_msgs_srvs -- -j4 -l4
+[3.012s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.021s] [  1%] Built target ament_cmake_python_copy_amr_v4_msgs_srvs
+[3.311s] [  1%] Built target amr_v4_msgs_srvs__rosidl_generator_type_description
+[3.325s] running egg_info
+[3.326s] creating amr_v4_msgs_srvs.egg-info
+[3.326s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.327s] writing amr_v4_msgs_srvs.egg-info/PKG-INFO
+[3.327s] writing dependency_links to amr_v4_msgs_srvs.egg-info/dependency_links.txt
+[3.327s] writing top-level names to amr_v4_msgs_srvs.egg-info/top_level.txt
+[3.327s] writing manifest file 'amr_v4_msgs_srvs.egg-info/SOURCES.txt'
+[3.329s] reading manifest file 'amr_v4_msgs_srvs.egg-info/SOURCES.txt'
+[3.330s] writing manifest file 'amr_v4_msgs_srvs.egg-info/SOURCES.txt'
+[3.347s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.382s] [  4%] Built target ament_cmake_python_build_amr_v4_msgs_srvs_egg
+[3.986s] [  4%] Built target amr_v4_msgs_srvs__cpp
+[4.144s] [ 10%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/robot__description.c.o[0m
+[4.144s] [ 10%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/motor__type_support.c.o[0m
+[4.144s] [ 10%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/motor__description.c.o[0m
+[4.144s] [ 10%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/motor__functions.c.o[0m
+[4.191s] [ 12%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/robot__functions.c.o[0m
+[4.201s] [ 14%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/robot__type_support.c.o[0m
+[4.205s] [ 15%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/pin__description.c.o[0m
+[4.223s] [ 17%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/pin__functions.c.o[0m
+[4.245s] [ 18%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/msg/detail/pin__type_support.c.o[0m
+[4.265s] [ 20%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/srv/detail/testserv__description.c.o[0m
+[4.271s] [ 21%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/srv/detail/testserv__functions.c.o[0m
+[4.292s] [ 23%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c.o[0m
+[4.356s] [ 25%] [32m[1mLinking C shared library libamr_v4_msgs_srvs__rosidl_generator_c.so[0m
+[4.417s] [ 25%] Built target amr_v4_msgs_srvs__rosidl_generator_c
+[4.431s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.432s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.434s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.437s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.958s] [ 32%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/msg/motor__type_support.cpp.o[0m
+[4.991s] [ 34%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/msg/motor__type_support.cpp.o[0m
+[5.036s] [ 35%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/msg/robot__type_support.cpp.o[0m
+[5.097s] [ 37%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/msg/pin__type_support.cpp.o[0m
+[5.156s] [ 39%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_v4_msgs_srvs/srv/testserv__type_support.cpp.o[0m
+[5.210s] [ 40%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/motor__type_support.c.o[0m
+[5.227s] [ 42%] [32m[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_c.so[0m
+[5.264s] [ 43%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/robot__type_support.c.o[0m
+[5.276s] [ 45%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/msg/detail/motor__type_support_c.cpp.o[0m
+[5.296s] [ 45%] Built target amr_v4_msgs_srvs__rosidl_typesupport_c
+[5.309s] [ 46%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.314s] [ 48%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/msg/detail/pin__type_support.c.o[0m
+[5.376s] [ 50%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c.o[0m
+[5.457s] [ 51%] [32m[1mLinking C shared library libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so[0m
+[5.511s] [ 51%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c
+[5.527s] [ 53%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.699s] [ 54%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/msg/robot__type_support.cpp.o[0m
+[5.886s] [ 56%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/msg/detail/robot__type_support_c.cpp.o[0m
+[6.103s] [ 57%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/msg/detail/dds_fastrtps/motor__type_support.cpp.o[0m
+[6.259s] [ 59%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/msg/detail/motor__type_support.cpp.o[0m
+[6.364s] [ 60%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/msg/pin__type_support.cpp.o[0m
+[6.484s] [ 62%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/msg/detail/pin__type_support_c.cpp.o[0m
+[6.969s] [ 64%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/msg/detail/robot__type_support.cpp.o[0m
+[7.046s] [ 65%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_v4_msgs_srvs/srv/detail/testserv__type_support_c.cpp.o[0m
+[7.073s] [ 67%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/msg/detail/dds_fastrtps/robot__type_support.cpp.o[0m
+[7.075s] [ 68%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_v4_msgs_srvs/srv/testserv__type_support.cpp.o[0m
+[7.680s] [ 70%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/msg/detail/pin__type_support.cpp.o[0m
+[7.684s] [ 71%] [32m[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[7.834s] [ 71%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c
+[7.846s] [ 73%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/msg/detail/dds_fastrtps/pin__type_support.cpp.o[0m
+[8.017s] [ 75%] [32m[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_cpp.so[0m
+[8.027s] [ 76%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_v4_msgs_srvs/srv/detail/dds_fastrtps/testserv__type_support.cpp.o[0m
+[8.185s] [ 76%] Built target amr_v4_msgs_srvs__rosidl_typesupport_cpp
+[8.209s] [ 78%] [32mBuilding CXX object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_v4_msgs_srvs/srv/detail/testserv__type_support.cpp.o[0m
+[9.061s] [ 79%] [32m[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[9.189s] [ 81%] [32m[1mLinking CXX shared library libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.201s] [ 81%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp
+[9.300s] [ 81%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp
+[9.326s] [ 81%] Built target amr_v4_msgs_srvs
+[9.353s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.230s] [ 82%] Built target amr_v4_msgs_srvs__py
+[10.261s] [ 84%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/amr_v4_msgs_srvs/msg/_motor_s.c.o[0m
+[10.261s] [ 85%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/amr_v4_msgs_srvs/msg/_robot_s.c.o[0m
+[10.262s] [ 87%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/amr_v4_msgs_srvs/msg/_pin_s.c.o[0m
+[10.267s] [ 89%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/amr_v4_msgs_srvs/srv/_testserv_s.c.o[0m
+[10.444s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/amr_v4_msgs_srvs/libamr_v4_msgs_srvs__rosidl_generator_py.so[0m
+[10.500s] [ 90%] Built target amr_v4_msgs_srvs__rosidl_generator_py
+[10.524s] [ 93%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.524s] [ 93%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.529s] [ 95%] [32mBuilding C object CMakeFiles/amr_v4_msgs_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.700s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.706s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.708s] [100%] [32m[1mLinking C shared library rosidl_generator_py/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.757s] [100%] Built target amr_v4_msgs_srvs__rosidl_typesupport_introspection_c__pyext
+[10.759s] [100%] Built target amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c__pyext
+[10.763s] [100%] Built target amr_v4_msgs_srvs__rosidl_typesupport_c__pyext
+[10.777s] Invoked command in '/home/colin/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_msgs_srvs -- -j4 -l4
+[10.979s] Invoking command in '/home/colin/agv_gui/build/amr_v4_msgs_srvs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_msgs_srvs
+[10.990s] -- Install configuration: ""
+[10.991s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/amr_v4_msgs_srvs
+[10.991s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Motor.json
+[10.991s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Robot.json
+[10.992s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Pin.json
+[10.992s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv.json
+[10.992s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[10.995s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[10.995s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[10.995s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c
+[10.996s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__functions.h
+[10.996s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__type_support.h
+[10.996s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__struct.h
+[10.997s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__functions.c
+[10.997s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__description.c
+[10.997s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/testserv.h
+[10.998s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[10.998s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[10.999s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__functions.h
+[10.999s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__struct.h
+[10.999s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__functions.h
+[10.999s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__functions.h
+[11.000s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__type_support.h
+[11.000s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__description.c
+[11.000s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__functions.c
+[11.001s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__struct.h
+[11.002s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__description.c
+[11.002s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__struct.h
+[11.003s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__type_support.h
+[11.003s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__type_support.c
+[11.003s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__functions.c
+[11.003s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__type_support.c
+[11.004s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__type_support.h
+[11.004s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__description.c
+[11.004s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__type_support.c
+[11.004s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__functions.c
+[11.005s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/motor.h
+[11.005s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/pin.h
+[11.005s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_generator_c__visibility_control.h
+[11.005s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/robot.h
+[11.006s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/library_path.sh
+[11.006s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/library_path.dsv
+[11.007s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_c.so
+[11.007s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_c.so" to ""
+[11.007s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[11.007s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[11.008s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[11.008s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_fastrtps_c.h
+[11.008s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[11.008s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[11.008s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_fastrtps_c.h
+[11.009s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_fastrtps_c.h
+[11.009s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_fastrtps_c.h
+[11.009s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.010s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.so
+[11.010s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.011s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[11.011s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[11.011s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[11.011s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__type_support.c
+[11.012s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_introspection_c.h
+[11.012s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[11.012s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[11.012s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_introspection_c.h
+[11.012s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_introspection_c.h
+[11.013s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_introspection_c.h
+[11.013s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__type_support.c
+[11.013s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__type_support.c
+[11.014s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__type_support.c
+[11.014s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.014s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so
+[11.015s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_c.so" to ""
+[11.015s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_c.so
+[11.015s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_c.so" to ""
+[11.016s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[11.016s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[11.016s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[11.016s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__struct.hpp
+[11.016s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__traits.hpp
+[11.017s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__builder.hpp
+[11.017s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/testserv.hpp
+[11.017s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[11.018s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[11.018s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__builder.hpp
+[11.019s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__traits.hpp
+[11.019s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__builder.hpp
+[11.020s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__struct.hpp
+[11.020s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__builder.hpp
+[11.020s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__struct.hpp
+[11.020s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__traits.hpp
+[11.021s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__traits.hpp
+[11.021s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__struct.hpp
+[11.022s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/pin.hpp
+[11.022s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/robot.hpp
+[11.022s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/motor.hpp
+[11.038s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[11.038s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[11.039s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/dds_fastrtps
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_fastrtps_cpp.hpp
+[11.039s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[11.039s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/dds_fastrtps
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_fastrtps_cpp.hpp
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.039s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
+[11.040s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.040s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs
+[11.040s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv
+[11.040s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail
+[11.040s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__type_support.cpp
+[11.040s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/srv/detail/testserv__rosidl_typesupport_introspection_cpp.hpp
+[11.040s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg
+[11.040s] -- Up-to-date: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail
+[11.040s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp
+[11.041s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp
+[11.041s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__type_support.cpp
+[11.041s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/robot__type_support.cpp
+[11.041s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/motor__type_support.cpp
+[11.041s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/include/amr_v4_msgs_srvs/amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_introspection_cpp.hpp
+[11.041s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.so
+[11.041s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.041s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_cpp.so
+[11.042s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_typesupport_cpp.so" to ""
+[11.042s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/pythonpath.sh
+[11.042s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/pythonpath.dsv
+[11.042s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info
+[11.042s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/top_level.txt
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/PKG-INFO
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/__init__.py
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/libamr_v4_msgs_srvs__rosidl_generator_py.so
+[11.043s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/srv
+[11.044s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/srv/__init__.py
+[11.044s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/srv/_testserv_s.c
+[11.044s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/srv/_testserv.py
+[11.044s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_c.c
+[11.044s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.045s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.045s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/_amr_v4_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.045s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg
+[11.045s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_robot.py
+[11.045s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_robot_s.c
+[11.046s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/__init__.py
+[11.046s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_pin.py
+[11.046s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_motor_s.c
+[11.046s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_motor.py
+[11.047s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_pin_s.c
+[11.091s] Listing '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs'...
+[11.091s] Compiling '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/__init__.py'...
+[11.092s] Listing '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg'...
+[11.092s] Compiling '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/__init__.py'...
+[11.092s] Compiling '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_motor.py'...
+[11.092s] Compiling '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_pin.py'...
+[11.092s] Compiling '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/msg/_robot.py'...
+[11.092s] Listing '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/srv'...
+[11.092s] Compiling '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/srv/__init__.py'...
+[11.092s] Compiling '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/srv/_testserv.py'...
+[11.098s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.098s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.098s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.099s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.099s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.099s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages/amr_v4_msgs_srvs/amr_v4_msgs_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.099s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_py.so
+[11.100s] -- Set runtime path of "/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/libamr_v4_msgs_srvs__rosidl_generator_py.so" to ""
+[11.100s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Motor.idl
+[11.100s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Robot.idl
+[11.100s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Pin.idl
+[11.100s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv.idl
+[11.100s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Motor.msg
+[11.101s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Robot.msg
+[11.101s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/msg/Pin.msg
+[11.102s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv.srv
+[11.102s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv_Request.msg
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/srv/Testserv_Response.msg
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/amr_v4_msgs_srvs
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/amr_v4_msgs_srvs
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/ament_prefix_path.sh
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/ament_prefix_path.dsv
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/path.sh
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/environment/path.dsv
+[11.103s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.bash
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.sh
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.zsh
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/local_setup.dsv
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.dsv
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/ament_index/resource_index/packages/amr_v4_msgs_srvs
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_cExport.cmake
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_cExport-noconfig.cmake
+[11.104s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.105s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.105s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake
+[11.105s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.105s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport.cmake
+[11.105s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[11.106s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_cppExport.cmake
+[11.106s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.106s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.106s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[11.106s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.107s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport.cmake
+[11.107s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.107s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_pyExport.cmake
+[11.107s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/export_amr_v4_msgs_srvs__rosidl_generator_pyExport-noconfig.cmake
+[11.107s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake-extras.cmake
+[11.107s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.108s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.108s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.108s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[11.108s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.109s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.109s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvsConfig.cmake
+[11.109s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake/amr_v4_msgs_srvsConfig-version.cmake
+[11.109s] -- Installing: /home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/package.xml
+[11.111s] Invoked command in '/home/colin/agv_gui/build/amr_v4_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/colin/agv_gui/build/amr_v4_msgs_srvs

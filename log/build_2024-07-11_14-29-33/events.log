@@ -1,0 +1,662 @@
+[0.000000] (-) TimerEvent: {}
+[0.000383] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict()}
+[0.000532] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[0.034037] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[0.037688] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'build'}
+[0.040083] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/amr_v4_qt', '--', '-j4', '-l4'], 'cwd': '/home/colin/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROBOT_NAME', 'amr_2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/2776,unix/Ubuntu22:/tmp/.ICE-unix/2776'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f406e29e_8555_4672_9a61_c825e3ad89fe'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HEBFQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.712'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/colin/agv_gui/build/amr_v4_qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron')]), 'shell': False}
+[0.095112] (-) TimerEvent: {}
+[0.178742] (amr_v4_qt) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.195304] (-) TimerEvent: {}
+[0.295948] (-) TimerEvent: {}
+[0.396584] (-) TimerEvent: {}
+[0.497775] (-) TimerEvent: {}
+[0.598294] (-) TimerEvent: {}
+[0.698942] (-) TimerEvent: {}
+[0.761598] (amr_v4_qt) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[0.799235] (-) TimerEvent: {}
+[0.897094] (amr_v4_qt) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.899501] (-) TimerEvent: {}
+[0.928597] (amr_v4_qt) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.980180] (amr_v4_qt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.999972] (-) TimerEvent: {}
+[1.044254] (amr_v4_qt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100232] (-) TimerEvent: {}
+[1.200780] (-) TimerEvent: {}
+[1.301366] (-) TimerEvent: {}
+[1.338888] (amr_v4_qt) StdoutLine: {'line': b'-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.401537] (-) TimerEvent: {}
+[1.502010] (-) TimerEvent: {}
+[1.602587] (-) TimerEvent: {}
+[1.703136] (-) TimerEvent: {}
+[1.783543] (amr_v4_qt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.790410] (amr_v4_qt) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.803396] (-) TimerEvent: {}
+[1.904153] (-) TimerEvent: {}
+[2.004666] (-) TimerEvent: {}
+[2.105456] (-) TimerEvent: {}
+[2.151548] (amr_v4_qt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.205700] (-) TimerEvent: {}
+[2.306410] (-) TimerEvent: {}
+[2.406986] (-) TimerEvent: {}
+[2.507517] (-) TimerEvent: {}
+[2.608053] (-) TimerEvent: {}
+[2.688310] (amr_v4_qt) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.6 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[2.708250] (-) TimerEvent: {}
+[2.808781] (-) TimerEvent: {}
+[2.909260] (-) TimerEvent: {}
+[2.969777] (amr_v4_qt) StdoutLine: {'line': b'-- Found rviz_common: 12.4.7 (/opt/ros/iron/share/rviz_common/cmake)\n'}
+[3.009419] (-) TimerEvent: {}
+[3.022089] (amr_v4_qt) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/iron/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[3.044128] (amr_v4_qt) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/iron/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[3.055177] (amr_v4_qt) StdoutLine: {'line': b'-- Found OGRE\n'}
+[3.056541] (amr_v4_qt) StdoutLine: {'line': b'--   static     : OFF\n'}
+[3.057088] (amr_v4_qt) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[3.057534] (amr_v4_qt) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.060134] (amr_v4_qt) StdoutLine: {'line': b'--   media      : /opt/ros/iron/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[3.060390] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[3.060560] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/iron/opt/rviz_ogre_vendor/lib\n'}
+[3.060679] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[3.060854] (amr_v4_qt) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/iron/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[3.060987] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.061103] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[3.061533] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.061661] (amr_v4_qt) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/iron/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[3.066377] (amr_v4_qt) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[3.109639] (-) TimerEvent: {}
+[3.210166] (-) TimerEvent: {}
+[3.237748] (amr_v4_qt) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.310339] (-) TimerEvent: {}
+[3.411038] (-) TimerEvent: {}
+[3.511807] (-) TimerEvent: {}
+[3.612548] (-) TimerEvent: {}
+[3.713050] (-) TimerEvent: {}
+[3.717132] (amr_v4_qt) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.813233] (-) TimerEvent: {}
+[3.913740] (-) TimerEvent: {}
+[4.014385] (-) TimerEvent: {}
+[4.115383] (-) TimerEvent: {}
+[4.216652] (-) TimerEvent: {}
+[4.317307] (-) TimerEvent: {}
+[4.417799] (-) TimerEvent: {}
+[4.518340] (-) TimerEvent: {}
+[4.618817] (-) TimerEvent: {}
+[4.719455] (-) TimerEvent: {}
+[4.736090] (amr_v4_qt) StdoutLine: {'line': b'-- Found rviz_default_plugins: 12.4.7 (/opt/ros/iron/share/rviz_default_plugins/cmake)\n'}
+[4.819682] (-) TimerEvent: {}
+[4.920336] (-) TimerEvent: {}
+[5.020854] (-) TimerEvent: {}
+[5.121411] (-) TimerEvent: {}
+[5.221979] (-) TimerEvent: {}
+[5.322457] (-) TimerEvent: {}
+[5.422988] (-) TimerEvent: {}
+[5.523450] (-) TimerEvent: {}
+[5.623998] (-) TimerEvent: {}
+[5.724484] (-) TimerEvent: {}
+[5.824975] (-) TimerEvent: {}
+[5.925510] (-) TimerEvent: {}
+[6.027799] (-) TimerEvent: {}
+[6.136805] (-) TimerEvent: {}
+[6.237446] (-) TimerEvent: {}
+[6.337953] (-) TimerEvent: {}
+[6.438526] (-) TimerEvent: {}
+[6.539109] (-) TimerEvent: {}
+[6.639736] (-) TimerEvent: {}
+[6.740243] (-) TimerEvent: {}
+[6.790354] (amr_v4_qt) StdoutLine: {'line': b'-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)\n'}
+[6.840400] (-) TimerEvent: {}
+[6.911280] (amr_v4_qt) StdoutLine: {'line': b'-- Found amr_v4_msgs_srvs: 0.0.0 (/home/colin/agv_gui/install/amr_v4_msgs_srvs/share/amr_v4_msgs_srvs/cmake)\n'}
+[6.940646] (-) TimerEvent: {}
+[7.041220] (-) TimerEvent: {}
+[7.046268] (amr_v4_qt) StdoutLine: {'line': b'-- Found tf2_eigen: 0.31.7 (/opt/ros/iron/share/tf2_eigen/cmake)\n'}
+[7.141445] (-) TimerEvent: {}
+[7.241880] (-) TimerEvent: {}
+[7.283754] (amr_v4_qt) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.342154] (-) TimerEvent: {}
+[7.442872] (-) TimerEvent: {}
+[7.453096] (amr_v4_qt) StdoutLine: {'line': b'-- Generating done\n'}
+[7.461755] (amr_v4_qt) StdoutLine: {'line': b'-- Build files have been written to: /home/colin/agv_gui/build/amr_v4_qt\n'}
+[7.543094] (-) TimerEvent: {}
+[7.584009] (amr_v4_qt) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target amr_v4_qt\x1b[0m\n'}
+[7.643823] (-) TimerEvent: {}
+[7.667151] (amr_v4_qt) StdoutLine: {'line': b'[  2%] Built target amr_v4_qt_autogen\n'}
+[7.699788] (amr_v4_qt) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating include/moc_main_gui.cpp\x1b[0m\n'}
+[7.719171] (amr_v4_qt) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating include/moc_amr_node.cpp\x1b[0m\n'}
+[7.745947] (-) TimerEvent: {}
+[7.786578] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target amr_v4_qt\x1b[0m\n'}
+[7.846196] (-) TimerEvent: {}
+[7.883491] (amr_v4_qt) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o\x1b[0m\n'}
+[7.892637] (amr_v4_qt) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o\x1b[0m\n'}
+[7.901831] (amr_v4_qt) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o\x1b[0m\n'}
+[7.946477] (-) TimerEvent: {}
+[8.047150] (-) TimerEvent: {}
+[8.147962] (-) TimerEvent: {}
+[8.249244] (-) TimerEvent: {}
+[8.355825] (-) TimerEvent: {}
+[8.456343] (-) TimerEvent: {}
+[8.557000] (-) TimerEvent: {}
+[8.657603] (-) TimerEvent: {}
+[8.759526] (-) TimerEvent: {}
+[8.860119] (-) TimerEvent: {}
+[8.971725] (-) TimerEvent: {}
+[9.007054] (amr_v4_qt) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o\x1b[0m\n'}
+[9.075664] (-) TimerEvent: {}
+[9.179726] (-) TimerEvent: {}
+[9.283801] (-) TimerEvent: {}
+[9.387730] (-) TimerEvent: {}
+[9.489711] (-) TimerEvent: {}
+[9.595763] (-) TimerEvent: {}
+[9.696737] (-) TimerEvent: {}
+[9.798586] (-) TimerEvent: {}
+[9.903739] (-) TimerEvent: {}
+[10.004469] (-) TimerEvent: {}
+[10.113198] (-) TimerEvent: {}
+[10.227861] (-) TimerEvent: {}
+[10.329620] (-) TimerEvent: {}
+[10.433982] (-) TimerEvent: {}
+[10.534912] (-) TimerEvent: {}
+[10.640010] (-) TimerEvent: {}
+[10.740833] (-) TimerEvent: {}
+[10.841561] (-) TimerEvent: {}
+[10.942188] (-) TimerEvent: {}
+[11.048512] (-) TimerEvent: {}
+[11.153717] (-) TimerEvent: {}
+[11.254236] (-) TimerEvent: {}
+[11.354897] (-) TimerEvent: {}
+[11.455766] (-) TimerEvent: {}
+[11.557545] (-) TimerEvent: {}
+[11.658219] (-) TimerEvent: {}
+[11.758975] (-) TimerEvent: {}
+[11.859830] (-) TimerEvent: {}
+[11.963887] (-) TimerEvent: {}
+[12.064825] (-) TimerEvent: {}
+[12.166155] (-) TimerEvent: {}
+[12.267278] (-) TimerEvent: {}
+[12.368410] (-) TimerEvent: {}
+[12.469193] (-) TimerEvent: {}
+[12.569978] (-) TimerEvent: {}
+[12.670679] (-) TimerEvent: {}
+[12.771299] (-) TimerEvent: {}
+[12.872269] (-) TimerEvent: {}
+[12.973035] (-) TimerEvent: {}
+[13.073712] (-) TimerEvent: {}
+[13.181545] (-) TimerEvent: {}
+[13.290959] (-) TimerEvent: {}
+[13.391825] (-) TimerEvent: {}
+[13.492467] (-) TimerEvent: {}
+[13.593302] (-) TimerEvent: {}
+[13.694604] (-) TimerEvent: {}
+[13.795764] (-) TimerEvent: {}
+[13.897023] (-) TimerEvent: {}
+[13.997901] (-) TimerEvent: {}
+[14.098701] (-) TimerEvent: {}
+[14.199475] (-) TimerEvent: {}
+[14.300319] (-) TimerEvent: {}
+[14.401138] (-) TimerEvent: {}
+[14.502040] (-) TimerEvent: {}
+[14.602846] (-) TimerEvent: {}
+[14.703835] (-) TimerEvent: {}
+[14.804729] (-) TimerEvent: {}
+[14.905505] (-) TimerEvent: {}
+[15.006393] (-) TimerEvent: {}
+[15.108261] (-) TimerEvent: {}
+[15.209695] (-) TimerEvent: {}
+[15.310763] (-) TimerEvent: {}
+[15.411437] (-) TimerEvent: {}
+[15.512510] (-) TimerEvent: {}
+[15.613723] (-) TimerEvent: {}
+[15.715166] (-) TimerEvent: {}
+[15.824154] (-) TimerEvent: {}
+[15.925096] (-) TimerEvent: {}
+[16.025621] (-) TimerEvent: {}
+[16.126800] (-) TimerEvent: {}
+[16.227750] (-) TimerEvent: {}
+[16.328459] (-) TimerEvent: {}
+[16.429538] (-) TimerEvent: {}
+[16.531112] (-) TimerEvent: {}
+[16.634950] (-) TimerEvent: {}
+[16.737964] (-) TimerEvent: {}
+[16.838821] (-) TimerEvent: {}
+[16.940037] (-) TimerEvent: {}
+[17.042734] (-) TimerEvent: {}
+[17.143793] (-) TimerEvent: {}
+[17.244359] (-) TimerEvent: {}
+[17.347849] (-) TimerEvent: {}
+[17.448539] (-) TimerEvent: {}
+[17.549255] (-) TimerEvent: {}
+[17.650620] (-) TimerEvent: {}
+[17.751267] (-) TimerEvent: {}
+[17.854071] (-) TimerEvent: {}
+[17.957500] (-) TimerEvent: {}
+[18.058121] (-) TimerEvent: {}
+[18.158707] (-) TimerEvent: {}
+[18.259231] (-) TimerEvent: {}
+[18.360253] (-) TimerEvent: {}
+[18.460887] (-) TimerEvent: {}
+[18.561618] (-) TimerEvent: {}
+[18.662191] (-) TimerEvent: {}
+[18.762969] (-) TimerEvent: {}
+[18.863892] (-) TimerEvent: {}
+[18.964824] (-) TimerEvent: {}
+[19.066044] (-) TimerEvent: {}
+[19.166746] (-) TimerEvent: {}
+[19.267593] (-) TimerEvent: {}
+[19.368228] (-) TimerEvent: {}
+[19.476591] (-) TimerEvent: {}
+[19.580073] (-) TimerEvent: {}
+[19.685720] (-) TimerEvent: {}
+[19.786408] (-) TimerEvent: {}
+[19.887394] (-) TimerEvent: {}
+[19.988445] (-) TimerEvent: {}
+[20.093024] (-) TimerEvent: {}
+[20.194312] (-) TimerEvent: {}
+[20.295772] (-) TimerEvent: {}
+[20.398060] (-) TimerEvent: {}
+[20.505593] (-) TimerEvent: {}
+[20.606675] (-) TimerEvent: {}
+[20.716325] (-) TimerEvent: {}
+[20.817688] (-) TimerEvent: {}
+[20.919015] (-) TimerEvent: {}
+[21.020285] (-) TimerEvent: {}
+[21.121241] (-) TimerEvent: {}
+[21.222680] (-) TimerEvent: {}
+[21.333827] (-) TimerEvent: {}
+[21.434729] (-) TimerEvent: {}
+[21.535773] (-) TimerEvent: {}
+[21.640456] (-) TimerEvent: {}
+[21.741196] (-) TimerEvent: {}
+[21.845553] (-) TimerEvent: {}
+[21.946778] (-) TimerEvent: {}
+[22.048318] (-) TimerEvent: {}
+[22.149801] (-) TimerEvent: {}
+[22.250890] (-) TimerEvent: {}
+[22.352233] (-) TimerEvent: {}
+[22.453138] (-) TimerEvent: {}
+[22.553978] (-) TimerEvent: {}
+[22.654705] (-) TimerEvent: {}
+[22.755442] (-) TimerEvent: {}
+[22.856334] (-) TimerEvent: {}
+[22.957074] (-) TimerEvent: {}
+[23.057766] (-) TimerEvent: {}
+[23.158451] (-) TimerEvent: {}
+[23.258928] (-) TimerEvent: {}
+[23.359739] (-) TimerEvent: {}
+[23.461772] (-) TimerEvent: {}
+[23.562578] (-) TimerEvent: {}
+[23.663412] (-) TimerEvent: {}
+[23.767478] (-) TimerEvent: {}
+[23.868591] (-) TimerEvent: {}
+[23.972866] (-) TimerEvent: {}
+[24.076974] (-) TimerEvent: {}
+[24.177715] (-) TimerEvent: {}
+[24.278465] (-) TimerEvent: {}
+[24.379171] (-) TimerEvent: {}
+[24.482321] (-) TimerEvent: {}
+[24.583816] (-) TimerEvent: {}
+[24.687813] (-) TimerEvent: {}
+[24.800587] (-) TimerEvent: {}
+[24.907840] (-) TimerEvent: {}
+[25.008486] (-) TimerEvent: {}
+[25.109730] (-) TimerEvent: {}
+[25.211824] (-) TimerEvent: {}
+[25.315792] (-) TimerEvent: {}
+[25.416602] (-) TimerEvent: {}
+[25.517980] (-) TimerEvent: {}
+[25.627741] (-) TimerEvent: {}
+[25.729501] (-) TimerEvent: {}
+[25.830663] (-) TimerEvent: {}
+[25.931937] (-) TimerEvent: {}
+[26.033599] (-) TimerEvent: {}
+[26.135720] (-) TimerEvent: {}
+[26.238285] (-) TimerEvent: {}
+[26.340283] (-) TimerEvent: {}
+[26.440892] (-) TimerEvent: {}
+[26.542268] (-) TimerEvent: {}
+[26.643786] (-) TimerEvent: {}
+[26.756402] (-) TimerEvent: {}
+[26.857635] (-) TimerEvent: {}
+[26.958515] (-) TimerEvent: {}
+[27.063868] (-) TimerEvent: {}
+[27.167812] (-) TimerEvent: {}
+[27.271739] (-) TimerEvent: {}
+[27.389322] (-) TimerEvent: {}
+[27.492221] (-) TimerEvent: {}
+[27.592787] (-) TimerEvent: {}
+[27.693356] (-) TimerEvent: {}
+[27.796841] (-) TimerEvent: {}
+[27.897590] (-) TimerEvent: {}
+[28.001078] (-) TimerEvent: {}
+[28.102044] (-) TimerEvent: {}
+[28.203949] (-) TimerEvent: {}
+[28.304830] (-) TimerEvent: {}
+[28.406038] (-) TimerEvent: {}
+[28.498449] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:1\x1b[m\x1b[K:\n'}
+[28.499845] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kst_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[28.500930] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const \x1b[01;31m\x1b[Kst_msgs\x1b[m\x1b[K::msg::String::SharedPtr msg);\n'}
+[28.501519] (amr_v4_qt) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[28.501662] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[28.501815] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[28.501995] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[28.502118] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[28.502252] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst st_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[28.502410] (amr_v4_qt) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[28.502557] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[28.502672] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[28.502788] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String::SharedPtr msg);\n'}
+[28.502979] (amr_v4_qt) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[28.503103] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[28.511565] (-) TimerEvent: {}
+[28.518116] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KQString\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[28.519429] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::SharedPtr msg);\n'}
+[28.521158] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[28.521858] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[KQString\x1b[m\x1b[K\n'}
+[28.611768] (-) TimerEvent: {}
+[28.716930] (-) TimerEvent: {}
+[28.818122] (-) TimerEvent: {}
+[28.922761] (-) TimerEvent: {}
+[29.030832] (-) TimerEvent: {}
+[29.135932] (-) TimerEvent: {}
+[29.231746] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.235944] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K>::SharedPtr mode_pub_;\n'}
+[29.237749] (-) TimerEvent: {}
+[29.239108] (amr_v4_qt) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[29.240238] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[29.240645] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr mode_pub_;\n'}
+[29.245946] (amr_v4_qt) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[29.246411] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[29.248093] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K mode_pub_;\n'}
+[29.248420] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[29.248692] (amr_v4_qt) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[29.272671] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmode_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[29.273250] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr \x1b[01;31m\x1b[Kmode_pub_\x1b[m\x1b[K;\n'}
+[29.273635] (amr_v4_qt) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[29.282578] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:3:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[KAmrNode::AmrNode(std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.283034] (amr_v4_qt) StderrLine: {'line': b'    3 | \x1b[01;31m\x1b[KAmrNode\x1b[m\x1b[K::AmrNode(const std::string nodeName)\n'}
+[29.283299] (amr_v4_qt) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[29.283536] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:1\x1b[m\x1b[K:\n'}
+[29.283869] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:13:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[KAmrNode::AmrNode(AmrNode&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.284139] (amr_v4_qt) StderrLine: {'line': b'   13 | class \x1b[01;36m\x1b[KAmrNode\x1b[m\x1b[K : public QObject, public rclcpp::Node\n'}
+[29.284351] (amr_v4_qt) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[29.284676] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:13:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KAmrNode::AmrNode(const AmrNode&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.284991] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:18:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KAmrNode::AmrNode(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.285247] (amr_v4_qt) StderrLine: {'line': b'   18 |     explicit \x1b[01;36m\x1b[KAmrNode\x1b[m\x1b[K(const std::string& nodeName);\n'}
+[29.285502] (amr_v4_qt) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[29.285751] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:13:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass AmrNode\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[29.286134] (amr_v4_qt) StderrLine: {'line': b'   13 | class \x1b[01;36m\x1b[KAmrNode\x1b[m\x1b[K : public QObject, public rclcpp::Node\n'}
+[29.286378] (amr_v4_qt) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[29.338320] (-) TimerEvent: {}
+[29.360470] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AmrNode::lidar_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.361017] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KchagnedLidar\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KchangedLidar\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[29.361317] (amr_v4_qt) StderrLine: {'line': b'   38 |     emit \x1b[01;31m\x1b[KchagnedLidar\x1b[m\x1b[K(lidar_info);\n'}
+[29.361663] (amr_v4_qt) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.362296] (amr_v4_qt) StderrLine: {'line': b'      |          \x1b[32m\x1b[KchangedLidar\x1b[m\x1b[K\n'}
+[29.362924] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[29.363177] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:47:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMotorSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[29.363430] (amr_v4_qt) StderrLine: {'line': b'   47 | void \x1b[01;31m\x1b[KMotorSub\x1b[m\x1b[K::motor_callback(const amr_v4_msgs_srvs::msg::Motor::SharedPtr msg)\n'}
+[29.375677] (amr_v4_qt) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[29.443174] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid motor_callback(amr_v4_msgs_srvs::msg::Motor_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.443513] (-) TimerEvent: {}
+[29.443863] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:49:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koutput_current_right\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[29.444174] (amr_v4_qt) StderrLine: {'line': b'   49 |     \x1b[01;31m\x1b[Koutput_current_right\x1b[m\x1b[K = msg->output_current_right.c_str();\n'}
+[29.444484] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.487711] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:50:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koutput_current_left\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[29.488329] (amr_v4_qt) StderrLine: {'line': b'   50 |     \x1b[01;31m\x1b[Koutput_current_left\x1b[m\x1b[K = msg->output_current_left.c_str();\n'}
+[29.488754] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.532986] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:51:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koutput_current_pin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[29.533337] (amr_v4_qt) StderrLine: {'line': b'   51 |     \x1b[01;31m\x1b[Koutput_current_pin\x1b[m\x1b[K = msg->output_current_pin.c_str();\n'}
+[29.533479] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.543691] (-) TimerEvent: {}
+[29.557773] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:52:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerror_right\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kerror_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[29.558109] (amr_v4_qt) StderrLine: {'line': b'   52 |     \x1b[01;31m\x1b[Kerror_right\x1b[m\x1b[K = msg->error_right.c_str();\n'}
+[29.558244] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.558544] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kerror_t\x1b[m\x1b[K\n'}
+[29.591957] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:53:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerror_left\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kerror_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[29.592492] (amr_v4_qt) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[Kerror_left\x1b[m\x1b[K = msg->error_left.c_str();\n'}
+[29.592854] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.593056] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kerror_t\x1b[m\x1b[K\n'}
+[29.625640] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:54:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerror_pin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kerror_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[29.626025] (amr_v4_qt) StderrLine: {'line': b'   54 |     \x1b[01;31m\x1b[Kerror_pin\x1b[m\x1b[K = msg->error_pin.c_str();\n'}
+[29.626161] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[29.626279] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kerror_t\x1b[m\x1b[K\n'}
+[29.643980] (-) TimerEvent: {}
+[29.655967] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:56:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KchangedMotor\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[29.656319] (amr_v4_qt) StderrLine: {'line': b'   56 |     emit \x1b[01;31m\x1b[KchangedMotor\x1b[m\x1b[K(output_current_right, output_current_left, output_current_pin,\n'}
+[29.656459] (amr_v4_qt) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.656792] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[29.656969] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:60:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMotorSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[29.657149] (amr_v4_qt) StderrLine: {'line': b'   60 | void \x1b[01;31m\x1b[KMotorSub\x1b[m\x1b[K::robot_callback(const std_msgs::msg::String::SharedPtr msg)\n'}
+[29.657314] (amr_v4_qt) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[29.680590] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.680869] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:62:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstatus\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[29.681117] (amr_v4_qt) StderrLine: {'line': b'   62 |     \x1b[01;31m\x1b[Kstatus\x1b[m\x1b[K = msg->data.c_str();\n'}
+[29.681246] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[29.681358] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstatic\x1b[m\x1b[K\n'}
+[29.727363] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:63:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KchangedRobot\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[29.727795] (amr_v4_qt) StderrLine: {'line': b'   63 |     emit \x1b[01;31m\x1b[KchangedRobot\x1b[m\x1b[K(status);\n'}
+[29.728009] (amr_v4_qt) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.728262] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[29.728432] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:66:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMotorSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[29.728552] (amr_v4_qt) StderrLine: {'line': b'   66 | void \x1b[01;31m\x1b[KMotorSub\x1b[m\x1b[K::mode_callback(const bool mode)\n'}
+[29.728789] (amr_v4_qt) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[29.728944] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid mode_callback(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.729496] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:68:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.729814] (amr_v4_qt) StderrLine: {'line': b'   68 |     auto message = std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K();\n'}
+[29.729935] (amr_v4_qt) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[29.747832] (-) TimerEvent: {}
+[29.750195] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:70:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmode_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[29.750551] (amr_v4_qt) StderrLine: {'line': b'   70 |     \x1b[01;31m\x1b[Kmode_pub_\x1b[m\x1b[K->publish(message);\n'}
+[29.750692] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[29.848023] (-) TimerEvent: {}
+[29.955805] (-) TimerEvent: {}
+[30.056761] (-) TimerEvent: {}
+[30.157175] (-) TimerEvent: {}
+[30.258212] (-) TimerEvent: {}
+[30.358737] (-) TimerEvent: {}
+[30.459956] (-) TimerEvent: {}
+[30.561141] (-) TimerEvent: {}
+[30.662966] (-) TimerEvent: {}
+[30.764469] (-) TimerEvent: {}
+[30.865894] (-) TimerEvent: {}
+[30.966695] (-) TimerEvent: {}
+[31.067626] (-) TimerEvent: {}
+[31.168397] (-) TimerEvent: {}
+[31.269470] (-) TimerEvent: {}
+[31.370249] (-) TimerEvent: {}
+[31.471220] (-) TimerEvent: {}
+[31.572167] (-) TimerEvent: {}
+[31.672832] (-) TimerEvent: {}
+[31.773546] (-) TimerEvent: {}
+[31.888178] (-) TimerEvent: {}
+[31.988805] (-) TimerEvent: {}
+[32.095806] (-) TimerEvent: {}
+[32.196722] (-) TimerEvent: {}
+[32.303731] (-) TimerEvent: {}
+[32.404772] (-) TimerEvent: {}
+[32.516332] (-) TimerEvent: {}
+[32.591778] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:19\x1b[m\x1b[K,\n'}
+[32.592325] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[32.592667] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kst_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[32.592907] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const \x1b[01;31m\x1b[Kst_msgs\x1b[m\x1b[K::msg::String::SharedPtr msg);\n'}
+[32.593195] (amr_v4_qt) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[32.593403] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[32.593714] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[32.593996] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[32.594251] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[32.595143] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst st_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[32.595833] (amr_v4_qt) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[32.596190] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[32.596627] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[32.596852] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String::SharedPtr msg);\n'}
+[32.597139] (amr_v4_qt) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[32.597510] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[32.604219] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KQString\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[32.604783] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::SharedPtr msg);\n'}
+[32.605132] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[32.605410] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[KQString\x1b[m\x1b[K\n'}
+[32.616542] (-) TimerEvent: {}
+[32.710173] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:19\x1b[m\x1b[K,\n'}
+[32.710793] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[32.711442] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kst_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[32.712381] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const \x1b[01;31m\x1b[Kst_msgs\x1b[m\x1b[K::msg::String::SharedPtr msg);\n'}
+[32.712913] (amr_v4_qt) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[32.713263] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[32.713492] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[32.713797] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[32.714085] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[32.714319] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst st_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[32.714537] (amr_v4_qt) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[32.714714] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[32.714917] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[32.715125] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String::SharedPtr msg);\n'}
+[32.715339] (amr_v4_qt) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[32.715805] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[32.716670] (-) TimerEvent: {}
+[32.728144] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:24:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KQString\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[32.729282] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::SharedPtr msg);\n'}
+[32.729720] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[32.730001] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[KQString\x1b[m\x1b[K\n'}
+[32.816876] (-) TimerEvent: {}
+[32.917393] (-) TimerEvent: {}
+[33.018043] (-) TimerEvent: {}
+[33.111934] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[33.112406] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K>::SharedPtr mode_pub_;\n'}
+[33.112670] (amr_v4_qt) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[33.112812] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[33.113284] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr mode_pub_;\n'}
+[33.113521] (amr_v4_qt) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[33.113728] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[33.113887] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K mode_pub_;\n'}
+[33.114128] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.114399] (amr_v4_qt) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[33.114606] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[33.114739] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K>::SharedPtr mode_pub_;\n'}
+[33.114858] (amr_v4_qt) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[33.115034] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[33.115192] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr mode_pub_;\n'}
+[33.115310] (amr_v4_qt) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[33.115451] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[33.115758] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K mode_pub_;\n'}
+[33.115894] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.116096] (amr_v4_qt) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[33.118215] (-) TimerEvent: {}
+[33.120789] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmode_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[33.121386] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr \x1b[01;31m\x1b[Kmode_pub_\x1b[m\x1b[K;\n'}
+[33.121641] (amr_v4_qt) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.124387] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:57:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmode_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[33.124755] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr \x1b[01;31m\x1b[Kmode_pub_\x1b[m\x1b[K;\n'}
+[33.124956] (amr_v4_qt) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.218440] (-) TimerEvent: {}
+[33.221333] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/main_gui.h:19\x1b[m\x1b[K,\n'}
+[33.221710] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/moc_main_gui.cpp:10\x1b[m\x1b[K:\n'}
+[33.221887] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:24:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kst_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[33.222021] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const \x1b[01;31m\x1b[Kst_msgs\x1b[m\x1b[K::msg::String::SharedPtr msg);\n'}
+[33.222143] (amr_v4_qt) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[33.222323] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[33.223820] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[33.223988] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[33.224114] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[33.224306] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst st_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString::SharedPtr msg);\n'}
+[33.224430] (amr_v4_qt) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[33.224576] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[33.224762] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:24:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[33.224893] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String::SharedPtr msg);\n'}
+[33.225011] (amr_v4_qt) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[33.225125] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[33.264028] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:24:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KQString\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[33.264598] (amr_v4_qt) StderrLine: {'line': b'   24 |     void robot_callback(const st_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::SharedPtr msg);\n'}
+[33.265062] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[33.265426] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[KQString\x1b[m\x1b[K\n'}
+[33.318657] (-) TimerEvent: {}
+[33.375495] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.376091] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:62:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBatterySub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[33.376383] (amr_v4_qt) StderrLine: {'line': b'   62 |     connect(amr_node.get(), &\x1b[01;31m\x1b[KBatterySub\x1b[m\x1b[K::changedBattery, this, &MainGui::updateBattery);\n'}
+[33.376809] (amr_v4_qt) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.377047] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:63:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMotorSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[33.377313] (amr_v4_qt) StderrLine: {'line': b'   63 |     connect(amr_node.get(), &\x1b[01;31m\x1b[KMotorSub\x1b[m\x1b[K::changedMotor, this, &MainGui::updateMotors);\n'}
+[33.377697] (amr_v4_qt) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[33.377866] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:64:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHealthSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[33.378079] (amr_v4_qt) StderrLine: {'line': b'   64 |     connect(amr_node.get(), &\x1b[01;31m\x1b[KHealthSub\x1b[m\x1b[K::changedCamera, this, &MainGui::updateCamera);\n'}
+[33.378338] (amr_v4_qt) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.378521] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:65:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KHealthSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[33.378786] (amr_v4_qt) StderrLine: {'line': b'   65 |     connect(amr_node.get(), &\x1b[01;31m\x1b[KHealthSub\x1b[m\x1b[K::changedLidar, this, &MainGui::updateLidar);\n'}
+[33.379158] (amr_v4_qt) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.379408] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:66:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRunningSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[33.379934] (amr_v4_qt) StderrLine: {'line': b'   66 |     connect(amr_node.get(), &\x1b[01;31m\x1b[KRunningSub\x1b[m\x1b[K::changedMode, this, &MainGui::updateMode);\n'}
+[33.380306] (amr_v4_qt) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.380676] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:67:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRobotSub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[33.380930] (amr_v4_qt) StderrLine: {'line': b'   67 |     connect(amr_node.get(), &\x1b[01;31m\x1b[KRobotSub\x1b[m\x1b[K::changedStatus, this, &MainGui::updateRobot);\n'}
+[33.381239] (amr_v4_qt) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[33.400746] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.402730] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:29:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMakeShared\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmake_shared\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[33.404971] (amr_v4_qt) StderrLine: {'line': b'   29 |     auto amrNode_ = std::\x1b[01;31m\x1b[KMakeShared\x1b[m\x1b[K<AmrNode>("amr_node");\n'}
+[33.406666] (amr_v4_qt) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.408482] (amr_v4_qt) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kmake_shared\x1b[m\x1b[K\n'}
+[33.410158] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:29:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[33.412527] (amr_v4_qt) StderrLine: {'line': b'   29 |     auto amrNode_ = std::MakeShared<AmrNode\x1b[01;31m\x1b[K>\x1b[m\x1b[K("amr_node");\n'}
+[33.414235] (amr_v4_qt) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[33.418884] (-) TimerEvent: {}
+[33.432820] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MainGui::onModeSwitched()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.434488] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:103:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmodeNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[33.435798] (amr_v4_qt) StderrLine: {'line': b'  103 |     \x1b[01;31m\x1b[KmodeNode\x1b[m\x1b[K->mode_callback(driveMode);\n'}
+[33.437188] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[33.443198] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MainGui::getWifiSignalStrength()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.445207] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:159:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid QProcess::start(const QString&, QIODevice::OpenMode)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[33.451386] (amr_v4_qt) StderrLine: {'line': b'  159 |     \x1b[01;35m\x1b[Kprocess.start("iwconfig")\x1b[m\x1b[K;\n'}
+[33.452833] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.454220] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess:1\x1b[m\x1b[K,\n'}
+[33.455543] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:5\x1b[m\x1b[K:\n'}
+[33.456968] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.457969] (amr_v4_qt) StderrLine: {'line': b'  168 |     void \x1b[01;36m\x1b[Kstart\x1b[m\x1b[K(const QString &command, OpenMode mode = ReadWrite);\n'}
+[33.458790] (amr_v4_qt) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.519115] (-) TimerEvent: {}
+[33.620285] (-) TimerEvent: {}
+[33.656806] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:57:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[33.658611] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K>::SharedPtr mode_pub_;\n'}
+[33.660371] (amr_v4_qt) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[33.663412] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:57:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[33.665215] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr mode_pub_;\n'}
+[33.666477] (amr_v4_qt) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[33.667607] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:57:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[33.668642] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K mode_pub_;\n'}
+[33.669542] (amr_v4_qt) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.670415] (amr_v4_qt) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[33.671329] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/amr_node.h:57:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmode_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[33.672625] (amr_v4_qt) StderrLine: {'line': b'   57 |     rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr \x1b[01;31m\x1b[Kmode_pub_\x1b[m\x1b[K;\n'}
+[33.673540] (amr_v4_qt) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[33.720485] (-) TimerEvent: {}
+[33.821229] (-) TimerEvent: {}
+[33.921983] (-) TimerEvent: {}
+[34.022739] (-) TimerEvent: {}
+[34.123527] (-) TimerEvent: {}
+[34.170200] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:236: CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o] Error 1\n'}
+[34.171328] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[34.223831] (-) TimerEvent: {}
+[34.327759] (-) TimerEvent: {}
+[34.429193] (-) TimerEvent: {}
+[34.529850] (-) TimerEvent: {}
+[34.630340] (-) TimerEvent: {}
+[34.730937] (-) TimerEvent: {}
+[34.835708] (-) TimerEvent: {}
+[34.937933] (-) TimerEvent: {}
+[35.039096] (-) TimerEvent: {}
+[35.141130] (-) TimerEvent: {}
+[35.247877] (-) TimerEvent: {}
+[35.348417] (-) TimerEvent: {}
+[35.451244] (-) TimerEvent: {}
+[35.552779] (-) TimerEvent: {}
+[35.653356] (-) TimerEvent: {}
+[35.754534] (-) TimerEvent: {}
+[35.787822] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:138: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Error 1\n'}
+[35.855356] (-) TimerEvent: {}
+[35.858042] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1\n'}
+[35.955621] (-) TimerEvent: {}
+[36.056158] (-) TimerEvent: {}
+[36.156634] (-) TimerEvent: {}
+[36.194413] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:250: CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o] Error 1\n'}
+[36.195559] (amr_v4_qt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2\n'}
+[36.195849] (amr_v4_qt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[36.204548] (amr_v4_qt) CommandEnded: {'returncode': 2}
+[36.257498] (-) TimerEvent: {}
+[36.358128] (-) TimerEvent: {}
+[36.458799] (-) TimerEvent: {}
+[36.463512] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 2}
+[36.466179] (-) EventReactorShutdown: {}

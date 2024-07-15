@@ -116,7 +116,7 @@ CMakeFiles/amr_v4_qt.dir/include/moc_scrolling_label.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/colin/agv_gui/build/amr_v4_qt/include/../../../amr_v4_qt/include/scrolling_label.h \
+ /home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/scrolling_label.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

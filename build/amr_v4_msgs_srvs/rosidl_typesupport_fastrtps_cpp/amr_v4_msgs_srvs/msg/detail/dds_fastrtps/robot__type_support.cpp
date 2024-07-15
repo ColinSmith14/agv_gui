@@ -2,6 +2,7 @@
 // with input from amr_v4_msgs_srvs:msg/Robot.idl
 // generated code does not contain a copyright notice
 #include "amr_v4_msgs_srvs/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp"
+#include "amr_v4_msgs_srvs/msg/detail/robot__functions.h"
 #include "amr_v4_msgs_srvs/msg/detail/robot__struct.hpp"
 
 #include <limits>
@@ -220,6 +221,9 @@ static rosidl_message_type_support_t _Robot__handle = {
   rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
   &_Robot__callbacks,
   get_message_typesupport_handle_function,
+  &amr_v4_msgs_srvs__msg__Robot__get_type_hash,
+  &amr_v4_msgs_srvs__msg__Robot__get_type_description,
+  &amr_v4_msgs_srvs__msg__Robot__get_type_description_sources,
 };
 
 }  // namespace typesupport_fastrtps_cpp

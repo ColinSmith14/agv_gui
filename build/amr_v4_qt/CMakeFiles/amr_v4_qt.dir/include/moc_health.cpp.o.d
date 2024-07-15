@@ -116,7 +116,7 @@ CMakeFiles/amr_v4_qt.dir/include/moc_health.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/colin/agv_gui/build/amr_v4_qt/include/../../../amr_v4_qt/include/health.h \
+ /home/colin/agv_gui/build/amr_v4_qt/include/../../../src/amr_v4_qt/include/health.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -281,7 +281,7 @@ CMakeFiles/amr_v4_qt.dir/include/moc_health.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /home/colin/agv_gui/amr_v4_qt/include/ui_health_screen.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/ui_health_screen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \

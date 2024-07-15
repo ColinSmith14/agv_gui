@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000679] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict()}
+[0.000787] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[0.018224] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[0.020085] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'build'}
+[0.021808] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/amr_v4_qt', '--', '-j4', '-l4'], 'cwd': '/home/colin/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/colin/zig-linux-x86_64-0.12.0:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:   /usr/local/games'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/2776,unix/Ubuntu22:/tmp/.ICE-unix/2776'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3de1d7dd_4523_41d2_be06_0533b67cba10'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HEBFQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/colin/agv_gui/build/amr_v4_qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron')]), 'shell': False}
+[0.098556] (-) TimerEvent: {}
+[0.135501] (amr_v4_qt) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target amr_v4_qt\x1b[0m\n'}
+[0.175153] (amr_v4_qt) StdoutLine: {'line': b'[  2%] Built target amr_v4_qt_autogen\n'}
+[0.199036] (-) TimerEvent: {}
+[0.207481] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target amr_v4_qt\x1b[0m\n'}
+[0.304827] (-) TimerEvent: {}
+[0.356874] (amr_v4_qt) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o\x1b[0m\n'}
+[0.361176] (amr_v4_qt) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o\x1b[0m\n'}
+[0.363585] (amr_v4_qt) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o\x1b[0m\n'}
+[0.404992] (-) TimerEvent: {}
+[0.505401] (-) TimerEvent: {}
+[0.608245] (-) TimerEvent: {}
+[0.709029] (-) TimerEvent: {}
+[0.809666] (-) TimerEvent: {}
+[0.910052] (-) TimerEvent: {}
+[1.010577] (-) TimerEvent: {}
+[1.111267] (-) TimerEvent: {}
+[1.215265] (-) TimerEvent: {}
+[1.317411] (-) TimerEvent: {}
+[1.417915] (-) TimerEvent: {}
+[1.518433] (-) TimerEvent: {}
+[1.618939] (-) TimerEvent: {}
+[1.719566] (-) TimerEvent: {}
+[1.820541] (-) TimerEvent: {}
+[1.921371] (-) TimerEvent: {}
+[2.022547] (-) TimerEvent: {}
+[2.123799] (-) TimerEvent: {}
+[2.224784] (-) TimerEvent: {}
+[2.325551] (-) TimerEvent: {}
+[2.426309] (-) TimerEvent: {}
+[2.527061] (-) TimerEvent: {}
+[2.627997] (-) TimerEvent: {}
+[2.728808] (-) TimerEvent: {}
+[2.830053] (-) TimerEvent: {}
+[2.930793] (-) TimerEvent: {}
+[3.031551] (-) TimerEvent: {}
+[3.132342] (-) TimerEvent: {}
+[3.232842] (-) TimerEvent: {}
+[3.333452] (-) TimerEvent: {}
+[3.433992] (-) TimerEvent: {}
+[3.534531] (-) TimerEvent: {}
+[3.635141] (-) TimerEvent: {}
+[3.736059] (-) TimerEvent: {}
+[3.836698] (-) TimerEvent: {}
+[3.937377] (-) TimerEvent: {}
+[4.037948] (-) TimerEvent: {}
+[4.139083] (-) TimerEvent: {}
+[4.239761] (-) TimerEvent: {}
+[4.340469] (-) TimerEvent: {}
+[4.441120] (-) TimerEvent: {}
+[4.541758] (-) TimerEvent: {}
+[4.642293] (-) TimerEvent: {}
+[4.743729] (-) TimerEvent: {}
+[4.844275] (-) TimerEvent: {}
+[4.948293] (-) TimerEvent: {}
+[5.048995] (-) TimerEvent: {}
+[5.150228] (-) TimerEvent: {}
+[5.250811] (-) TimerEvent: {}
+[5.351664] (-) TimerEvent: {}
+[5.457718] (-) TimerEvent: {}
+[5.558306] (-) TimerEvent: {}
+[5.666729] (-) TimerEvent: {}
+[5.767386] (-) TimerEvent: {}
+[5.869138] (-) TimerEvent: {}
+[5.969657] (-) TimerEvent: {}
+[6.070612] (-) TimerEvent: {}
+[6.171474] (-) TimerEvent: {}
+[6.272219] (-) TimerEvent: {}
+[6.373636] (-) TimerEvent: {}
+[6.475059] (-) TimerEvent: {}
+[6.576567] (-) TimerEvent: {}
+[6.677952] (-) TimerEvent: {}
+[6.778576] (-) TimerEvent: {}
+[6.879472] (-) TimerEvent: {}
+[6.980204] (-) TimerEvent: {}
+[7.081145] (-) TimerEvent: {}
+[7.182205] (-) TimerEvent: {}
+[7.282935] (-) TimerEvent: {}
+[7.383577] (-) TimerEvent: {}
+[7.484772] (-) TimerEvent: {}
+[7.585428] (-) TimerEvent: {}
+[7.686126] (-) TimerEvent: {}
+[7.786823] (-) TimerEvent: {}
+[7.887561] (-) TimerEvent: {}
+[7.988231] (-) TimerEvent: {}
+[8.089464] (-) TimerEvent: {}
+[8.190103] (-) TimerEvent: {}
+[8.290946] (-) TimerEvent: {}
+[8.392169] (-) TimerEvent: {}
+[8.483248] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, std::shared_ptr<EstopPublisher>, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.483949] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:57:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids taking the address of a bound member function to form a pointer to member function.  Say \xe2\x80\x98\x1b[01m\x1b[K&EstopPublisher::topic_callback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.484512] (amr_v4_qt) StderrLine: {'line': b'   57 |     connect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, &\x1b[01;31m\x1b[Kestop_pub->topic_callback\x1b[m\x1b[K);\n'}
+[8.485102] (amr_v4_qt) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.485674] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:57:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMainGui::connect(QPushButton*&, void (QAbstractButton::*)(bool), MainGui*, void (EstopPublisher::*)(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr))\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.486750] (amr_v4_qt) StderrLine: {'line': b'   57 |     \x1b[01;31m\x1b[Kconnect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, &estop_pub->topic_callback)\x1b[m\x1b[K;\n'}
+[8.487817] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.488852] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[8.489985] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[8.490600] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[8.491212] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:4\x1b[m\x1b[K,\n'}
+[8.491866] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[8.492602] (-) TimerEvent: {}
+[8.493054] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [with Func1 = void (QAbstractButton::*)(bool); Func2 = void (EstopPublisher::*)(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >); typename QtPrivate::FunctionPointer<Func>::Object = QAbstractButton; typename QtPrivate::FunctionPointer<Func2>::Object = EstopPublisher]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.493424] (amr_v4_qt) StderrLine: {'line': b'  242 |     static inline QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal,\n'}
+[8.493638] (amr_v4_qt) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.493794] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:243:96:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[KMainGui*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Object*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst EstopPublisher*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.493936] (amr_v4_qt) StderrLine: {'line': b'  243 |                                      \x1b[01;36m\x1b[Kconst typename QtPrivate::FunctionPointer<Func2>::Object *receiver\x1b[m\x1b[K, Func2 slot,\n'}
+[8.494115] (amr_v4_qt) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.494272] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0), QMetaObject::Connection>::type QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.494426] (amr_v4_qt) StderrLine: {'line': b'  274 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)\n'}
+[8.494606] (amr_v4_qt) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.494744] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.494898] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:57:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[8.495072] (amr_v4_qt) StderrLine: {'line': b'   57 |     \x1b[01;36m\x1b[Kconnect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, &estop_pub->topic_callback)\x1b[m\x1b[K;\n'}
+[8.495206] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.495337] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[8.495454] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[8.495674] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[8.495813] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:4\x1b[m\x1b[K,\n'}
+[8.495945] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[8.496146] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.496285] (amr_v4_qt) StderrLine: {'line': b'  283 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,\n'}
+[8.496415] (amr_v4_qt) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.496583] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.506039] (amr_v4_qt) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) [with Func1 = void (QAbstractButton::*)(bool); Func2 = void (EstopPublisher::*)(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.506650] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:57:12:\x1b[m\x1b[K   required from here\n'}
+[8.507200] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, QMetaObject::Connection>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.507717] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.508246] (amr_v4_qt) StderrLine: {'line': b'  314 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)\n'}
+[8.508825] (amr_v4_qt) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.509422] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.509956] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:57:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[8.510506] (amr_v4_qt) StderrLine: {'line': b'   57 |     \x1b[01;36m\x1b[Kconnect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, &estop_pub->topic_callback)\x1b[m\x1b[K;\n'}
+[8.511025] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.511540] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45\x1b[m\x1b[K,\n'}
+[8.512072] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44\x1b[m\x1b[K,\n'}
+[8.512592] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[8.513166] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:4\x1b[m\x1b[K,\n'}
+[8.513658] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[8.514187] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.514716] (amr_v4_qt) StderrLine: {'line': b'  322 |             \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,\n'}
+[8.515288] (amr_v4_qt) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.515821] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.516351] (amr_v4_qt) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType) [with Func1 = void (QAbstractButton::*)(bool); Func2 = void (EstopPublisher::*)(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.516962] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:57:12:\x1b[m\x1b[K   required from here\n'}
+[8.517497] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, QMetaObject::Connection>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.518044] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.530997] (amr_v4_qt) StderrLine: {'line': b'  222 |     static QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const QObject *sender, const char *signal,\n'}
+[8.531694] (amr_v4_qt) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.532327] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:79:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (QAbstractButton::*)(bool)\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.532978] (amr_v4_qt) StderrLine: {'line': b'  222 |     static QMetaObject::Connection connect(const QObject *sender, \x1b[01;36m\x1b[Kconst char *signal\x1b[m\x1b[K,\n'}
+[8.533939] (amr_v4_qt) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.534824] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::connect(const QObject*, const QMetaMethod&, const QObject*, const QMetaMethod&, Qt::ConnectionType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.535451] (amr_v4_qt) StderrLine: {'line': b'  225 |     static QMetaObject::Connection \x1b[01;36m\x1b[Kconnect\x1b[m\x1b[K(const QObject *sender, const QMetaMethod &signal,\n'}
+[8.536007] (amr_v4_qt) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.536569] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (QAbstractButton::*)(bool)\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst QMetaMethod&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.537218] (amr_v4_qt) StderrLine: {'line': b'  225 |     static QMetaObject::Connection connect(const QObject *sender, \x1b[01;36m\x1b[Kconst QMetaMethod &signal\x1b[m\x1b[K,\n'}
+[8.537776] (amr_v4_qt) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.538320] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KQMetaObject::Connection QObject::connect(const QObject*, const char*, const char*, Qt::ConnectionType) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.538943] (amr_v4_qt) StderrLine: {'line': b'  481 | inline QMetaObject::Connection \x1b[01;36m\x1b[KQObject\x1b[m\x1b[K::connect(const QObject *asender, const char *asignal,\n'}
+[8.539499] (amr_v4_qt) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.540070] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:85:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (QAbstractButton::*)(bool)\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.540615] (amr_v4_qt) StderrLine: {'line': b'  481 | inline QMetaObject::Connection QObject::connect(const QObject *asender, \x1b[01;36m\x1b[Kconst char *asignal\x1b[m\x1b[K,\n'}
+[8.541276] (amr_v4_qt) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.541846] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MainGui::getWifiSignalStrength()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.543163] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:156:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid QProcess::start(const QString&, QIODevice::OpenMode)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.543853] (amr_v4_qt) StderrLine: {'line': b'  156 |     \x1b[01;35m\x1b[Kprocess.start("iwconfig")\x1b[m\x1b[K;\n'}
+[8.544407] (amr_v4_qt) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.545012] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess:1\x1b[m\x1b[K,\n'}
+[8.545614] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:5\x1b[m\x1b[K:\n'}
+[8.546157] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.546744] (amr_v4_qt) StderrLine: {'line': b'  168 |     void \x1b[01;36m\x1b[Kstart\x1b[m\x1b[K(const QString &command, OpenMode mode = ReadWrite);\n'}
+[8.547306] (amr_v4_qt) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.592853] (-) TimerEvent: {}
+[8.694040] (-) TimerEvent: {}
+[8.794809] (-) TimerEvent: {}
+[8.895420] (-) TimerEvent: {}
+[8.996061] (-) TimerEvent: {}
+[9.096395] (-) TimerEvent: {}
+[9.197139] (-) TimerEvent: {}
+[9.297656] (-) TimerEvent: {}
+[9.398456] (-) TimerEvent: {}
+[9.499061] (-) TimerEvent: {}
+[9.584072] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:168: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1\n'}
+[9.584338] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.599863] (-) TimerEvent: {}
+[9.701163] (-) TimerEvent: {}
+[9.801654] (-) TimerEvent: {}
+[9.902291] (-) TimerEvent: {}
+[10.002931] (-) TimerEvent: {}
+[10.103723] (-) TimerEvent: {}
+[10.204522] (-) TimerEvent: {}
+[10.305535] (-) TimerEvent: {}
+[10.406787] (-) TimerEvent: {}
+[10.507399] (-) TimerEvent: {}
+[10.607653] (-) TimerEvent: {}
+[10.624038] (amr_v4_qt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2\n'}
+[10.624552] (amr_v4_qt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.627416] (amr_v4_qt) CommandEnded: {'returncode': 2}
+[10.707720] (-) TimerEvent: {}
+[10.767590] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 2}
+[10.769226] (-) EventReactorShutdown: {}

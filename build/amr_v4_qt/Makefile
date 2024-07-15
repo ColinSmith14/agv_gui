@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colin/agv_gui/amr_v4_qt
+CMAKE_SOURCE_DIR = /home/colin/agv_gui/src/amr_v4_qt
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/colin/agv_gui/build/amr_v4_qt
@@ -247,29 +247,29 @@ amr_v4_qt_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/amr_v4_qt_autogen/mocs_compilation.cpp.s
 .PHONY : amr_v4_qt_autogen/mocs_compilation.cpp.s
 
-include/moc_battery_node.o: include/moc_battery_node.cpp.o
-.PHONY : include/moc_battery_node.o
+include/moc_amr_node.o: include/moc_amr_node.cpp.o
+.PHONY : include/moc_amr_node.o
 
 # target to build an object file
-include/moc_battery_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_battery_node.cpp.o
-.PHONY : include/moc_battery_node.cpp.o
+include/moc_amr_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_amr_node.cpp.o
+.PHONY : include/moc_amr_node.cpp.o
 
-include/moc_battery_node.i: include/moc_battery_node.cpp.i
-.PHONY : include/moc_battery_node.i
+include/moc_amr_node.i: include/moc_amr_node.cpp.i
+.PHONY : include/moc_amr_node.i
 
 # target to preprocess a source file
-include/moc_battery_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_battery_node.cpp.i
-.PHONY : include/moc_battery_node.cpp.i
+include/moc_amr_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_amr_node.cpp.i
+.PHONY : include/moc_amr_node.cpp.i
 
-include/moc_battery_node.s: include/moc_battery_node.cpp.s
-.PHONY : include/moc_battery_node.s
+include/moc_amr_node.s: include/moc_amr_node.cpp.s
+.PHONY : include/moc_amr_node.s
 
 # target to generate assembly for a file
-include/moc_battery_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_battery_node.cpp.s
-.PHONY : include/moc_battery_node.cpp.s
+include/moc_amr_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_amr_node.cpp.s
+.PHONY : include/moc_amr_node.cpp.s
 
 include/moc_fisher_screen.o: include/moc_fisher_screen.cpp.o
 .PHONY : include/moc_fisher_screen.o
@@ -319,30 +319,6 @@ include/moc_health.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_health.cpp.s
 .PHONY : include/moc_health.cpp.s
 
-include/moc_health_node.o: include/moc_health_node.cpp.o
-.PHONY : include/moc_health_node.o
-
-# target to build an object file
-include/moc_health_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_health_node.cpp.o
-.PHONY : include/moc_health_node.cpp.o
-
-include/moc_health_node.i: include/moc_health_node.cpp.i
-.PHONY : include/moc_health_node.i
-
-# target to preprocess a source file
-include/moc_health_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_health_node.cpp.i
-.PHONY : include/moc_health_node.cpp.i
-
-include/moc_health_node.s: include/moc_health_node.cpp.s
-.PHONY : include/moc_health_node.s
-
-# target to generate assembly for a file
-include/moc_health_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_health_node.cpp.s
-.PHONY : include/moc_health_node.cpp.s
-
 include/moc_main_gui.o: include/moc_main_gui.cpp.o
 .PHONY : include/moc_main_gui.o
 
@@ -391,30 +367,6 @@ include/moc_main_screen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_main_screen.cpp.s
 .PHONY : include/moc_main_screen.cpp.s
 
-include/moc_motor_node.o: include/moc_motor_node.cpp.o
-.PHONY : include/moc_motor_node.o
-
-# target to build an object file
-include/moc_motor_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_motor_node.cpp.o
-.PHONY : include/moc_motor_node.cpp.o
-
-include/moc_motor_node.i: include/moc_motor_node.cpp.i
-.PHONY : include/moc_motor_node.i
-
-# target to preprocess a source file
-include/moc_motor_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_motor_node.cpp.i
-.PHONY : include/moc_motor_node.cpp.i
-
-include/moc_motor_node.s: include/moc_motor_node.cpp.s
-.PHONY : include/moc_motor_node.s
-
-# target to generate assembly for a file
-include/moc_motor_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_motor_node.cpp.s
-.PHONY : include/moc_motor_node.cpp.s
-
 include/moc_motors.o: include/moc_motors.cpp.o
 .PHONY : include/moc_motors.o
 
@@ -439,30 +391,6 @@ include/moc_motors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_motors.cpp.s
 .PHONY : include/moc_motors.cpp.s
 
-include/moc_robot_node.o: include/moc_robot_node.cpp.o
-.PHONY : include/moc_robot_node.o
-
-# target to build an object file
-include/moc_robot_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_robot_node.cpp.o
-.PHONY : include/moc_robot_node.cpp.o
-
-include/moc_robot_node.i: include/moc_robot_node.cpp.i
-.PHONY : include/moc_robot_node.i
-
-# target to preprocess a source file
-include/moc_robot_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_robot_node.cpp.i
-.PHONY : include/moc_robot_node.cpp.i
-
-include/moc_robot_node.s: include/moc_robot_node.cpp.s
-.PHONY : include/moc_robot_node.s
-
-# target to generate assembly for a file
-include/moc_robot_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_robot_node.cpp.s
-.PHONY : include/moc_robot_node.cpp.s
-
 include/moc_running_mode.o: include/moc_running_mode.cpp.o
 .PHONY : include/moc_running_mode.o
 
@@ -486,30 +414,6 @@ include/moc_running_mode.s: include/moc_running_mode.cpp.s
 include/moc_running_mode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_running_mode.cpp.s
 .PHONY : include/moc_running_mode.cpp.s
-
-include/moc_running_node.o: include/moc_running_node.cpp.o
-.PHONY : include/moc_running_node.o
-
-# target to build an object file
-include/moc_running_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_running_node.cpp.o
-.PHONY : include/moc_running_node.cpp.o
-
-include/moc_running_node.i: include/moc_running_node.cpp.i
-.PHONY : include/moc_running_node.i
-
-# target to preprocess a source file
-include/moc_running_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_running_node.cpp.i
-.PHONY : include/moc_running_node.cpp.i
-
-include/moc_running_node.s: include/moc_running_node.cpp.s
-.PHONY : include/moc_running_node.s
-
-# target to generate assembly for a file
-include/moc_running_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_running_node.cpp.s
-.PHONY : include/moc_running_node.cpp.s
 
 include/moc_scrolling_label.o: include/moc_scrolling_label.cpp.o
 .PHONY : include/moc_scrolling_label.o
@@ -631,29 +535,29 @@ include/moc_ui_running_mode_screen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/include/moc_ui_running_mode_screen.cpp.s
 .PHONY : include/moc_ui_running_mode_screen.cpp.s
 
-src/battery_node.o: src/battery_node.cpp.o
-.PHONY : src/battery_node.o
+src/amr_node.o: src/amr_node.cpp.o
+.PHONY : src/amr_node.o
 
 # target to build an object file
-src/battery_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/battery_node.cpp.o
-.PHONY : src/battery_node.cpp.o
+src/amr_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o
+.PHONY : src/amr_node.cpp.o
 
-src/battery_node.i: src/battery_node.cpp.i
-.PHONY : src/battery_node.i
+src/amr_node.i: src/amr_node.cpp.i
+.PHONY : src/amr_node.i
 
 # target to preprocess a source file
-src/battery_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/battery_node.cpp.i
-.PHONY : src/battery_node.cpp.i
+src/amr_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.i
+.PHONY : src/amr_node.cpp.i
 
-src/battery_node.s: src/battery_node.cpp.s
-.PHONY : src/battery_node.s
+src/amr_node.s: src/amr_node.cpp.s
+.PHONY : src/amr_node.s
 
 # target to generate assembly for a file
-src/battery_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/battery_node.cpp.s
-.PHONY : src/battery_node.cpp.s
+src/amr_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.s
+.PHONY : src/amr_node.cpp.s
 
 src/fisher_screen.o: src/fisher_screen.cpp.o
 .PHONY : src/fisher_screen.o
@@ -702,30 +606,6 @@ src/health.s: src/health.cpp.s
 src/health.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/health.cpp.s
 .PHONY : src/health.cpp.s
-
-src/health_node.o: src/health_node.cpp.o
-.PHONY : src/health_node.o
-
-# target to build an object file
-src/health_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/health_node.cpp.o
-.PHONY : src/health_node.cpp.o
-
-src/health_node.i: src/health_node.cpp.i
-.PHONY : src/health_node.i
-
-# target to preprocess a source file
-src/health_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/health_node.cpp.i
-.PHONY : src/health_node.cpp.i
-
-src/health_node.s: src/health_node.cpp.s
-.PHONY : src/health_node.s
-
-# target to generate assembly for a file
-src/health_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/health_node.cpp.s
-.PHONY : src/health_node.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -799,30 +679,6 @@ src/main_screen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/main_screen.cpp.s
 .PHONY : src/main_screen.cpp.s
 
-src/motor_node.o: src/motor_node.cpp.o
-.PHONY : src/motor_node.o
-
-# target to build an object file
-src/motor_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/motor_node.cpp.o
-.PHONY : src/motor_node.cpp.o
-
-src/motor_node.i: src/motor_node.cpp.i
-.PHONY : src/motor_node.i
-
-# target to preprocess a source file
-src/motor_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/motor_node.cpp.i
-.PHONY : src/motor_node.cpp.i
-
-src/motor_node.s: src/motor_node.cpp.s
-.PHONY : src/motor_node.s
-
-# target to generate assembly for a file
-src/motor_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/motor_node.cpp.s
-.PHONY : src/motor_node.cpp.s
-
 src/motors.o: src/motors.cpp.o
 .PHONY : src/motors.o
 
@@ -847,30 +703,6 @@ src/motors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/motors.cpp.s
 .PHONY : src/motors.cpp.s
 
-src/robot_node.o: src/robot_node.cpp.o
-.PHONY : src/robot_node.o
-
-# target to build an object file
-src/robot_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/robot_node.cpp.o
-.PHONY : src/robot_node.cpp.o
-
-src/robot_node.i: src/robot_node.cpp.i
-.PHONY : src/robot_node.i
-
-# target to preprocess a source file
-src/robot_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/robot_node.cpp.i
-.PHONY : src/robot_node.cpp.i
-
-src/robot_node.s: src/robot_node.cpp.s
-.PHONY : src/robot_node.s
-
-# target to generate assembly for a file
-src/robot_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/robot_node.cpp.s
-.PHONY : src/robot_node.cpp.s
-
 src/running_mode.o: src/running_mode.cpp.o
 .PHONY : src/running_mode.o
 
@@ -894,30 +726,6 @@ src/running_mode.s: src/running_mode.cpp.s
 src/running_mode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.s
 .PHONY : src/running_mode.cpp.s
-
-src/running_node.o: src/running_node.cpp.o
-.PHONY : src/running_node.o
-
-# target to build an object file
-src/running_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/running_node.cpp.o
-.PHONY : src/running_node.cpp.o
-
-src/running_node.i: src/running_node.cpp.i
-.PHONY : src/running_node.i
-
-# target to preprocess a source file
-src/running_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/running_node.cpp.i
-.PHONY : src/running_node.cpp.i
-
-src/running_node.s: src/running_node.cpp.s
-.PHONY : src/running_node.s
-
-# target to generate assembly for a file
-src/running_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_v4_qt.dir/build.make CMakeFiles/amr_v4_qt.dir/src/running_node.cpp.s
-.PHONY : src/running_node.cpp.s
 
 src/scrolling_label.o: src/scrolling_label.cpp.o
 .PHONY : src/scrolling_label.o
@@ -963,39 +771,27 @@ help:
 	@echo "... amr_v4_qt_autogen/mocs_compilation.o"
 	@echo "... amr_v4_qt_autogen/mocs_compilation.i"
 	@echo "... amr_v4_qt_autogen/mocs_compilation.s"
-	@echo "... include/moc_battery_node.o"
-	@echo "... include/moc_battery_node.i"
-	@echo "... include/moc_battery_node.s"
+	@echo "... include/moc_amr_node.o"
+	@echo "... include/moc_amr_node.i"
+	@echo "... include/moc_amr_node.s"
 	@echo "... include/moc_fisher_screen.o"
 	@echo "... include/moc_fisher_screen.i"
 	@echo "... include/moc_fisher_screen.s"
 	@echo "... include/moc_health.o"
 	@echo "... include/moc_health.i"
 	@echo "... include/moc_health.s"
-	@echo "... include/moc_health_node.o"
-	@echo "... include/moc_health_node.i"
-	@echo "... include/moc_health_node.s"
 	@echo "... include/moc_main_gui.o"
 	@echo "... include/moc_main_gui.i"
 	@echo "... include/moc_main_gui.s"
 	@echo "... include/moc_main_screen.o"
 	@echo "... include/moc_main_screen.i"
 	@echo "... include/moc_main_screen.s"
-	@echo "... include/moc_motor_node.o"
-	@echo "... include/moc_motor_node.i"
-	@echo "... include/moc_motor_node.s"
 	@echo "... include/moc_motors.o"
 	@echo "... include/moc_motors.i"
 	@echo "... include/moc_motors.s"
-	@echo "... include/moc_robot_node.o"
-	@echo "... include/moc_robot_node.i"
-	@echo "... include/moc_robot_node.s"
 	@echo "... include/moc_running_mode.o"
 	@echo "... include/moc_running_mode.i"
 	@echo "... include/moc_running_mode.s"
-	@echo "... include/moc_running_node.o"
-	@echo "... include/moc_running_node.i"
-	@echo "... include/moc_running_node.s"
 	@echo "... include/moc_scrolling_label.o"
 	@echo "... include/moc_scrolling_label.i"
 	@echo "... include/moc_scrolling_label.s"
@@ -1011,18 +807,15 @@ help:
 	@echo "... include/moc_ui_running_mode_screen.o"
 	@echo "... include/moc_ui_running_mode_screen.i"
 	@echo "... include/moc_ui_running_mode_screen.s"
-	@echo "... src/battery_node.o"
-	@echo "... src/battery_node.i"
-	@echo "... src/battery_node.s"
+	@echo "... src/amr_node.o"
+	@echo "... src/amr_node.i"
+	@echo "... src/amr_node.s"
 	@echo "... src/fisher_screen.o"
 	@echo "... src/fisher_screen.i"
 	@echo "... src/fisher_screen.s"
 	@echo "... src/health.o"
 	@echo "... src/health.i"
 	@echo "... src/health.s"
-	@echo "... src/health_node.o"
-	@echo "... src/health_node.i"
-	@echo "... src/health_node.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -1032,21 +825,12 @@ help:
 	@echo "... src/main_screen.o"
 	@echo "... src/main_screen.i"
 	@echo "... src/main_screen.s"
-	@echo "... src/motor_node.o"
-	@echo "... src/motor_node.i"
-	@echo "... src/motor_node.s"
 	@echo "... src/motors.o"
 	@echo "... src/motors.i"
 	@echo "... src/motors.s"
-	@echo "... src/robot_node.o"
-	@echo "... src/robot_node.i"
-	@echo "... src/robot_node.s"
 	@echo "... src/running_mode.o"
 	@echo "... src/running_mode.i"
 	@echo "... src/running_mode.s"
-	@echo "... src/running_node.o"
-	@echo "... src/running_node.i"
-	@echo "... src/running_node.s"
 	@echo "... src/scrolling_label.o"
 	@echo "... src/scrolling_label.i"
 	@echo "... src/scrolling_label.s"

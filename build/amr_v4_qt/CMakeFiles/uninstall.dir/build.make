@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colin/agv_gui/amr_v4_qt
+CMAKE_SOURCE_DIR = /home/colin/agv_gui/src/amr_v4_qt
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/colin/agv_gui/build/amr_v4_qt
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/colin/agv_gui/build/amr_v4_qt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colin/agv_gui/amr_v4_qt /home/colin/agv_gui/amr_v4_qt /home/colin/agv_gui/build/amr_v4_qt /home/colin/agv_gui/build/amr_v4_qt /home/colin/agv_gui/build/amr_v4_qt/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/colin/agv_gui/build/amr_v4_qt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colin/agv_gui/src/amr_v4_qt /home/colin/agv_gui/src/amr_v4_qt /home/colin/agv_gui/build/amr_v4_qt /home/colin/agv_gui/build/amr_v4_qt /home/colin/agv_gui/build/amr_v4_qt/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

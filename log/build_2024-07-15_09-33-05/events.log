@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.001046] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict()}
+[0.001106] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[0.022055] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[0.022189] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'build'}
+[0.022254] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/amr_v4_qt', '--', '-j4', '-l4'], 'cwd': '/home/colin/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2843'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROBOT_NAME', 'amr_2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/2797,unix/Ubuntu22:/tmp/.ICE-unix/2797'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b11cf371_e5ec_4de7_8819_e89e3fb1ec48'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YUKWQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/colin/agv_gui/build/amr_v4_qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron')]), 'shell': False}
+[0.099992] (-) TimerEvent: {}
+[0.174761] (amr_v4_qt) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target amr_v4_qt\x1b[0m\n'}
+[0.200176] (-) TimerEvent: {}
+[0.257533] (amr_v4_qt) StdoutLine: {'line': b'[  2%] Built target amr_v4_qt_autogen\n'}
+[0.297893] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target amr_v4_qt\x1b[0m\n'}
+[0.300660] (-) TimerEvent: {}
+[0.402082] (-) TimerEvent: {}
+[0.409782] (amr_v4_qt) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o\x1b[0m\n'}
+[0.502313] (-) TimerEvent: {}
+[0.602950] (-) TimerEvent: {}
+[0.703412] (-) TimerEvent: {}
+[0.804078] (-) TimerEvent: {}
+[0.904539] (-) TimerEvent: {}
+[1.004991] (-) TimerEvent: {}
+[1.105484] (-) TimerEvent: {}
+[1.205994] (-) TimerEvent: {}
+[1.306417] (-) TimerEvent: {}
+[1.406936] (-) TimerEvent: {}
+[1.507582] (-) TimerEvent: {}
+[1.608284] (-) TimerEvent: {}
+[1.708794] (-) TimerEvent: {}
+[1.809327] (-) TimerEvent: {}
+[1.909837] (-) TimerEvent: {}
+[2.010308] (-) TimerEvent: {}
+[2.110769] (-) TimerEvent: {}
+[2.211287] (-) TimerEvent: {}
+[2.311750] (-) TimerEvent: {}
+[2.412241] (-) TimerEvent: {}
+[2.512732] (-) TimerEvent: {}
+[2.613210] (-) TimerEvent: {}
+[2.713797] (-) TimerEvent: {}
+[2.814399] (-) TimerEvent: {}
+[2.915420] (-) TimerEvent: {}
+[3.016019] (-) TimerEvent: {}
+[3.116594] (-) TimerEvent: {}
+[3.217202] (-) TimerEvent: {}
+[3.317771] (-) TimerEvent: {}
+[3.418209] (-) TimerEvent: {}
+[3.518727] (-) TimerEvent: {}
+[3.619448] (-) TimerEvent: {}
+[3.720096] (-) TimerEvent: {}
+[3.820563] (-) TimerEvent: {}
+[3.921005] (-) TimerEvent: {}
+[4.021506] (-) TimerEvent: {}
+[4.121935] (-) TimerEvent: {}
+[4.222265] (-) TimerEvent: {}
+[4.322657] (-) TimerEvent: {}
+[4.423095] (-) TimerEvent: {}
+[4.523553] (-) TimerEvent: {}
+[4.623923] (-) TimerEvent: {}
+[4.724321] (-) TimerEvent: {}
+[4.824689] (-) TimerEvent: {}
+[4.925056] (-) TimerEvent: {}
+[5.025510] (-) TimerEvent: {}
+[5.125993] (-) TimerEvent: {}
+[5.226420] (-) TimerEvent: {}
+[5.326755] (-) TimerEvent: {}
+[5.427211] (-) TimerEvent: {}
+[5.527602] (-) TimerEvent: {}
+[5.628054] (-) TimerEvent: {}
+[5.728510] (-) TimerEvent: {}
+[5.829039] (-) TimerEvent: {}
+[5.929612] (-) TimerEvent: {}
+[6.030170] (-) TimerEvent: {}
+[6.130669] (-) TimerEvent: {}
+[6.231164] (-) TimerEvent: {}
+[6.331687] (-) TimerEvent: {}
+[6.432381] (-) TimerEvent: {}
+[6.535730] (-) TimerEvent: {}
+[6.636186] (-) TimerEvent: {}
+[6.736610] (-) TimerEvent: {}
+[6.836998] (-) TimerEvent: {}
+[6.937389] (-) TimerEvent: {}
+[7.037911] (-) TimerEvent: {}
+[7.138302] (-) TimerEvent: {}
+[7.238722] (-) TimerEvent: {}
+[7.339070] (-) TimerEvent: {}
+[7.439538] (-) TimerEvent: {}
+[7.539910] (-) TimerEvent: {}
+[7.640412] (-) TimerEvent: {}
+[7.740850] (-) TimerEvent: {}
+[7.841268] (-) TimerEvent: {}
+[7.889779] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:234:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid MainGui::updateMode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.890041] (amr_v4_qt) StderrLine: {'line': b'  234 | void \x1b[01;31m\x1b[KMainGui\x1b[m\x1b[K::updateMode()\n'}
+[7.890182] (amr_v4_qt) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.890280] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[7.890377] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:46:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid MainGui::updateMode(const QString&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.890484] (amr_v4_qt) StderrLine: {'line': b'   46 |     void \x1b[01;36m\x1b[KupdateMode\x1b[m\x1b[K(const QString &data);\n'}
+[7.890599] (amr_v4_qt) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.890698] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:21:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MainGui\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[7.890802] (amr_v4_qt) StderrLine: {'line': b'   21 | class \x1b[01;36m\x1b[KMainGui\x1b[m\x1b[K : public QMainWindow {\n'}
+[7.890911] (amr_v4_qt) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.941442] (-) TimerEvent: {}
+[8.041947] (-) TimerEvent: {}
+[8.053840] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[8.054001] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[8.054070] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:43\x1b[m\x1b[K,\n'}
+[8.054160] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1\x1b[m\x1b[K,\n'}
+[8.054221] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:4\x1b[m\x1b[K,\n'}
+[8.054279] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1\x1b[m\x1b[K:\n'}
+[8.054336] (amr_v4_qt) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstatic QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [with Func1 = void (QAbstractButton::*)(bool); Func2 = void (MainGui::*)(const QString&); typename QtPrivate::FunctionPointer<Func>::Object = QAbstractButton; typename QtPrivate::FunctionPointer<Func2>::Object = MainGui]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.054397] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:58:12:\x1b[m\x1b[K   required from here\n'}
+[8.054454] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:255:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Signal and slot arguments are not compatible.\n'}
+[8.054512] (amr_v4_qt) StderrLine: {'line': b'  255 |         \x1b[01;31m\x1b[KQ_STATIC_ASSERT_X\x1b[m\x1b[K((QtPrivate::CheckCompatibleArguments<typename SignalType::Arguments, typename SlotType::Arguments>::value),\n'}
+[8.054569] (amr_v4_qt) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.054648] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:255:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(((int)QtPrivate::CheckCompatibleArguments<QtPrivate::List<bool>, QtPrivate::List<const QString&> >::value) != 0)\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[8.142141] (-) TimerEvent: {}
+[8.242589] (-) TimerEvent: {}
+[8.342958] (-) TimerEvent: {}
+[8.443413] (-) TimerEvent: {}
+[8.543772] (-) TimerEvent: {}
+[8.644169] (-) TimerEvent: {}
+[8.718311] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1\n'}
+[8.718632] (amr_v4_qt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2\n'}
+[8.718868] (amr_v4_qt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.721074] (amr_v4_qt) CommandEnded: {'returncode': 2}
+[8.744335] (-) TimerEvent: {}
+[8.835253] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 2}
+[8.844456] (-) TimerEvent: {}
+[8.846071] (-) EventReactorShutdown: {}

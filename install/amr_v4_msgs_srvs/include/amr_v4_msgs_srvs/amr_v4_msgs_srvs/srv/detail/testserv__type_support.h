@@ -39,6 +39,19 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   Testserv_Response
 )();
 
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_amr_v4_msgs_srvs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  amr_v4_msgs_srvs,
+  srv,
+  Testserv_Event
+)();
+
 #include "rosidl_runtime_c/service_type_support_struct.h"
 
 // Forward declare the get type support functions for this type.
@@ -50,6 +63,32 @@ ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
   srv,
   Testserv
 )();
+
+// Forward declare the function to create a service event message for this type.
+ROSIDL_GENERATOR_C_PUBLIC_amr_v4_msgs_srvs
+void *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_CREATE_EVENT_MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  amr_v4_msgs_srvs,
+  srv,
+  Testserv
+)(
+  const rosidl_service_introspection_info_t * info,
+  rcutils_allocator_t * allocator,
+  const void * request_message,
+  const void * response_message);
+
+// Forward declare the function to destroy a service event message for this type.
+ROSIDL_GENERATOR_C_PUBLIC_amr_v4_msgs_srvs
+bool
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_DESTROY_EVENT_MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  amr_v4_msgs_srvs,
+  srv,
+  Testserv
+)(
+  void * event_msg,
+  rcutils_allocator_t * allocator);
 
 #ifdef __cplusplus
 }

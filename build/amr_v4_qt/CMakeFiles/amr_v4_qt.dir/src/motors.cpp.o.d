@@ -1,6 +1,7 @@
 CMakeFiles/amr_v4_qt.dir/src/motors.cpp.o: \
- /home/colin/agv_gui/amr_v4_qt/src/motors.cpp /usr/include/stdc-predef.h \
- /home/colin/agv_gui/amr_v4_qt/include/motors.h \
+ /home/colin/agv_gui/src/amr_v4_qt/src/motors.cpp \
+ /usr/include/stdc-predef.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/motors.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

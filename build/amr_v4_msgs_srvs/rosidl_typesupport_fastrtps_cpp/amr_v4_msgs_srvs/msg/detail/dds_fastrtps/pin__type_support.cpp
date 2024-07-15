@@ -2,6 +2,7 @@
 // with input from amr_v4_msgs_srvs:msg/Pin.idl
 // generated code does not contain a copyright notice
 #include "amr_v4_msgs_srvs/msg/detail/pin__rosidl_typesupport_fastrtps_cpp.hpp"
+#include "amr_v4_msgs_srvs/msg/detail/pin__functions.h"
 #include "amr_v4_msgs_srvs/msg/detail/pin__struct.hpp"
 
 #include <limits>
@@ -172,6 +173,9 @@ static rosidl_message_type_support_t _Pin__handle = {
   rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
   &_Pin__callbacks,
   get_message_typesupport_handle_function,
+  &amr_v4_msgs_srvs__msg__Pin__get_type_hash,
+  &amr_v4_msgs_srvs__msg__Pin__get_type_description,
+  &amr_v4_msgs_srvs__msg__Pin__get_type_description_sources,
 };
 
 }  // namespace typesupport_fastrtps_cpp

@@ -54,7 +54,7 @@ endif()
 add_library(amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_py PROPERTIES
-  INTERFACE_LINK_LIBRARIES "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_typesupport_c"
+  INTERFACE_LINK_LIBRARIES "amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;amr_v4_msgs_srvs::amr_v4_msgs_srvs__rosidl_typesupport_c;service_msgs::service_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

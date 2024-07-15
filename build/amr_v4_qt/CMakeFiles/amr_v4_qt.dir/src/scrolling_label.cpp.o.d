@@ -1,7 +1,7 @@
 CMakeFiles/amr_v4_qt.dir/src/scrolling_label.cpp.o: \
- /home/colin/agv_gui/amr_v4_qt/src/scrolling_label.cpp \
+ /home/colin/agv_gui/src/amr_v4_qt/src/scrolling_label.cpp \
  /usr/include/stdc-predef.h \
- /home/colin/agv_gui/amr_v4_qt/include/scrolling_label.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/scrolling_label.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

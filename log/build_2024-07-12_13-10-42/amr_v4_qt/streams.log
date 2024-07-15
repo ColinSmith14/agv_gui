@@ -1,0 +1,47 @@
+[0.053s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4
+[0.184s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.277s] [  2%] Built target amr_v4_qt_autogen
+[0.332s] [  5%] [34m[1mGenerating include/moc_amr_node.cpp[0m
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[0.524s] [ 11%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[0.524s] [ 11%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[0.544s] [ 13%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[0.550s] [ 16%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o[0m
+[22.822s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)[m[K’:
+[22.823s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:59:99:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+[22.823s]    59 |     connect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, [01;31m[Kamr_node->mode_callback(driveMode)[m[K);
+[22.823s]       |                                                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[23.287s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+[23.287s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43[m[K,
+[23.288s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:43[m[K,
+[23.289s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[23.290s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:4[m[K,
+[23.290s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1[m[K:
+[23.292s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of ‘[01m[Kstatic QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [with Func1 = void (AmrNode::*)(); Func2 = void (MainGui::*)(const QString&); typename QtPrivate::FunctionPointer<Func>::Object = AmrNode; typename QtPrivate::FunctionPointer<Func2>::Object = MainGui][m[K’:
+[23.293s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:60:12:[m[K   required from here
+[23.294s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:253:9:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: The slot requires more arguments than the signal provides.
+[23.294s]   253 |         [01;31m[KQ_STATIC_ASSERT_X[m[K(int(SignalType::ArgumentCount) >= int(SlotType::ArgumentCount),
+[23.295s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[23.296s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:253:9:[m[K [01;36m[Knote: [m[K‘[01m[K(((int)QtPrivate::FunctionPointer<void (AmrNode::*)()>::ArgumentCount) >= ((int)QtPrivate::FunctionPointer<void (MainGui::*)(const QString&)>::ArgumentCount))[m[K’ evaluates to false
+[23.297s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:255:9:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Signal and slot arguments are not compatible.
+[23.298s]   255 |         [01;31m[KQ_STATIC_ASSERT_X[m[K((QtPrivate::CheckCompatibleArguments<typename SignalType::Arguments, typename SlotType::Arguments>::value),
+[23.299s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[23.300s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:255:9:[m[K [01;36m[Knote: [m[K‘[01m[K(((int)QtPrivate::CheckCompatibleArguments<QtPrivate::List<>, QtPrivate::List<const QString&> >::value) != 0)[m[K’ evaluates to false
+[23.302s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:50[m[K,
+[23.303s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:44[m[K,
+[23.304s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:44[m[K,
+[23.305s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:44[m[K,
+[23.305s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow:1[m[K,
+[23.306s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:4[m[K,
+[23.307s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:1[m[K:
+[23.311s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h: In instantiation of ‘[01m[Kstruct QtPrivate::List_Left<QtPrivate::List<>, 1>[m[K’:
+[23.314s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:266:28:[m[K   required from ‘[01m[Kstatic QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [with Func1 = void (AmrNode::*)(); Func2 = void (MainGui::*)(const QString&); typename QtPrivate::FunctionPointer<Func>::Object = AmrNode; typename QtPrivate::FunctionPointer<Func2>::Object = MainGui][m[K’
+[23.315s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:60:12:[m[K   required from here
+[23.328s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:72:118:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KCar[m[K’ in ‘[01m[Kstruct QtPrivate::List<>[m[K’
+[23.329s]    72 |         typedef typename List_Append<List<typename L::Car>,typename List_Left<typename L::Cdr, N - 1>::Value>::Value [01;31m[KValue[m[K;
+[23.331s]       |                                                                                                                      [01;31m[K^~~~~[m[K
+[25.301s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+[25.302s] gmake[2]: *** Waiting for unfinished jobs....
+[34.051s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[34.051s] gmake: *** [Makefile:146: all] Error 2
+[34.052s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4

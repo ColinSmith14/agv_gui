@@ -1,0 +1,48 @@
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KAmrNode::AmrNode(std::string)[m[K’
+    3 | [01;31m[KAmrNode[m[K::AmrNode(const std::string nodeName)
+      | [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/amr_node.cpp:1[m[K:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:14:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KAmrNode::AmrNode(AmrNode&&)[m[K’
+   14 | class [01;36m[KAmrNode[m[K : public QObject, public rclcpp::Node
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:14:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KAmrNode::AmrNode(const AmrNode&)[m[K’
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:19:14:[m[K [01;36m[Knote: [m[K                ‘[01m[KAmrNode::AmrNode(const string&)[m[K’
+   19 |     explicit [01;36m[KAmrNode[m[K(const std::string& nodeName);
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/include/amr_node.h:14:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass AmrNode[m[K’ defined here
+   14 | class [01;36m[KAmrNode[m[K : public QObject, public rclcpp::Node
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In constructor ‘[01m[KMainGui::MainGui(std::shared_ptr<AmrNode>, QWidget*)[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:66:39:[m[K [01;31m[Kerror: [m[K‘[01m[KchangedMode[m[K’ is not a member of ‘[01m[KAmrNode[m[K’
+   66 |     connect(amr_node.get(), &AmrNode::[01;31m[KchangedMode[m[K, this, &MainGui::updateMode);
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:67:39:[m[K [01;31m[Kerror: [m[K‘[01m[KchangedStatus[m[K’ is not a member of ‘[01m[KAmrNode[m[K’
+   67 |     connect(amr_node.get(), &AmrNode::[01;31m[KchangedStatus[m[K, this, &MainGui::updateRobot);
+      |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::onModeSwitched()[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmodeNode[m[K’ was not declared in this scope
+  103 |     [01;31m[KmodeNode[m[K->mode_callback(driveMode);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kint MainGui::getWifiSignalStrength()[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:159:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QProcess::start(const QString&, QIODevice::OpenMode)[m[K’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  159 |     [01;35m[Kprocess.start("iwconfig")[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess:1[m[K,
+                 from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:5[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  168 |     void [01;36m[Kstart[m[K(const QString &command, OpenMode mode = ReadWrite);
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:29:26:[m[K [01;31m[Kerror: [m[K‘[01m[KMakeShared[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_shared[m[K’?
+   29 |     auto amrNode_ = std::[01;31m[KMakeShared[m[K<AmrNode>("amr_node");
+      |                          [01;31m[K^~~~~~~~~~[m[K
+      |                          [32m[Kmake_shared[m[K
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:29:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   29 |     auto amrNode_ = std::MakeShared<AmrNode[01;31m[K>[m[K("amr_node");
+      |                                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:236: CMakeFiles/amr_v4_qt.dir/src/amr_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:138: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

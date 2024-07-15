@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.005643] (amr_v4_qt) JobQueued: {'identifier': 'amr_v4_qt', 'dependencies': OrderedDict()}
+[0.005853] (amr_v4_qt) JobStarted: {'identifier': 'amr_v4_qt'}
+[0.024556] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'cmake'}
+[0.024700] (amr_v4_qt) JobProgress: {'identifier': 'amr_v4_qt', 'progress': 'build'}
+[0.024746] (amr_v4_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/colin/agv_gui/build/amr_v4_qt', '--', '-j4', '-l4'], 'cwd': '/home/colin/agv_gui/build/amr_v4_qt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'colin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/colin'), ('OLDPWD', '/home/colin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/colin/agv_gui/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'colin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'colin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/colin/zig-linux-x86_64-0.12.0:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:   /usr/local/games'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/2776,unix/Ubuntu22:/tmp/.ICE-unix/2776'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3de1d7dd_4523_41d2_be06_0533b67cba10'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HEBFQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/colin/agv_gui/build/amr_v4_qt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/colin/agv_gui/install/amr_v4_msgs_srvs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/colin/agv_gui/install/amr_v4_qt:/home/colin/agv_gui/install/amr_v4_msgs_srvs:/opt/ros/iron')]), 'shell': False}
+[0.100415] (-) TimerEvent: {}
+[0.192636] (amr_v4_qt) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target amr_v4_qt\x1b[0m\n'}
+[0.200879] (-) TimerEvent: {}
+[0.265302] (amr_v4_qt) StdoutLine: {'line': b'[  2%] Built target amr_v4_qt_autogen\n'}
+[0.301420] (-) TimerEvent: {}
+[0.325474] (amr_v4_qt) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating include/moc_main_gui.cpp\x1b[0m\n'}
+[0.378728] (amr_v4_qt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target amr_v4_qt\x1b[0m\n'}
+[0.401596] (-) TimerEvent: {}
+[0.504500] (-) TimerEvent: {}
+[0.605005] (-) TimerEvent: {}
+[0.652939] (amr_v4_qt) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o\x1b[0m\n'}
+[0.708322] (-) TimerEvent: {}
+[0.808882] (-) TimerEvent: {}
+[0.909441] (-) TimerEvent: {}
+[1.009936] (-) TimerEvent: {}
+[1.110540] (-) TimerEvent: {}
+[1.211144] (-) TimerEvent: {}
+[1.311714] (-) TimerEvent: {}
+[1.412412] (-) TimerEvent: {}
+[1.513087] (-) TimerEvent: {}
+[1.613862] (-) TimerEvent: {}
+[1.714555] (-) TimerEvent: {}
+[1.815225] (-) TimerEvent: {}
+[1.915857] (-) TimerEvent: {}
+[2.016409] (-) TimerEvent: {}
+[2.116886] (-) TimerEvent: {}
+[2.217595] (-) TimerEvent: {}
+[2.318842] (-) TimerEvent: {}
+[2.419369] (-) TimerEvent: {}
+[2.520214] (-) TimerEvent: {}
+[2.620916] (-) TimerEvent: {}
+[2.721379] (-) TimerEvent: {}
+[2.821820] (-) TimerEvent: {}
+[2.922365] (-) TimerEvent: {}
+[3.023047] (-) TimerEvent: {}
+[3.123438] (-) TimerEvent: {}
+[3.223948] (-) TimerEvent: {}
+[3.324706] (-) TimerEvent: {}
+[3.425326] (-) TimerEvent: {}
+[3.525853] (-) TimerEvent: {}
+[3.626488] (-) TimerEvent: {}
+[3.727204] (-) TimerEvent: {}
+[3.828039] (-) TimerEvent: {}
+[3.928757] (-) TimerEvent: {}
+[4.029349] (-) TimerEvent: {}
+[4.129826] (-) TimerEvent: {}
+[4.230694] (-) TimerEvent: {}
+[4.331220] (-) TimerEvent: {}
+[4.431895] (-) TimerEvent: {}
+[4.532539] (-) TimerEvent: {}
+[4.633121] (-) TimerEvent: {}
+[4.733753] (-) TimerEvent: {}
+[4.834353] (-) TimerEvent: {}
+[4.935008] (-) TimerEvent: {}
+[5.035601] (-) TimerEvent: {}
+[5.136926] (-) TimerEvent: {}
+[5.237518] (-) TimerEvent: {}
+[5.338037] (-) TimerEvent: {}
+[5.438500] (-) TimerEvent: {}
+[5.539196] (-) TimerEvent: {}
+[5.639777] (-) TimerEvent: {}
+[5.740906] (-) TimerEvent: {}
+[5.841368] (-) TimerEvent: {}
+[5.942010] (-) TimerEvent: {}
+[6.042584] (-) TimerEvent: {}
+[6.143154] (-) TimerEvent: {}
+[6.243766] (-) TimerEvent: {}
+[6.344372] (-) TimerEvent: {}
+[6.444953] (-) TimerEvent: {}
+[6.545369] (-) TimerEvent: {}
+[6.646102] (-) TimerEvent: {}
+[6.746544] (-) TimerEvent: {}
+[6.847001] (-) TimerEvent: {}
+[6.947399] (-) TimerEvent: {}
+[7.047846] (-) TimerEvent: {}
+[7.148369] (-) TimerEvent: {}
+[7.248857] (-) TimerEvent: {}
+[7.349342] (-) TimerEvent: {}
+[7.449900] (-) TimerEvent: {}
+[7.550545] (-) TimerEvent: {}
+[7.651250] (-) TimerEvent: {}
+[7.752122] (-) TimerEvent: {}
+[7.852971] (-) TimerEvent: {}
+[7.953701] (-) TimerEvent: {}
+[8.054256] (-) TimerEvent: {}
+[8.154772] (-) TimerEvent: {}
+[8.255227] (-) TimerEvent: {}
+[8.355730] (-) TimerEvent: {}
+[8.456374] (-) TimerEvent: {}
+[8.556852] (-) TimerEvent: {}
+[8.657356] (-) TimerEvent: {}
+[8.757794] (-) TimerEvent: {}
+[8.858342] (-) TimerEvent: {}
+[8.958790] (-) TimerEvent: {}
+[9.059230] (-) TimerEvent: {}
+[9.159705] (-) TimerEvent: {}
+[9.260287] (-) TimerEvent: {}
+[9.360808] (-) TimerEvent: {}
+[9.461310] (-) TimerEvent: {}
+[9.561759] (-) TimerEvent: {}
+[9.662230] (-) TimerEvent: {}
+[9.762661] (-) TimerEvent: {}
+[9.863196] (-) TimerEvent: {}
+[9.963730] (-) TimerEvent: {}
+[10.064453] (-) TimerEvent: {}
+[10.164935] (-) TimerEvent: {}
+[10.265408] (-) TimerEvent: {}
+[10.365986] (-) TimerEvent: {}
+[10.466421] (-) TimerEvent: {}
+[10.566915] (-) TimerEvent: {}
+[10.667531] (-) TimerEvent: {}
+[10.768497] (-) TimerEvent: {}
+[10.869330] (-) TimerEvent: {}
+[10.968683] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[10.969156] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:36:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEstopNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.969437] (-) TimerEvent: {}
+[10.969673] (amr_v4_qt) StderrLine: {'line': b'   36 |                      std::shared_ptr<\x1b[01;31m\x1b[KEstopNode\x1b[m\x1b[K> estop_node_,\n'}
+[10.969936] (amr_v4_qt) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.970138] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:36:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.970408] (amr_v4_qt) StderrLine: {'line': b'   36 |                      std::shared_ptr<EstopNode\x1b[01;31m\x1b[K>\x1b[m\x1b[K estop_node_,\n'}
+[10.970645] (amr_v4_qt) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.069613] (-) TimerEvent: {}
+[11.170301] (-) TimerEvent: {}
+[11.271042] (-) TimerEvent: {}
+[11.371505] (-) TimerEvent: {}
+[11.472064] (-) TimerEvent: {}
+[11.572676] (-) TimerEvent: {}
+[11.673218] (-) TimerEvent: {}
+[11.773866] (-) TimerEvent: {}
+[11.874325] (-) TimerEvent: {}
+[11.974833] (-) TimerEvent: {}
+[12.075360] (-) TimerEvent: {}
+[12.175917] (-) TimerEvent: {}
+[12.276450] (-) TimerEvent: {}
+[12.376918] (-) TimerEvent: {}
+[12.477540] (-) TimerEvent: {}
+[12.578711] (-) TimerEvent: {}
+[12.679064] (-) TimerEvent: {}
+[12.719068] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[12.719428] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[12.719570] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[12.719738] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[12.719825] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[12.719904] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[12.719978] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[12.720098] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[12.720179] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[12.720252] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:43\x1b[m\x1b[K,\n'}
+[12.720434] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:1\x1b[m\x1b[K,\n'}
+[12.720540] (amr_v4_qt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[12.720633] (amr_v4_qt) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MainGui; _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}; _Tp = MainGui]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.720728] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MainGui; _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}; _Tp = MainGui; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MainGui>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.720819] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}; _Tp = MainGui; _Alloc = std::allocator<MainGui>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.720898] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MainGui; _Alloc = std::allocator<MainGui>; _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.720991] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MainGui>; _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}; _Tp = MainGui; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.721119] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MainGui>; _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}; _Tp = MainGui]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.721205] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MainGui; _Alloc = std::allocator<MainGui>; _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.721282] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MainGui; _Args = {std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.721358] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:25:45:\x1b[m\x1b[K   required from here\n'}
+[12.721434] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMainGui::MainGui(std::shared_ptr<BatterySub>&, std::shared_ptr<RobotSub>&, std::shared_ptr<MotorSub>&, std::shared_ptr<HealthSub>&, std::shared_ptr<RunningSub>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.721544] (amr_v4_qt) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[12.721631] (amr_v4_qt) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.721705] (amr_v4_qt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[12.721785] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:31:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KMainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, int, QWidget*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.721866] (amr_v4_qt) StderrLine: {'line': b'   31 |     explicit \x1b[01;36m\x1b[KMainGui\x1b[m\x1b[K(std::shared_ptr<BatterySub> battery_sub_,\n'}
+[12.721943] (amr_v4_qt) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.722045] (amr_v4_qt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/colin/agv_gui/src/amr_v4_qt/include/main_gui.h:31:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 5 provided\n'}
+[12.779228] (-) TimerEvent: {}
+[12.879952] (-) TimerEvent: {}
+[12.949119] (amr_v4_qt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:154: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Error 1\n'}
+[12.950239] (amr_v4_qt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2\n'}
+[12.950887] (amr_v4_qt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.953631] (amr_v4_qt) CommandEnded: {'returncode': 2}
+[12.980208] (-) TimerEvent: {}
+[13.080956] (-) TimerEvent: {}
+[13.106409] (amr_v4_qt) JobEnded: {'identifier': 'amr_v4_qt', 'rc': 2}
+[13.118191] (-) EventReactorShutdown: {}

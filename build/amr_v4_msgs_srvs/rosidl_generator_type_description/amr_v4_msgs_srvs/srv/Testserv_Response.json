@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "amr_v4_msgs_srvs/srv/Testserv_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "amr_v4_msgs_srvs/srv/Testserv_Response",
+      "hash_string": "RIHS01_d852b278a996ae43337fc8ddbc76ef846b9294986dd6de6de42f961a7ef29a9a"
+    }
+  ]
+}

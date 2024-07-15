@@ -106,6 +106,9 @@ static rosidl_message_type_support_t amr_v4_msgs_srvs__msg__Robot__rosidl_typesu
   0,
   &amr_v4_msgs_srvs__msg__Robot__rosidl_typesupport_introspection_c__Robot_message_members,
   get_message_typesupport_handle_function,
+  &amr_v4_msgs_srvs__msg__Robot__get_type_hash,
+  &amr_v4_msgs_srvs__msg__Robot__get_type_description,
+  &amr_v4_msgs_srvs__msg__Robot__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_amr_v4_msgs_srvs

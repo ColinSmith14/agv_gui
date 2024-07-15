@@ -1,0 +1,14 @@
+[0.024s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4
+[0.108s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.160s] [  2%] Built target amr_v4_qt_autogen
+[0.197s] [  4%] [34m[1mGenerating include/moc_main_gui.cpp[0m
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[0.391s] [  6%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[0.395s] [  8%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[0.395s] [ 10%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[6.023s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:336: CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o] Interrupt
+[6.023s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:154: CMakeFiles/amr_v4_qt.dir/src/main.cpp.o] Interrupt
+[6.023s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:168: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Interrupt
+[6.023s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Interrupt
+[6.027s] gmake: *** [Makefile:146: all] Interrupt
+[6.098s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4

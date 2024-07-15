@@ -1,0 +1,29 @@
+[0.046s] Invoking command in '/home/colin/agv_gui/build/amr_v4_qt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4
+[0.205s] [  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[0.301s] [  2%] Built target amr_v4_qt_autogen
+[0.337s] [35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[0.449s] [  5%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[7.689s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kint MainGui::getWifiSignalStrength()[m[K’:
+[7.689s] [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:159:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQProcess::start(QString&, QString&, QIODevice::OpenModeFlag)[m[K’
+[7.689s]   159 |     [01;31m[Kprocess.start(program, arguments, QIODevice::ReadWrite)[m[K;
+[7.689s]       |     [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.689s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess:1[m[K,
+[7.689s]                  from [01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:5[m[K:
+[7.690s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:161:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid QProcess::start(const QString&, const QStringList&, QIODevice::OpenMode)[m[K’
+[7.690s]   161 |     void [01;36m[Kstart[m[K(const QString &program, const QStringList &arguments, OpenMode mode = ReadWrite);
+[7.690s]       |          [01;36m[K^~~~~[m[K
+[7.690s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:161:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KQString[m[K’ to ‘[01m[Kconst QStringList&[m[K’
+[7.690s]   161 |     void start(const QString &program, [01;36m[Kconst QStringList &arguments[m[K, OpenMode mode = ReadWrite);
+[7.690s]       |                                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.690s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid QProcess::start(const QString&, QIODevice::OpenMode)[m[K’
+[7.690s]   168 |     void [01;36m[Kstart[m[K(const QString &command, OpenMode mode = ReadWrite);
+[7.690s]       |          [01;36m[K^~~~~[m[K
+[7.690s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[7.690s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:171:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid QProcess::start(QIODevice::OpenMode)[m[K’
+[7.690s]   171 |     void [01;36m[Kstart[m[K(OpenMode mode = ReadWrite);
+[7.691s]       |          [01;36m[K^~~~~[m[K
+[7.691s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:171:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[8.566s] gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+[8.566s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+[8.567s] gmake: *** [Makefile:146: all] Error 2
+[8.569s] Invoked command in '/home/colin/agv_gui/build/amr_v4_qt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/colin/agv_gui/build/amr_v4_qt -- -j4 -l4

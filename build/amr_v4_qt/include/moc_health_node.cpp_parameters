@@ -1,5 +1,5 @@
--I/home/colin/agv_gui/amr_v4_qt
+-I/home/colin/agv_gui/src/amr_v4_qt
 -I/home/colin/agv_gui/build/amr_v4_qt
 -o
 /home/colin/agv_gui/build/amr_v4_qt/include/moc_health_node.cpp
-/home/colin/agv_gui/amr_v4_qt/include/health_node.h
+/home/colin/agv_gui/src/amr_v4_qt/include/health_node.h

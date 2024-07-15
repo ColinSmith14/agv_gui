@@ -2,6 +2,13 @@
 # with input from amr_v4_msgs_srvs:msg/Motor.idl
 # generated code does not contain a copyright notice
 
+# This is being done at the module level and not on the instance level to avoid looking
+# for the same variable multiple times on each instance. This variable is not supposed to
+# change during runtime so it makes sense to only look for it once.
+from os import getenv
+
+ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
+
 
 # Import statements for member types
 
@@ -66,6 +73,7 @@ class Motor(metaclass=Metaclass_Motor):
         '_target_pos_high',
         '_target_pos_low',
         '_current_pos',
+        '_check_fields',
     ]
 
     _fields_and_field_types = {
@@ -80,6 +88,8 @@ class Motor(metaclass=Metaclass_Motor):
         'current_pos': 'double',
     }
 
+    # This attribute is used to store an rosidl_parser.definition variable
+    # related to the data type of each of the components the message.
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
@@ -93,9 +103,14 @@ class Motor(metaclass=Metaclass_Motor):
     )
 
     def __init__(self, **kwargs):
-        assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
-            'Invalid arguments passed to constructor: %s' % \
-            ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
+        else:
+            self._check_fields = ros_python_check_fields == '1'
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.output_current_right = kwargs.get('output_current_right', str())
         self.error_right = kwargs.get('error_right', str())
         self.output_current_left = kwargs.get('output_current_left', str())
@@ -111,7 +126,7 @@ class Motor(metaclass=Metaclass_Motor):
         typename.pop()
         typename.append(self.__class__.__name__)
         args = []
-        for s, t in zip(self.__slots__, self.SLOT_TYPES):
+        for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
             # We use Python array type for fields that can be directly stored
@@ -125,11 +140,12 @@ class Motor(metaclass=Metaclass_Motor):
                 if len(field) == 0:
                     fieldstr = '[]'
                 else:
-                    assert fieldstr.startswith('array(')
+                    if self._check_fields:
+                        assert fieldstr.startswith('array(')
                     prefix = "array('X', "
                     suffix = ')'
                     fieldstr = fieldstr[len(prefix):-len(suffix)]
-            args.append(s[1:] + '=' + fieldstr)
+            args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
     def __eq__(self, other):
@@ -167,7 +183,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @output_current_right.setter
     def output_current_right(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, str), \
                 "The 'output_current_right' field must be of type 'str'"
@@ -180,7 +196,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @error_right.setter
     def error_right(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, str), \
                 "The 'error_right' field must be of type 'str'"
@@ -193,7 +209,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @output_current_left.setter
     def output_current_left(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, str), \
                 "The 'output_current_left' field must be of type 'str'"
@@ -206,7 +222,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @error_left.setter
     def error_left(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, str), \
                 "The 'error_left' field must be of type 'str'"
@@ -219,7 +235,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @output_current_pin.setter
     def output_current_pin(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, str), \
                 "The 'output_current_pin' field must be of type 'str'"
@@ -232,7 +248,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @error_pin.setter
     def error_pin(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, str), \
                 "The 'error_pin' field must be of type 'str'"
@@ -245,7 +261,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @target_pos_high.setter
     def target_pos_high(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, float), \
                 "The 'target_pos_high' field must be of type 'float'"
@@ -260,7 +276,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @target_pos_low.setter
     def target_pos_low(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, float), \
                 "The 'target_pos_low' field must be of type 'float'"
@@ -275,7 +291,7 @@ class Motor(metaclass=Metaclass_Motor):
 
     @current_pos.setter
     def current_pos(self, value):
-        if __debug__:
+        if self._check_fields:
             assert \
                 isinstance(value, float), \
                 "The 'current_pos' field must be of type 'float'"

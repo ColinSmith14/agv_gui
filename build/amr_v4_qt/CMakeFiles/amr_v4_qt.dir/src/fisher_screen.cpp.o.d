@@ -1,7 +1,7 @@
 CMakeFiles/amr_v4_qt.dir/src/fisher_screen.cpp.o: \
- /home/colin/agv_gui/amr_v4_qt/src/fisher_screen.cpp \
+ /home/colin/agv_gui/src/amr_v4_qt/src/fisher_screen.cpp \
  /usr/include/stdc-predef.h \
- /home/colin/agv_gui/amr_v4_qt/include/fisher_screen.h \
+ /home/colin/agv_gui/src/amr_v4_qt/include/fisher_screen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

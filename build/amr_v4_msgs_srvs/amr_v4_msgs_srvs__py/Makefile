@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colin/agv_gui/amr_v4_msgs_srvs
+CMAKE_SOURCE_DIR = /home/colin/agv_gui/src/amr_v4_msgs_srvs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/colin/agv_gui/build/amr_v4_msgs_srvs

@@ -1,0 +1,19 @@
+[  2%] [34m[1mAutomatic MOC and UIC for target amr_v4_qt[0m
+[  2%] Built target amr_v4_qt_autogen
+[  5%] [34m[1mGenerating include/moc_ui_running_mode_screen.cpp[0m
+/home/colin/agv_gui/src/amr_v4_qt/include/ui_running_mode_screen.h:0: Note: No relevant classes found. No output generated.
+[35m[1mConsolidate compiler generated dependencies of target amr_v4_qt[0m
+[  8%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/running_mode.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_main_gui.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_ui_running_mode_screen.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/amr_v4_qt.dir/include/moc_running_mode.cpp.o[0m
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:[m[K In member function ‘[01m[Kvoid MainGui::updateMode()[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/main_gui.cpp:238:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::RunningModeScreen[m[K’ has no member named ‘[01m[KautoActive[m[K’
+  238 |         runningModeScreen->ui.[01;31m[KautoActive[m[K->setText(QString("%1").arg("Manual"));
+      |                               [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:152: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

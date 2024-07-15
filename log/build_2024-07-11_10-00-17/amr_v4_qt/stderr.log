@@ -1,0 +1,8 @@
+/home/colin/agv_gui/src/amr_v4_qt/include/modeNode.h:0: Note: No relevant classes found. No output generated.
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/modeNode.cpp:[m[K In constructor ‘[01m[KModeNode::ModeNode()[m[K’:
+[01m[K/home/colin/agv_gui/src/amr_v4_qt/src/modeNode.cpp:7:27:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KModeNode[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+    7 | : Node("mode_publisher"), [01;31m[Kcount_[m[K(0)
+      |                           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:340: CMakeFiles/amr_v4_qt.dir/src/modeNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

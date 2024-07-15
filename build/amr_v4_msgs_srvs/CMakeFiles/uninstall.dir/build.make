@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colin/agv_gui/amr_v4_msgs_srvs
+CMAKE_SOURCE_DIR = /home/colin/agv_gui/src/amr_v4_msgs_srvs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/colin/agv_gui/build/amr_v4_msgs_srvs
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/colin/agv_gui/build/amr_v4_msgs_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colin/agv_gui/amr_v4_msgs_srvs /home/colin/agv_gui/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/colin/agv_gui/build/amr_v4_msgs_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colin/agv_gui/src/amr_v4_msgs_srvs /home/colin/agv_gui/src/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs /home/colin/agv_gui/build/amr_v4_msgs_srvs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
