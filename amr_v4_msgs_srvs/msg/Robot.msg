@@ -1,4 +1,0 @@
-
-string robot_localization_status
-bool localized
-string robot_active_status
