@@ -1,2 +1,0 @@
-Invoking command in '/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/colin/agv_gui/amr_v4_qt -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/amr_v4_qt/install/amr_v4_qt
-Invoked command in '/home/colin/agv_gui/amr_v4_qt/build/amr_v4_qt' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/colin/agv_gui/amr_v4_qt -DCMAKE_INSTALL_PREFIX=/home/colin/agv_gui/amr_v4_qt/install/amr_v4_qt

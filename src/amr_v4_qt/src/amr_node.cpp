@@ -17,7 +17,7 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
             std::bind(&AmrNode::battery_callback, this, std::placeholders::_1));
 
     motor_sub_ = this->create_subscription<amr_v4_msgs_srvs::msg::Motor>(
-            "motor", 10,
+            "TalonFX_motor/status", 10,
             std::bind(&AmrNode::motor_callback, this, std::placeholders::_1));
 
     robot_sub_ = this->create_subscription<std_msgs::msg::String>(
