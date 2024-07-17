@@ -1,4 +1,5 @@
 #include "amr_node.h"
+#include <QDebug>
 
 AmrNode::AmrNode(const rclcpp::NodeOptions &options)
     : rclcpp::Node("amr_node", options)
@@ -17,16 +18,16 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
             std::bind(&AmrNode::battery_callback, this, std::placeholders::_1));
 
     motor_sub_ = this->create_subscription<amr_v4_msgs_srvs::msg::Motor>(
-            "TalonFX_motor/status", 10,
+            "TalonFX_motors/status", 10,
             std::bind(&AmrNode::motor_callback, this, std::placeholders::_1));
 
     robot_sub_ = this->create_subscription<std_msgs::msg::String>(
-            "robot", 10,
+            "diagnostics", 10,
             std::bind(&AmrNode::robot_callback, this, std::placeholders::_1));
 
     estop_sub_ = this->create_subscription<std_msgs::msg::Bool>(
-        "estop", 10,
-        std::bind(&AmrNode::estop_callback, this, std::placeholders::_1));
+            "e_stop", 10,
+            std::bind(&AmrNode::estop_callback, this, std::placeholders::_1));
         
     mode_pub_ = this->create_publisher<std_msgs::msg::Bool>("mode", 10);
 
@@ -34,18 +35,30 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
 
 void AmrNode::camera_callback(const std_msgs::msg::String::SharedPtr msg)
 {
-     camera_info = msg->data.c_str();
-    emit changedCamera(camera_info);
+    if(msg->data.c_str() != nullptr)
+    {
+        qDebug() << "camera debugging: " << msg->data.c_str();
+    }
+    camera_info = msg->data.c_str();
+    emit changedCamera(camera_info);    
 }
 
 void AmrNode::lidar_callback(const std_msgs::msg::String::SharedPtr msg)
 {
+    if(msg->data.c_str() != nullptr)
+    {
+        qDebug() << "lidar debugging: " << msg->data.c_str();
+    }
     lidar_info = msg->data.c_str();
     emit changedLidar(lidar_info);
 }
 
 void AmrNode::battery_callback(const std_msgs::msg::String::SharedPtr msg)
 {
+    if(msg->data.c_str() != nullptr)
+    {
+        qDebug() << "battery debugging: " << msg->data.c_str();
+    }
     charge = msg->data.c_str();
     emit changedBattery(charge);
 }

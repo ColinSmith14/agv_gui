@@ -27,7 +27,7 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     auto mainLayout = new QVBoxLayout(centralWidget);
     mainLayout->addWidget(mainScreen);
 
-    QString assetPath = "src/amr_v4_qt/assets/fisher_logo.png";
+    QString assetPath = "amr_v4_qt/assets/fisher_logo.png";
 
     QPixmap fisherLogo(assetPath);
     // Scale the pixmap before setting it to the label
@@ -117,11 +117,11 @@ void MainGui::updateWifi() {
     if (signalStrength != -1) {
         QString wifiLogoPath;
         if (signalStrength < -50) {
-            wifiLogoPath = "src/amr_v4_qt/assets/wifi1.png";
+            wifiLogoPath = "amr_v4_qt/assets/wifi1.png";
         } else if (signalStrength < -70) {
-            wifiLogoPath = "src/amr_v4_qt/assets/wifi2.png";
+            wifiLogoPath = "amr_v4_qt/assets/wifi2.png";
         } else if (signalStrength < -90) {
-            wifiLogoPath = "src/amr_v4_qt/assets/wifi3.png";
+            wifiLogoPath = "amr_v4_qt/assets/wifi3.png";
         }
 
         if (!wifiLogoPath.isEmpty()) {
@@ -132,7 +132,7 @@ void MainGui::updateWifi() {
 
     } else {
         // Optionally, set a default or placeholder pixmap when WiFi strength is N/A
-        QPixmap defaultPixmap("src/amr_v4_qt/assets/wifiDefault.png");
+        QPixmap defaultPixmap("amr_v4_qt/assets/wifiDefault.png");
         defaultPixmap = defaultPixmap.scaled(squareSize, squareSize, Qt::KeepAspectRatio, Qt::SmoothTransformation); // Scale pixmap to squareSize while keeping aspect ratio
         mainScreen->ui.wifiLabel->setPixmap(defaultPixmap);
     }
@@ -170,23 +170,23 @@ void MainGui::updateBattery(const QString &data)
     QString batteryLogoPath;
     if(charge < 5)
     {
-        batteryLogoPath = "src/amr_v4_qt/assets/Battery5.png";
+        batteryLogoPath = "amr_v4_qt/assets/Battery5.png";
     }
     else if(charge < 25)
     {
-        batteryLogoPath = "src/amr_v4_qt/assets/Battery4.png";
+        batteryLogoPath = "amr_v4_qt/assets/Battery4.png";
     }
     else if(charge < 50)
     {
-        batteryLogoPath = "src/amr_v4_qt/assets/Battery3.png";
+        batteryLogoPath = "amr_v4_qt/assets/Battery3.png";
     }
     else if(charge < 75)
     {
-        batteryLogoPath = "src/amr_v4_qt/assets/Battery2.png";
+        batteryLogoPath = "amr_v4_qt/assets/Battery2.png";
     }
     else if(charge <= 100)
     {
-        batteryLogoPath = "src/amr_v4_qt/assets/Battery1.png";
+        batteryLogoPath = "amr_v4_qt/assets/Battery1.png";
     }
 
     QPixmap batteryMap(batteryLogoPath);
