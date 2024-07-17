@@ -1,5 +1,0 @@
--I/home/colin/agv_gui/src/amr_v4_qt
--I/home/colin/agv_gui/build/amr_v4_qt
--o
-/home/colin/agv_gui/build/amr_v4_qt/include/moc_ui_running_mode_screen.cpp
-/home/colin/agv_gui/src/amr_v4_qt/include/ui_running_mode_screen.h

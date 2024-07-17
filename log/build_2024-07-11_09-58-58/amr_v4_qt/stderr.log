@@ -1,8 +1,0 @@
-/usr/bin/ld: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o: in function `MainGui::MainGui(std::shared_ptr<BatterySub>, std::shared_ptr<RobotSub>, std::shared_ptr<MotorSub>, std::shared_ptr<HealthSub>, std::shared_ptr<RunningSub>, QWidget*)':
-main_gui.cpp:(.text+0x264): undefined reference to `ModeNode::ModeNode()'
-/usr/bin/ld: CMakeFiles/amr_v4_qt.dir/src/main_gui.cpp.o: in function `MainGui::updateEstop()':
-main_gui.cpp:(.text+0xe29): undefined reference to `ModeNode::mode_callback(bool)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/amr_v4_qt.dir/build.make:839: amr_v4_qt] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/amr_v4_qt.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
