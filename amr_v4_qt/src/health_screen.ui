@@ -189,9 +189,9 @@
      </layout>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="lidarLayout">
+     <layout class="QHBoxLayout" name="lidar1Layout">
       <item>
-       <widget class="QLabel" name="lidarLabel">
+       <widget class="QLabel" name="lidar1Label">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
           <horstretch>0</horstretch>
@@ -223,7 +223,7 @@
          <number>3</number>
         </property>
         <property name="text">
-         <string>Lidar </string>
+         <string>Hesai Lidar</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -237,7 +237,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="lidarStatus">
+       <widget class="QLabel" name="lidar1Status">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
           <horstretch>0</horstretch>
@@ -282,9 +282,9 @@
      </layout>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="otherLayout">
+     <layout class="QHBoxLayout" name="lidar2Layout">
       <item>
-       <widget class="QLabel" name="otherLabel">
+       <widget class="QLabel" name="lidar2Label">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
           <horstretch>0</horstretch>
@@ -313,7 +313,7 @@
          <number>3</number>
         </property>
         <property name="text">
-         <string>Other </string>
+         <string>Sick Lidar</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -327,7 +327,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="otherStatus">
+       <widget class="QLabel" name="lidar2Status">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
           <horstretch>0</horstretch>

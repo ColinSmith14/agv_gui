@@ -16,6 +16,7 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
 
     estopActive = false;
     driveMode = true;
+    pinState = true;
 
     mainScreen = new MainScreen();
     homeScreen = new QWidget();
@@ -53,6 +54,7 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
 
     // connecting modeSwitch button
     connect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, &MainGui::updateMode); // Connect the mode switch button
+    connect(runningModeScreen->ui.pinButton, &QPushButton::clicked, this, &MainGui::updatePin);
     
 
     // this section connects the ros2 nodes to their respective screen sections
@@ -60,6 +62,7 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     connect(amr_node.get(), &AmrNode::changedMotor, this, &MainGui::updateMotors);
     connect(amr_node.get(), &AmrNode::changedCamera, this, &MainGui::updateCamera);
     connect(amr_node.get(), &AmrNode::changedLidar, this, &MainGui::updateLidar);
+    connect(amr_node.get(), &AmrNode::changedLidar2, this, &MainGui::updateLidar2);
     connect(amr_node.get(), &AmrNode::changedRobot, this, &MainGui::updateRobot);
     connect(amr_node.get(), &AmrNode::changedEstop, this, &MainGui::updateEstop);
 
@@ -215,14 +218,36 @@ void MainGui::updateMotors(const QString &output_current_right,
     motorScreen->ui.leftMotorError->setText(QString("%1").arg(error_left));
     motorScreen->ui.pinMotorError->setText(QString("%1").arg(error_pin));
 }
-void MainGui::updateCamera(const QString &data)
+void MainGui::updateCamera(const bool &data)
 {
-    healthScreen->ui.cameraStatus->setText(QString("%1").arg(data));
+    if(data)
+    {
+        healthScreen->ui.cameraStatus->setText(QString("Active"));
+    } else{
+        healthScreen->ui.cameraStatus->setText(QString("Inactive"));
+    }
+
 }
-void MainGui::updateLidar(const QString &data)
+void MainGui::updateLidar(const bool &data)
 {
-    healthScreen->ui.lidarStatus->setText(QString("%1").arg(data));
+    if(data)
+    {
+        healthScreen->ui.lidar1Status->setText(QString("Active"));
+    } else{
+        healthScreen->ui.lidar1Status->setText(QString("Inactive"));
+    }
 }
+
+void MainGui::updateLidar2(const bool &data)
+{
+    if(data)
+    {
+        healthScreen->ui.lidar2Status->setText(QString("Active"));
+    } else{
+        healthScreen->ui.lidar2Status->setText(QString("Inactive"));
+    }
+}
+
 void MainGui::updateMode()
 {
     driveMode = !driveMode;
@@ -235,7 +260,16 @@ void MainGui::updateMode()
         runningModeScreen->ui.modeBox->setText(QString("%1").arg("Manual"));
     }
 
-
-
 }
 
+void MainGui::updatePin()
+{
+    pinState = !pinState;
+    amrNode->pin_callback(pinState);
+    if(pinState)
+    {
+        runningModeScreen->ui.pinBox->setText(QString("%1").arg("Active"));
+    } else {
+        runningModeScreen->ui.pinBox->setText(QString("%1").arg("Not Active"));
+    }
+}

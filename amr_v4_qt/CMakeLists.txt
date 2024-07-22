@@ -6,26 +6,16 @@ if(NOT CMAKE_CXX_STANDARD)
 endif()
 
 find_package(ament_cmake REQUIRED)
-find_package(geometry_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
-find_package(rviz_common REQUIRED)
-find_package(rviz_default_plugins REQUIRED)
-find_package(rviz_rendering REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(amr_v4_msgs_srvs REQUIRED)
 find_package(Qt5 COMPONENTS Core Quick Widgets Network UiTools REQUIRED) # Changed Qt5 find_package syntax
-find_package(tf2_eigen REQUIRED)
-find_package(tf2_geometry_msgs REQUIRED)
-find_package(tf2_ros REQUIRED)
+
 
 set(THIS_PACKAGE_INCLUDE_DEPENDS
-  geometry_msgs
   rclcpp
-  rviz_common
-  rviz_default_plugins
-  rviz_rendering
   std_msgs
   std_srvs
   amr_v4_msgs_srvs

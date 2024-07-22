@@ -29,12 +29,12 @@ public:
     QHBoxLayout *cameraLayout;
     QLabel *cameraLabel;
     QLabel *cameraStatus;
-    QHBoxLayout *lidarLayout;
-    QLabel *lidarLabel;
-    QLabel *lidarStatus;
-    QHBoxLayout *otherLayout;
-    QLabel *otherLabel;
-    QLabel *otherStatus;
+    QHBoxLayout *lidar1Layout;
+    QLabel *lidar1Label;
+    QLabel *lidar1Status;
+    QHBoxLayout *lidar2Layout;
+    QLabel *lidar2Label;
+    QLabel *lidar2Status;
 
     void setupUi(QWidget *HealthScreen)
     {
@@ -115,76 +115,76 @@ public:
 
         verticalLayout->addLayout(cameraLayout);
 
-        lidarLayout = new QHBoxLayout();
-        lidarLayout->setObjectName(QString::fromUtf8("lidarLayout"));
-        lidarLabel = new QLabel(verticalLayoutWidget);
-        lidarLabel->setObjectName(QString::fromUtf8("lidarLabel"));
-        sizePolicy.setHeightForWidth(lidarLabel->sizePolicy().hasHeightForWidth());
-        lidarLabel->setSizePolicy(sizePolicy);
-        lidarLabel->setMinimumSize(QSize(180, 20));
-        lidarLabel->setMaximumSize(QSize(120, 40));
-        lidarLabel->setLayoutDirection(Qt::LeftToRight);
-        lidarLabel->setFrameShape(QFrame::Box);
-        lidarLabel->setFrameShadow(QFrame::Plain);
-        lidarLabel->setLineWidth(3);
-        lidarLabel->setAlignment(Qt::AlignCenter);
-        lidarLabel->setMargin(0);
-        lidarLabel->setIndent(0);
+        lidar1Layout = new QHBoxLayout();
+        lidar1Layout->setObjectName(QString::fromUtf8("lidar1Layout"));
+        lidar1Label = new QLabel(verticalLayoutWidget);
+        lidar1Label->setObjectName(QString::fromUtf8("lidar1Label"));
+        sizePolicy.setHeightForWidth(lidar1Label->sizePolicy().hasHeightForWidth());
+        lidar1Label->setSizePolicy(sizePolicy);
+        lidar1Label->setMinimumSize(QSize(180, 20));
+        lidar1Label->setMaximumSize(QSize(120, 40));
+        lidar1Label->setLayoutDirection(Qt::LeftToRight);
+        lidar1Label->setFrameShape(QFrame::Box);
+        lidar1Label->setFrameShadow(QFrame::Plain);
+        lidar1Label->setLineWidth(3);
+        lidar1Label->setAlignment(Qt::AlignCenter);
+        lidar1Label->setMargin(0);
+        lidar1Label->setIndent(0);
 
-        lidarLayout->addWidget(lidarLabel);
+        lidar1Layout->addWidget(lidar1Label);
 
-        lidarStatus = new QLabel(verticalLayoutWidget);
-        lidarStatus->setObjectName(QString::fromUtf8("lidarStatus"));
-        sizePolicy.setHeightForWidth(lidarStatus->sizePolicy().hasHeightForWidth());
-        lidarStatus->setSizePolicy(sizePolicy);
-        lidarStatus->setMinimumSize(QSize(180, 20));
-        lidarStatus->setMaximumSize(QSize(120, 40));
-        lidarStatus->setFrameShape(QFrame::Box);
-        lidarStatus->setFrameShadow(QFrame::Plain);
-        lidarStatus->setLineWidth(3);
-        lidarStatus->setAlignment(Qt::AlignCenter);
-        lidarStatus->setMargin(0);
-        lidarStatus->setIndent(0);
+        lidar1Status = new QLabel(verticalLayoutWidget);
+        lidar1Status->setObjectName(QString::fromUtf8("lidar1Status"));
+        sizePolicy.setHeightForWidth(lidar1Status->sizePolicy().hasHeightForWidth());
+        lidar1Status->setSizePolicy(sizePolicy);
+        lidar1Status->setMinimumSize(QSize(180, 20));
+        lidar1Status->setMaximumSize(QSize(120, 40));
+        lidar1Status->setFrameShape(QFrame::Box);
+        lidar1Status->setFrameShadow(QFrame::Plain);
+        lidar1Status->setLineWidth(3);
+        lidar1Status->setAlignment(Qt::AlignCenter);
+        lidar1Status->setMargin(0);
+        lidar1Status->setIndent(0);
 
-        lidarLayout->addWidget(lidarStatus);
-
-
-        verticalLayout->addLayout(lidarLayout);
-
-        otherLayout = new QHBoxLayout();
-        otherLayout->setObjectName(QString::fromUtf8("otherLayout"));
-        otherLabel = new QLabel(verticalLayoutWidget);
-        otherLabel->setObjectName(QString::fromUtf8("otherLabel"));
-        sizePolicy.setHeightForWidth(otherLabel->sizePolicy().hasHeightForWidth());
-        otherLabel->setSizePolicy(sizePolicy);
-        otherLabel->setMinimumSize(QSize(180, 20));
-        otherLabel->setMaximumSize(QSize(120, 40));
-        otherLabel->setFrameShape(QFrame::Box);
-        otherLabel->setFrameShadow(QFrame::Plain);
-        otherLabel->setLineWidth(3);
-        otherLabel->setAlignment(Qt::AlignCenter);
-        otherLabel->setMargin(0);
-        otherLabel->setIndent(0);
-
-        otherLayout->addWidget(otherLabel);
-
-        otherStatus = new QLabel(verticalLayoutWidget);
-        otherStatus->setObjectName(QString::fromUtf8("otherStatus"));
-        sizePolicy.setHeightForWidth(otherStatus->sizePolicy().hasHeightForWidth());
-        otherStatus->setSizePolicy(sizePolicy);
-        otherStatus->setMinimumSize(QSize(180, 20));
-        otherStatus->setMaximumSize(QSize(120, 40));
-        otherStatus->setFrameShape(QFrame::Box);
-        otherStatus->setFrameShadow(QFrame::Plain);
-        otherStatus->setLineWidth(3);
-        otherStatus->setAlignment(Qt::AlignCenter);
-        otherStatus->setMargin(0);
-        otherStatus->setIndent(0);
-
-        otherLayout->addWidget(otherStatus);
+        lidar1Layout->addWidget(lidar1Status);
 
 
-        verticalLayout->addLayout(otherLayout);
+        verticalLayout->addLayout(lidar1Layout);
+
+        lidar2Layout = new QHBoxLayout();
+        lidar2Layout->setObjectName(QString::fromUtf8("lidar2Layout"));
+        lidar2Label = new QLabel(verticalLayoutWidget);
+        lidar2Label->setObjectName(QString::fromUtf8("lidar2Label"));
+        sizePolicy.setHeightForWidth(lidar2Label->sizePolicy().hasHeightForWidth());
+        lidar2Label->setSizePolicy(sizePolicy);
+        lidar2Label->setMinimumSize(QSize(180, 20));
+        lidar2Label->setMaximumSize(QSize(120, 40));
+        lidar2Label->setFrameShape(QFrame::Box);
+        lidar2Label->setFrameShadow(QFrame::Plain);
+        lidar2Label->setLineWidth(3);
+        lidar2Label->setAlignment(Qt::AlignCenter);
+        lidar2Label->setMargin(0);
+        lidar2Label->setIndent(0);
+
+        lidar2Layout->addWidget(lidar2Label);
+
+        lidar2Status = new QLabel(verticalLayoutWidget);
+        lidar2Status->setObjectName(QString::fromUtf8("lidar2Status"));
+        sizePolicy.setHeightForWidth(lidar2Status->sizePolicy().hasHeightForWidth());
+        lidar2Status->setSizePolicy(sizePolicy);
+        lidar2Status->setMinimumSize(QSize(180, 20));
+        lidar2Status->setMaximumSize(QSize(120, 40));
+        lidar2Status->setFrameShape(QFrame::Box);
+        lidar2Status->setFrameShadow(QFrame::Plain);
+        lidar2Status->setLineWidth(3);
+        lidar2Status->setAlignment(Qt::AlignCenter);
+        lidar2Status->setMargin(0);
+        lidar2Status->setIndent(0);
+
+        lidar2Layout->addWidget(lidar2Status);
+
+
+        verticalLayout->addLayout(lidar2Layout);
 
 
         retranslateUi(HealthScreen);
@@ -199,10 +199,10 @@ public:
         statusLabel->setText(QCoreApplication::translate("HealthScreen", "Status", nullptr));
         cameraLabel->setText(QCoreApplication::translate("HealthScreen", "Camera ", nullptr));
         cameraStatus->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
-        lidarLabel->setText(QCoreApplication::translate("HealthScreen", "Lidar ", nullptr));
-        lidarStatus->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
-        otherLabel->setText(QCoreApplication::translate("HealthScreen", "Other ", nullptr));
-        otherStatus->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
+        lidar1Label->setText(QCoreApplication::translate("HealthScreen", "Hesai Lidar", nullptr));
+        lidar1Status->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
+        lidar2Label->setText(QCoreApplication::translate("HealthScreen", "Sick Lidar", nullptr));
+        lidar2Status->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
     } // retranslateUi
 
 };

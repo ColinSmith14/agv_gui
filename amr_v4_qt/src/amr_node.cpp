@@ -6,10 +6,14 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
 {
     driveMode = true; 
 
-    lidar_sub_ = this->create_subscription<std_msgs::msg::String>(
-            "lidar", 10,
+    lidar_sub_ = this->create_subscription<std_msgs::msg::Bool>(
+            "Hesai", 10,
             std::bind(&AmrNode::lidar_callback, this, std::placeholders::_1));
-    camera_sub_ = this->create_subscription<std_msgs::msg::String>(
+    
+    lidar2_sub_ = this->create_subscription<std_msgs::msg::Bool>(
+            "Sick", 10,
+            std::bind(&AmrNode::lidar2_callback, this, std::placeholders::_1));
+    camera_sub_ = this->create_subscription<std_msgs::msg::Bool>(
             "camera", 10,
             std::bind(&AmrNode::camera_callback, this, std::placeholders::_1));
 
@@ -18,11 +22,11 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
             std::bind(&AmrNode::battery_callback, this, std::placeholders::_1));
 
     motor_sub_ = this->create_subscription<amr_v4_msgs_srvs::msg::Motor>(
-            "TalonFX_motors/status", 10,
+            "talonFX_motors/status", 10,
             std::bind(&AmrNode::motor_callback, this, std::placeholders::_1));
 
     robot_sub_ = this->create_subscription<std_msgs::msg::String>(
-            "diagnostics", 10,
+            "diagnostic", 10,
             std::bind(&AmrNode::robot_callback, this, std::placeholders::_1));
 
     estop_sub_ = this->create_subscription<std_msgs::msg::Bool>(
@@ -31,28 +35,25 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
         
     mode_pub_ = this->create_publisher<std_msgs::msg::Bool>("mode", 10);
 
+    pin_pub_ = this->create_publisher<amr_v4_msgs_srvs::msg::Pin>("pin_cmd", 10);
 }
 
-void AmrNode::camera_callback(const std_msgs::msg::String::SharedPtr msg)
+void AmrNode::camera_callback(const std_msgs::msg::Bool::SharedPtr msg)
 {
-    if(msg->data.c_str() != nullptr)
-    {
-        qDebug() << "camera debugging: " << msg->data.c_str();
-    }
-    camera_info = msg->data.c_str();
+    camera_info = msg->data;
     emit changedCamera(camera_info);    
 }
 
-void AmrNode::lidar_callback(const std_msgs::msg::String::SharedPtr msg)
+void AmrNode::lidar_callback(const std_msgs::msg::Bool::SharedPtr msg)
 {
-    if(msg->data.c_str() != nullptr)
-    {
-        qDebug() << "lidar debugging: " << msg->data.c_str();
-    }
-    lidar_info = msg->data.c_str();
+    lidar_info = msg->data;
     emit changedLidar(lidar_info);
 }
-
+void AmrNode::lidar2_callback(const std_msgs::msg::Bool::SharedPtr msg)
+{
+    lidar2_info = msg->data;
+    emit changedLidar2(lidar2_info);
+}
 void AmrNode::battery_callback(const std_msgs::msg::String::SharedPtr msg)
 {
     if(msg->data.c_str() != nullptr)
@@ -93,4 +94,11 @@ void AmrNode::mode_callback(const bool msg)
     auto message = std_msgs::msg::Bool();
     message.data = msg;
     mode_pub_->publish(message);
+}
+
+void AmrNode::pin_callback(const bool msg)
+{
+    auto message = amr_v4_msgs_srvs::msg::Pin();
+    message.pin_command = msg;
+    pin_pub_->publish(message);
 }

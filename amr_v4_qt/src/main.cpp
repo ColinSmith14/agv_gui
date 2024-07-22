@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
     }
     qDebug() << robot_name;
     rclcpp::NodeOptions options;
-    options.arguments({"--ros-args", "-r", std::string("__ns:=/") + robot_name, "-r", "__node:=node"});
+    options.arguments({"--ros-args", "-r", std::string("__ns:=/") + robot_name, "-r", "__node:=amr_v4_qt"});
 
     auto amrNode_ = std::make_shared<AmrNode>(options);
     auto mainGui = std::make_shared<MainGui>(amrNode_);

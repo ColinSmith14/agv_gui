@@ -41,13 +41,14 @@ public:
                       const QString &error_right,
                       const QString &error_left,
                       const QString &error_pin);
-    void updateCamera(const QString &data);
-    void updateLidar(const QString &data);
+    void updateCamera(const bool &data);
+    void updateLidar(const bool &data);
+    void updateLidar2(const bool &data);
     void updateMode();
     void updateRobot(const QString &data);
     void updateClock();
     void updateEstop(const bool &data);
-
+    void updatePin();
 
 
 private:
@@ -56,6 +57,7 @@ private:
     int rightSectionWidth = width() * .25;
     bool estopActive;
     bool driveMode;
+    bool pinState;
 
     std::shared_ptr<AmrNode> amrNode;
 
