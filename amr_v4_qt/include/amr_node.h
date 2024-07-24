@@ -7,6 +7,7 @@
 #include "std_msgs/msg/bool.hpp"
 #include "amr_v4_msgs_srvs/msg/motor.hpp"
 #include "amr_v4_msgs_srvs/msg/pin.hpp"
+#include "amr_v4_msgs_srvs/msg/mode.hpp"
 #include <QObject>
 #include <QString>
 
@@ -39,7 +40,6 @@ public:
     QString status;
     
     bool estop;
-    int driveMode;
     bool camera_info;
     bool lidar_info; // sick lidar
     bool lidar2_info; // hesai lidar
@@ -68,7 +68,7 @@ private:
     rclcpp::Subscription<amr_v4_msgs_srvs::msg::Motor>::SharedPtr motor_sub_;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr robot_sub_;
     rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr estop_sub_;
-    rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr mode_pub_;
+    rclcpp::Publisher<amr_v4_msgs_srvs::msg::Mode>::SharedPtr mode_pub_;
     rclcpp::Publisher<amr_v4_msgs_srvs::msg::Pin>::SharedPtr pin_pub_;
 };
 

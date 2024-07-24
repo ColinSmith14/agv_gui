@@ -4,7 +4,6 @@
 AmrNode::AmrNode(const rclcpp::NodeOptions &options)
     : rclcpp::Node("amr_node", options)
 {
-    driveMode = true; 
 
     lidar_sub_ = this->create_subscription<std_msgs::msg::Bool>(
             "Hesai", 10,
@@ -33,7 +32,7 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
             "e_stop", 10,
             std::bind(&AmrNode::estop_callback, this, std::placeholders::_1));
         
-    mode_pub_ = this->create_publisher<std_msgs::msg::Bool>("mode", 10);
+    mode_pub_ = this->create_publisher<amr_v4_msgs_srvs::msg::Mode>("mode", 10);
 
     pin_pub_ = this->create_publisher<amr_v4_msgs_srvs::msg::Pin>("pin_cmd", 10);
 }
@@ -91,8 +90,8 @@ void AmrNode::estop_callback(const std_msgs::msg::Bool::SharedPtr msg)
 
 void AmrNode::mode_callback(const bool msg)
 {
-    auto message = std_msgs::msg::Bool();
-    message.data = msg;
+    auto message = amr_v4_msgs_srvs::msg::Mode();
+    message.mode = msg;
     mode_pub_->publish(message);
 }
 
