@@ -24,7 +24,7 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
             "talonFX_motors/status", 10,
             std::bind(&AmrNode::motor_callback, this, std::placeholders::_1));
 
-    robot_sub_ = this->create_subscription<std_msgs::msg::String>(
+    robot_sub_ = this->create_subscription<amr_v4_msgs_srvs::msg::Robot>(
             "diagnostic", 10,
             std::bind(&AmrNode::robot_callback, this, std::placeholders::_1));
 
@@ -76,9 +76,9 @@ void AmrNode::motor_callback(const amr_v4_msgs_srvs::msg::Motor::SharedPtr msg)
     error_right, error_left, error_pin);
 }
 
-void AmrNode::robot_callback(const std_msgs::msg::String::SharedPtr msg)
+void AmrNode::robot_callback(const amr_v4_msgs_srvs::msg::Robot::SharedPtr msg)
 {
-    status = msg->data.c_str();
+    status = msg->robot_localization_status.c_str();
     emit changedRobot(status);
 }
 

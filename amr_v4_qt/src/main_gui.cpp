@@ -15,7 +15,7 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     QTimer* timer = new QTimer(this);
 
     estopActive = false;
-    driveMode = true;
+    driveMode = true; // false is manual, true is auto  
     pinState = true;
 
     mainScreen = new MainScreen();
@@ -146,7 +146,6 @@ void MainGui::updateWifi() {
     //mainScreen->ui.wifiLabel->setScaledContents(true); // This will ignore aspect ratio; remove if you want to keep the pixmap's aspect ratio.
 }
 
-
 int MainGui::getWifiSignalStrength() {
     QProcess process;
     QString program = "iwconfig";
@@ -164,6 +163,13 @@ int MainGui::getWifiSignalStrength() {
     } else {
         return -1; // or any other appropriate value to indicate "N/A"
     }
+}
+
+void MainGui::checkLidars() {
+    QProcess process;
+    QString program = "ethtool";
+    QStringList devices = {"etho0", "etho1"};
+
 }
 
 void MainGui::updateBattery(const QString &data)

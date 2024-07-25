@@ -347,7 +347,7 @@
     <enum>QFrame::Box</enum>
    </property>
    <property name="text">
-    <string>This is a really long message</string>
+    <string>Robot Status</string>
    </property>
    <property name="scaledContents">
     <bool>false</bool>

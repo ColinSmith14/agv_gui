@@ -49,6 +49,7 @@ public:
     void updateClock();
     void updateEstop(const bool &data);
     void updatePin();
+    void checkLidars();
 
 
 private:

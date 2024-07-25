@@ -236,7 +236,7 @@ public:
         dateTimeLabel->setText(QCoreApplication::translate("MainScreen", "Date Time", nullptr));
         BatteryTextLabel->setText(QCoreApplication::translate("MainScreen", "Battery", nullptr));
         batteryLabel->setText(QCoreApplication::translate("MainScreen", "Battery Logo Here", nullptr));
-        scrollingLabel->setText(QCoreApplication::translate("MainScreen", "This is a really long message", nullptr));
+        scrollingLabel->setText(QCoreApplication::translate("MainScreen", "Robot Status", nullptr));
         estopLabel->setText(QCoreApplication::translate("MainScreen", "Estop", nullptr));
     } // retranslateUi
 

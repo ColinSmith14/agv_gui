@@ -8,6 +8,7 @@
 #include "amr_v4_msgs_srvs/msg/motor.hpp"
 #include "amr_v4_msgs_srvs/msg/pin.hpp"
 #include "amr_v4_msgs_srvs/msg/mode.hpp"
+#include "amr_v4_msgs_srvs/msg/robot.hpp"
 #include <QObject>
 #include <QString>
 
@@ -25,7 +26,7 @@ public:
     void camera_callback(const std_msgs::msg::Bool::SharedPtr msg);
     void battery_callback(const std_msgs::msg::String::SharedPtr msg);
     void motor_callback(const amr_v4_msgs_srvs::msg::Motor::SharedPtr msg);
-    void robot_callback(const std_msgs::msg::String::SharedPtr msg);
+    void robot_callback(const amr_v4_msgs_srvs::msg::Robot::SharedPtr msg);
     void estop_callback(const std_msgs::msg::Bool::SharedPtr msg);
     void mode_callback(const bool msg);
     void pin_callback(const bool msg);
@@ -66,7 +67,7 @@ private:
     rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr camera_sub_;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr battery_sub_;
     rclcpp::Subscription<amr_v4_msgs_srvs::msg::Motor>::SharedPtr motor_sub_;
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr robot_sub_;
+    rclcpp::Subscription<amr_v4_msgs_srvs::msg::Robot>::SharedPtr robot_sub_;
     rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr estop_sub_;
     rclcpp::Publisher<amr_v4_msgs_srvs::msg::Mode>::SharedPtr mode_pub_;
     rclcpp::Publisher<amr_v4_msgs_srvs::msg::Pin>::SharedPtr pin_pub_;

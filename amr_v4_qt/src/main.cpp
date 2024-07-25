@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
     }
     qDebug() << robot_name;
     rclcpp::NodeOptions options;
-    options.arguments({"--ros-args", "-r", std::string("__ns:=/") + robot_name, "-r", "__node:=amr_v4_qt"});
+    options.arguments({"--ros-args", "-r", std::string("__ns:=/") + robot_name, "-r", "__node:=amr_v4s_qt"});
 
     auto amrNode_ = std::make_shared<AmrNode>(options);
     auto mainGui = std::make_shared<MainGui>(amrNode_);
@@ -34,7 +34,8 @@ int main(int argc, char *argv[]) {
       app.setStyleSheet(stylesheet);
     }
 
-    mainGui->setFixedSize(1280, 800);
+    //mainGui->setFixedSize(1280, 800);
+    mainGui->showFullScreen();
     mainGui->show();
 
     rclcpp::executors::MultiThreadedExecutor exec;
