@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 
     rclcpp::init(argc, argv);
 
-    const char* robot_name = std::getenv("ROBOT_NAME");
+    const char* robot_name = std::getenv("ROBOT_MODEL");
     if(robot_name == nullptr)
     {
       return 1;
