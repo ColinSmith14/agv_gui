@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     auto amrNode_ = std::make_shared<AmrNode>(options);
     auto mainGui = std::make_shared<MainGui>(amrNode_);
 
-    QFile file("amr_v4_qt/include/styles.qss");
+    QFile file("~/AMRMAIN/src/amr_v4_qt/include/styles.qss");
     if(file.open(QFile::ReadOnly)){
       QString stylesheet = QLatin1String(file.readAll());
       app.setStyleSheet(stylesheet);
