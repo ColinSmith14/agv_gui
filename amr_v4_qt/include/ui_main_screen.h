@@ -45,6 +45,8 @@ public:
     QLabel *batteryLabel;
     ScrollingLabel *scrollingLabel;
     QLabel *estopLabel;
+    QPushButton *exitButton;
+    QPushButton *minimizeButton;
 
     void setupUi(QWidget *MainScreen)
     {
@@ -104,7 +106,7 @@ public:
 
         mainContent = new QStackedWidget(MainScreen);
         mainContent->setObjectName(QString::fromUtf8("mainContent"));
-        mainContent->setGeometry(QRect(279, 100, 1000, 480));
+        mainContent->setGeometry(QRect(270, 170, 1000, 480));
         mainContent->setFrameShape(QFrame::NoFrame);
         mainContent->setLineWidth(2);
         page = new QWidget();
@@ -125,7 +127,7 @@ public:
         label->setAlignment(Qt::AlignCenter);
         horizontalLayoutWidget = new QWidget(MainScreen);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(0, 30, 1271, 61));
+        horizontalLayoutWidget->setGeometry(QRect(0, 100, 1271, 61));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setSizeConstraint(QLayout::SetNoConstraint);
@@ -195,7 +197,7 @@ public:
 
         scrollingLabel = new ScrollingLabel(MainScreen);
         scrollingLabel->setObjectName(QString::fromUtf8("scrollingLabel"));
-        scrollingLabel->setGeometry(QRect(0, 10, 1271, 20));
+        scrollingLabel->setGeometry(QRect(0, 59, 1271, 41));
         QSizePolicy sizePolicy4(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy4.setHorizontalStretch(255);
         sizePolicy4.setVerticalStretch(0);
@@ -214,6 +216,13 @@ public:
         estopLabel->setFrameShape(QFrame::Box);
         estopLabel->setLineWidth(2);
         estopLabel->setAlignment(Qt::AlignCenter);
+        exitButton = new QPushButton(MainScreen);
+        exitButton->setObjectName(QString::fromUtf8("exitButton"));
+        exitButton->setGeometry(QRect(1230, 20, 41, 31));
+        exitButton->setAutoFillBackground(true);
+        minimizeButton = new QPushButton(MainScreen);
+        minimizeButton->setObjectName(QString::fromUtf8("minimizeButton"));
+        minimizeButton->setGeometry(QRect(1180, 20, 41, 31));
 
         retranslateUi(MainScreen);
 
@@ -238,6 +247,8 @@ public:
         batteryLabel->setText(QCoreApplication::translate("MainScreen", "Battery Logo Here", nullptr));
         scrollingLabel->setText(QCoreApplication::translate("MainScreen", "Robot Status", nullptr));
         estopLabel->setText(QCoreApplication::translate("MainScreen", "Estop", nullptr));
+        exitButton->setText(QCoreApplication::translate("MainScreen", "X", nullptr));
+        minimizeButton->setText(QCoreApplication::translate("MainScreen", "-", nullptr));
     } // retranslateUi
 
 };

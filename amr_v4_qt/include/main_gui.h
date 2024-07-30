@@ -50,6 +50,8 @@ public:
     void updateEstop(const bool &data);
     void updatePin();
     void checkLidars();
+    void closeWindow();
+    void minimizeWindow();
 
 
 private:

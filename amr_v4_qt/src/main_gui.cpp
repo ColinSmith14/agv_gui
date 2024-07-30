@@ -66,6 +66,8 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     connect(amr_node.get(), &AmrNode::changedRobot, this, &MainGui::updateRobot);
     connect(amr_node.get(), &AmrNode::changedEstop, this, &MainGui::updateEstop);
 
+    connect(mainScreen->ui.exitButton, &QPushButton::clicked, this, &MainGui::closeWindow);
+    connect(mainScreen->ui.minimizeButton, &QPushButton::clicked, this, &MainGui::minimizeWindow);
 
     connect(timer, &QTimer::timeout, this, &MainGui::updateWifi);
     connect(timer, &QTimer::timeout, this, &MainGui::updateClock);
@@ -279,4 +281,14 @@ void MainGui::updatePin()
     } else {
         runningModeScreen->ui.pinBox->setText(QString("%1").arg("Not Active"));
     }
+}
+
+void MainGui::minimizeWindow()
+{
+    this->QWidget::setWindowState(Qt::WindowMinimized);
+}
+
+void MainGui::closeWindow()
+{
+    this->close();
 }
