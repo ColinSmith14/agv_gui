@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>HealthScreen</class>
  <widget class="QWidget" name="HealthScreen">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -19,7 +22,7 @@
      <x>10</x>
      <y>50</y>
      <width>981</width>
-     <height>391</height>
+     <height>321</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -372,6 +375,38 @@
      </layout>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="scanButton">
+   <property name="geometry">
+    <rect>
+     <x>428</x>
+     <y>384</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Run Scan</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="loadingLabel">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>380</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
   </widget>
  </widget>
  <resources/>

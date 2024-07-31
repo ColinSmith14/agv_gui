@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -35,15 +36,18 @@ public:
     QHBoxLayout *lidar2Layout;
     QLabel *lidar2Label;
     QLabel *lidar2Status;
+    QPushButton *scanButton;
+    QLabel *loadingLabel;
 
     void setupUi(QWidget *HealthScreen)
     {
         if (HealthScreen->objectName().isEmpty())
             HealthScreen->setObjectName(QString::fromUtf8("HealthScreen"));
+        HealthScreen->setEnabled(true);
         HealthScreen->resize(1000, 500);
         verticalLayoutWidget = new QWidget(HealthScreen);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(10, 50, 981, 391));
+        verticalLayoutWidget->setGeometry(QRect(10, 50, 981, 321));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -186,6 +190,14 @@ public:
 
         verticalLayout->addLayout(lidar2Layout);
 
+        scanButton = new QPushButton(HealthScreen);
+        scanButton->setObjectName(QString::fromUtf8("scanButton"));
+        scanButton->setGeometry(QRect(428, 384, 141, 41));
+        loadingLabel = new QLabel(HealthScreen);
+        loadingLabel->setObjectName(QString::fromUtf8("loadingLabel"));
+        loadingLabel->setEnabled(true);
+        loadingLabel->setGeometry(QRect(590, 380, 51, 51));
+        loadingLabel->setScaledContents(true);
 
         retranslateUi(HealthScreen);
 
@@ -203,6 +215,8 @@ public:
         lidar1Status->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
         lidar2Label->setText(QCoreApplication::translate("HealthScreen", "Sick Lidar", nullptr));
         lidar2Status->setText(QCoreApplication::translate("HealthScreen", "Active", nullptr));
+        scanButton->setText(QCoreApplication::translate("HealthScreen", "Run Scan", nullptr));
+        loadingLabel->setText(QString());
     } // retranslateUi
 
 };

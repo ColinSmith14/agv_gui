@@ -50,6 +50,7 @@ public:
     void updateEstop(const bool &data);
     void updatePin();
     void checkLidars();
+    void lidarThread();
     void closeWindow();
     void minimizeWindow();
 
@@ -61,6 +62,8 @@ private:
     bool estopActive;
     bool driveMode;
     bool pinState;
+    std::string hesai_ip;
+    std::string sick_ip;
 
     std::shared_ptr<AmrNode> amrNode;
 

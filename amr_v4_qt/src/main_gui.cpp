@@ -7,6 +7,9 @@
 #include <QLabel>
 #include <QDebug>
 #include <QDateTime>
+#include <cstdlib>
+#include <iostream>
+#include <thread>
 
 MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     : QMainWindow(parent), amrNode(amr_node)
@@ -17,6 +20,8 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     estopActive = false;
     driveMode = true; // false is manual, true is auto  
     pinState = true;
+    hesai_ip = "192.168.1.201";
+    sick_ip = "192.168.0.1";
 
     mainScreen = new MainScreen();
     homeScreen = new QWidget();
@@ -61,13 +66,13 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     connect(amr_node.get(), &AmrNode::changedBattery, this, &MainGui::updateBattery);
     connect(amr_node.get(), &AmrNode::changedMotor, this, &MainGui::updateMotors);
     connect(amr_node.get(), &AmrNode::changedCamera, this, &MainGui::updateCamera);
-    connect(amr_node.get(), &AmrNode::changedLidar, this, &MainGui::updateLidar);
-    connect(amr_node.get(), &AmrNode::changedLidar2, this, &MainGui::updateLidar2);
     connect(amr_node.get(), &AmrNode::changedRobot, this, &MainGui::updateRobot);
     connect(amr_node.get(), &AmrNode::changedEstop, this, &MainGui::updateEstop);
 
     connect(mainScreen->ui.exitButton, &QPushButton::clicked, this, &MainGui::closeWindow);
     connect(mainScreen->ui.minimizeButton, &QPushButton::clicked, this, &MainGui::minimizeWindow);
+
+    connect(healthScreen->ui.scanButton, &QPushButton::clicked, this, &MainGui::lidarThread);
 
     connect(timer, &QTimer::timeout, this, &MainGui::updateWifi);
     connect(timer, &QTimer::timeout, this, &MainGui::updateClock);
@@ -167,13 +172,36 @@ int MainGui::getWifiSignalStrength() {
     }
 }
 
-void MainGui::checkLidars() {
-    QProcess process;
-    QString arguments;
-    QString program = "ethtool";
-    QStringList devices = {"etho0", "etho1"};
+void MainGui::checkLidars() 
+{
 
+    std::string hesai_command = "ping -c 1 " + hesai_ip + " > /dev/null 2>&1";
+    std::string sick_command = "ping -c 1 " + sick_ip + " > /dev/null 2>&1";
+
+    int hesai_status = system(hesai_command.c_str());
+    int sick_status = system(sick_command.c_str());
+
+    if(hesai_status == 0)
+    {
+        healthScreen->ui.lidar1Status ->setText(QString("Enabled"));
+    }
+    else {
+        healthScreen->ui.lidar1Status ->setText(QString("Disabled"));
+    }
+    if(sick_status == 0)
+    {
+        healthScreen->ui.lidar2Status ->setText(QString("Enabled"));
+    }
+    else {
+        healthScreen->ui.lidar2Status ->setText(QString("Disabled"));
+    }
 }
+
+void MainGui::lidarThread() {
+    std::thread lidThr([this]() { this->checkLidars(); });
+    lidThr.detach();  // Or join() if you want to wait for the thread to finish
+}
+
 
 void MainGui::updateBattery(const QString &data)
 {
@@ -236,25 +264,6 @@ void MainGui::updateCamera(const bool &data)
         healthScreen->ui.cameraStatus->setText(QString("Inactive"));
     }
 
-}
-void MainGui::updateLidar(const bool &data)
-{
-    if(data)
-    {
-        healthScreen->ui.lidar1Status->setText(QString("Active"));
-    } else{
-        healthScreen->ui.lidar1Status->setText(QString("Inactive"));
-    }
-}
-
-void MainGui::updateLidar2(const bool &data)
-{
-    if(data)
-    {
-        healthScreen->ui.lidar2Status->setText(QString("Active"));
-    } else{
-        healthScreen->ui.lidar2Status->setText(QString("Inactive"));
-    }
 }
 
 void MainGui::updateMode()
