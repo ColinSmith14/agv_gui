@@ -138,7 +138,7 @@ public:
         label->setAlignment(Qt::AlignCenter);
         horizontalLayoutWidget = new QWidget(MainScreen);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(0, 100, 1271, 61));
+        horizontalLayoutWidget->setGeometry(QRect(0, 100, 1181, 61));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setSizeConstraint(QLayout::SetNoConstraint);
@@ -194,7 +194,7 @@ public:
 
         scrollingLabel = new ScrollingLabel(MainScreen);
         scrollingLabel->setObjectName(QString::fromUtf8("scrollingLabel"));
-        scrollingLabel->setGeometry(QRect(0, 59, 1271, 41));
+        scrollingLabel->setGeometry(QRect(0, 59, 1181, 41));
         QSizePolicy sizePolicy3(QSizePolicy::Expanding, QSizePolicy::Preferred);
         sizePolicy3.setHorizontalStretch(255);
         sizePolicy3.setVerticalStretch(0);
@@ -215,11 +215,11 @@ public:
         estopLabel->setAlignment(Qt::AlignCenter);
         exitButton = new QPushButton(MainScreen);
         exitButton->setObjectName(QString::fromUtf8("exitButton"));
-        exitButton->setGeometry(QRect(1230, 20, 41, 31));
+        exitButton->setGeometry(QRect(1140, 20, 41, 31));
         exitButton->setAutoFillBackground(true);
         minimizeButton = new QPushButton(MainScreen);
         minimizeButton->setObjectName(QString::fromUtf8("minimizeButton"));
-        minimizeButton->setGeometry(QRect(1180, 20, 41, 31));
+        minimizeButton->setGeometry(QRect(1090, 20, 41, 31));
 
         retranslateUi(MainScreen);
 

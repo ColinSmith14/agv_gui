@@ -37,8 +37,8 @@ int main(int argc, char *argv[]) {
       qDebug() << "no style sheet found";
     }
 
-    //mainGui->setFixedSize(1280, 800);
-    mainGui->showFullScreen();
+    mainGui->setFixedSize(1280, 800);
+    //mainGui->showFullScreen();
     mainGui->show();
 
     rclcpp::executors::MultiThreadedExecutor exec;
