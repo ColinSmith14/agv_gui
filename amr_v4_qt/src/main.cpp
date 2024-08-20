@@ -21,17 +21,20 @@ int main(int argc, char *argv[]) {
     {
       return 1;
     }
-    qDebug() << robot_name;
+    
     rclcpp::NodeOptions options;
     options.arguments({"--ros-args", "-r", std::string("__ns:=/") + robot_name, "-r", "__node:=amr_v4s_qt"});
 
     auto amrNode_ = std::make_shared<AmrNode>(options);
     auto mainGui = std::make_shared<MainGui>(amrNode_);
 
-    QFile file("~/AMRMAIN/src/amr_v4_qt/include/styles.qss");
+    // QFile file("~/AMRMAIN/src/amr_v4_qt/include/styles.qss");
+    QFile file("amr_v4_qt/include/styles.qss");
     if(file.open(QFile::ReadOnly)){
       QString stylesheet = QLatin1String(file.readAll());
       app.setStyleSheet(stylesheet);
+    } else{
+      qDebug() << "no style sheet found";
     }
 
     //mainGui->setFixedSize(1280, 800);

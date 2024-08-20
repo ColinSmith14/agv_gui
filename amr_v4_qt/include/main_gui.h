@@ -12,6 +12,7 @@
 
 #include "motors.h"
 #include "health.h"
+#include "battery.h"
 #include "running_mode.h"
 #include "fisher_screen.h"
 #include "main_screen.h"
@@ -30,7 +31,12 @@ public:
     int getWifiSignalStrength();
 
     void setupLayout();
-    void updateBattery(const QString &data);
+    
+    void updateBattery(const float &voltage,
+                            const float &temperature,
+                            const float &current,
+                            const float &charge,
+                            const float &percentage);
     void onTabClicked();
     void switchToDefaultScreen();
     void switchToTabScreen(QObject* sender);
@@ -72,6 +78,7 @@ private:
     MotorScreen* motorScreen;
     HealthScreen* healthScreen;
     RunningModeScreen* runningModeScreen;
+    BatteryScreen* batteryScreen;
     FisherScreen* fisherScreen;
     QStackedWidget* mainContent;
     QWidget* centralWidget;

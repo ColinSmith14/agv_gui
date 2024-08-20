@@ -16,8 +16,8 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
             "camera", 10,
             std::bind(&AmrNode::camera_callback, this, std::placeholders::_1));
 
-    battery_sub_ = this->create_subscription<std_msgs::msg::String>(
-            "battery", 10,
+    battery_sub_ = this->create_subscription<sensor_msgs::msg::BatteryState>(
+            "battery_state", 10,
             std::bind(&AmrNode::battery_callback, this, std::placeholders::_1));
 
     motor_sub_ = this->create_subscription<amr_v4_msgs_srvs::msg::Motor>(
@@ -53,14 +53,15 @@ void AmrNode::lidar2_callback(const std_msgs::msg::Bool::SharedPtr msg)
     lidar2_info = msg->data;
     emit changedLidar2(lidar2_info);
 }
-void AmrNode::battery_callback(const std_msgs::msg::String::SharedPtr msg)
+void AmrNode::battery_callback(const sensor_msgs::msg::BatteryState::SharedPtr msg)
 {
-    if(msg->data.c_str() != nullptr)
-    {
-        qDebug() << "battery debugging: " << msg->data.c_str();
-    }
-    charge = msg->data.c_str();
-    emit changedBattery(charge);
+    charge = msg->charge;
+    percentage = msg->percentage;
+    voltage = msg->voltage;
+    current = msg->current;
+    temperature = msg->temperature;
+
+    emit changedBattery(voltage, temperature, current, charge, percentage);
 }
 
 void AmrNode::motor_callback(const amr_v4_msgs_srvs::msg::Motor::SharedPtr msg)

@@ -10,6 +10,7 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(amr_v4_msgs_srvs REQUIRED)
 find_package(Qt5 COMPONENTS Core Quick Widgets Network UiTools REQUIRED) # Changed Qt5 find_package syntax
 
@@ -17,6 +18,7 @@ find_package(Qt5 COMPONENTS Core Quick Widgets Network UiTools REQUIRED) # Chang
 set(THIS_PACKAGE_INCLUDE_DEPENDS
   rclcpp
   std_msgs
+  sensor_msgs
   std_srvs
   amr_v4_msgs_srvs
 )
@@ -33,6 +35,7 @@ add_executable(${PROJECT_NAME}
     src/main_screen.cpp
     src/motors.cpp
     src/health.cpp
+    src/battery.cpp
     src/running_mode.cpp
     src/fisher_screen.cpp
     src/scrolling_label.cpp
@@ -43,10 +46,12 @@ add_executable(${PROJECT_NAME}
 set(MOC_HEADERS
   include/main_gui.h
   include/motors.h
+  include/battery.h
   include/ui_motor_screen.h
   include/ui_health_screen.h
   include/ui_running_mode_screen.h
   include/ui_main_screen.h
+  include/ui_battery_screen.h
   include/main_screen.h
   include/fisher_screen.h
   include/health.h

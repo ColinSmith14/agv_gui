@@ -44,10 +44,10 @@ public:
         if (HealthScreen->objectName().isEmpty())
             HealthScreen->setObjectName(QString::fromUtf8("HealthScreen"));
         HealthScreen->setEnabled(true);
-        HealthScreen->resize(1000, 500);
+        HealthScreen->resize(1000, 602);
         verticalLayoutWidget = new QWidget(HealthScreen);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(10, 50, 981, 321));
+        verticalLayoutWidget->setGeometry(QRect(10, 50, 981, 311));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -196,7 +196,7 @@ public:
         loadingLabel = new QLabel(HealthScreen);
         loadingLabel->setObjectName(QString::fromUtf8("loadingLabel"));
         loadingLabel->setEnabled(true);
-        loadingLabel->setGeometry(QRect(590, 380, 51, 51));
+        loadingLabel->setGeometry(QRect(600, 380, 61, 61));
         loadingLabel->setScaledContents(true);
 
         retranslateUi(HealthScreen);

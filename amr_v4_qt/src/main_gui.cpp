@@ -28,12 +28,13 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     motorScreen = new MotorScreen();
     healthScreen = new HealthScreen();
     runningModeScreen = new RunningModeScreen();
+    batteryScreen = new BatteryScreen();
 
 
     auto mainLayout = new QVBoxLayout(centralWidget);
     mainLayout->addWidget(mainScreen);
 
-    QString assetPath = "~/AMRMAIN/src/amr_v4_qt/assets/fisher_logo.png";
+    QString assetPath = "amr_v4_qt/assets/fisher_logo.png";
 
     QPixmap fisherLogo(assetPath);
     // Scale the pixmap before setting it to the label
@@ -48,6 +49,7 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     mainScreen->ui.mainContent->addWidget(motorScreen);
     mainScreen->ui.mainContent->addWidget(healthScreen);
     mainScreen->ui.mainContent->addWidget(runningModeScreen);
+    mainScreen->ui.mainContent->addWidget(batteryScreen);
     
     
     // this section connects the tabs(push buttons) to their main screens
@@ -55,6 +57,7 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     connect(mainScreen->ui.motorScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
     connect(mainScreen->ui.healthScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
     connect(mainScreen->ui.runningScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
+    connect(mainScreen->ui.batteryScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
 
 
     // connecting modeSwitch button
@@ -101,7 +104,9 @@ void MainGui::switchToTabScreen(QObject* senderObj) {
     else if(senderObj == mainScreen->ui.runningScreenButton) {
         mainScreen->ui.mainContent->setCurrentWidget(runningModeScreen);
     }
-
+    else if(senderObj == mainScreen->ui.batteryScreenButton) {
+        mainScreen->ui.mainContent->setCurrentWidget(batteryScreen);
+    }
 }
 
 void MainGui::updateEstop(const bool &data) {
@@ -115,7 +120,7 @@ void MainGui::updateEstop(const bool &data) {
 
 void MainGui::updateClock() {
     QDateTime current = QDateTime::currentDateTime();
-    QString formattedTime = current.toString("MM/dd/yyyy hh:mm");
+    QString formattedTime = current.toString("MM/dd/yyyy hh:mm ap");
     mainScreen->ui.dateTimeLabel->setText(formattedTime); 
 }
 
@@ -127,11 +132,11 @@ void MainGui::updateWifi() {
     if (signalStrength != -1) {
         QString wifiLogoPath;
         if (signalStrength < -50) {
-            wifiLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/wifi1.png";
+            wifiLogoPath = "amr_v4_qt/assets/wifi1.png";
         } else if (signalStrength < -70) {
-            wifiLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/wifi2.png";
+            wifiLogoPath = "amr_v4_qt/assets/wifi2.png";
         } else if (signalStrength < -90) {
-            wifiLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/wifi3.png";
+            wifiLogoPath = "amr_v4_qt/assets/wifi3.png";
         }
 
         if (!wifiLogoPath.isEmpty()) {
@@ -142,7 +147,7 @@ void MainGui::updateWifi() {
 
     } else {
         // Optionally, set a default or placeholder pixmap when WiFi strength is N/A
-        QPixmap defaultPixmap("~/AMRMAIN/src/amr_v4_qt/assets/wifiDefault.png");
+        QPixmap defaultPixmap("amr_v4_qt/assets/wifiDefault.png");
         defaultPixmap = defaultPixmap.scaled(squareSize, squareSize, Qt::KeepAspectRatio, Qt::SmoothTransformation); // Scale pixmap to squareSize while keeping aspect ratio
         mainScreen->ui.wifiLabel->setPixmap(defaultPixmap);
     }
@@ -174,6 +179,12 @@ int MainGui::getWifiSignalStrength() {
 
 void MainGui::checkLidars() 
 {
+    QString loadingPath = "amr_v4_qt/assets/loading.png";
+    QPixmap loadingImg(loadingPath);
+    QString blankPath = "";
+    QPixmap blankImg(blankPath);
+    QPixmap scaledLoading = loadingImg.scaled(60, 60, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    healthScreen->ui.loadingLabel->setPixmap(scaledLoading);
 
     std::string hesai_command = "ping -c 1 " + hesai_ip + " > /dev/null 2>&1";
     std::string sick_command = "ping -c 1 " + sick_ip + " > /dev/null 2>&1";
@@ -195,6 +206,7 @@ void MainGui::checkLidars()
     else {
         healthScreen->ui.lidar2Status ->setText(QString("Disabled"));
     }
+    healthScreen->ui.loadingLabel->setPixmap(blankImg);
 }
 
 void MainGui::lidarThread() {
@@ -203,36 +215,18 @@ void MainGui::lidarThread() {
 }
 
 
-void MainGui::updateBattery(const QString &data)
+void MainGui::updateBattery(const float &voltage,
+                            const float &temperature,
+                            const float &current,
+                            const float &charge,
+                            const float &percentage)
 {
-    int charge = data.toInt();
-    int squareSize = 60; // Set the size of the square
-    QString batteryLogoPath;
-    if(charge < 5)
-    {
-        batteryLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/Battery5.png";
-    }
-    else if(charge < 25)
-    {
-        batteryLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/Battery4.png";
-    }
-    else if(charge < 50)
-    {
-        batteryLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/Battery3.png";
-    }
-    else if(charge < 75)
-    {
-        batteryLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/Battery2.png";
-    }
-    else if(charge <= 100)
-    {
-        batteryLogoPath = "~/AMRMAIN/src/amr_v4_qt/assets/Battery1.png";
-    }
+    mainScreen->ui.percentageLabel->setText(QString("%1").arg(percentage) + "%");
+    batteryScreen->ui.percentageLabel->setText(QString("%1").arg(percentage) + "%");
+    batteryScreen->ui.voltageLabel->setText(QString("%1").arg(voltage) + "V");
+    batteryScreen->ui.currentLabel->setText(QString("%1").arg(current) + "A");
+    batteryScreen->ui.tempLabel->setText(QString("%1").arg(temperature) + "°F");
 
-    QPixmap batteryMap(batteryLogoPath);
-    batteryMap = batteryMap.scaled(squareSize, squareSize, Qt::KeepAspectRatio, Qt::SmoothTransformation); // Scale pixmap to squareSize while keeping aspect ratio
-    mainScreen->ui.batteryLabel->setPixmap(batteryMap);
-    mainScreen->ui.batteryLabel->setAlignment(Qt::AlignCenter);
 }
 
 
@@ -300,4 +294,6 @@ void MainGui::minimizeWindow()
 void MainGui::closeWindow()
 {
     this->close();
+    exit(0);
+    
 }

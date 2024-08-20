@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
@@ -30,6 +31,7 @@ public:
     QPushButton *motorScreenButton;
     QPushButton *healthScreenButton;
     QPushButton *runningScreenButton;
+    QPushButton *batteryScreenButton;
     QStackedWidget *mainContent;
     QWidget *page;
     QWidget *page_2;
@@ -37,12 +39,12 @@ public:
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout;
-    QLabel *wifiTextLabel;
     QLabel *wifiLabel;
     QLabel *dateTimeLabel;
+    QFrame *frame;
+    QLabel *batteryIcon;
+    QLabel *percentageLabel;
     QVBoxLayout *verticalLayout_3;
-    QLabel *BatteryTextLabel;
-    QLabel *batteryLabel;
     ScrollingLabel *scrollingLabel;
     QLabel *estopLabel;
     QPushButton *exitButton;
@@ -56,7 +58,7 @@ public:
         MainScreen->setMinimumSize(QSize(200, 0));
         verticalLayoutWidget = new QWidget(MainScreen);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(20, 180, 231, 441));
+        verticalLayoutWidget->setGeometry(QRect(20, 180, 231, 571));
         buttonsLayout = new QVBoxLayout(verticalLayoutWidget);
         buttonsLayout->setSpacing(0);
         buttonsLayout->setObjectName(QString::fromUtf8("buttonsLayout"));
@@ -70,8 +72,8 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(homeScreenButton->sizePolicy().hasHeightForWidth());
         homeScreenButton->setSizePolicy(sizePolicy);
-        homeScreenButton->setMinimumSize(QSize(100, 40));
-        homeScreenButton->setMaximumSize(QSize(240, 80));
+        homeScreenButton->setMinimumSize(QSize(100, 50));
+        homeScreenButton->setMaximumSize(QSize(240, 100));
         homeScreenButton->setAutoDefault(false);
         homeScreenButton->setFlat(false);
 
@@ -81,8 +83,8 @@ public:
         motorScreenButton->setObjectName(QString::fromUtf8("motorScreenButton"));
         sizePolicy.setHeightForWidth(motorScreenButton->sizePolicy().hasHeightForWidth());
         motorScreenButton->setSizePolicy(sizePolicy);
-        motorScreenButton->setMinimumSize(QSize(160, 60));
-        motorScreenButton->setMaximumSize(QSize(240, 80));
+        motorScreenButton->setMinimumSize(QSize(160, 50));
+        motorScreenButton->setMaximumSize(QSize(240, 100));
 
         buttonsLayout->addWidget(motorScreenButton);
 
@@ -90,8 +92,8 @@ public:
         healthScreenButton->setObjectName(QString::fromUtf8("healthScreenButton"));
         sizePolicy.setHeightForWidth(healthScreenButton->sizePolicy().hasHeightForWidth());
         healthScreenButton->setSizePolicy(sizePolicy);
-        healthScreenButton->setMinimumSize(QSize(160, 60));
-        healthScreenButton->setMaximumSize(QSize(240, 80));
+        healthScreenButton->setMinimumSize(QSize(160, 50));
+        healthScreenButton->setMaximumSize(QSize(240, 100));
 
         buttonsLayout->addWidget(healthScreenButton);
 
@@ -99,10 +101,19 @@ public:
         runningScreenButton->setObjectName(QString::fromUtf8("runningScreenButton"));
         sizePolicy.setHeightForWidth(runningScreenButton->sizePolicy().hasHeightForWidth());
         runningScreenButton->setSizePolicy(sizePolicy);
-        runningScreenButton->setMinimumSize(QSize(160, 60));
-        runningScreenButton->setMaximumSize(QSize(240, 80));
+        runningScreenButton->setMinimumSize(QSize(160, 50));
+        runningScreenButton->setMaximumSize(QSize(240, 100));
 
         buttonsLayout->addWidget(runningScreenButton);
+
+        batteryScreenButton = new QPushButton(verticalLayoutWidget);
+        batteryScreenButton->setObjectName(QString::fromUtf8("batteryScreenButton"));
+        sizePolicy.setHeightForWidth(batteryScreenButton->sizePolicy().hasHeightForWidth());
+        batteryScreenButton->setSizePolicy(sizePolicy);
+        batteryScreenButton->setMinimumSize(QSize(160, 50));
+        batteryScreenButton->setMaximumSize(QSize(240, 100));
+
+        buttonsLayout->addWidget(batteryScreenButton);
 
         mainContent = new QStackedWidget(MainScreen);
         mainContent->setObjectName(QString::fromUtf8("mainContent"));
@@ -134,25 +145,13 @@ public:
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        wifiTextLabel = new QLabel(horizontalLayoutWidget);
-        wifiTextLabel->setObjectName(QString::fromUtf8("wifiTextLabel"));
-        QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Maximum);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(wifiTextLabel->sizePolicy().hasHeightForWidth());
-        wifiTextLabel->setSizePolicy(sizePolicy2);
-        wifiTextLabel->setMaximumSize(QSize(16777215, 16777215));
-        wifiTextLabel->setAlignment(Qt::AlignCenter);
-
-        verticalLayout->addWidget(wifiTextLabel);
-
         wifiLabel = new QLabel(horizontalLayoutWidget);
         wifiLabel->setObjectName(QString::fromUtf8("wifiLabel"));
-        QSizePolicy sizePolicy3(QSizePolicy::Expanding, QSizePolicy::Preferred);
-        sizePolicy3.setHorizontalStretch(0);
-        sizePolicy3.setVerticalStretch(0);
-        sizePolicy3.setHeightForWidth(wifiLabel->sizePolicy().hasHeightForWidth());
-        wifiLabel->setSizePolicy(sizePolicy3);
+        QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Preferred);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(wifiLabel->sizePolicy().hasHeightForWidth());
+        wifiLabel->setSizePolicy(sizePolicy2);
         wifiLabel->setMaximumSize(QSize(16777215, 16777215));
         wifiLabel->setFrameShape(QFrame::NoFrame);
         wifiLabel->setAlignment(Qt::AlignCenter);
@@ -164,45 +163,43 @@ public:
 
         dateTimeLabel = new QLabel(horizontalLayoutWidget);
         dateTimeLabel->setObjectName(QString::fromUtf8("dateTimeLabel"));
-        sizePolicy3.setHeightForWidth(dateTimeLabel->sizePolicy().hasHeightForWidth());
-        dateTimeLabel->setSizePolicy(sizePolicy3);
+        sizePolicy2.setHeightForWidth(dateTimeLabel->sizePolicy().hasHeightForWidth());
+        dateTimeLabel->setSizePolicy(sizePolicy2);
         dateTimeLabel->setFrameShape(QFrame::NoFrame);
         dateTimeLabel->setAlignment(Qt::AlignCenter);
 
         horizontalLayout->addWidget(dateTimeLabel);
 
+        frame = new QFrame(horizontalLayoutWidget);
+        frame->setObjectName(QString::fromUtf8("frame"));
+        frame->setMinimumSize(QSize(400, 0));
+        frame->setFrameShape(QFrame::NoFrame);
+        frame->setFrameShadow(QFrame::Plain);
+        batteryIcon = new QLabel(frame);
+        batteryIcon->setObjectName(QString::fromUtf8("batteryIcon"));
+        batteryIcon->setGeometry(QRect(170, -22, 90, 101));
+        batteryIcon->setPixmap(QPixmap(QString::fromUtf8("amr_v4_qt/assets/battery.png")));
+        batteryIcon->setScaledContents(true);
+        percentageLabel = new QLabel(frame);
+        percentageLabel->setObjectName(QString::fromUtf8("percentageLabel"));
+        percentageLabel->setGeometry(QRect(180, 6, 67, 41));
+        percentageLabel->setAlignment(Qt::AlignCenter);
+
+        horizontalLayout->addWidget(frame);
+
         verticalLayout_3 = new QVBoxLayout();
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
-        BatteryTextLabel = new QLabel(horizontalLayoutWidget);
-        BatteryTextLabel->setObjectName(QString::fromUtf8("BatteryTextLabel"));
-        sizePolicy2.setHeightForWidth(BatteryTextLabel->sizePolicy().hasHeightForWidth());
-        BatteryTextLabel->setSizePolicy(sizePolicy2);
-        BatteryTextLabel->setMaximumSize(QSize(16777215, 16777215));
-        BatteryTextLabel->setAlignment(Qt::AlignCenter);
-
-        verticalLayout_3->addWidget(BatteryTextLabel);
-
-        batteryLabel = new QLabel(horizontalLayoutWidget);
-        batteryLabel->setObjectName(QString::fromUtf8("batteryLabel"));
-        sizePolicy3.setHeightForWidth(batteryLabel->sizePolicy().hasHeightForWidth());
-        batteryLabel->setSizePolicy(sizePolicy3);
-        batteryLabel->setMaximumSize(QSize(16777215, 16777215));
-        batteryLabel->setFrameShape(QFrame::NoFrame);
-        batteryLabel->setAlignment(Qt::AlignCenter);
-
-        verticalLayout_3->addWidget(batteryLabel);
-
 
         horizontalLayout->addLayout(verticalLayout_3);
 
         scrollingLabel = new ScrollingLabel(MainScreen);
         scrollingLabel->setObjectName(QString::fromUtf8("scrollingLabel"));
         scrollingLabel->setGeometry(QRect(0, 59, 1271, 41));
-        QSizePolicy sizePolicy4(QSizePolicy::Expanding, QSizePolicy::Preferred);
-        sizePolicy4.setHorizontalStretch(255);
-        sizePolicy4.setVerticalStretch(0);
-        sizePolicy4.setHeightForWidth(scrollingLabel->sizePolicy().hasHeightForWidth());
-        scrollingLabel->setSizePolicy(sizePolicy4);
+        QSizePolicy sizePolicy3(QSizePolicy::Expanding, QSizePolicy::Preferred);
+        sizePolicy3.setHorizontalStretch(255);
+        sizePolicy3.setVerticalStretch(0);
+        sizePolicy3.setHeightForWidth(scrollingLabel->sizePolicy().hasHeightForWidth());
+        scrollingLabel->setSizePolicy(sizePolicy3);
         scrollingLabel->setFrameShape(QFrame::Box);
         scrollingLabel->setScaledContents(false);
         scrollingLabel->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
@@ -239,12 +236,12 @@ public:
         motorScreenButton->setText(QCoreApplication::translate("MainScreen", "Motors", nullptr));
         healthScreenButton->setText(QCoreApplication::translate("MainScreen", "Health", nullptr));
         runningScreenButton->setText(QCoreApplication::translate("MainScreen", "Running", nullptr));
+        batteryScreenButton->setText(QCoreApplication::translate("MainScreen", "Battery", nullptr));
         label->setText(QCoreApplication::translate("MainScreen", "Fisher Dynamics", nullptr));
-        wifiTextLabel->setText(QCoreApplication::translate("MainScreen", "Wifi", nullptr));
         wifiLabel->setText(QCoreApplication::translate("MainScreen", "Wifi", nullptr));
         dateTimeLabel->setText(QCoreApplication::translate("MainScreen", "Date Time", nullptr));
-        BatteryTextLabel->setText(QCoreApplication::translate("MainScreen", "Battery", nullptr));
-        batteryLabel->setText(QCoreApplication::translate("MainScreen", "Battery Logo Here", nullptr));
+        batteryIcon->setText(QString());
+        percentageLabel->setText(QCoreApplication::translate("MainScreen", "100", nullptr));
         scrollingLabel->setText(QCoreApplication::translate("MainScreen", "Robot Status", nullptr));
         estopLabel->setText(QCoreApplication::translate("MainScreen", "Estop", nullptr));
         exitButton->setText(QCoreApplication::translate("MainScreen", "X", nullptr));
