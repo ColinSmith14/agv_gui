@@ -20,65 +20,53 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
     estopActive = false;
     driveMode = true; // false is manual, true is auto  
     pinState = true;
-    hesai_ip = "192.168.1.201";
-    sick_ip = "192.168.0.1";
+
 
     mainScreen = new MainScreen();
-    homeScreen = new QWidget();
+    homeScreen = new HomeScreen();
     motorScreen = new MotorScreen();
-    healthScreen = new HealthScreen();
-    runningModeScreen = new RunningModeScreen();
-    batteryScreen = new BatteryScreen();
 
 
     auto mainLayout = new QVBoxLayout(centralWidget);
     mainLayout->addWidget(mainScreen);
 
+
     QString assetPath = "amr_v4_qt/assets/fisher_logo.png";
 
     QPixmap fisherLogo(assetPath);
-    // Scale the pixmap before setting it to the label
-    QPixmap scaledLogo = fisherLogo.scaled(190, 80, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-    mainScreen->ui.label->setPixmap(scaledLogo);
-    // Set the label size to fit the scaled pixmap
-    mainScreen->ui.label->setFixedSize(190, 80);
+    homeScreen->ui.fisherLogo->setPixmap(fisherLogo);
+    motorScreen->ui.fisherLogo->setPixmap(fisherLogo);
 
 
     // this section controls the main content on the screen
     mainScreen->ui.mainContent->addWidget(homeScreen);
     mainScreen->ui.mainContent->addWidget(motorScreen);
-    mainScreen->ui.mainContent->addWidget(healthScreen);
-    mainScreen->ui.mainContent->addWidget(runningModeScreen);
-    mainScreen->ui.mainContent->addWidget(batteryScreen);
+
+    mainScreen->ui.mainContent->setCurrentWidget(homeScreen);
+
     
     
     // this section connects the tabs(push buttons) to their main screens
-    connect(mainScreen->ui.homeScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
-    connect(mainScreen->ui.motorScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
-    connect(mainScreen->ui.healthScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
-    connect(mainScreen->ui.runningScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
-    connect(mainScreen->ui.batteryScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
+    connect(homeScreen->ui.motorScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
+    connect(motorScreen->ui.homeScreenButton, &QPushButton::clicked, this, &MainGui::onTabClicked);
 
 
     // connecting modeSwitch button
-    connect(runningModeScreen->ui.modeButton, &QPushButton::clicked, this, &MainGui::updateMode); // Connect the mode switch button
-    connect(runningModeScreen->ui.pinButton, &QPushButton::clicked, this, &MainGui::updatePin);
+    connect(homeScreen->ui.modeButton, &QPushButton::clicked, this, &MainGui::updateMode); // Connect the mode switch button
+    connect(homeScreen->ui.pinButton, &QPushButton::clicked, this, &MainGui::updatePin);
     
 
     // this section connects the ros2 nodes to their respective screen sections
     connect(amr_node.get(), &AmrNode::changedBattery, this, &MainGui::updateBattery);
     connect(amr_node.get(), &AmrNode::changedMotor, this, &MainGui::updateMotors);
-    connect(amr_node.get(), &AmrNode::changedCamera, this, &MainGui::updateCamera);
+    connect(amr_node.get(), &AmrNode::changedError, this, &MainGui::updateError);
     connect(amr_node.get(), &AmrNode::changedRobot, this, &MainGui::updateRobot);
     connect(amr_node.get(), &AmrNode::changedEstop, this, &MainGui::updateEstop);
 
     connect(mainScreen->ui.exitButton, &QPushButton::clicked, this, &MainGui::closeWindow);
     connect(mainScreen->ui.minimizeButton, &QPushButton::clicked, this, &MainGui::minimizeWindow);
 
-    connect(healthScreen->ui.scanButton, &QPushButton::clicked, this, &MainGui::lidarThread);
-
     connect(timer, &QTimer::timeout, this, &MainGui::updateWifi);
-    connect(timer, &QTimer::timeout, this, &MainGui::updateClock);
     timer->start(1000); // Start the timer with a 1-second interval
 
 
@@ -92,36 +80,52 @@ void MainGui::onTabClicked() {
 }
 
 void MainGui::switchToTabScreen(QObject* senderObj) {
-    if(senderObj == mainScreen->ui.homeScreenButton) {
-        mainScreen->ui.mainContent->setCurrentWidget(homeScreen);
-    }
-    else if(senderObj == mainScreen->ui.motorScreenButton) {
+    if(senderObj == homeScreen->ui.motorScreenButton) {
         mainScreen->ui.mainContent->setCurrentWidget(motorScreen);
     }
-    else if(senderObj == mainScreen->ui.healthScreenButton) {
-        mainScreen->ui.mainContent->setCurrentWidget(healthScreen);
-    }
-    else if(senderObj == mainScreen->ui.runningScreenButton) {
-        mainScreen->ui.mainContent->setCurrentWidget(runningModeScreen);
-    }
-    else if(senderObj == mainScreen->ui.batteryScreenButton) {
-        mainScreen->ui.mainContent->setCurrentWidget(batteryScreen);
+    else if(senderObj == motorScreen->ui.homeScreenButton) {
+        mainScreen->ui.mainContent->setCurrentWidget(homeScreen);
     }
 }
+void MainGui::updateError(const bool &slam_lidar, const bool &estop_lidar, const bool &camera)
+{
+    if(slam_lidar)
+    {
+        homeScreen->ui.hesaiLabel->setStyleSheet("QLabel { background: green; color: white }");
+    }
+    else
+    {
+        homeScreen->ui.hesaiLabel->setStyleSheet("QLabel { background: red; color: black}");
+    }
+    if(estop_lidar)
+    {
+        homeScreen->ui.sickLabel->setStyleSheet("QLabel { background: green; color: white }");
+    }
+    else
+    {
+        homeScreen->ui.sickLabel->setStyleSheet("QLabel { background: red; color: black }");
+    }
+    if(camera)
+    {
+        homeScreen->ui.cameraLabel->setStyleSheet("QLabel { background: green; color: white }");
+    }
+    else
+    {
+        homeScreen->ui.cameraLabel->setStyleSheet("QLabel { background: red; color: black }");
+    }
+    
+    
 
+}
 void MainGui::updateEstop(const bool &data) {
    
     if(data){
-        mainScreen->ui.estopLabel->setStyleSheet("QLabel { background: #ff0000 }");
+        homeScreen->ui.estopLabel->setStyleSheet("QLabel { background: #ff0000 }");
+        motorScreen->ui.estopLabel->setStyleSheet("QLabel { background: #ff0000 }");
     } else{
-        mainScreen->ui.estopLabel->setStyleSheet("QLabel { background: #555 }");
+        homeScreen->ui.estopLabel->setStyleSheet("QLabel { background: #555 }");
+        motorScreen->ui.estopLabel->setStyleSheet("QLabel { background: #555 }");
     }
-}
-
-void MainGui::updateClock() {
-    QDateTime current = QDateTime::currentDateTime();
-    QString formattedTime = current.toString("MM/dd/yyyy hh:mm ap");
-    mainScreen->ui.dateTimeLabel->setText(formattedTime); 
 }
 
 void MainGui::updateWifi() {
@@ -177,43 +181,6 @@ int MainGui::getWifiSignalStrength() {
     }
 }
 
-void MainGui::checkLidars() 
-{
-    QString loadingPath = "amr_v4_qt/assets/loading.png";
-    QPixmap loadingImg(loadingPath);
-    QString blankPath = "";
-    QPixmap blankImg(blankPath);
-    QPixmap scaledLoading = loadingImg.scaled(60, 60, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-    healthScreen->ui.loadingLabel->setPixmap(scaledLoading);
-
-    std::string hesai_command = "ping -c 1 " + hesai_ip + " > /dev/null 2>&1";
-    std::string sick_command = "ping -c 1 " + sick_ip + " > /dev/null 2>&1";
-
-    int hesai_status = system(hesai_command.c_str());
-    int sick_status = system(sick_command.c_str());
-
-    if(hesai_status == 0)
-    {
-        healthScreen->ui.lidar1Status ->setText(QString("Enabled"));
-    }
-    else {
-        healthScreen->ui.lidar1Status ->setText(QString("Disabled"));
-    }
-    if(sick_status == 0)
-    {
-        healthScreen->ui.lidar2Status ->setText(QString("Enabled"));
-    }
-    else {
-        healthScreen->ui.lidar2Status ->setText(QString("Disabled"));
-    }
-    healthScreen->ui.loadingLabel->setPixmap(blankImg);
-}
-
-void MainGui::lidarThread() {
-    std::thread lidThr([this]() { this->checkLidars(); });
-    lidThr.detach();  // Or join() if you want to wait for the thread to finish
-}
-
 
 void MainGui::updateBattery(const float &voltage,
                             const float &temperature,
@@ -222,10 +189,8 @@ void MainGui::updateBattery(const float &voltage,
                             const float &percentage)
 {
     mainScreen->ui.percentageLabel->setText(QString("%1").arg(percentage) + "%");
-    batteryScreen->ui.percentageLabel->setText(QString("%1").arg(percentage) + "%");
-    batteryScreen->ui.voltageLabel->setText(QString("%1").arg(voltage) + "V");
-    batteryScreen->ui.currentLabel->setText(QString("%1").arg(current) + "A");
-    batteryScreen->ui.tempLabel->setText(QString("%1").arg(temperature) + "°F");
+    mainScreen->ui.voltageLabel->setText(QString("%1").arg(voltage) + "V");
+    mainScreen->ui.currentLabel->setText(QString("%1").arg(current) + "A");
 
 }
 
@@ -249,16 +214,6 @@ void MainGui::updateMotors(const QString &output_current_right,
     motorScreen->ui.leftMotorError->setText(QString("%1").arg(error_left));
     motorScreen->ui.pinMotorError->setText(QString("%1").arg(error_pin));
 }
-void MainGui::updateCamera(const bool &data)
-{
-    if(data)
-    {
-        healthScreen->ui.cameraStatus->setText(QString("Active"));
-    } else{
-        healthScreen->ui.cameraStatus->setText(QString("Inactive"));
-    }
-
-}
 
 void MainGui::updateMode()
 {
@@ -267,9 +222,11 @@ void MainGui::updateMode()
 
     if(driveMode)
     {
-        runningModeScreen->ui.modeBox->setText(QString("%1").arg("Auto"));
+        homeScreen->ui.modeButton->setText(QString("%1").arg("Mode: Auto"));
+        homeScreen->ui.modeButton->setStyleSheet("QPushButton { background: green; color: white }");
     } else {
-        runningModeScreen->ui.modeBox->setText(QString("%1").arg("Manual"));
+        homeScreen->ui.modeButton->setText(QString("%1").arg("Mode: Manual"));
+        homeScreen->ui.modeButton->setStyleSheet("QPushButton { background: yellow; color: black}");
     }
 
 }
@@ -280,9 +237,9 @@ void MainGui::updatePin()
     amrNode->pin_callback(pinState);
     if(pinState)
     {
-        runningModeScreen->ui.pinBox->setText(QString("%1").arg("Active"));
+        homeScreen->ui.pinButton->setText(QString("%1").arg("Pin: Up"));
     } else {
-        runningModeScreen->ui.pinBox->setText(QString("%1").arg("Not Active"));
+        homeScreen->ui.pinButton->setText(QString("%1").arg("Pin: Down"));
     }
 }
 

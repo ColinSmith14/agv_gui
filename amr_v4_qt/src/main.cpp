@@ -36,10 +36,12 @@ int main(int argc, char *argv[]) {
     } else{
       qDebug() << "no style sheet found";
     }
+    mainGui->setWindowFlags(Qt::FramelessWindowHint);
 
     mainGui->setFixedSize(1280, 800);
     //mainGui->showFullScreen();
     mainGui->show();
+
 
     rclcpp::executors::MultiThreadedExecutor exec;
     exec.add_node(amrNode_);

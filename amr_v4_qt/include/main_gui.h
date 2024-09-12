@@ -10,11 +10,8 @@
 #include <QPushButton>
 #include <QStackedWidget>
 
-#include "motors.h"
-#include "health.h"
-#include "battery.h"
-#include "running_mode.h"
-#include "fisher_screen.h"
+#include "motor_screen.h"
+#include "home_screen.h"
 #include "main_screen.h"
 #include "scrolling_label.h"
 #include "amr_node.h"
@@ -47,9 +44,9 @@ public:
                       const QString &error_right,
                       const QString &error_left,
                       const QString &error_pin);
-    void updateCamera(const bool &data);
-    void updateLidar(const bool &data);
-    void updateLidar2(const bool &data);
+    void updateError(const bool &slam_lidar,
+                     const bool &estop_lidar,
+                     const bool &camera);
     void updateMode();
     void updateRobot(const QString &data);
     void updateClock();
@@ -62,24 +59,15 @@ public:
 
 
 private:
-
-    int leftSectionWidth = width() * 0.15;
-    int rightSectionWidth = width() * .25;
     bool estopActive;
     bool driveMode;
     bool pinState;
-    std::string hesai_ip;
-    std::string sick_ip;
 
     std::shared_ptr<AmrNode> amrNode;
 
     MainScreen* mainScreen;
-    QWidget* homeScreen;
+    HomeScreen*  homeScreen;
     MotorScreen* motorScreen;
-    HealthScreen* healthScreen;
-    RunningModeScreen* runningModeScreen;
-    BatteryScreen* batteryScreen;
-    FisherScreen* fisherScreen;
     QStackedWidget* mainContent;
     QWidget* centralWidget;
     QHBoxLayout* mainLayout;

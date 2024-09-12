@@ -33,11 +33,8 @@ add_executable(${PROJECT_NAME}
     src/main.cpp
     src/main_gui.cpp
     src/main_screen.cpp
-    src/motors.cpp
-    src/health.cpp
-    src/battery.cpp
-    src/running_mode.cpp
-    src/fisher_screen.cpp
+    src/motor_screen.cpp
+    src/home_screen.cpp
     src/scrolling_label.cpp
     src/amr_node.cpp
 )
@@ -45,17 +42,12 @@ add_executable(${PROJECT_NAME}
 # Wrap QObject-derived classes with moc
 set(MOC_HEADERS
   include/main_gui.h
-  include/motors.h
-  include/battery.h
+  include/motor_screen.h
+  include/home_screen.h
   include/ui_motor_screen.h
-  include/ui_health_screen.h
-  include/ui_running_mode_screen.h
   include/ui_main_screen.h
-  include/ui_battery_screen.h
+  include/ui_home_screen.h
   include/main_screen.h
-  include/fisher_screen.h
-  include/health.h
-  include/running_mode.h
   include/scrolling_label.h
   include/amr_node.h
 )

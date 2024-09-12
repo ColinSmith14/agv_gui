@@ -5,16 +5,9 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
     : rclcpp::Node("amr_node", options)
 {
 
-    lidar_sub_ = this->create_subscription<std_msgs::msg::Bool>(
-            "Hesai", 10,
-            std::bind(&AmrNode::lidar_callback, this, std::placeholders::_1));
-    
-    lidar2_sub_ = this->create_subscription<std_msgs::msg::Bool>(
-            "Sick", 10,
-            std::bind(&AmrNode::lidar2_callback, this, std::placeholders::_1));
-    camera_sub_ = this->create_subscription<std_msgs::msg::Bool>(
-            "camera", 10,
-            std::bind(&AmrNode::camera_callback, this, std::placeholders::_1));
+    error_sub_ = this->create_subscription<amr_v4_msgs_srvs::msg::Error>(
+        "system_hardware_error", 10, 
+        std::bind(&AmrNode::error_callback, this, std::placeholders::_1));
 
     battery_sub_ = this->create_subscription<sensor_msgs::msg::BatteryState>(
             "battery_state", 10,
@@ -37,21 +30,13 @@ AmrNode::AmrNode(const rclcpp::NodeOptions &options)
     pin_pub_ = this->create_publisher<amr_v4_msgs_srvs::msg::Pin>("pin_cmd", 10);
 }
 
-void AmrNode::camera_callback(const std_msgs::msg::Bool::SharedPtr msg)
+void AmrNode::error_callback(const amr_v4_msgs_srvs::msg::Error::SharedPtr msg)
 {
-    camera_info = msg->data;
-    emit changedCamera(camera_info);    
-}
+    slam_lidar = msg->slam_lidar;
+    estop_lidar = msg->estop_lidar;
+    camera = msg->camera;
 
-void AmrNode::lidar_callback(const std_msgs::msg::Bool::SharedPtr msg)
-{
-    lidar_info = msg->data;
-    emit changedLidar(lidar_info);
-}
-void AmrNode::lidar2_callback(const std_msgs::msg::Bool::SharedPtr msg)
-{
-    lidar2_info = msg->data;
-    emit changedLidar2(lidar2_info);
+    emit(changedError(slam_lidar, estop_lidar, camera));
 }
 void AmrNode::battery_callback(const sensor_msgs::msg::BatteryState::SharedPtr msg)
 {

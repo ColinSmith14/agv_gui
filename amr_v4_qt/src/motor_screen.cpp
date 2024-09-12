@@ -1,4 +1,4 @@
-#include "motors.h"
+#include "motor_screen.h"
 #include <QUiLoader>
 #include <QFile>
 #include <QVBoxLayout>
