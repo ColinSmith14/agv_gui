@@ -35,7 +35,7 @@ uic -o ~amr_v4_cont/src/amr_v4_qt/include/ui_main_screen.h main_screen.ui
 In order to alter UI elements in the code you need to setup the UI file as a class in cpp. You do this with the following header and cpp fles (example):
 
 main_screen.h
-```CPP
+```C++
 #ifndef MAIN_SCREEN_H
 #define MAIN_SCREEN_H
 
@@ -73,7 +73,7 @@ MainScreen::MainScreen(QWidget* parent) : QWidget(parent) {
 
 Now in your code you can access elements of the UI using the following syntax:
 
-```CPP
+```C++
 mainScreen = new MainScreen();
 mainScreen->ui.percentageLabel->setText(QString("%1").arg(percentage) + "%");
 mainScreen->ui.voltageLabel->setText(QString("%1").arg(voltage) + "V");
