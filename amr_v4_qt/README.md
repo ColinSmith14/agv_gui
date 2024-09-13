@@ -32,7 +32,7 @@ cd arm_v4_qt/src
 uic -o ~amr_v4_cont/src/amr_v4_qt/include/ui_main_screen.h main_screen.ui
 ```
 # Coding the UI  
-In order to alter UI elements in the code you need to setup the UI file as a class in cpp. You do this with the following header and cpp fles (example):
+In order to alter UI elements in the code you need to setup the UI file as a class in c++. You do this with the following header and cpp fles (example):
 
 main_screen.h
 ```C++
