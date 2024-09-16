@@ -74,6 +74,7 @@ public:
         exitButton->setAutoFillBackground(true);
         minimizeButton = new QPushButton(MainScreen);
         minimizeButton->setObjectName(QString::fromUtf8("minimizeButton"));
+        minimizeButton->setEnabled(false);
         minimizeButton->setGeometry(QRect(1130, 10, 61, 51));
         minimizeButton->setFont(font1);
         wifiLabel = new QLabel(MainScreen);

@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
     mainGui->setWindowFlags(Qt::FramelessWindowHint);
 
     mainGui->setFixedSize(1280, 800);
-    //mainGui->showFullScreen();
+    mainGui->showFullScreen();
     mainGui->show();
 
 

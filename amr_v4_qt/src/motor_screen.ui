@@ -35,7 +35,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../../.designer/assets/fisher_logo.png</pixmap>
+    <pixmap>../../../../.designer/assets/fisher_logo.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -456,6 +456,44 @@
    </property>
    <property name="text">
     <string>Home Screen</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rightArrow">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>260</y>
+     <width>161</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../assets/arrowL.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="leftArrow">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>260</y>
+     <width>161</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../assets/arrowL.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

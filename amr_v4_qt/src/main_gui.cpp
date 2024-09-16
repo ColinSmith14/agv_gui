@@ -32,15 +32,20 @@ MainGui::MainGui(std::shared_ptr<AmrNode> amr_node, QWidget *parent)
 
 
     QString assetPath = "amr_v4_qt/assets/fisher_logo.png";
+    QString assetPath_1 = "amr_v4_qt/assets/arrowL.png";
+
 
     QPixmap fisherLogo(assetPath);
+    QPixmap leftArrow(assetPath_1);
     homeScreen->ui.fisherLogo->setPixmap(fisherLogo);
     motorScreen->ui.fisherLogo->setPixmap(fisherLogo);
+    motorScreen->ui.leftArrow->setPixmap(leftArrow);
 
 
     // this section controls the main content on the screen
     mainScreen->ui.mainContent->addWidget(homeScreen);
     mainScreen->ui.mainContent->addWidget(motorScreen);
+
 
     mainScreen->ui.mainContent->setCurrentWidget(homeScreen);
 

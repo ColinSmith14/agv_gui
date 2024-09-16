@@ -56,6 +56,8 @@ public:
     QLabel *pinMotorError;
     QLabel *estopLabel;
     QPushButton *homeScreenButton;
+    QLabel *rightArrow;
+    QLabel *leftArrow;
 
     void setupUi(QWidget *MotorScreen)
     {
@@ -71,7 +73,7 @@ public:
         sizePolicy.setHeightForWidth(fisherLogo->sizePolicy().hasHeightForWidth());
         fisherLogo->setSizePolicy(sizePolicy);
         fisherLogo->setFrameShape(QFrame::NoFrame);
-        fisherLogo->setPixmap(QPixmap(QString::fromUtf8("../../../.designer/assets/fisher_logo.png")));
+        fisherLogo->setPixmap(QPixmap(QString::fromUtf8("../../../../.designer/assets/fisher_logo.png")));
         fisherLogo->setScaledContents(true);
         fisherLogo->setAlignment(Qt::AlignCenter);
         leftMotorFrame = new QFrame(MotorScreen);
@@ -260,6 +262,16 @@ public:
         homeScreenButton->setMinimumSize(QSize(200, 50));
         homeScreenButton->setMaximumSize(QSize(300, 100));
         homeScreenButton->setFont(font1);
+        rightArrow = new QLabel(MotorScreen);
+        rightArrow->setObjectName(QString::fromUtf8("rightArrow"));
+        rightArrow->setGeometry(QRect(910, 260, 161, 111));
+        rightArrow->setPixmap(QPixmap(QString::fromUtf8("../assets/arrowL.png")));
+        rightArrow->setScaledContents(true);
+        leftArrow = new QLabel(MotorScreen);
+        leftArrow->setObjectName(QString::fromUtf8("leftArrow"));
+        leftArrow->setGeometry(QRect(190, 260, 161, 111));
+        leftArrow->setPixmap(QPixmap(QString::fromUtf8("../assets/arrowL.png")));
+        leftArrow->setScaledContents(true);
 
         retranslateUi(MotorScreen);
 
@@ -287,6 +299,8 @@ public:
         pinMotorError->setText(QCoreApplication::translate("MotorScreen", "None", nullptr));
         estopLabel->setText(QCoreApplication::translate("MotorScreen", "Estop", nullptr));
         homeScreenButton->setText(QCoreApplication::translate("MotorScreen", "Home Screen", nullptr));
+        rightArrow->setText(QString());
+        leftArrow->setText(QString());
     } // retranslateUi
 
 };
